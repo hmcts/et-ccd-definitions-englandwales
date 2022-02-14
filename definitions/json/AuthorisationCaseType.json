@@ -1,38 +1,37 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "initiateCase",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "initiateCase",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "initiateCase",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "preAcceptanceCase",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "preAcceptanceCase",
+    "CaseTypeId": "ET_EnglandWales_Listings",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "preAcceptanceCase",
+    "CaseTypeId": "ET_EnglandWales_Listings",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   }
 ]

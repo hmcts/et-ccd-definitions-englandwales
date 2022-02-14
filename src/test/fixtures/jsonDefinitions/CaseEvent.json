@@ -1,27 +1,26 @@
 [
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DRAFT",
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "initiateCase",
-    "Name": "Initiate Case",
+    "Name": "Create Case",
     "Description": "Create a new case",
     "DisplayOrder": 1,
-    "PostConditionState": "1_Initiation",
+    "PostConditionState": "Submitted",
+    "CallBackURLAboutToStartEvent": "${CCD_DEF}/preDefaultValues",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF}/postDefaultValues",
     "SecurityClassification": "Public",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_BASE_URL}/initiate/callback",
-    "Publish": "N"
+    "ShowEventNotes": "N"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DRAFT",
-    "ID": "submitCase",
-    "Name": "Submit Case",
-    "Description": "Submit case",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "preAcceptanceCase",
+    "Name": "Accept/Reject Case",
+    "Description": "Accept/Reject Case",
     "DisplayOrder": 2,
-    "PostConditionState": "1_Initiation",
+    "PreConditionState(s)": "Submitted",
+    "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
+    "EventEnablingCondition": "caseType !=\"Multiple\"",
     "SecurityClassification": "Public",
-    "CallBackURLSubmittedEvent": "${CCD_DEF_BASE_URL}/submit/callback",
-    "Publish": "Y",
-    "EventEnablingCondition": "caseTitle != \"\""
+    "ShowEventNotes": "N"
   }
 ]
