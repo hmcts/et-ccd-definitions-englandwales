@@ -1,7 +1,7 @@
 {
   "name": "ccd-definition-processor",
   "version": "1.0.0",
-  "description": "Utility to help creating ET CCD config definitions",
+  "description": "Utility to help creating Reform ET CCD definitions for England and Wales",
   "dependencies": {
     "glob": "^7.1.7",
     "json-stringify-pretty-compact": "^3.0.0",
