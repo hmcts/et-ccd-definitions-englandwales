@@ -54,7 +54,7 @@ The following commands are available:
 
 _For all environments_
 
-yarn generate-excel-all to generate excel configs for all environments (Local, Demo, AAT, Prod, Perftest)
+yarn generate-excel-all to generate excel configs for all environments (Local, Demo, AAT, Prod)
 
 The generated excel files will be in definitions/xlsx.
 
