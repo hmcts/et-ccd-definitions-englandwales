@@ -1,6 +1,7 @@
 {
   "name": "ccd-definition-processor",
   "version": "1.0.0",
+  "description": "Utility to help creating ET CCD config definitions",
   "dependencies": {
     "glob": "^7.1.7",
     "json-stringify-pretty-compact": "^3.0.0",
@@ -25,6 +26,8 @@
     "prod": "http://et-cos-prod.service.core-compute-prod.internal"
   },
   "scripts": {
+    "reset-ccd-submodule": "git submodule update --init --recursive && git submodule foreach --recursive git pull origin master && yarn --cwd ccd-definition-processor install",
+    "setup": "git submodule update --init --recursive && yarn --cwd ccd-definition-processor install",
     "lint": "eslint src",
     "test": "mocha ./src/test --timeout 20000",
     "lint-fix": "eslint src --fix",
