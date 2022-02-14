@@ -9,18 +9,15 @@ const sheetNames = [
   'AuthorisationCaseState',
   'AuthorisationCaseType',
   'CaseEvent',
-  'CaseEventToComplexTypes',
+  'EventToComplexTypes',
   'CaseEventToFields',
   'CaseField',
   'CaseRoles',
   'CaseType',
   'CaseTypeTab',
   'ComplexTypes',
-  'ChallengeQuestion',
-  'FixedLists',
   'Jurisdiction',
-  'SearchAlias',
-  'SearchCasesResultFields',
+  'SearchCaseResultFields',
   'SearchInputFields',
   'SearchResultFields',
   'State',
@@ -91,104 +88,72 @@ describe('json2xlsx', () => {
       sheetNames.forEach(sheetName => {
         assert(sheets[sheetName], `No sheet corresponding to JSON file ${sheetName} exists`);
         if (sheetName === 'AuthorisationCaseEvent') {
-          assertCell(sheetName, 'D4', 'initiateCase');
-          assertCell(sheetName, 'E4', 'caseworker');
-          assertCell(sheetName, 'F4', 'CRU');
+          assertCell(sheetName, 'B4', 'initiateCase');
+          assertCell(sheetName, 'C4', 'caseworker-employment');
+          assertCell(sheetName, 'D4', 'R');
 
-          assertCell(sheetName, 'D5', 'initiateCase2');
-          assertCell(sheetName, 'E5', 'caseworker1');
-          assertCell(sheetName, 'F5', 'CRU');
+          assertCell(sheetName, 'B5', 'initiateCase');
+          assertCell(sheetName, 'C5', 'caseworker-employment-englandwales');
+          assertCell(sheetName, 'D5', 'CRU');
 
-          assertCell(sheetName, 'D6', 'initiateCase2');
-          assertCell(sheetName, 'E6', 'caseworker2');
-          assertCell(sheetName, 'F6', 'CRU');
+          assertCell(sheetName, 'B6', 'initiateCase');
+          assertCell(sheetName, 'C6', 'caseworker-employment-api');
+          assertCell(sheetName, 'D6', 'CRUD');
 
-          assertCell(sheetName, 'D7', 'initiateCase3');
-          assertCell(sheetName, 'E7', 'caseworker1');
-          assertCell(sheetName, 'F7', 'C');
+          assertCell(sheetName, 'B7', 'preAcceptanceCase');
+          assertCell(sheetName, 'C7', 'caseworker-employment');
+          assertCell(sheetName, 'D7', 'R');
 
-          assertCell(sheetName, 'D8', 'initiateCase3');
-          assertCell(sheetName, 'E8', 'caseworker2');
-          assertCell(sheetName, 'F8', 'C');
+          assertCell(sheetName, 'B8', 'preAcceptanceCase');
+          assertCell(sheetName, 'C8', 'caseworker-employment-englandwales');
+          assertCell(sheetName, 'D8', 'CRU');
 
-          assertCell(sheetName, 'D9', 'initiateCase3');
-          assertCell(sheetName, 'E9', 'caseworker3');
-          assertCell(sheetName, 'F9', 'D');
+          assertCell(sheetName, 'B9', 'preAcceptanceCase');
+          assertCell(sheetName, 'C9', 'caseworker-employment-api');
+          assertCell(sheetName, 'D9', 'CRUD');
         }
-        if (sheetName === 'AuthorisationCaseField') { // AuthorisationCaseField tab uniquely is build from JSON fragments
+        if (sheetName === 'AuthorisationCaseField') { // AuthorisationCaseField tab is built from JSON fragments
 
-          assertCell(sheetName, 'E4', 'caseworker');
-          assertCell(sheetName, 'E5', 'solicitor');
+          assertCell(sheetName, 'C4', 'caseworker-employment');
+          assertCell(sheetName, 'C5', 'caseworker-employment-englandwales');
         }
-        if (sheetName === 'CaseEvent') { // CaseEvent tab uniquely has environment variable placeholders
-          assertCell(sheetName, 'N4', 'http://localhost/initiate/callback');
-          assertCell(sheetName, 'N5', 'http://localhost/submit/callback');
-          assertCell(sheetName, 'U4', 'N');
-          assertCell(sheetName, 'U5', 'Y');
-          assertCell(sheetName, 'V5', 'caseTitle != ""');
-        }
-        if (sheetName === 'CaseType') { // CaseType tab uniquely is build from JSON fragments
-          assertCell(sheetName, 'J4', 'http://localhost/cases/getCaseCallBack');
+        if (sheetName === 'CaseEvent') { // CaseEvent tab has environment variable placeholders
+          assertCell(sheetName, 'I4', '${CCD_DEF}/preDefaultValues');
         }
         if (sheetName === 'CaseEventToFields') {
-          assertCell(sheetName, 'C4', 'DRAFT');
-          assertCell(sheetName, 'D4', 'addCaseIDReference');
-          assertCell(sheetName, 'E4', 'caseIDReference');
+          assertCell(sheetName, 'C4', 'receiptDate');
+          assertCell(sheetName, 'D4', 'MANDATORY');
+          assertCell(sheetName, 'E4', '1');
           assertCell(sheetName, 'F4', '1');
-          assertCell(sheetName, 'G4', 'OPTIONAL');
-          assertCell(sheetName, 'H4', '1');
-          assertCell(sheetName, 'I4', 'Add Case ID');
-          assertCell(sheetName, 'R4', 'caseIDLabelOverride');
-          assertCell(sheetName, 'S4', 'caseIDHintOverride');
-          assertCell(sheetName, 'T4', 'Y');
-          assertCell(sheetName, 'U4', 'Y');
+          assertCell(sheetName, 'G4', '1');
+          assertCell(sheetName, 'H7', 'feeGroupReference="dummy"');
         }
         if (sheetName === 'FixedLists') { // FixedLists tab uniquely has 0 value that should be carried though
           assertCell(sheetName, 'D5', 0);
         }
         if (sheetName === 'CaseField') {
-          assertCell(sheetName, 'M3', 'Searchable');
-
-          assertCell(sheetName, 'D4', 'caseTitle');
-          assertCell(sheetName, 'E4', 'Case Title');
-          assertCell(sheetName, 'G4', 'Text');
-          assertCell(sheetName, 'M4', undefined);
-
-          assertCell(sheetName, 'D5', 'caseOwner');
-          assertCell(sheetName, 'E5', 'Case Owner');
-          assertCell(sheetName, 'G4', 'Text');
-          assertCell(sheetName, 'M5', 'Y');
+          assertCell(sheetName, 'A4', 'ET_EnglandWales');
+          assertCell(sheetName, 'B4', 'tribunalCorrespondenceAddress');
+          assertCell(sheetName, 'C4', 'Correspondence Address');
+          assertCell(sheetName, 'D4', undefined);
+          assertCell(sheetName, 'E4', 'AddressUK');
         }
         if (sheetName === 'ComplexType') {
           assertCell(sheetName, 'N3', 'Searchable');
-
           assertCell(sheetName, 'C4', 'UploadDocument');
           assertCell(sheetName, 'D4', 'typeOfDocument');
           assertCell(sheetName, 'E4', 'Document');
           assertCell(sheetName, 'N4', undefined);
-
           assertCell(sheetName, 'C5', 'GenerateDocument');
           assertCell(sheetName, 'D5', 'type');
           assertCell(sheetName, 'E5', 'Text');
           assertCell(sheetName, 'N5', 'N');
           assertCell(sheetName, 'O5', 'Y');
         }
-        if (sheetName !== 'SearchAlias') { // SearchAlias tab uniquely does not have live from / to columns
-          assertCell(sheetName, 'A4', 42736);
-          assertCell(sheetName, 'B4', undefined);
-        }
-        if (sheetName === 'CaseEventToComplexTypes') {
-          assertCell(sheetName, 'G3', 'DefaultValue');
-          assertCell(sheetName, 'G4', 'DefaultValue value');
-          assertCell(sheetName, 'M4', 'Y');
-        }
-        if (sheetName === 'ChallengeQuestion') {
-          assertCell(sheetName, 'E3', 'DisplayOrder');
-          assertCell(sheetName, 'E4', '1');
-          assertCell(sheetName, 'F3', 'QuestionText');
-          assertCell(sheetName, 'F4', 'The Question');
-          assertCell(sheetName, 'I3', 'Answer');
-          assertCell(sheetName, 'I4', 'My Answer');
+        if (sheetName === 'EventToComplexTypes') {
+          assertCell(sheetName, 'E4', 'Title');
+          assertCell(sheetName, 'G4', '1');
+          assertCell(sheetName, 'H4', 'OPTIONAL');
         }
 
       });
@@ -212,26 +177,6 @@ describe('json2xlsx', () => {
         }
         if (sheetName === 'UserProfile') { // UserProfile values should be excluded
           assert.equal(sheets[sheetName]['C4'], undefined, `User email should be excluded from the ${sheetName} sheet`);
-        }
-      });
-    });
-
-    it('should create XLSX file from JSON fixtures from arbitrarily deep main directories', async () => {
-      await run({
-        sheetsDir: './src/test/fixtures/deepJsonDefinitions',
-        destinationXlsx: './temp/ccd-definitions.xlsx'
-      });
-
-      const sheets = XLSX.readFile('./temp/ccd-definitions.xlsx').Sheets;
-      assert(Object.keys(sheets).length > 0, 'No sheets have been created');
-
-      sheetNames.forEach(sheetName => {
-        assert(sheets[sheetName], `No sheet corresponding to JSON file ${sheetName} exists`);
-        if (sheetName === 'CaseEvent') { // CaseEvent is made from json files in many sub directories
-          assert.equal(sheets[sheetName]['I4'].v, '*', `Unexpected value found in I4 cell of ${sheetName} sheet`);
-          assert.equal(sheets[sheetName]['I5'].v, '1_Initiation', `Unexpected value found in I5 cell of ${sheetName} sheet`);
-          assert.equal(sheets[sheetName]['I6'].v, '2_Submitted', `Unexpected value found in I6 cell of ${sheetName} sheet`);
-          assert.equal(sheets[sheetName]['I7'].v, '1_Initiation', `Unexpected value found in I7 cell of ${sheetName} sheet`);
         }
       });
     });

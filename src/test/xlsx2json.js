@@ -18,19 +18,6 @@ describe('xlsx2json', () => {
         assert.equal(err, 'AssertionError [ERR_ASSERTION]: spreadsheet file argument (-i) is required');
       }
     });
-
-    it('should throw an error when sheets directory argument is not provided', async () => {
-      try {
-        await run({
-          _: [],
-          sourceXlsx: './data/ccd-template.xlsx',
-          sheetsDir: ''
-        });
-        assert.fail('No error has been thrown');
-      } catch (err) {
-        assert.equal(err, 'AssertionError [ERR_ASSERTION]: sheets directory argument (-D) is required');
-      }
-    });
   });
 
   describe('outcome', () => {
@@ -38,21 +25,6 @@ describe('xlsx2json', () => {
       glob.sync('./temp/*.json').forEach(path => {
         fs.unlinkSync(path);
       });
-    });
-
-    it('should create empty JSON files from embedded template', async () => {
-      await run({
-        _: [],
-        sourceXlsx: './data/ccd-template.xlsx',
-        sheetsDir: './temp'
-      });
-
-      const files = glob.sync('./temp/*.json');
-      assert(files.length > 0, 'No files have been created');
-
-      for (const file of files) {
-        assert.deepEqual(await fileUtils.readJson(file), [], `${file} is not empty`);
-      }
     });
 
     it('should create JSON files with human readable date fields', async () => {

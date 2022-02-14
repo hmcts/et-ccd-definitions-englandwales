@@ -1,19 +1,16 @@
 [
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DRAFT",
-    "ID": "caseTitle",
-    "Label": "Case Title",
-    "FieldType": "Text",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tribunalCorrespondenceAddress",
+    "Label": "Correspondence Address",
+    "FieldType": "AddressUK",
     "SecurityClassification": "Public"
   },
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DRAFT",
-    "ID": "caseOwner",
-    "Label": "Case Owner",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tribunalCorrespondenceTelephone",
+    "Label": "Correspondence Telephone",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
+    "SecurityClassification": "Public"
   }
 ]

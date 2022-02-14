@@ -1,18 +1,13 @@
 [
   {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "DRAFT",
-    "CaseEventID": "addCaseIDReference",
-    "CaseFieldID": "caseIDReference",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "receiptDate",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
-    "PageLabel": "Add Case ID",
     "PageDisplayOrder": 1,
-    "PageColumnNumber": 1,
-    "CaseEventFieldLabel": "caseIDLabelOverride",
-    "CaseEventFieldHint": "caseIDHintOverride",
-    "RetainHiddenValue": "Y",
-    "Publish": "Y"
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
   }
 ]
