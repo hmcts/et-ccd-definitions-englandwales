@@ -1,7 +1,7 @@
 const assert = require('assert');
 const XLSX = require('xlsx');
 
-const run = require('../main/json2xlsx');
+const run = require('../../src/main/json2xlsx');
 
 const sheetNames = [
   'AuthorisationCaseEvent',

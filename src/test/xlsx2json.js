@@ -1,8 +1,8 @@
 const assert = require('assert');
 const glob = require('glob');
 const fs = require('fs');
-const run = require('../main/xlsx2json');
-const fileUtils = require('../main/lib/file-utils');
+const run = require('../../src/main/xlsx2json');
+const fileUtils = require('../../src/main/lib/file-utils');
 
 describe('xlsx2json', () => {
   describe('validation', () => {
