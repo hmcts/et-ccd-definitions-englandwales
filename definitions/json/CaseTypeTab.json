@@ -794,37 +794,5 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "CaseMultiple",
-    "CaseFieldID": "reasonForCT",
-    "TabFieldDisplayOrder": 7
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "CaseMultiple",
-    "CaseFieldID": "linkedMultipleCT",
-    "TabFieldDisplayOrder": 8,
-    "FieldShowCondition": "stateLabel=\"dummy\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "CaseMultiple",
-    "CaseFieldID": "linkedMultipleCTLabel",
-    "TabFieldDisplayOrder": 8,
-    "FieldShowCondition": "linkedMultipleCT=\"*\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "EventHistory",
-    "TabLabel": "History",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "customHistoryViewer",
-    "TabFieldDisplayOrder": 1
   }
 ]
