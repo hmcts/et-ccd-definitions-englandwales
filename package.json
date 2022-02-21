@@ -15,7 +15,7 @@
     "xlsx-populate": "^1.21.0"
   },
   "devDependencies": {
-    "eslint": "^7.26.0",
+    "eslint": "^8.9.0",
     "eslint-plugin-mocha": "^8.1.0",
     "mocha": "^8.4.0"
   },
