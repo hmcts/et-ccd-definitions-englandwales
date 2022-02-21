@@ -6,7 +6,7 @@
     "glob": "^7.1.7",
     "json-stringify-pretty-compact": "^3.0.0",
     "lodash": "^4.17.21",
-    "matcher": "4.0.0",
+    "matcher": "5.0.0",
     "minimist": "^1.2.5",
     "moment": "^2.29.1",
     "prettier": "^2.5.1",
