@@ -8,10 +8,18 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "Draft",
+    "Name": "Draft",
+    "Description": "Draft ET1 submission",
+    "DisplayOrder": 2,
+    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "Accepted",
     "Name": "Accepted",
     "Description": "Case Accepted",
-    "DisplayOrder": 2,
+    "DisplayOrder": 3,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -19,7 +27,7 @@
     "ID": "Closed",
     "Name": "Closed",
     "Description": "Case Closed",
-    "DisplayOrder": 3,
+    "DisplayOrder": 4,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -27,7 +35,7 @@
     "ID": "Rejected",
     "Name": "Rejected",
     "Description": "Case Rejected",
-    "DisplayOrder": 4,
+    "DisplayOrder": 5,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {
@@ -35,7 +43,7 @@
     "ID": "Transferred",
     "Name": "Transferred",
     "Description": "Case Transferred",
-    "DisplayOrder": 5,
+    "DisplayOrder": 6,
     "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
   },
   {

@@ -19,6 +19,18 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "initiateCaseDraft",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "submitCaseDraft",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "preAcceptanceCase",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
