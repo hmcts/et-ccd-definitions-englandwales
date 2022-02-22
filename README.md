@@ -8,7 +8,7 @@ Reform Employment Tribunals (RET) configuration definitions for CCD England and 
 
 ### Pre-requirements
 
-Windows users must ensure they use Windows Subsystem for Linux akso known as WSL 2 (https://docs.microsoft.com/en-us/windows/wsl/install) for local development. Afterwards install Install nvm, node.js, and npm (https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl).
+Windows users must ensure they use Windows Subsystem for Linux also known as WSL 2 (https://docs.microsoft.com/en-us/windows/wsl/install) for local development. Afterwards install Install nvm, node.js, and npm (https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl).
 
 Install nvm to manage node from https://github.com/nvm-sh/nvm
 
