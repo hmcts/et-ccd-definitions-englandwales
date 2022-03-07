@@ -1584,6 +1584,12 @@
     "DisplayOrder": 14
   },
   {
+    "ID": "fl_reportCaseType",
+    "ListElementCode": "Ecc",
+    "ListElement": "Ecc",
+    "DisplayOrder": 15
+  },
+  {
     "ID": "fl_HearingDateType",
     "ListElementCode": "Single",
     "ListElement": "Single",
