@@ -2884,5 +2884,11 @@
     "CaseFieldID": "managingOffice",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "isFixCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]

@@ -1401,5 +1401,12 @@
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_TribunalOffice",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "isFixCase",
+    "Label": "Fix Case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
