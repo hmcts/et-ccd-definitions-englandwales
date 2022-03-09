@@ -1768,6 +1768,17 @@
     "PageColumnNumber": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "fixCaseAPI",
+    "CaseFieldID": "judgementCollection",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
