@@ -2573,6 +2573,16 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "Letters",
+    "ListElementCode": "Part_20_Documents",
+    "FieldType": "FixedList",
+    "ElementLabel": "Part 20",
+    "FieldTypeParameter": "fl_Part_20",
+    "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00043\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "LettersMultiples",
     "ListElementCode": "topLevel_Documents",
     "FieldType": "FixedList",
@@ -2757,6 +2767,16 @@
     "ElementLabel": "Part 18",
     "FieldTypeParameter": "fl_Part_18",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00066\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "LettersMultiples",
+    "ListElementCode": "Part_20_Documents",
+    "FieldType": "FixedList",
+    "ElementLabel": "Part 20",
+    "FieldTypeParameter": "fl_Part_20",
+    "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00043\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },

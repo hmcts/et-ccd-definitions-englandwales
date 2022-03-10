@@ -2316,6 +2316,12 @@
     "DisplayOrder": 19
   },
   {
+    "ID": "fl_TopLevel",
+    "ListElementCode": "EM-TRB-EGW-ENG-00043",
+    "ListElement": "PART 20 – Legal Officer Letters",
+    "DisplayOrder": 20
+  },
+  {
     "ID": "fl_Part_0",
     "ListElementCode": 0.1,
     "ListElement": "0.1 - Customise selected addresses",
@@ -4450,6 +4456,36 @@
     "ListElementCode": "IOJULY",
     "ListElement": "Interest Order from 29 July ",
     "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_Part_20",
+    "ListElementCode": "LO1",
+    "ListElement": "R20 EOT Granted",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_Part_20",
+    "ListElementCode": "LO2",
+    "ListElement": "R20 EOT Refused - Application in Time",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_Part_20",
+    "ListElementCode": "LO3",
+    "ListElement": "R20 EOT Refused - Application OOT",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_Part_20",
+    "ListElementCode": "LO4",
+    "ListElement": "R52 Dismissal Judgments",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Part_20",
+    "ListElementCode": "LO5",
+    "ListElement": "General Order",
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_BFActions",
