@@ -11,16 +11,14 @@
     "ID": "Draft",
     "Name": "Draft",
     "Description": "Draft ET1 submission",
-    "DisplayOrder": 2,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "DisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "AWAITING_SUBMISSION_TO_HMCTS",
-    "Name": "AWAITING_SUBMISSION_TO_HMCTS",
+    "Name": "Awaiting Submission to HMCTS",
     "Description": "Draft ET1 updates and this state carried till case submission ",
-    "DisplayOrder": 3,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "DisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
