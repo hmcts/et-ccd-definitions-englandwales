@@ -31,6 +31,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Draft",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
