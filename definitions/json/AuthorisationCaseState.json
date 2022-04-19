@@ -8,7 +8,19 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Submitted",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Submitted",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -38,7 +50,19 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Accepted",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -56,7 +80,19 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -74,7 +110,19 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -92,7 +140,19 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -110,6 +170,12 @@
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseStateID": "Submitted",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -122,6 +188,12 @@
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseStateID": "SubmittedReport",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseStateID": "SubmittedReport",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -129,6 +201,12 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Open",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Open",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -141,6 +219,12 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Updating",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Updating",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -153,6 +237,12 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -165,6 +255,12 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Error",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Error",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
@@ -177,6 +273,12 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
