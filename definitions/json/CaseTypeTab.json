@@ -224,6 +224,13 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
+    "CaseFieldID": "newEmploymentType",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
     "CaseFieldID": "claimantType",
     "TabFieldDisplayOrder": 2
   },

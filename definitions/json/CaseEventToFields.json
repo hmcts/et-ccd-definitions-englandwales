@@ -160,6 +160,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantType",
     "DisplayContext": "COMPLEX",
     "PageID": 2,
@@ -425,6 +436,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initiateCaseDraft",
     "CaseFieldID": "claimantType",
     "DisplayContext": "COMPLEX",
     "PageID": 2,
@@ -690,6 +712,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "DisplayContext": "COMPLEX",
     "PageID": 2,
@@ -949,6 +982,17 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
@@ -1468,6 +1512,17 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
