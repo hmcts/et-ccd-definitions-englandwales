@@ -2477,8 +2477,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "reportType !=\"No Change In Current Position\"",
-    "PageShowCondition": "reportType != \"Cases Awaiting Judgment\"",
+    "FieldShowCondition": "reportType !=\"No Change In Current Position\" AND reportType != \"Cases Awaiting Judgment\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
