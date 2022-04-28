@@ -1363,6 +1363,26 @@
   },
   {
     "ID": "CreateCase",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCaseDraft",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
