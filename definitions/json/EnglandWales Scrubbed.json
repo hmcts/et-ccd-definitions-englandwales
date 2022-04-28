@@ -4726,5 +4726,53 @@
     "ListElementCode": "Watford",
     "ListElement": "Watford",
     "DisplayOrder": 11
+  },
+  {
+  "ID": "fl_notice_period_unit",
+  "ListElementCode": "claimant_notice_period_unit",
+  "ListElement": "Weeks",
+  "DisplayOrder": 1
+},
+  {
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "claimant_notice_period_unit",
+    "ListElement": "Months",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "claimant_pay_cycle",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "claimant_pay_cycle",
+    "ListElement": "Months",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pay_cycle",
+    "ListElementCode": "claimant_pay_cycle",
+    "ListElement": "Annual",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "claimant_pension_contribution",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "claimant_pension_contribution",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_pension_contribution",
+    "ListElementCode": "claimant_pension_contribution",
+    "ListElement": "Not Sure",
+    "DisplayOrder": 3
   }
 ]
