@@ -682,6 +682,26 @@
   },
   {
     "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
     "CaseEventID": "initiateCaseDraft",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
@@ -2064,6 +2084,26 @@
   },
   {
     "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
@@ -2744,6 +2784,26 @@
     "RetainHiddenValue": "No"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
     "ID": "AmendCase",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "preAcceptCase",
@@ -3316,6 +3376,26 @@
     "ListElementCode": "representative_preference",
     "EventElementLabel": "Contact preference",
     "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "addAmendClaimantRepresentative",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "addAmendClaimantRepresentative",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
