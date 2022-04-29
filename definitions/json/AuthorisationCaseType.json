@@ -24,7 +24,11 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-  { "CaseTypeId": "ET_EnglandWales", "UserRole": "citizen", "CRUD": "CRUD" },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "UserRole": "caseworker-employment-englandwales",
