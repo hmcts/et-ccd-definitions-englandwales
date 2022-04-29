@@ -43,12 +43,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "initiateCaseDraft",
-    "UserRole": "citizen",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "UserRole": "citizen",
     "CRUD": "CRUD"
