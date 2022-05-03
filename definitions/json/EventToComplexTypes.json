@@ -686,7 +686,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -696,7 +696,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -1387,7 +1387,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -1397,7 +1397,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -2088,7 +2088,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -2098,7 +2098,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -2789,7 +2789,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -2799,7 +2799,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3385,7 +3385,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -3395,7 +3395,7 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
