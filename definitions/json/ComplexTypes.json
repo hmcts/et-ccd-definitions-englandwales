@@ -4512,5 +4512,19 @@
     "FieldTypeParameter": "DateListed",
     "SecurityClassification": "Public",
     "Min": 1
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "newly_employed_from",
+    "FieldType": "Date",
+    "ElementLabel": "Employed from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "NewEmploymentDetails",
+    "ListElementCode": "new_pay_before_tax",
+    "FieldType": "Number",
+    "ElementLabel": "Pay before tax",
+    "SecurityClassification": "Public"
   }
 ]
