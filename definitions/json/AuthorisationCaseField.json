@@ -1427,7 +1427,48 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "newEmploymentType",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRequests",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRequests",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRequests",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRequests",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRequests",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantRequests",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantWorkAddressQuestion",
