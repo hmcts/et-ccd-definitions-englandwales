@@ -244,6 +244,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantRepresentedQuestion",
     "DisplayContext": "MANDATORY",
     "PageID": 8,
@@ -774,6 +785,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRepresentedQuestion",
     "DisplayContext": "MANDATORY",
     "PageID": 8,
@@ -1033,6 +1055,17 @@
     "PageID": 7,
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "DisplayContext": "COMPLEX",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
