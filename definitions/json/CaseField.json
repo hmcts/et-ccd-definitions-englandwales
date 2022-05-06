@@ -100,6 +100,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRequests",
+    "Label": "Claimant Requests",
+    "FieldType": "ClaimantRequest",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "feeGroupReference",
     "Label": "Submission Reference",
     "HintText": "Submission Reference (12 digit number)",
