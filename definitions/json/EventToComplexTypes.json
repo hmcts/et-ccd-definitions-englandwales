@@ -802,7 +802,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_video",
-    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "EventElementLabel": "Can the claimant take part in video hearings",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -811,7 +811,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_phone",
-    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
@@ -1681,7 +1681,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_video",
-    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "EventElementLabel": "Can the claimant take part in video hearings",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -1690,7 +1690,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_phone",
-    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
@@ -2560,7 +2560,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_video",
-    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "EventElementLabel": "Can the claimant take part in video hearings",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -2569,7 +2569,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_phone",
-    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
@@ -3158,7 +3158,7 @@
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_video",
-    "EventElementLabel": "Can the claimant can take part in video hearings",
+    "EventElementLabel": "Can the claimant take part in video hearings",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -3167,7 +3167,7 @@
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_phone",
-    "EventElementLabel": "Can the claimant can take part in phone hearings",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
