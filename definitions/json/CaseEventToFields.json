@@ -177,7 +177,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentAddress",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -262,7 +262,7 @@
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
-  },  
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCase",
@@ -464,7 +464,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentAddress",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -751,7 +751,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentAddress",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -893,7 +893,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/reinstateClosedCaseMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/reinstateClosedCaseMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -917,7 +917,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/singleCaseMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/singleCaseMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1092,7 +1092,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/singleCaseMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/singleCaseMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1372,7 +1372,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midEventAmendHearing",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midEventAmendHearing",
     "PageColumnNumber": 1
   },
   {
@@ -1384,7 +1384,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/allocatehearing/handleListingSelected",
+    "CallBackURLMidEvent": "${ET_COS_URL}/allocatehearing/handleListingSelected",
     "PageColumnNumber": 1
   },
   {
@@ -1465,7 +1465,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/allocatehearing/populateRooms",
+    "CallBackURLMidEvent": "${ET_COS_URL}/allocatehearing/populateRooms",
     "PageColumnNumber": 1
   },
   {
@@ -1499,7 +1499,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/hearingdetails/handleListingSelected",
+    "CallBackURLMidEvent": "${ET_COS_URL}/hearingdetails/handleListingSelected",
     "PageColumnNumber": 1
   },
   {
@@ -1701,7 +1701,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/judgmentValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/judgmentValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1713,7 +1713,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/jurisdictionValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/jurisdictionValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1736,7 +1736,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1749,7 +1749,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\" AND correspondenceType.part_0_Documents=\"0.1\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1762,7 +1762,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midSelectedAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midSelectedAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1775,7 +1775,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midValidateAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midValidateAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1798,7 +1798,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/listingSingleCases",
+    "CallBackURLMidEvent": "${ET_COS_URL}/listingSingleCases",
     "PageColumnNumber": 1
   },
   {
@@ -1832,7 +1832,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midRespondentECC",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentECC",
     "PageColumnNumber": 1
   },
   {
@@ -2131,7 +2131,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/dynamicListingVenue",
+    "CallBackURLMidEvent": "${ET_COS_URL}/dynamicListingVenue",
     "PageColumnNumber": 1
   },
   {
@@ -2169,7 +2169,7 @@
     "FieldShowCondition": "hearingDateType=\"Range\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/listingsDateRangeMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/listingsDateRangeMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2320,7 +2320,7 @@
     "FieldShowCondition": "hearingDateType=\"Range\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/listingsDateRangeMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/listingsDateRangeMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2405,7 +2405,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/multipleCreationMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleCreationMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2417,7 +2417,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/multipleCreationMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleCreationMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2506,7 +2506,7 @@
     "FieldShowCondition": "typeOfAmendment CONTAINS \"Add cases to multiple\"",
     "PageShowCondition": "typeOfAmendment CONTAINS \"Add cases to multiple\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/multipleAmendCaseIdsMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleAmendCaseIdsMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2662,7 +2662,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType=\"batchUpdateType3\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/multipleSingleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleSingleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2675,7 +2675,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType =\"batchUpdateType1\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/multipleMidBatch1Validation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleMidBatch1Validation",
     "PageColumnNumber": 1
   },
   {
@@ -2733,7 +2733,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType = \"batchUpdateType2\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/multipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2825,7 +2825,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/subMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/subMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -2892,7 +2892,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midSelectedAddressLabelsMultiple",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midSelectedAddressLabelsMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -2917,7 +2917,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/midValidateAddressLabelsMultiple",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midValidateAddressLabelsMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -3127,7 +3127,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${CCD_DEF}/bulkAddSingleCasesImportFileMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/bulkAddSingleCasesImportFileMidEventValidation",
     "PageColumnNumber": 1
   }
 ]
