@@ -1,6 +1,12 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "progress",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseType",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -33,6 +39,36 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseType",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "hearingNotListed",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "seekComments",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "listForPrelimHearing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "udlHearing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "anyOtherDirections",
+    "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {

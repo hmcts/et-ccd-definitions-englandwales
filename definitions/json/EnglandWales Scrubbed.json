@@ -4728,11 +4728,11 @@
     "DisplayOrder": 11
   },
   {
-  "ID": "fl_notice_period_unit",
-  "ListElementCode": "Weeks",
-  "ListElement": "Weeks",
-  "DisplayOrder": 1
-},
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "Weeks",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
   {
     "ID": "fl_notice_period_unit",
     "ListElementCode": "Months",
@@ -4774,5 +4774,125 @@
     "ListElementCode": "Not Sure",
     "ListElement": "Not Sure",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_HearingNotListed",
+    "ListElementCode": "Seek comments on CVP hearing",
+    "ListElement": "Seek comments on CVP hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_HearingNotListed",
+    "ListElementCode": "List for preliminary hearing",
+    "ListElement": "List for preliminary hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_HearingNotListed",
+    "ListElementCode": "List for final hearing",
+    "ListElement": "List for final hearing",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_HearingNotListed",
+    "ListElementCode": "UDL hearing",
+    "ListElement": "UDL hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_ListForPreliminaryHearing",
+    "ListElementCode": "Telephone",
+    "ListElement": "Telephone",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_ListForPreliminaryHearing",
+    "ListElementCode": "CVP",
+    "ListElement": "CVP",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_ListForPreliminaryHearing",
+    "ListElementCode": "F2F",
+    "ListElement": "F2F",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_TypeOfCVPHearing",
+    "ListElementCode": "Final",
+    "ListElement": "Final",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_TypeOfCVPHearing",
+    "ListElementCode": "Preliminary",
+    "ListElement": "Preliminary",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_UDLHearingFormat",
+    "ListElementCode": "CVP hearing",
+    "ListElement": "CVP hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_UDLHearingFormat",
+    "ListElementCode": "Final F2F hearings (not Aberdeen)",
+    "ListElement": "Final F2F hearings (not Aberdeen)",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_UDLHearingFormat",
+    "ListElementCode": "Option 3",
+    "ListElement": "Option 3",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_CVPHearingOptions",
+    "ListElementCode": "1",
+    "ListElement": 1,
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_CVPHearingOptions",
+    "ListElementCode": "2",
+    "ListElement": 2,
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_CVPHearingOptions",
+    "ListElementCode": "3",
+    "ListElement": 3,
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_UDLFinalF2FOptions",
+    "ListElementCode": "1",
+    "ListElement": 1,
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_UDLFinalF2FOptions",
+    "ListElementCode": "2",
+    "ListElement": 2,
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_UDLFinalF2FOptions",
+    "ListElementCode": "3",
+    "ListElement": 3,
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_UDLFinalF2FOptions",
+    "ListElementCode": "4",
+    "ListElement": 4,
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_UDLFinalF2FOptions",
+    "ListElementCode": "5",
+    "ListElement": 5,
+    "DisplayOrder": 5
   }
 ]

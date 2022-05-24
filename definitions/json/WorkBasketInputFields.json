@@ -30,6 +30,12 @@
     "DisplayOrder": 5
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "claimantRepresentedQuestion",
+    "Label": "Claimant Represented?",
+    "DisplayOrder": 6
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "documentName",
     "Label": "Document Name",

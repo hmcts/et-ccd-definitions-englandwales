@@ -5,9 +5,8 @@
     "TabID": "CaseOverview",
     "TabLabel": "Case Details",
     "TabDisplayOrder": 1,
-    "CaseFieldID": "flagsImageAltText",
-    "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "caseType=\"dummy\""
+    "CaseFieldID": "progress",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -124,7 +123,8 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "receiptDate",
-    "TabFieldDisplayOrder": 15
+    "TabFieldDisplayOrder": 15,
+    "DisplayContextParameter": "#DATETIMEDISPLAY(YYYY)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

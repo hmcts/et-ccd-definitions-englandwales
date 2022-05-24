@@ -4669,5 +4669,82 @@
     "FieldType": "Text",
     "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ListForPreliminaryHearing",
+    "ListElementCode": "listForPreliminaryHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "List for preliminary hearing",
+    "FieldTypeParameter": "msl_ListForPreliminaryHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ListForPreliminaryHearing",
+    "ListElementCode": "detailsOfHearingNotice",
+    "FieldType": "TextArea",
+    "ElementLabel": "Details of hearing notice",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ListForPreliminaryHearing",
+    "ListElementCode": "length",
+    "FieldType": "Text",
+    "ElementLabel": "Length",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UDLHearing",
+    "ListElementCode": "hearingFormat",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing format",
+    "FieldTypeParameter": "fl_UDLHearingFormat",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UDLHearing",
+    "ListElementCode": "cvpHearingOptions",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard CVP orders when listed",
+    "FieldTypeParameter": "msl_CVPHearingOptions",
+    "FieldShowCondition": "hearingFormat=\"CVP hearing\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UDLHearing",
+    "ListElementCode": "udlFinalF2FOptions",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Issue standard orders when listed",
+    "FieldTypeParameter": "msl_UDLFinalF2FOptions",
+    "FieldShowCondition": "hearingFormat=\"Final F2F hearings (not Aberdeen)\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "UDLHearing",
+    "ListElementCode": "buCheckCompliance",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "BU to check compliance with orders?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "SeekComments",
+    "ListElementCode": "typeOfCvpHearing",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of CVP hearing",
+    "FieldTypeParameter": "msl_TypeOfCVPHearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "SeekComments",
+    "ListElementCode": "prelimHearingDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Preliminary hearing details",
+    "FieldShowCondition": "typeOfCvpHearing CONTAINS \"Preliminary\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
   }
 ]

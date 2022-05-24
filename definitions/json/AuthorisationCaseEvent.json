@@ -31,6 +31,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "testEvent",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"

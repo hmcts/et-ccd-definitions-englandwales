@@ -43,6 +43,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "progress",
+    "Label": "## Current progress of the case\r\n\r\n![Progress map showing that the appeal is now at stage 1 of 11 stages - the Appeal started stage](https://raw.githubusercontent.com/hmcts/ia-appeal-frontend/master/app/assets/images/progress_legalRep_appealStarted.svg \"Progress map showing that the appeal is now at stage 1 of 11 stages - the Appeal started stage\")\r\n\r\n## Do this next\r\nYou still need to submit your appeal.\r\n\r\n[Submit your appeal](/case/IA/Asylum/${[CASE_REFERENCE]}/trigger/submitAppeal)\r\n\r\nYou can also review and edit your appeal.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseType",
     "Label": "Single or Multiple",
     "FieldType": "FixedList",
@@ -133,6 +140,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "caseNotes",
     "Label": "Case Notes",
+    "HintText": "This is a text area hint",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -795,6 +803,42 @@
     "ID": "claimantHearingPreference",
     "Label": "Claimant Hearing Preferences",
     "FieldType": "HearingPreference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingNotListed",
+    "Label": "The hearing is not already listed",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_HearingNotListed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "seekComments",
+    "Label": "Seek comments on CVP hearing",
+    "FieldType": "SeekComments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "listForPrelimHearing",
+    "Label": "List for preliminary hearing",
+    "FieldType": "ListForPreliminaryHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "udlHearing",
+    "Label": "UDL hearing",
+    "FieldType": "UDLHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "anyOtherDirections",
+    "Label": "Any other directions",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
