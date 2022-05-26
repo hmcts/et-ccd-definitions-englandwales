@@ -6,7 +6,8 @@
     "TabLabel": "Case Details",
     "TabDisplayOrder": 1,
     "CaseFieldID": "progress",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "caseType=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -276,7 +277,7 @@
     "TabDisplayOrder": 4,
     "CaseFieldID": "respondentCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)"
+    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived,responseReceivedDate)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

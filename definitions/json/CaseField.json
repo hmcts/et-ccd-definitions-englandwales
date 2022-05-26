@@ -807,6 +807,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "areThereIssuesJurisdictionCodes2",
+    "Label": "Are there any issues or instructions regarding the jurisdiction codes?",
+    "FieldType": "JuridictionCodesIssues",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "canTheClaimProceed",
+    "Label": "Can the claim and response proceed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingNotListed",
     "Label": "The hearing is not already listed",
     "FieldType": "MultiSelectList",

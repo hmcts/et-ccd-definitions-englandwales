@@ -4688,9 +4688,11 @@
   {
     "ID": "ListForPreliminaryHearing",
     "ListElementCode": "length",
-    "FieldType": "Text",
+    "FieldType": "Number",
     "ElementLabel": "Length",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": 0,
+    "Max": 10
   },
   {
     "ID": "UDLHearing",
@@ -4745,6 +4747,21 @@
     "ElementLabel": "Preliminary hearing details",
     "FieldShowCondition": "typeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JuridictionCodesIssues",
+    "ListElementCode": "areThereIssues",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Are there any issues or instructions regarding the jurisdiction codes?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "JuridictionCodesIssues",
+    "ListElementCode": "whatAreTheIssues",
+    "FieldType": "TextArea",
+    "ElementLabel": "What are the issues",
+    "FieldShowCondition": "areThereIssues=\"Yes\"",
     "SecurityClassification": "Public"
   }
 ]
