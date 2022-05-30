@@ -1429,5 +1429,13 @@
     "Label": "Fix Case",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "servingDocumentCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ServingDocumentUpload",
+    "SecurityClassification": "Public"
   }
 ]
