@@ -798,6 +798,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "servingDocumentCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ServingDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
