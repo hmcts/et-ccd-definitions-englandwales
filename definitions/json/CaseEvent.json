@@ -446,6 +446,18 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseTransferECM",
+    "Name": "Case Transfer to ECM",
+    "Description": "Transfer case to ECM system",
+    "DisplayOrder": 37,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "Transferred",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferToEcm",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
