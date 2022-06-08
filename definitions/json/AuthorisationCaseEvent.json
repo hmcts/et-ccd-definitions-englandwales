@@ -855,7 +855,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "caseTransferECM",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
