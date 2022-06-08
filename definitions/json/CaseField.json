@@ -814,8 +814,8 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "servingDocumentRecipientNotice",
-    "Label": " Select all that apply.",
+    "ID": "selectAllThatApply",
+    "Label": "Select all that apply.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -825,6 +825,20 @@
     "Label": " ",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_ServingDocumentRecipient",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherTypeDocumentName",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherTypeDocumentNameLabel",
+    "Label": "${otherTypeDocumentName}",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
