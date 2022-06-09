@@ -842,6 +842,27 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "printAndSendPaperDocuments",
+    "Label": "<hr><h2>Print and send paper documents<h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantAndRespondentAddresses",
+    "Label": "claimantAndRespondentAddresses",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantAndRespondentAddressesLabel",
+    "Label": "${claimantAndRespondentAddresses}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
