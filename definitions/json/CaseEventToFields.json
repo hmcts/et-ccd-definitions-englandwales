@@ -2213,6 +2213,48 @@
     "PageColumnNumber": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasLine",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Email Acas",
+    "PageShowCondition": "otherTypeDocumentName != \"\" AND servingDocumentRecipient CONTAINS \"Acas\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasTitle",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasLink",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasInstructions",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

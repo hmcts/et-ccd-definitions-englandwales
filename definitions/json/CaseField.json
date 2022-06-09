@@ -863,6 +863,34 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "emailDocsToAcasLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "emailDocsToAcasTitle",
+    "Label": "<h2>Email documents to Acas</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "emailDocsToAcasLink",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](mailto:ET3@acas.org.uk?subject=%24%7BcaseNumber%7D&body=Parties%20in%20claim%3A%20%24%7Bclaimant%7D%20vs%20%24%7BrespondentList%7D%0D%0ACase%20reference%20number%3A%20%24%7BcaseNumber%7D%0D%0A%0D%0ADear%20Acas%2C%0D%0A%0D%0AThe%20tribunal%20has%20completed%20ET1%20serving%20to%20the%20respondent.%0D%0A%0D%0AThe%20documents%20we%20sent%20are%20attached%20to%20this%20email.%0D%0A%0D%0A%24%7BsenderEmail%7D)",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "emailDocsToAcasInstructions",
+    "Label": "Instructions for the content of the email are on the 'Sending general correspondence to Acas via email' job card.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
