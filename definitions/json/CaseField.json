@@ -1,6 +1,13 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "horizontalLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
@@ -803,6 +810,35 @@
     "Label": "Upload document PDF",
     "FieldType": "Collection",
     "FieldTypeParameter": "ServingDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "selectAllThatApply",
+    "Label": "Select all that apply.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "servingDocumentRecipient",
+    "Label": " ",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_ServingDocumentRecipient",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherTypeDocumentName",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherTypeDocumentNameLabel",
+    "Label": "${otherTypeDocumentName}",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
