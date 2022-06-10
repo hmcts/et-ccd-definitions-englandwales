@@ -3926,6 +3926,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "ecmOfficeCT",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "ecmOfficeCT",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
@@ -3934,6 +3940,48 @@
     "CaseFieldID": "ecmOfficeCT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+    {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "servingDocumentRecipient",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "otherTypeDocumentName",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
