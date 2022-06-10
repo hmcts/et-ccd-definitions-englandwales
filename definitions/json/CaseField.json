@@ -850,6 +850,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "sendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantAddress",
     "Label": "claimantAddress",
     "FieldType": "Text",
