@@ -2135,14 +2135,14 @@
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
-    {
+  {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseTransferECM",
     "CaseFieldID": "reasonForCT",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
