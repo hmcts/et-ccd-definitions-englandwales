@@ -2185,6 +2185,7 @@
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "printAndSendPaperDocuments",
     "DisplayContext": "READONLY",
+    "PageShowCondition": "servingDocumentRecipient CONTAINS \"Respondent\" OR servingDocumentRecipient CONTAINS \"Claimant\"",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
@@ -2194,7 +2195,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "uploadDocumentForServing",
-    "CaseFieldID": "claimantAndRespondentAddresses",
+    "CaseFieldID": "claimantAddress",
     "DisplayContext": "MANDATORY",
     "FieldShowCondition": "printAndSendPaperDocuments=\"dummy\"",
     "PageID": 3,
@@ -2205,11 +2206,34 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "uploadDocumentForServing",
-    "CaseFieldID": "claimantAndRespondentAddressesLabel",
+    "CaseFieldID": "claimantAddressLabel",
     "DisplayContext": "READONLY",
+    "FieldShowCondition": "servingDocumentRecipient CONTAINS \"Claimant\"",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "respondentAddress",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "printAndSendPaperDocuments=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "respondentAddressLabel",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "servingDocumentRecipient CONTAINS \"Respondent\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
   {
