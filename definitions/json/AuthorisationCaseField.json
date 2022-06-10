@@ -3938,13 +3938,13 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
   },
   {
@@ -3968,7 +3968,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantAddress",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "R"
   },
   {
@@ -3992,7 +3992,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondentAddress",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "R"
   },
   {
