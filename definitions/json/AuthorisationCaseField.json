@@ -4008,12 +4008,6 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "emailLinkToAcas",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-englandwales",
