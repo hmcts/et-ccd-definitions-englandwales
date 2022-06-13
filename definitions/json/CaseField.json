@@ -114,6 +114,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRequests",
+    "Label": "Claimant Requests",
+    "FieldType": "ClaimantRequest",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "feeGroupReference",
     "Label": "Submission Reference",
     "HintText": "Submission Reference (12 digit number)",
@@ -795,6 +802,21 @@
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantHearingPreference",
+    "Label": "Claimant Hearing Preferences",
+    "FieldType": "HearingPreference",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "servingDocumentCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ServingDocumentUpload",
     "SecurityClassification": "Public"
   },
   {

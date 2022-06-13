@@ -410,6 +410,105 @@
   {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
     "EventElementLabel": "Name of respondent",
@@ -700,687 +799,87 @@
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
-    "EventElementLabel": "Title",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant take part in video hearings",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title_other",
-    "EventElementLabel": "Other title",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_first_names",
-    "EventElementLabel": "First Name",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_last_name",
-    "EventElementLabel": "Last Name",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_date_of_birth",
-    "EventElementLabel": "Date of birth",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_sex",
-    "EventElementLabel": "Sex",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
-    "EventElementLabel": "Gender Identity",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK",
-    "FieldDisplayOrder": 9,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.AddressLine2",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.AddressLine3",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
     "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.PostTown",
-    "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.County",
-    "EventElementLabel": "County",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.Country",
-    "EventElementLabel": "Country",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_addressUK.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_phone_number",
-    "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_mobile_number",
-    "EventElementLabel": "Alternative number",
-    "FieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_email_address",
-    "EventElementLabel": "Email address",
-    "FieldDisplayOrder": 10,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantType",
-    "ListElementCode": "claimant_contact_preference",
-    "EventElementLabel": "Contact preference",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.AddressLine2",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.AddressLine3",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.PostTown",
-    "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.County",
-    "EventElementLabel": "County",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.Country",
-    "EventElementLabel": "Country",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_address.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantWorkAddress",
-    "ListElementCode": "claimant_work_phone_number",
-    "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "Yes"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "premises",
-    "EventElementLabel": "Premises",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation",
+    "EventElementLabel": "Claimant is reqesting compensation",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.AddressLine2",
-    "EventElementLabel": " ",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal",
+    "EventElementLabel": "Claimant is reqesting a tribunal",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.AddressLine3",
-    "EventElementLabel": " ",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_old_job",
+    "EventElementLabel": "Claimant is requesting their old job back",
     "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.PostTown",
-    "EventElementLabel": "Town or City",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_another_job",
+    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
     "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.County",
-    "EventElementLabel": "County",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation_amount",
+    "EventElementLabel": "Compensation amount requested",
     "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.Country",
-    "EventElementLabel": "Country",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal_recommendation",
+    "EventElementLabel": "Tribunal recommendation request ",
     "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "companyPremises",
-    "ListElementCode": "address.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_occupation",
-    "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_employed_from",
-    "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_employed_currently",
-    "EventElementLabel": "Is the employment continuing?",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_employed_to",
-    "EventElementLabel": "Employed to",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_employed_notice_period",
-    "EventElementLabel": "Notice Period End Date",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_disabled",
-    "EventElementLabel": "Are there any disabilities or special requirements?",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "claimantOtherType",
-    "ListElementCode": "claimant_disabled_details",
-    "EventElementLabel": "Please provide details",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_name",
-    "EventElementLabel": "Name of respondent",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_ACAS_question",
-    "EventElementLabel": "Is there an ACAS Certificate number?",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_ACAS",
-    "EventElementLabel": "ACAS Certificate Number",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_ACAS_no",
-    "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.AddressLine2",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.AddressLine3",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.PostTown",
-    "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.County",
-    "EventElementLabel": "County",
-    "FieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.Country",
-    "EventElementLabel": "Country",
-    "FieldDisplayOrder": 10,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_address.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondent_phone1",
-    "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 12,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "responseReceived",
-    "EventElementLabel": "Has the ET3 form been received?",
-    "FieldDisplayOrder": 13,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "name_of_representative",
-    "EventElementLabel": "Name of representative",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "name_of_organisation",
-    "EventElementLabel": "Name of Organisation",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_occupation",
-    "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_reference",
-    "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_occupation_other",
-    "EventElementLabel": "What is the Representative's occupation?",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.AddressLine2",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.AddressLine3",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.PostTown",
-    "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.County",
-    "EventElementLabel": "County",
-    "FieldDisplayOrder": 10,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.Country",
-    "EventElementLabel": "Country",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_address.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 12,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_phone_number",
-    "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 14,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_mobile_number",
-    "EventElementLabel": "Alternative number",
-    "FieldDisplayOrder": 15,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_email_address",
-    "EventElementLabel": "Email address",
-    "FieldDisplayOrder": 16,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCaseDraft",
-    "CaseFieldID": "representativeClaimantType",
-    "ListElementCode": "representative_preference",
-    "EventElementLabel": "Contact preference",
-    "FieldDisplayOrder": 17,
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
@@ -1390,7 +889,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title_other",
@@ -1400,7 +899,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_first_names",
@@ -1410,7 +909,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_last_name",
@@ -1420,7 +919,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_date_of_birth",
@@ -1430,7 +929,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_sex",
@@ -1440,7 +939,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender_identity",
@@ -1450,7 +949,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
@@ -1460,7 +959,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK",
@@ -1468,7 +967,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.AddressLine1",
@@ -1477,7 +976,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.AddressLine2",
@@ -1485,7 +984,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.AddressLine3",
@@ -1493,7 +992,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.PostTown",
@@ -1502,7 +1001,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.County",
@@ -1511,7 +1010,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.Country",
@@ -1520,7 +1019,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.PostCode",
@@ -1529,7 +1028,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_phone_number",
@@ -1538,7 +1037,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_mobile_number",
@@ -1547,7 +1046,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_email_address",
@@ -1556,7 +1055,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_contact_preference",
@@ -1565,7 +1064,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address",
@@ -1575,7 +1074,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.AddressLine1",
@@ -1585,7 +1084,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.AddressLine2",
@@ -1594,7 +1093,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.AddressLine3",
@@ -1603,7 +1102,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.PostTown",
@@ -1613,7 +1112,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.County",
@@ -1623,7 +1122,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.Country",
@@ -1633,7 +1132,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.PostCode",
@@ -1643,7 +1142,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_phone_number",
@@ -1653,7 +1152,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "premises",
@@ -1662,7 +1161,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.AddressLine1",
@@ -1671,7 +1170,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.AddressLine2",
@@ -1680,7 +1179,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.AddressLine3",
@@ -1689,7 +1188,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.PostTown",
@@ -1698,7 +1197,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.County",
@@ -1707,7 +1206,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.Country",
@@ -1716,7 +1215,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.PostCode",
@@ -1725,7 +1224,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_occupation",
@@ -1734,7 +1233,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_from",
@@ -1743,7 +1242,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_currently",
@@ -1752,7 +1251,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_to",
@@ -1761,7 +1260,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_notice_period",
@@ -1770,7 +1269,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_disabled",
@@ -1779,7 +1278,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_disabled_details",
@@ -1788,7 +1287,106 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
@@ -1797,7 +1395,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_question",
@@ -1806,7 +1404,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS",
@@ -1815,7 +1413,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_no",
@@ -1824,7 +1422,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine1",
@@ -1833,7 +1431,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine2",
@@ -1841,7 +1439,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine3",
@@ -1849,7 +1447,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostTown",
@@ -1858,7 +1456,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.County",
@@ -1867,7 +1465,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.Country",
@@ -1876,7 +1474,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostCode",
@@ -1885,7 +1483,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone1",
@@ -1894,7 +1492,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
@@ -1903,7 +1501,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "name_of_representative",
@@ -1913,7 +1511,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "name_of_organisation",
@@ -1923,7 +1521,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_occupation",
@@ -1933,7 +1531,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_reference",
@@ -1943,7 +1541,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_occupation_other",
@@ -1953,7 +1551,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.AddressLine1",
@@ -1963,7 +1561,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.AddressLine2",
@@ -1972,7 +1570,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.AddressLine3",
@@ -1981,7 +1579,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.PostTown",
@@ -1991,7 +1589,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.County",
@@ -2001,7 +1599,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.Country",
@@ -2011,7 +1609,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.PostCode",
@@ -2021,7 +1619,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_phone_number",
@@ -2031,7 +1629,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_mobile_number",
@@ -2041,7 +1639,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_email_address",
@@ -2051,7 +1649,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_preference",
@@ -2061,7 +1659,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
@@ -2070,7 +1668,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
@@ -2079,7 +1677,88 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation",
+    "EventElementLabel": "Claimant is reqesting compensation",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal",
+    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_old_job",
+    "EventElementLabel": "Claimant is requesting their old job back",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_another_job",
+    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation_amount",
+    "EventElementLabel": "Compensation amount requested",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal_recommendation",
+    "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title1",
@@ -2089,7 +1768,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_title_other",
@@ -2099,7 +1778,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_first_names",
@@ -2109,7 +1788,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_last_name",
@@ -2119,7 +1798,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_date_of_birth",
@@ -2129,7 +1808,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_sex",
@@ -2139,7 +1818,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender_identity",
@@ -2149,7 +1828,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_gender",
@@ -2159,7 +1838,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK",
@@ -2167,7 +1846,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.AddressLine1",
@@ -2176,7 +1855,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.AddressLine2",
@@ -2184,7 +1863,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.AddressLine3",
@@ -2192,7 +1871,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.PostTown",
@@ -2201,7 +1880,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.County",
@@ -2210,7 +1889,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.Country",
@@ -2219,7 +1898,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_addressUK.PostCode",
@@ -2228,7 +1907,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_phone_number",
@@ -2237,7 +1916,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_mobile_number",
@@ -2246,7 +1925,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_email_address",
@@ -2255,7 +1934,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantType",
     "ListElementCode": "claimant_contact_preference",
@@ -2264,7 +1943,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address",
@@ -2274,7 +1953,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.AddressLine1",
@@ -2284,7 +1963,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.AddressLine2",
@@ -2293,7 +1972,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.AddressLine3",
@@ -2302,7 +1981,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.PostTown",
@@ -2312,7 +1991,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.County",
@@ -2322,7 +2001,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.Country",
@@ -2332,7 +2011,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_address.PostCode",
@@ -2342,7 +2021,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantWorkAddress",
     "ListElementCode": "claimant_work_phone_number",
@@ -2352,7 +2031,7 @@
     "RetainHiddenValue": "Yes"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "premises",
@@ -2361,7 +2040,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.AddressLine1",
@@ -2370,7 +2049,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.AddressLine2",
@@ -2379,7 +2058,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.AddressLine3",
@@ -2388,7 +2067,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.PostTown",
@@ -2397,7 +2076,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.County",
@@ -2406,7 +2085,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.Country",
@@ -2415,7 +2094,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "companyPremises",
     "ListElementCode": "address.PostCode",
@@ -2424,7 +2103,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_occupation",
@@ -2433,7 +2112,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_from",
@@ -2442,7 +2121,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_currently",
@@ -2451,7 +2130,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_to",
@@ -2460,7 +2139,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_employed_notice_period",
@@ -2469,7 +2148,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_disabled",
@@ -2478,7 +2157,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_disabled_details",
@@ -2487,7 +2166,106 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_name",
@@ -2496,7 +2274,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_question",
@@ -2505,7 +2283,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS",
@@ -2514,7 +2292,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_ACAS_no",
@@ -2523,7 +2301,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine1",
@@ -2532,7 +2310,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine2",
@@ -2540,7 +2318,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.AddressLine3",
@@ -2548,7 +2326,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostTown",
@@ -2557,7 +2335,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.County",
@@ -2566,7 +2344,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.Country",
@@ -2575,7 +2353,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_address.PostCode",
@@ -2584,7 +2362,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "respondent_phone1",
@@ -2593,7 +2371,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
@@ -2602,7 +2380,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "name_of_representative",
@@ -2612,7 +2390,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "name_of_organisation",
@@ -2622,7 +2400,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_occupation",
@@ -2632,7 +2410,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_reference",
@@ -2642,7 +2420,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_occupation_other",
@@ -2652,7 +2430,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.AddressLine1",
@@ -2662,7 +2440,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.AddressLine2",
@@ -2671,7 +2449,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.AddressLine3",
@@ -2680,7 +2458,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.PostTown",
@@ -2690,7 +2468,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.County",
@@ -2700,7 +2478,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.Country",
@@ -2710,7 +2488,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_address.PostCode",
@@ -2720,7 +2498,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_phone_number",
@@ -2730,7 +2508,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_mobile_number",
@@ -2740,7 +2518,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_email_address",
@@ -2750,7 +2528,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "representative_preference",
@@ -2760,7 +2538,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
@@ -2769,12 +2547,93 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
     "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation",
+    "EventElementLabel": "Claimant is reqesting compensation",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal",
+    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_old_job",
+    "EventElementLabel": "Claimant is requesting their old job back",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_another_job",
+    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_compensation_amount",
+    "EventElementLabel": "Compensation amount requested",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claimant_tribunal_recommendation",
+    "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3194,6 +3053,132 @@
     "EventElementLabel": "Please provide details",
     "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period",
+    "EventElementLabel": "Notice Period",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_unit",
+    "EventElementLabel": "Notice Weeks or Months",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_notice_period_duration",
+    "EventElementLabel": "Notice Period Duration",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_average_weekly_hours",
+    "EventElementLabel": "Average weekly hours",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_before_tax",
+    "EventElementLabel": "Pay before tax",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_after_tax",
+    "EventElementLabel": "Pay after tax",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pay_cycle",
+    "EventElementLabel": "Weekly, monthly or annual pay",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_pension_weekly_contribution",
+    "EventElementLabel": "Pension Contribution",
+    "FieldDisplayOrder": 17,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits",
+    "EventElementLabel": "Employee Benefits",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantOtherType",
+    "ListElementCode": "claimant_benefits_detail",
+    "EventElementLabel": "Employee Benefits Details",
+    "FieldDisplayOrder": 19,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_video",
+    "EventElementLabel": "Can the claimant take part in video hearings",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_phone",
+    "EventElementLabel": "Can the claimant take part in phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "ClaimantRepresentative",

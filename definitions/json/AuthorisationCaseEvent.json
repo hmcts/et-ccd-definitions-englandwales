@@ -31,7 +31,31 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "initiateCaseDraft",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -55,7 +79,7 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "submitCaseDraft",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -67,7 +91,7 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "submitCaseDraft",
+    "CaseEventID": "SUBMIT_CASE_DRAFT",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },
@@ -824,6 +848,36 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "fixCaseAPI",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
