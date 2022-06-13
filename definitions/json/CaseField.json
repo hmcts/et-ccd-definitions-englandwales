@@ -851,35 +851,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "selectAllThatApply",
-    "Label": "Select all that apply.",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "servingDocumentRecipient",
-    "Label": " ",
-    "FieldType": "MultiSelectList",
-    "FieldTypeParameter": "fl_ServingDocumentRecipient",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "otherTypeDocumentName",
-    "Label": "Serving document other type name placeholder",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "otherTypeDocumentNameLabel",
-    "Label": "${otherTypeDocumentName}",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "printAndSendPaperDocuments",
     "Label": "<hr><h2>Print and send paper documents<h2>",
     "FieldType": "Label",
