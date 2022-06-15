@@ -8,7 +8,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "ClaimantPcqId",
+    "ID": "ClaimantPcqId", 
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
