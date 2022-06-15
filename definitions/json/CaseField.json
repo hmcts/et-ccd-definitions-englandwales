@@ -1,7 +1,7 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "pcqId",	
+    "CaseFieldID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
     "SecurityClassification": "Public"
