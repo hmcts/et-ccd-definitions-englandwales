@@ -812,6 +812,14 @@
     "FieldTypeParameter": "ServingDocumentUpload",
     "SecurityClassification": "Public"
   },
+    {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "ecmOfficeCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "selectAllThatApply",
@@ -850,29 +858,22 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "claimantAddress",
-    "Label": "claimantAddress",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "claimantAddressLabel",
-    "Label": "${claimantAddress}",
+    "ID": "sendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentAddress",
-    "Label": "respondentAddress",
+    "ID": "claimantAndRespondentAddresses",
+    "Label": "claimantAndRespondentAddresses",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentAddressLabel",
-    "Label": "${respondentAddress}",
+    "ID": "claimantAndRespondentAddressesLabel",
+    "Label": "${claimantAndRespondentAddresses}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
