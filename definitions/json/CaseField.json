@@ -1,5 +1,19 @@
 [
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "pcqId",	
+    "Label": "PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "ClaimantPcqId",
+    "Label": "PCQ ID",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "horizontalLine",
     "Label": "<hr>",
