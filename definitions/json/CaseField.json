@@ -1,6 +1,13 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "typeOfClaim",
+    "Label": "Type Of Claim",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
@@ -861,6 +868,13 @@
     "ID": "otherTypeDocumentNameLabel",
     "Label": "${otherTypeDocumentName}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTaskListChecks",
+    "Label": "Task list check",
+    "FieldType": "TaskListCheck",
     "SecurityClassification": "Public"
   },
   {
