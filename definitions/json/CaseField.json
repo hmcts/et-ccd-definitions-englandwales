@@ -820,18 +820,18 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "servingDocumentCollection",
-    "Label": "Upload document PDF",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "ServingDocumentUpload",
-    "SecurityClassification": "Public"
-  },
-    {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "ecmOfficeCT",
     "Label": "Select office to transfer case to",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "servingDocumentCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "ServingDocumentUpload",
     "SecurityClassification": "Public"
   },
   {
