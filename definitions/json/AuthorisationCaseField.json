@@ -3955,12 +3955,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentCollection",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "ecmOfficeCT",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -3995,42 +3989,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-    {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "citizen",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "servingDocumentRecipient",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "selectAllThatApply",
@@ -4119,24 +4077,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "otherTypeDocumentNameLabel",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherTypeDocumentName",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
