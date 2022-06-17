@@ -2223,7 +2223,7 @@
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
-       {
+  {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Response",
     "CaseFieldID": "et3StartPageLabel",
@@ -2232,7 +2232,7 @@
     "PageLabel": "ET3 - Response to Employment tribunal claim (ET1)",
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
