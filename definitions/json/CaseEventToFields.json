@@ -2136,9 +2136,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseVetting",
-    "CaseFieldID": "vettingBeforeLink",
+    "CaseFieldID": "horizontalLine",
     "DisplayContext": "READONLY",
-    "FieldShowCondition": "vettingBeforeLinkLabel=\"dummy\"",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -2149,11 +2148,22 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseVetting",
+    "CaseFieldID": "vettingBeforeLink",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
     "CaseFieldID": "vettingBeforeLinkLabel",
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
   {
