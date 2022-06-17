@@ -4365,19 +4365,19 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "vettingBeforeLink",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "vettingBeforeLink",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "vettingBeforeLink",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
