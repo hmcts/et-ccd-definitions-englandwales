@@ -81,6 +81,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3Vetting",
+    "Name": "ET3 Vetting",
+    "Description": "ET3 Vetting",
+    "DisplayOrder": 8,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "amendCaseDetails",
     "Name": "Case Details",
     "Description": "Amend Case Details",
