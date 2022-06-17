@@ -820,6 +820,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "vettingBeforeLink",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "vettingBeforeLinkLabel",
+    "Label": "${vettingBeforeLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "ecmOfficeCT",
     "Label": "Select office to transfer case to",
     "FieldType": "FixedList",
