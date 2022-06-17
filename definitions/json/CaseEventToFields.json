@@ -2146,7 +2146,7 @@
     "PageLabel": "Upload documents",
     "PageColumnNumber": 1
   },
-    {
+  {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseTransferECM",
     "CaseFieldID": "ecmOfficeCT",
@@ -2220,6 +2220,18 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "feeGroupReference",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Before you start",
     "PageColumnNumber": 1
   },
   {
