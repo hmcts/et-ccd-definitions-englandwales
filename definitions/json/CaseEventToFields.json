@@ -2361,8 +2361,7 @@
     "PageID": 1,
     "PageLabel": "Before you start",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y"
+    "PageFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2372,8 +2371,7 @@
     "PageID": 1,
     "PageLabel": "Before you start",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y"
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
