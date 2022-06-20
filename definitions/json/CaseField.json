@@ -826,7 +826,7 @@
     "FieldTypeParameter": "ServingDocumentUpload",
     "SecurityClassification": "Public"
   },
-    {
+  {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "ecmOfficeCT",
     "Label": "Select office to transfer case to",
@@ -860,6 +860,13 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "otherTypeDocumentNameLabel",
     "Label": "${otherTypeDocumentName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "initialConsiderationBeforeYouStart",
+    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

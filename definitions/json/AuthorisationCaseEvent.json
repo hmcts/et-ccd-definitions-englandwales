@@ -897,7 +897,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -909,7 +909,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
