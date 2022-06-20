@@ -2201,18 +2201,38 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "uploadDocumentForServing",
-    "CaseFieldID": "servingDocumentCollection",
-    "DisplayContext": "OPTIONAL",
+    "CaseEventID": "caseVetting",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${ET_COS_URL}/midServingDocumentOtherTypeNames",
-    "PageLabel": "Upload documents",
+    "PageLabel": "Before you start",
     "PageColumnNumber": 1
   },
-    {
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
+    "CaseFieldID": "vettingBeforeLink",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "caseVetting",
+    "CaseFieldID": "vettingBeforeLinkLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseTransferECM",
     "CaseFieldID": "ecmOfficeCT",
@@ -2235,12 +2255,26 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midServingDocumentOtherTypeNames",
+    "PageLabel": "Upload documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "horizontalLine",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midServingDocumentRecipient",
     "PageLabel": "Who are you sending this document to?",
     "PageShowCondition": "otherTypeDocumentName != \"\"",
     "PageColumnNumber": 1
@@ -2287,6 +2321,123 @@
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "printAndSendPaperDocuments",
+    "DisplayContext": "READONLY",
+    "PageShowCondition": "servingDocumentRecipient CONTAINS \"Respondent\" OR servingDocumentRecipient CONTAINS \"Claimant\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Send documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "sendDocByFirstClass",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "PageLabel": "Send documents",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "claimantAndRespondentAddresses",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "printAndSendPaperDocuments=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "claimantAndRespondentAddressesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasLine",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Email Acas",
+    "PageShowCondition": "otherTypeDocumentName != \"\" AND servingDocumentRecipient CONTAINS \"Acas\"",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasTitle",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailLinkToAcas",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "emailDocsToAcasTitle=\"dummy\"",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasLink",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "emailDocsToAcasInstructions",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 5,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3VettingBeforeYouStart",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
