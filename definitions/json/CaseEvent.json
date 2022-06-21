@@ -287,6 +287,7 @@
     "DisplayOrder": 24,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/afterSubmittedServing",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
@@ -750,4 +751,3 @@
     "ShowEventNotes": "N",
     "EndButtonLabel": "Add Cases to Multiple"
   }
-]
