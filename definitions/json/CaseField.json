@@ -828,7 +828,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingBeforeYouStart",
-    "Label": "Serving document other type name placeholder",
+    "Label": "Before You Start placeholder",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -836,6 +836,41 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingBeforeYouStartLabel",
     "Label": "${et1VettingBeforeYouStart}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingContactDetailsLabel",
+    "Label": "## Contact Details",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingClaimantDetailsMarkUp",
+    "Label": "Claimant Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingClaimantDetailsLabel",
+    "Label": "${et1VettingClaimantDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingRespondentDetailsMarkUp",
+    "Label": "Respondent Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingRespondentDetailsLabel",
+    "Label": "${et1VettingRespondentDetailsMarkUp}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

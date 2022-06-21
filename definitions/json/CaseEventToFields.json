@@ -2202,8 +2202,9 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "horizontalLine",
+    "CaseFieldID": "et1VettingBeforeYouStart",
     "DisplayContext": "READONLY",
+    "FieldShowCondition": "et1VettingBeforeYouStartLabel=\"dummy\"",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -2214,9 +2215,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1VettingBeforeYouStart",
+    "CaseFieldID": "et1VettingBeforeYouStartLabel",
     "DisplayContext": "READONLY",
-    "FieldShowCondition": "horizontalLine=\"dummy\"",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
@@ -2225,11 +2225,55 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1VettingBeforeYouStartLabel",
+    "CaseFieldID": "et1VettingContactDetailsLabel",
     "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Minimum required information",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "et1VettingContactDetailsLabel=\"dummy\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingClaimantDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "et1VettingContactDetailsLabel=\"dummy\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingRespondentDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
   {
