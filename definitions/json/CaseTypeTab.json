@@ -371,6 +371,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "CaseFieldID": "et3CompanyHouseDocument",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
     "TabDisplayOrder": 16,

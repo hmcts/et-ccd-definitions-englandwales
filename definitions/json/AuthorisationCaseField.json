@@ -4651,31 +4651,31 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3UploadDocument1",
+    "CaseFieldID": "et3CompanyHouseDocument",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
