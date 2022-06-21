@@ -879,6 +879,33 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "personalDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "claimDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
@@ -1758,6 +1785,33 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "personalDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "claimDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
@@ -2634,6 +2688,33 @@
     "ListElementCode": "claimant_tribunal_recommendation",
     "EventElementLabel": "Tribunal recommendation request ",
     "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "personalDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "employmentAndRespondentCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantTaskListChecks",
+    "ListElementCode": "claimDetailsCheck",
+    "EventElementLabel": "Have you completed this section?",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
