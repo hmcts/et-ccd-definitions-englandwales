@@ -2447,7 +2447,8 @@
     "PageID": 2,
     "PageLabel": "Select Respondent",
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/populateEt3Dates"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
