@@ -474,7 +474,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "initialConsideration",
     "Name": "Initial Consideration",
-    "Description": "Start page of the Initial Consideration process",
+    "Description": "Initial Consideration",
     "DisplayOrder": 39,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
