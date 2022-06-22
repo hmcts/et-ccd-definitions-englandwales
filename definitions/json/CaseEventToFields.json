@@ -2459,7 +2459,8 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "PageLabel": "Minimum required information"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2502,6 +2503,17 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateCompanyHousePage",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageLabel": "Minimum required information"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

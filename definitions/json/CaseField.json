@@ -1003,7 +1003,13 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3DateCompanyHousePage",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3IsThereACompaniesHouseSearchDocument",
