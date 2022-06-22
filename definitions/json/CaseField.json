@@ -977,6 +977,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ChooseRespondent",
+    "Label": "Select the respondent you are processing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Date",
     "Label": "et3Date",
     "FieldType": "Text",

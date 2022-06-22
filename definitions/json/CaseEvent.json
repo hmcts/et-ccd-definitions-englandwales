@@ -89,7 +89,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3VettingStart"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
