@@ -471,6 +471,17 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "initialConsideration",
+    "Name": "Initial Consideration",
+    "Description": "Initial Consideration",
+    "DisplayOrder": 39,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
