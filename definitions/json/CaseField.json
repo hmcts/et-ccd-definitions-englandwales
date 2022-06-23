@@ -977,6 +977,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ChooseRespondent",
+    "Label": "Select the respondent you are processing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Date",
     "Label": "et3Date",
     "FieldType": "Text",
@@ -1100,6 +1107,88 @@
     "ID": "initialConsiderationBeforeYouStart",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3DateCompanyHousePage",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3IsThereACompaniesHouseSearchDocument",
+    "Label": "Is there a Companies House search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3CompanyHouseDocument",
+    "Label": "Upload the Companies House search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesCompanyHouse",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3DateIndividualInsolvency",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3IsThereAnIndividualSearchDocument",
+    "Label": "Is there an individual insolvency search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3IndividualInsolvencyDocument",
+    "Label": "Upload the individual insolvency search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesIndividualInsolvency",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3LegalIssue",
+    "Label": "Is there an issue with whether the respondent is a legal entity?",
+    "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_respondent_legal_entity",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesLegalEntity",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3LegalIssueGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
