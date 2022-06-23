@@ -2766,7 +2766,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Rule 26"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
