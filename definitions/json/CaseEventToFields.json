@@ -2339,7 +2339,6 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 11
-
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2349,7 +2348,6 @@
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 12
-
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2731,6 +2729,35 @@
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3LegalIssue",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Rule 21 referral"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3LegalIssueGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3LegalIssue=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesLegalEntity",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
