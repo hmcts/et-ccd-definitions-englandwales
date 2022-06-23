@@ -5305,31 +5305,31 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3IndividualInsolvency",
+    "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3IndividualInsolvency",
+    "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3IndividualInsolvency",
+    "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3IndividualInsolvency",
+    "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3IndividualInsolvency",
+    "CaseFieldID": "et3DateIndividualInsolvency",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
