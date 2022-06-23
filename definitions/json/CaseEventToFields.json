@@ -2641,7 +2641,7 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageLabel": "Minimum required information"
+    "PageLabel": "Rule 21 referral"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2693,6 +2693,44 @@
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateIndividualInsolvency",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Rule 21 referral"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IndividualInsolvencyDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesIndividualInsolvency",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
