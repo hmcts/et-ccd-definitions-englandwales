@@ -2646,7 +2646,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereACompaniesHouseSearchDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 4,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 2
@@ -2708,7 +2708,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 2
