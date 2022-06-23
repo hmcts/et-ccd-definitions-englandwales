@@ -43,6 +43,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "horizontalLine4",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
@@ -886,6 +893,27 @@
     "ID": "et1VettingRespondentDetailsLabel",
     "Label": "${et1VettingRespondentDetailsMarkUp}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingCanServeClaimYesOrNo",
+    "Label": "Can we serve the claim with these contact details?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingCanServeClaimNoReason",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingCanServeClaimGeneralNote",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
