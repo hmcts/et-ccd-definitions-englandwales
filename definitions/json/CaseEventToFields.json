@@ -2588,7 +2588,8 @@
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
     "PageColumnNumber": 1,
-    "PageLabel": "Minimum required information"
+    "PageLabel": "Minimum required information",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2641,7 +2642,8 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageLabel": "Minimum required information"
+    "PageLabel": "Minimum required information",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
