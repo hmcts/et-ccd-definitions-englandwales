@@ -29,6 +29,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "horizontalLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "horizontalLine3",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
@@ -998,6 +1012,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ChooseRespondent",
+    "Label": "Select the respondent you are processing",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Date",
     "Label": "et3Date",
     "FieldType": "Text",
@@ -1028,6 +1049,179 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotes",
     "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "possibleSubstantiveDefects",
+    "Label": "<h2>Possible substantive defects</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "substantiveDefectsList",
+    "Label": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_Defects",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121aTextArea",
+    "Label": "The tribunal has no jurisdiction to consider",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121bTextArea",
+    "Label": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121cTextArea",
+    "Label": "Has neither an EC number nor claims one of the EC exemptions",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121dTextArea",
+    "Label": "States that one of the EC exceptions applies but it might not",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121daTextArea",
+    "Label": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121eTextArea",
+    "Label": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule121fTextArea",
+    "Label": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SubstantiveDefectsGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SubstantiveDefectsGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "initialConsiderationBeforeYouStart",
+    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in a new tab)</a>.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3DateCompanyHousePage",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3IsThereACompaniesHouseSearchDocument",
+    "Label": "Is there a Companies House search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3CompanyHouseDocument",
+    "Label": "Upload the Companies House search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesCompanyHouse",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3DateIndividualInsolvency",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3IsThereAnIndividualSearchDocument",
+    "Label": "Is there an individual insolvency search document?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3IndividualInsolvencyDocument",
+    "Label": "Upload the individual insolvency search document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesIndividualInsolvency",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3LegalIssue",
+    "Label": "Is there an issue with whether the respondent is a legal entity?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_respondent_legal_entity",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesLegalEntity",
+    "Label": "General Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3LegalIssueGiveDetails",
+    "Label": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },

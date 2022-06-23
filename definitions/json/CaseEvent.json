@@ -89,7 +89,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3VettingStart"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -467,6 +467,17 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "Transferred",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferToEcm",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "initialConsideration",
+    "Name": "Initial Consideration",
+    "Description": "Initial Consideration",
+    "DisplayOrder": 39,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
