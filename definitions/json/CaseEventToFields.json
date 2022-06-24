@@ -2890,7 +2890,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
     "DisplayContext": "READONLY",
     "PageID": 9,
     "PageLabel": "Minimum required information",
@@ -2901,16 +2901,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3ContactDetailsAddressLine",
-    "DisplayContext": "READONLY",
-    "PageID": 9,
-    "PageDisplayOrder": 9,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
     "DisplayContext": "READONLY",
     "PageID": 9,
     "PageDisplayOrder": 9,

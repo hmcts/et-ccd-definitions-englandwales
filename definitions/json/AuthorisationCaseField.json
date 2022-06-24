@@ -6145,91 +6145,61 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLabel",
+    "CaseFieldID": "et3ContactDetailsNameMismatchLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLine",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLine",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLine",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLine",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ContactDetailsAddressLine",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
-    "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3NameAddressRespondentAddressLabel",
+    "CaseFieldID": "et3NameAddressRespondentNameMismatchLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
