@@ -43,13 +43,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "horizontalLine4",
-    "Label": "<hr>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
@@ -863,7 +856,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingContactDetailsLabel",
-    "Label": "## Contact Details",
+    "Label": "<hr><h2>Contact Details</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

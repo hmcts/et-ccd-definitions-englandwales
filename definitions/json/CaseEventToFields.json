@@ -2236,7 +2236,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "horizontalLine4",
+    "CaseFieldID": "et1VettingContactDetailsLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -2248,22 +2248,12 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1VettingContactDetailsLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et1Vetting",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "DisplayContext": "READONLY",
     "FieldShowCondition": "et1VettingContactDetailsLabel=\"dummy\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
   {
@@ -2273,7 +2263,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
     "PageColumnNumber": 1
   },
   {
@@ -2284,7 +2274,7 @@
     "FieldShowCondition": "et1VettingContactDetailsLabel=\"dummy\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
   {
@@ -2294,7 +2284,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5,
     "PageColumnNumber": 1
   },
   {
@@ -2304,7 +2294,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -2314,7 +2304,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "et1VettingCanServeClaimYesOrNo=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -2325,7 +2315,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
