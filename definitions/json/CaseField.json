@@ -1194,7 +1194,27 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseInTimeDateLabel",
+    "Label": "${et3Date}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseInTime",
+    "Label": "Did we receive the ET3 response in time",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseInTimeDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3DateIndividualInsolvency",
@@ -1228,6 +1248,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3LegalIssue",
     "Label": "Is there an issue with whether the respondent is a legal entity?",
+    "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_respondent_legal_entity",
     "SecurityClassification": "Public"
@@ -1243,6 +1264,121 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3LegalIssueGiveDetails",
     "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1JudgeReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "possibleJudgeOrLOReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralToJudgeOrLOList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_judgeOrLO",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "aClaimOfInterimReliefTextArea",
+    "Label": "A claim of interim relief",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "aStatutoryAppealTextArea",
+    "Label": "A statutory appeal",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "anAllegationOfCommissionOfSexualOffenceTextArea",
+    "Label": "An allegation of commission of sexual offence",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "insolvencyTextArea",
+    "Label": "Insolvency",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "jurisdictionsUnclearTextArea",
+    "Label": "Jurisdictions unclear",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "lengthOfServiceTextArea",
+    "Label": "Length of service",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "potentiallyLinkedCasesInTheEcmTextArea",
+    "Label": "Potentially linked cases in the ECM",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule50IssuesTextArea",
+    "Label": "Rule 50 issues",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "anotherReasonForJudicialReferralTextArea",
+    "Label": "Another reason for judicial referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1JudgeReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1JudgeReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1JudgeReferralGeneralNotes",
+    "Label": " ",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
