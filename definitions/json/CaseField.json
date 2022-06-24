@@ -849,7 +849,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingBeforeYouStartLabel",
-    "Label": "${et1VettingBeforeYouStart}",
+    "Label": "<hr>${et1VettingBeforeYouStart}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
