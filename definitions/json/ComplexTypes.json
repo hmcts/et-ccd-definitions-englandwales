@@ -4446,6 +4446,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ListingType",
+    "ListElementCode": "managingOffice",
+    "FieldType": "Text",
+    "ElementLabel": "Managing Office",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "DateListed",
     "ListElementCode": "listedDate",
     "FieldType": "DateTime",
