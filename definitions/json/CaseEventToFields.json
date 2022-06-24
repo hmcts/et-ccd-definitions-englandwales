@@ -2848,7 +2848,8 @@
     "PageID": 8,
     "PageLabel": "Minimum required information",
     "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 2
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2857,7 +2858,7 @@
     "DisplayContext": "READONLY",
     "PageID": 8,
     "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "et3NameAddressRespondentLabel=\"dummy\""
   },
   {
@@ -2867,7 +2868,7 @@
     "DisplayContext": "READONLY",
     "PageID": 8,
     "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 4
+    "PageFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2876,7 +2877,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 8,
     "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 5
+    "PageFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2885,7 +2886,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 8,
     "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 6
+    "PageFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2896,7 +2897,7 @@
     "PageLabel": "Minimum required information",
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "et3DoWeHaveRespondentsName=\"Yes\""
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\" AND et3DoWeHaveRespondentsName=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
