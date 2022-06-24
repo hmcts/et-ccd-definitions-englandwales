@@ -124,17 +124,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCase",
-    "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initiateCase",
     "CaseFieldID": "claimant_TypeOfClaimant",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
@@ -434,7 +423,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "typeOfClaim",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 11,
