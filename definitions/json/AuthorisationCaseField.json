@@ -4581,19 +4581,19 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingClaimantDetailsMarkUp",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -4641,19 +4641,19 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingRespondentDetailsMarkUp",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -4688,8 +4688,14 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -4701,12 +4707,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
-    "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
@@ -4718,8 +4718,14 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingCanServeClaimNoReason",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1VettingCanServeClaimNoReason",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -4731,12 +4737,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingCanServeClaimNoReason",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1VettingCanServeClaimNoReason",
-    "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
@@ -4748,8 +4748,14 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -4761,12 +4767,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1VettingCanServeClaimGeneralNote",
-    "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
   {
