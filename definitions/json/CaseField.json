@@ -909,7 +909,7 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-    {
+  {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertLabel",
     "Label": "<hr><h2>Acas certificate</h2>",
@@ -918,8 +918,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1VettingAcasCertNumberLabel",
-    "Label": "Certificate number has been provided",
+    "ID": "et1VettingAcasCertListMarkUp",
+    "Label": "Acas Cert List placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingAcasCertListLabel",
+    "Label": "${et1VettingAcasCertListMarkUp}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
