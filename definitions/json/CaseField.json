@@ -842,7 +842,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingBeforeYouStart",
-    "Label": "Serving document other type name placeholder",
+    "Label": "Before You Start placeholder",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -851,6 +851,169 @@
     "ID": "et1VettingBeforeYouStartLabel",
     "Label": "${et1VettingBeforeYouStart}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingContactDetailsLabel",
+    "Label": "<hr><h2>Contact Details</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingClaimantDetailsMarkUp",
+    "Label": "Claimant Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingClaimantDetailsLabel",
+    "Label": "${et1VettingClaimantDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingRespondentDetailsMarkUp",
+    "Label": "Respondent Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingRespondentDetailsLabel",
+    "Label": "${et1VettingRespondentDetailsMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingCanServeClaimYesOrNo",
+    "Label": "Can we serve the claim with these contact details?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingCanServeClaimNoReason",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingCanServeClaimGeneralNote",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1REJOrVPReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "possibleREJOrVPReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralToREJOrVPList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_REJOrVP",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "vexatiousLitigantOrderTextArea",
+    "Label": "A claimant covered by vexatious litigant order",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "aNationalSecurityIssueTextArea",
+    "Label": "A national security issue",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "nationalMultipleOrPresidentialOrderTextArea",
+    "Label": "A part of national multiple / covered by Presidential case management order",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "transferToOtherRegionTextArea",
+    "Label": "A request for transfer to another ET region",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "serviceAbroadTextArea",
+    "Label": "A request for service abroad",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "aSensitiveIssueTextArea",
+    "Label": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "anyPotentialConflictTextArea",
+    "Label": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "anotherReasonREJOrVPTextArea",
+    "Label": "Another reason for Regional Employment Judge / Vice-President referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1REJOrVPReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1REJOrVPReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1REJOrVPReferralGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -1322,6 +1485,105 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralGeneralNotes",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1OtherReferralLine1",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "possibleOtherReferralOptions",
+    "Label": "<h2>Does the claim include any of the following?</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherReferralList",
+    "Label": "Select all that apply.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_otherFactors",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimOutOfTimeTextArea",
+    "Label": "The whole or any part of the claim is out of time",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "multipleClaimTextArea",
+    "Label": "The claim is part of a multiple claim",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "employmentStatusIssuesTextArea",
+    "Label": "The claim has a potential issue about employment status",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pidJurisdictionRegulatorTextArea",
+    "Label": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "videoHearingPreferenceTextArea",
+    "Label": "The claimant prefers a video hearing",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rule50IssuesForOtherReferralTextArea",
+    "Label": "The claim has Rule 50 issues",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "anotherReasonForOtherReferralTextArea",
+    "Label": "The claim has other relevant factors for judicial referral",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1OtherReferralLine2",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1OtherReferralGeneralNotesLabel",
+    "Label": "**<big>General notes (Optional)</big>**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1OtherReferralGeneralNotes",
     "Label": " ",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
