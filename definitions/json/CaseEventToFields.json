@@ -2315,7 +2315,6 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
     "PageLabel": "Minimum required information",
     "PageColumnNumber": 1
   },
@@ -2378,7 +2377,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "et1VettingCanServeClaimYesOrNo=\"No\"",
+    "FieldShowCondition": "et1VettingAcasCertIsYesOrNo=\"No\"",
     "PageColumnNumber": 1
   },
   {
