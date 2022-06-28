@@ -3163,7 +3163,8 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\""
+    "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/checkHearingListed"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3287,8 +3288,7 @@
     "PageLabel": "Case details",
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\"",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/initFIXME"
+    "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
