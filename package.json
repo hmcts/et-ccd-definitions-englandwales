@@ -22,7 +22,7 @@
     "xlsx-populate": "^1.21.0"
   },
   "devDependencies": {
-    "eslint": "^8.17.0",
+    "eslint": "^8.18.0",
     "eslint-plugin-mocha": "^10.0.5",
     "html_codesniffer": "^2.5.1",
     "mocha": "^10.0.0",
