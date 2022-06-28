@@ -3539,6 +3539,26 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformation",
+    "DisplayContext": "READONLY",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Final notes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseTransferECM",
     "CaseFieldID": "ecmOfficeCT",
     "DisplayContext": "MANDATORY",
