@@ -3288,7 +3288,8 @@
     "PageLabel": "Case details",
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\""
+    "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/transferApplication"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3330,6 +3331,69 @@
     "PageLabel": "Case details",
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3TribunalLocation",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageLabel": "Case details",
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "et3TribunalLocationLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3TribunalLocationLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageLabel": "Case details",
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThisLocationCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageLabel": "Case details",
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3RegionalOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageLabel": "Case details",
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "et3IsThisLocationCorrect=\"No - suggest another location\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3WhyWeShouldChangeTheOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageLabel": "Case details",
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "et3IsThisLocationCorrect=\"No - suggest another location\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesTransferApplication",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 15,
+    "PageLabel": "Case details",
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
