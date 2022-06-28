@@ -476,10 +476,12 @@
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
     "DisplayOrder": 39,
-    "PreConditionState(s)": "Accepted",
+    "PreConditionState(s)": "Submitted;Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",

@@ -1109,6 +1109,36 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationRespondent",
+    "Label": "etInitialConsiderationRespondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationRespondentLabel",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationHearing",
+    "Label": "etInitialConsiderationHearing",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationHearingLabel",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3DateCompanyHousePage",
