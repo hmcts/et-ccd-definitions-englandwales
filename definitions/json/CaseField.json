@@ -2148,6 +2148,35 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1ListingDetails",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1ListingDetailsLabel",
+    "Label": "${et1ListingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1HearingVenuesLabel",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1HearingVenues",
+    "Label": "${et1HearingVenuesLabel}",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "whyChangeOffice",
     "Label": "Why should we change the office?",
     "FieldType": "TextArea",

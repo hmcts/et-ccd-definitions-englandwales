@@ -2744,7 +2744,48 @@
     "PageID": 7,
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "isLocationCorrect=\"No\""
+    "FieldShowCondition": "isLocationCorrect=\"No\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midEt1VettingHearingVenue"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1ListingDetails",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "PageLabel": "Case details",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1ListingDetailsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1HearingVenuesLabel",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1HearingVenues",
+    "DisplayContext": "MANDATORY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_EnglandWales",
