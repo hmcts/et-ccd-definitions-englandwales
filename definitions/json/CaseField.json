@@ -1138,7 +1138,20 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationJurisdictionCodes",
+    "Label": "etInitialConsiderationJurisdictionCodes",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationJurisdictionCodesLabel",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3DateCompanyHousePage",
