@@ -4770,11 +4770,11 @@
     "DisplayOrder": 11
   },
   {
-  "ID": "fl_notice_period_unit",
-  "ListElementCode": "Weeks",
-  "ListElement": "Weeks",
-  "DisplayOrder": 1
-},
+    "ID": "fl_notice_period_unit",
+    "ListElementCode": "Weeks",
+    "ListElement": "Weeks",
+    "DisplayOrder": 1
+  },
   {
     "ID": "fl_notice_period_unit",
     "ListElementCode": "Months",
@@ -5109,6 +5109,24 @@
     "ID": "fl_respondent_legal_entity",
     "ListElementCode": "Don't know",
     "ListElement": "Don't know",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "No",
+    "ListElement": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_contest_claim_status",
+    "ListElementCode": "Unknown - no answer given",
+    "ListElement": "Unknown - no answer given",
     "DisplayOrder": 3
   }
 ]

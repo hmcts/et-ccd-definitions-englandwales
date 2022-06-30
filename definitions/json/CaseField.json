@@ -1787,7 +1787,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ContactDetailsAddressLabel",
@@ -1848,6 +1847,49 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesRespondentAddressMatch",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ContestClaim",
+    "Label": "Does the respondent wish to contest any part of the claim?",
+    "FieldType": "FixedRadioList",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_contest_claim_status"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesContestClaim",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ContestClaimGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ContractClaimSection7",
+    "Label": "Is there an Employer's Contract Claim in section 7 of the ET3 response?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ContractClaimSection7Details",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3GeneralNotesContractClaimSection7",
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
