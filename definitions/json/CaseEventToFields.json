@@ -2830,7 +2830,6 @@
     "PageID": 9,
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 9
-
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2977,7 +2976,6 @@
     "PageID": 10,
     "PageDisplayOrder": 10,
     "PageFieldDisplayOrder": 14
-
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3114,7 +3112,6 @@
     "PageID": 11,
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 13
-
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3241,7 +3238,6 @@
     "PageID": 12,
     "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 12
-
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3576,7 +3572,7 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
-    "CallBackURLMidEvent":"${ET_COS_URL}/et3Vetting/initRespondentDetails"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/initRespondentDetails"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3695,7 +3691,6 @@
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 6
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
@@ -3873,6 +3868,74 @@
     "PageID": 6,
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContestClaim",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3DoWeHaveRespondentsName=\"Yes\"",
+    "PageLabel": "Minimum required information",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContestClaimGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3ContestClaim=\"Yes\" OR et3ContestClaim=\"No\" OR et3ContestClaim=\"Unknown - no answer given\"",
+    "RetainHiddenValue": "Yes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesContestClaim",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 12,
+    "PageDisplayOrder": 12,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContractClaimSection7",
+    "DisplayContext": "MANDATORY",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "et3DoWeHaveRespondentsName=\"Yes\"",
+    "PageLabel": "Minimum required information",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3ContractClaimSection7Details",
+    "DisplayContext": "MANDATORY",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3ContractClaimSection7=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesContractClaimSection7",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 3,
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
