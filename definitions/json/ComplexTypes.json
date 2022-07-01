@@ -529,6 +529,14 @@
   },
   {
     "ID": "ET3Vetting",
+    "ListElementCode": "et3DoesRespondentsAddressMatch",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the respondent's address match?",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoesRespondentsAddressMatch!=\"\""
+  },
+  {
+    "ID": "ET3Vetting",
     "ListElementCode": "et3RespondentAddressMismatchDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
