@@ -1238,7 +1238,7 @@
     "ID": "icReceiptET3FormIssues",
     "Label": "Are there any issues or instructions regarding the receipt of the ET3 form?",
     "FieldType": "TextArea",
-    "HintText": "For example:<br><ul><li>the date it was due</li><li>the date it was received</li><li>any application for extension of time (Rule 18 and 20)</li></ul>",
+    "HintText": "For example the date it was due, the date it was received or any application for extension of time (Rule 18 and 20)",
     "SecurityClassification": "Public"
   },
   {
@@ -1281,7 +1281,7 @@
     "ID": "icListingIssues",
     "Label": "Are there any issues or instructions regarding the listing?",
     "FieldType": "TextArea",
-    "HintText": "For example:<br>List for PH, if public or private and set out the issues to be determined with directions, in person or video",
+    "HintText": "For example list for PH, if public or private and set out the issues to be determined with directions, in person or video",
     "SecurityClassification": "Public"
   },
   {
@@ -1304,7 +1304,7 @@
     "ID": "icOtherIssuesOrFinalOrders",
     "Label": "Are there any issues or instructions to consider or final orders to be given?",
     "FieldType": "TextArea",
-    "HintText": "For example:<br> - Rule 50 <br>- transfer to another region <br>-interpreters <br>-adjustmetns required for hearing",
+    "HintText": "For example, Rule 50, transfer to another region, interpreters, adjustments required for hearing",
     "SecurityClassification": "Public"
   },
 
