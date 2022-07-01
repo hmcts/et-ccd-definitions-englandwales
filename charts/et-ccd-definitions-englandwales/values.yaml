@@ -1,0 +1,24 @@
+tags:
+  et-ccd-stack: false
+
+idam-pr:
+  enabled: false
+
+xui-webapp:
+  enabled: false
+
+xui-mo-webapp:
+  enabled: false
+
+elastic:
+  enabled: false
+
+aac-manage-case-assignment:
+  enabled: false
+
+nodejs:
+  applicationPort: 3000
+  aadIdentityName: et
+
+et-cos:
+  enabled: false

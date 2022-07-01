@@ -1,0 +1,33 @@
+apiVersion: v2
+description: ET CCD Definitions England/Wales
+name: et-ccd-definitions-englandwales
+version: 0.0.1
+dependencies:
+  - name: nodejs
+    version: 2.4.1
+    repository: '@hmctspublic'
+  - name: ccd
+    version: 6.0.0
+    repository: '@hmctspublic'
+    tags:
+      - et-ccd-stack
+  - name: xui-webapp
+    version: ~0.2.1
+    repository: '@hmctspublic'
+    condition: xui-webapp.enabled
+  - name: xui-mo-webapp
+    version: ~1.1.0
+    repository: '@hmctspublic'
+    condition: xui-mo-webapp.enabled
+  - name: aac-manage-case-assignment
+    version: ~0.1.6
+    repository: '@hmctspublic'
+    condition: aac-manage-case-assignment.enabled
+  - name: idam-pr
+    version: 2.2.6
+    repository: '@hmctspublic'
+    condition: idam-pr.enabled
+  - name: et-cos
+    version: 0.0.12
+    repository: '@hmctspublic'
+    condition: et-cos.enabled

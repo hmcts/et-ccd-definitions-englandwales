@@ -1,0 +1,164 @@
+#!groovy
+
+import uk.gov.hmcts.contino.GithubAPI
+
+@Library("Infrastructure")
+
+String product = "et"
+String component = "ccd-definitions-englandwales"
+
+def yarnBuilder = new uk.gov.hmcts.contino.YarnBuilder(this)
+
+def secrets = [
+  's2s-${env}': [
+          secret('microservicekey-ccd-data', 'DATA_STORE_S2S_KEY'),
+          secret('microservicekey-ccd-definition', 'DEFINITION_STORE_S2S_KEY'),
+          secret('microservicekey-ccd-gw', 'API_GATEWAY_S2S_KEY'),
+          secret('microservicekey-ccd-ps', 'PRINT_S2S_KEY'),
+          secret('microservicekey-ccd-admin', 'ADMIN_S2S_KEY')
+  ],
+  'ccd-${env}': [
+          secret('ccd-api-gateway-oauth2-client-secret', 'API_GATEWAY_IDAM_SECRET'),
+          secret('ccd-admin-web-oauth2-client-secret', 'ADMIN_WEB_IDAM_SECRET'),
+          secret('postcode-info-address-lookup-token', 'ADDRESS_LOOKUP_TOKEN'),
+          secret('idam-data-store-client-secret','IDAM_OAUTH2_DATA_STORE_CLIENT_SECRET'),
+          secret('idam-data-store-system-user-username','IDAM_DATA_STORE_SYSTEM_USER_USERNAME'),
+          secret('idam-data-store-system-user-password','IDAM_DATA_STORE_SYSTEM_USER_PASSWORD'),
+          secret('AppInsightsInstrumentationKey', 'APP_INSIGHTS_INSTRUMENTATION_KEY')
+  ],
+  'et-${env}': [
+          secret('create-updates-queue-send-connection-string', 'CREATE_UPDATES_QUEUE_SEND_CONNECTION_STRING'),
+          secret('tornado-access-key', 'TORNADO_ACCESS_KEY')
+  ],
+  'et-cos-${env}': [
+          secret('et-cos-s2s-secret', 'ET_COS_S2S_SECRET')
+  ]
+]
+
+static LinkedHashMap<String, Object> secret(String secretName, String envVar) {
+  [ $class: 'AzureKeyVaultSecret',
+    secretType: 'Secret',
+    name: secretName,
+    version: '',
+    envVariable: envVar
+  ]
+}
+
+def labels = [
+  "enable_full_functional_test",
+]
+
+def populateLabelStates(labels) {
+  def states = [:]
+  // Get labels from GitHub repo
+  def GhApi = new GithubAPI(this)
+  def repoLabels = GhApi.getLabelsbyPattern(env.BRANCH_NAME, "enable_")
+
+  // Check existence of provided label, and store in states map
+  def getLabelState = { label ->
+    if (label == "atLeastOneEnabled") {
+      return
+    }
+    def labelExists = repoLabels.contains(label) ? true : false
+    states.put(label, labelExists)
+  }
+
+  // Iterate over labels List to build labelStates map
+  labels.each { label -> getLabelState(label) }
+
+  // Hardcode enable_all_tests_and_scans label
+  if (!states.containsKey("enable_all_tests_and_scans")) {
+    getLabelState("enable_all_tests_and_scans")
+  }
+
+  // Check if at least one test/scan label is true
+  states.put("atLeastOneEnabled", states.any {key, value -> value == true })
+
+  // Redefine repoLabels to check for no_cleanup - do this *after* setting atLeastOneEnabled
+  repoLabels = GhApi.getLabelsbyPattern(env.BRANCH_NAME, "cleanup")
+  getLabelState("no_cleanup")
+
+  return states
+}
+labelStates = populateLabelStates(labels)
+
+def checkLabel(label) {
+  return (labelStates.enable_all_tests_and_scans || labelStates.get(label))
+}
+
+withPipeline("nodejs", product, component) {
+
+  loadVaultSecrets(secrets)
+
+  after('test') {
+    // enable yarn audit and send message on master branch only
+    try {
+      yarnBuilder.yarn('audit')
+    } catch (error) {
+      onMaster {
+        slackSend(channel: '#et-builds', color: 'warning', message: "Yarn Audit has detected vulnerabilities in ${env.JOB_NAME}. You can check if there are patches for them in the full report, build details here: <${env.RUN_DISPLAY_URL}|Build ${env.BUILD_DISPLAY_NAME}>.")
+      }
+    }
+  }
+
+  before('functionalTest:preview') {
+    yarnBuilder.yarn('setup')
+
+    env.ET_COS_URL="http://cos-et-ccd-definitions-englandwales-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    env.CCD_DEF_URL="http://ccd-data-store-api-et-ccd-definitions-englandwales-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    stageWithAgent('Generate England/Wales CCD configuration', product) {
+      yarnBuilder.yarn('generate-excel-preview')
+    }
+
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'definitions/xlsx/*.xlsx'
+    env.CCD_ADMIN_URL="https://admin-web-et-ccd-definitions-englandwales-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    env.CCD_WEB_URL="https://case-management-web-et-ccd-definitions-englandwales-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+    env.IMPORT_PREVIEW=true
+  }
+
+  after('functionalTest:preview') {
+    steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'functional-output/mochawesome.html'
+  }
+
+  before('functionalTest:aat') {
+  }
+
+  after('functionalTest:aat') {
+  }
+
+  onPR {
+    // If any of the additional test labels or the no_cleanup label are present, do not cleanup here!
+    if (!checkLabel("no_cleanup") && !checkLabel("atLeastOneEnabled")) {
+      enableCleanupOfHelmReleaseOnSuccess()
+    }
+  }
+}
+
+if (checkLabel("atLeastOneEnabled")) {
+  properties([
+          parameters([
+                  string(name: 'RUNNING_ENV', defaultValue: 'aat', description: 'Environment to test'),
+                  string(name: 'CCD_WEB_URL', defaultValue: "https://case-management-web-${product}-${component}-pr-${CHANGE_ID}.service.core-compute-preview.internal/", description: 'The URL you want to run solicitor tests against'),
+          ])
+  ])
+
+  withNightlyPipeline("nodejs", product, component) {
+    onPR() {
+      env.CCD_WEB_URL="https://case-management-web-${product}-${component}-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+      env.CCD_DATA_API_URL="http://ccd-data-store-api-${product}-${component}-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+      env.XUI_ORG_WEB_URL="https://xui-${product}-${component}-pr-${CHANGE_ID}.service.core-compute-preview.internal"
+      env.NIGHTLY_TEST="true"
+      env.NODE_ENV = 'ci'
+
+      loadVaultSecrets(secrets)
+
+      if (checkLabel("enable_full_functional_test")) {
+        enableFullFunctionalTest()
+
+        after('fullFunctionalTest') {
+          steps.archiveArtifacts allowEmptyArchive: true, artifacts: 'test/functional/output/**/*'
+        }
+      }
+    }
+  }
+}
