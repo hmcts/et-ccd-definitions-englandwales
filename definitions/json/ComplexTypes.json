@@ -399,6 +399,84 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThereAnEt3Response",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there an ET3 response?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3NoEt3Response",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotes",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThereACompaniesHouseSearchDocument",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there a Companies House search document?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3CompanyHouseDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Upload the Companies House search document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IsThereAnIndividualSearchDocument",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Is there an individual insolvency search document?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3IndividualInsolvencyDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Upload the individual insolvency search document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3GeneralNotesIndividualInsolvency",
+    "FieldType": "TextArea",
+    "ElementLabel": "General Notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3LegalIssue",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Is there an issue with whether the respondent is a legal entity?",
+    "SecurityClassification": "Public",
+    "FieldTypeParameter": "fl_respondent_legal_entity"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3LegalIssueGiveDetails",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ET3Vetting",
+    "ListElementCode": "et3ChooseRespondent",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Select the respondent you are processing",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "Respondent",
     "ListElementCode": "respondent_name",
     "FieldType": "TextArea",
@@ -716,6 +794,13 @@
     "ListElementCode": "responseNotes",
     "FieldType": "TextArea",
     "ElementLabel": "Notes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "et3Vetting",
+    "FieldType": "ET3Vetting",
+    "ElementLabel": "et3 vetting",
     "SecurityClassification": "Public"
   },
   {
