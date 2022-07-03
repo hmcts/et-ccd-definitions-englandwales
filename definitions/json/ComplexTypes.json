@@ -2239,6 +2239,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "Jurisdiction",
+    "ListElementCode": "disposalDate",
+    "FieldType": "Date",
+    "ElementLabel": "Disposal date",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "judgmentReconsideration",
     "ListElementCode": "reconsideration",
     "FieldType": "YesOrNo",
