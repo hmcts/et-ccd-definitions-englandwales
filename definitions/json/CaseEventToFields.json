@@ -2722,7 +2722,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 7,
     "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 6,
     "FieldShowCondition": "horizontalLine=\"dummy\""
   },
   {
@@ -2732,7 +2732,7 @@
     "DisplayContext": "READONLY",
     "PageID": 7,
     "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "isLocationCorrect=\"No\""
   },
   {
@@ -2742,7 +2742,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 7,
     "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "isLocationCorrect=\"No\""
   },
   {
@@ -2752,7 +2752,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 7,
     "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "isLocationCorrect=\"No\""
   },
   {
