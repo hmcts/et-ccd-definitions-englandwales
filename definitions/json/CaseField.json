@@ -2235,7 +2235,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1LocationGeneralNotes",
-    "Label": "General note",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
