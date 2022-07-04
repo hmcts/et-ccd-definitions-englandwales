@@ -8985,7 +8985,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9003,7 +9003,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9333,7 +9333,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationRespondent",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9363,7 +9363,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationRespondentLabel",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9393,7 +9393,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationHearing",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9423,7 +9423,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationHearingLabel",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9453,7 +9453,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationJurisdictionCodes",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9483,7 +9483,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationJurisdictionCodesLabel",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -9491,7 +9491,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "existingJurisdictionCodes",
