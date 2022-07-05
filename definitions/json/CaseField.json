@@ -2148,33 +2148,53 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1ListingDetails",
+    "ID": "et1AddressDetails",
     "Label": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1ListingDetailsLabel",
-    "Label": "${et1ListingDetails}",
+    "ID": "et1AddressDetailsLabel",
+    "Label": "${et1AddressDetails}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1HearingVenuesLabel",
+    "ID": "et1SuggestHearingVenue",
+    "Label": "Do you want to suggest a hearing venue?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1TribunalRegion",
     "Label": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1TribunalRegionLabel",
+    "Label": "<h3>${et1TribunalRegion} hearing venues</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1HearingVenues",
-    "Label": "${et1HearingVenuesLabel}",
+    "Label": "Hearing venue selected",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1HearingVenueGeneralNotes",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "whyChangeOffice",

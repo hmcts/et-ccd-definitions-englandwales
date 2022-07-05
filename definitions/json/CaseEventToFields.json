@@ -2745,12 +2745,12 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "isLocationCorrect=\"No\"",
-    "CallBackURLMidEvent": "${ET_COS_URL}/midEt1VettingHearingVenue"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et1HearingVenue"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1ListingDetails",
+    "CaseFieldID": "et1AddressDetails",
     "DisplayContext": "READONLY",
     "PageID": 8,
     "PageDisplayOrder": 8,
@@ -2762,7 +2762,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1ListingDetailsLabel",
+    "CaseFieldID": "et1AddressDetailsLabel",
     "DisplayContext": "READONLY",
     "PageID": 8,
     "PageDisplayOrder": 8,
@@ -2771,12 +2771,31 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1HearingVenuesLabel",
-    "DisplayContext": "READONLY",
-    "FieldShowCondition": "horizontalLine=\"dummy\"",
+    "CaseFieldID": "et1SuggestHearingVenue",
+    "DisplayContext": "MANDATORY",
     "PageID": 8,
     "PageDisplayOrder": 8,
     "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1TribunalRegion",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "horizontalLine=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1TribunalRegionLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "et1SuggestHearingVenue=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2785,7 +2804,17 @@
     "DisplayContext": "MANDATORY",
     "PageID": 8,
     "PageDisplayOrder": 8,
-    "PageFieldDisplayOrder": 4
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "et1SuggestHearingVenue=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1HearingVenueGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 8,
+    "PageDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7
   },
   {
     "CaseTypeID": "ET_EnglandWales",
