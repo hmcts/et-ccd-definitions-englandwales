@@ -2744,8 +2744,7 @@
     "PageID": 7,
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "isLocationCorrect=\"No\"",
-    "CallBackURLMidEvent": "${ET_COS_URL}/et1HearingVenue"
+    "FieldShowCondition": "isLocationCorrect=\"No\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2754,7 +2753,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 7,
     "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 9
+    "PageFieldDisplayOrder": 9,
+    "CallBackURLMidEvent": "${ET_COS_URL}/et1HearingVenue"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
