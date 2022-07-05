@@ -2148,6 +2148,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "whyChangeOffice",
+    "Label": "Why should we change the office?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1AddressDetails",
     "Label": " ",
     "FieldType": "Text",
@@ -2192,13 +2199,6 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1HearingVenueGeneralNotes",
     "Label": "General notes",
-    "FieldType": "TextArea",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "whyChangeOffice",
-    "Label": "Why should we change the office?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
