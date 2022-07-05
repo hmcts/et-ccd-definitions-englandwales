@@ -6723,19 +6723,19 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1AddressDetails",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1AddressDetails",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1AddressDetails",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -6759,7 +6759,25 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1AddressDetailsLabel",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1AddressDetailsLabel",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1AddressDetailsLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1AddressDetailsLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -6778,41 +6796,23 @@
     "CaseFieldID": "et1SuggestHearingVenue",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1SuggestHearingVenue",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "et1SuggestHearingVenue",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1TribunalRegion",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1AddressDetailsLabel",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1AddressDetailsLabel",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1AddressDetailsLabel",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1SuggestHearingVenue",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1SuggestHearingVenue",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
   },
   {

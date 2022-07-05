@@ -2750,6 +2750,15 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
+    "CaseFieldID": "et1LocationGeneralNotes",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 7,
+    "PageDisplayOrder": 7,
+    "PageFieldDisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
     "CaseFieldID": "et1AddressDetails",
     "DisplayContext": "READONLY",
     "PageID": 8,
@@ -2815,15 +2824,6 @@
     "PageID": 8,
     "PageDisplayOrder": 8,
     "PageFieldDisplayOrder": 7
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et1Vetting",
-    "CaseFieldID": "et1LocationGeneralNotes",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 7,
-    "PageDisplayOrder": 7,
-    "PageFieldDisplayOrder": 9
   },
   {
     "CaseTypeID": "ET_EnglandWales",
