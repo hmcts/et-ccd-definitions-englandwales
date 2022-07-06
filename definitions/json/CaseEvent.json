@@ -483,6 +483,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
     "SecurityClassification": "Public",
+    "ShowSummary": "Y",
     "ShowEventNotes": "N"
   },
   {
