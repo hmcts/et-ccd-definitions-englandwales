@@ -3048,20 +3048,11 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "possibleJudgeOrLOReferralOptions",
-    "DisplayContext": "READONLY",
-    "PageID": 10,
-    "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et1Vetting",
     "CaseFieldID": "referralToJudgeOrLOList",
     "DisplayContext": "OPTIONAL",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3071,7 +3062,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"aClaimOfInterimRelief\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3082,7 +3073,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"aStatutoryAppeal\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3093,7 +3084,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"anAllegationOfCommissionOfSexualOffence\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3104,7 +3095,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"insolvency\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3115,7 +3106,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"jurisdictionsUnclear\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3126,7 +3117,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"lengthOfService\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3137,7 +3128,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"potentiallyLinkedCasesInTheEcm\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3148,7 +3139,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 10,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"rule50Issues\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3159,7 +3150,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "referralToJudgeOrLOList CONTAINS \"anotherReasonForJudicialReferral\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3170,7 +3161,7 @@
     "DisplayContext": "READONLY",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 13
+    "PageFieldDisplayOrder": 12
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3179,7 +3170,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 10,
     "PageDisplayOrder": 10,
-    "PageFieldDisplayOrder": 14,
+    "PageFieldDisplayOrder": 13,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3195,20 +3186,11 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "possibleREJOrVPReferralOptions",
-    "DisplayContext": "READONLY",
-    "PageID": 11,
-    "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et1Vetting",
     "CaseFieldID": "referralToREJOrVPList",
     "DisplayContext": "OPTIONAL",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3218,7 +3200,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"vexatiousLitigantOrder\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3229,7 +3211,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"aNationalSecurityIssue\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3240,7 +3222,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"nationalMultipleOrPresidentialOrder\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3251,7 +3233,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"transferToOtherRegion\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3262,7 +3244,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"serviceAbroad\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3273,7 +3255,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"aSensitiveIssue\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3284,7 +3266,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"anyPotentialConflict\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3295,7 +3277,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 10,
     "FieldShowCondition": "referralToREJOrVPList CONTAINS \"anotherReasonREJOrVP\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3306,7 +3288,7 @@
     "DisplayContext": "READONLY",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 12
+    "PageFieldDisplayOrder": 11
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3315,7 +3297,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 11,
     "PageDisplayOrder": 11,
-    "PageFieldDisplayOrder": 13,
+    "PageFieldDisplayOrder": 12,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3331,20 +3313,12 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
-    "CaseFieldID": "possibleOtherReferralOptions",
-    "DisplayContext": "READONLY",
-    "PageID": 12,
-    "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et1Vetting",
     "CaseFieldID": "otherReferralList",
     "DisplayContext": "OPTIONAL",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 3
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3353,7 +3327,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "otherReferralList CONTAINS \"claimOutOfTime\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3364,7 +3338,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "otherReferralList CONTAINS \"multipleClaim\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3375,7 +3349,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 6,
+    "PageFieldDisplayOrder": 5,
     "FieldShowCondition": "otherReferralList CONTAINS \"employmentStatusIssues\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3386,7 +3360,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 6,
     "FieldShowCondition": "otherReferralList CONTAINS \"pidJurisdictionRegulator\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3397,7 +3371,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "otherReferralList CONTAINS \"videoHearingPreference\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3408,7 +3382,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "otherReferralList CONTAINS \"rule50IssuesOtherFactors\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3419,7 +3393,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "otherReferralList CONTAINS \"otherRelevantFactors\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3430,7 +3404,7 @@
     "DisplayContext": "READONLY",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 11
+    "PageFieldDisplayOrder": 10
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3439,7 +3413,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 12,
     "PageDisplayOrder": 12,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y"
   },
   {

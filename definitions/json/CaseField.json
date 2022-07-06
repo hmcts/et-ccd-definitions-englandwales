@@ -925,15 +925,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleREJOrVPReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "referralToREJOrVPList",
-    "Label": "Select all that apply.",
+    "Label": "Does the claim include any of the following?",
+    "HintText": "Select all that apply.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_REJOrVP",
     "SecurityClassification": "Public"
@@ -1269,8 +1263,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReasonableAdjustmentsTextArea",
-    "Label": " ",
-    "HintText": "Give details",
+    "Label": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1284,8 +1277,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VideoHearingTextArea",
-    "Label": " ",
-    "HintText": "Give details",
+    "Label": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1530,15 +1522,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleJudgeOrLOReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "referralToJudgeOrLOList",
-    "Label": "Select all that apply.",
+    "Label": "Does the claim include any of the following?",
+    "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_judgeOrLO",
     "SecurityClassification": "Public"
@@ -1638,15 +1624,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleOtherReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "otherReferralList",
-    "Label": "Select all that apply.",
+    "Label": "Does the claim include any of the following?",
+    "HintText": "Select all that apply.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
     "SecurityClassification": "Public"
@@ -2024,7 +2004,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "vettingJurisdictionCodeCollection",
-    "Label": " ",
+    "Label": "Jurisdiction code",
     "FieldType": "Collection",
     "FieldTypeParameter": "JurisdictionCode",
     "SecurityClassification": "Public"
@@ -2053,7 +2033,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "isTrackAllocationCorrect",
-    "Label": "Is the track allocation correct",
+    "Label": "Is the track allocation correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isTrackAllocationCorrect",
     "SecurityClassification": "Public"
@@ -2068,7 +2048,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "suggestAnotherTrack",
-    "Label": " ",
+    "Label": "Track allocation",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_suggestAnotherTrack",
     "SecurityClassification": "Public"
@@ -2111,14 +2091,14 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "regionalOfficeList",
-    "Label": " ",
+    "Label": "Local or regional office",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "isLocationCorrect",
-    "Label": "Is this location correct",
+    "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isLocationCorrect",
     "SecurityClassification": "Public"

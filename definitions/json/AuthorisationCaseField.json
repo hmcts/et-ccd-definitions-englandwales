@@ -8178,36 +8178,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleJudgeOrLOReferralOptions",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleJudgeOrLOReferralOptions",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleJudgeOrLOReferralOptions",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleJudgeOrLOReferralOptions",
-    "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleJudgeOrLOReferralOptions",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "referralToJudgeOrLOList",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
@@ -8598,36 +8568,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleREJOrVPReferralOptions",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleREJOrVPReferralOptions",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleREJOrVPReferralOptions",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleREJOrVPReferralOptions",
-    "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleREJOrVPReferralOptions",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "referralToREJOrVPList",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
@@ -8983,36 +8923,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1OtherReferralLine1",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleOtherReferralOptions",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleOtherReferralOptions",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleOtherReferralOptions",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleOtherReferralOptions",
-    "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "possibleOtherReferralOptions",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
