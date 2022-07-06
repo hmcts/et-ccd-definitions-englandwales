@@ -3565,6 +3565,78 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3DateIndividualInsolvency",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Rule 21 referral",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3IndividualInsolvencyDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesIndividualInsolvency",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3LegalIssue",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Rule 21 referral",
+    "PageShowCondition": "et3IsThereAnEt3Response=\"No\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3LegalIssueGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "et3LegalIssue=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "et3GeneralNotesLegalEntity",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3ResponseInTimeDateLabel",
     "DisplayContext": "READONLY",
     "PageID": 7,
@@ -3782,101 +3854,6 @@
     "PageID": 11,
     "PageDisplayOrder": 11,
     "PageFieldDisplayOrder": 6
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "horizontalLine",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageLabel": "Before you start",
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "initialConsiderationBeforeYouStart",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageLabel": "Before you start",
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3DateIndividualInsolvency",
-    "DisplayContext": "READONLY",
-    "PageID": 5,
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 1,
-    "PageLabel": "Rule 21 referral",
-    "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3IsThereAnIndividualSearchDocument",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 5,
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 2,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3IndividualInsolvencyDocument",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument=\"Yes\"",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3GeneralNotesIndividualInsolvency",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 5,
-    "PageDisplayOrder": 5,
-    "PageFieldDisplayOrder": 4
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3LegalIssue",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 6,
-    "PageDisplayOrder": 6,
-    "PageFieldDisplayOrder": 1,
-    "PageLabel": "Rule 21 referral",
-    "PageShowCondition": "et3IsThereAnEt3Response=\"No\"",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3LegalIssueGiveDetails",
-    "DisplayContext": "MANDATORY",
-    "PageID": 6,
-    "PageDisplayOrder": 6,
-    "PageFieldDisplayOrder": 2,
-    "FieldShowCondition": "et3LegalIssue=\"Yes\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Vetting",
-    "CaseFieldID": "et3GeneralNotesLegalEntity",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 6,
-    "PageDisplayOrder": 6,
-    "PageFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4205,6 +4182,29 @@
     "PageLabel": "Final notes",
     "PageColumnNumber": 1,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageLabel": "Before you start",
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
