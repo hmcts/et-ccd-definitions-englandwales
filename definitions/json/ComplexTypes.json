@@ -5207,6 +5207,7 @@
     "ListElementCode": "hearing_assistance",
     "FieldType": "Text",
     "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
+    "FieldShowCondition": "hearing_preferences=\"Neither\"",
     "SecurityClassification": "Public"
   },
   {
