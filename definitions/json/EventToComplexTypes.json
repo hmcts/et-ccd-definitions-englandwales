@@ -685,7 +685,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_preferences",
-    "EventElementLabel": "What are the claimants hearing preferences",
+    "EventElementLabel": "What are the claimant's hearing preferences",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
@@ -694,10 +694,9 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_assistance",
-    "EventElementLabel": "Explain why you are unable to take part in video or phone hearings please",
+    "EventElementLabel": "Why is the claimant unable to take part in video or phone hearings",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
-    "FieldShowCondition": "hearing_preferences=\"Neither\""
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "CreateCase",
