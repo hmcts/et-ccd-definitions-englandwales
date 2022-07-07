@@ -3880,8 +3880,7 @@
     "PageID": 3,
     "PageLabel": "",
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y"
+    "PageFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4228,7 +4227,8 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Minimum required information",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption":"Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4322,7 +4322,8 @@
     "PageID": 14,
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption":"Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
