@@ -1408,6 +1408,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "DisplayContext": "COMPLEX",
+    "PageID": 6,
+    "PageDisplayOrder": 6,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "addAmendClaimantRepresentative",
     "CaseFieldID": "claimantRepresentedQuestion",
     "DisplayContext": "OPTIONAL",
