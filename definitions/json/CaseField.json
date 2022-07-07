@@ -1341,8 +1341,8 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icReceiptET3FormIssues",
     "Label": "Are there any issues or instructions regarding the receipt of the ET3 form?",
-    "FieldType": "TextArea",
     "HintText": "For example the date it was due, the date it was received or any application for extension of time (Rule 18 and 20)",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -1384,16 +1384,16 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icListingIssues",
     "Label": "Are there any issues or instructions regarding the listing?",
-    "FieldType": "TextArea",
     "HintText": "For example list for PH, if public or private and set out the issues to be determined with directions, in person or video",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icDdaDisabilityIssues",
     "Label": "Are there any issues or instructions where DDA or disability is disputed?",
-    "FieldType": "TextArea",
     "HintText": "The claimant is to provide a statement - limited to 750 words, explaining the length of the disability, the nature of its effects upon daily activities and any existing medical evidence relied upon - the the respondent by [date]. The respondent should state their position on disability, giving reasons for any denial, by [date]",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -1407,8 +1407,8 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icOtherIssuesOrFinalOrders",
     "Label": "Are there any issues or instructions to consider or final orders to be given?",
-    "FieldType": "TextArea",
     "HintText": "For example, Rule 50, transfer to another region, interpreters, adjustments required for hearing",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -1761,8 +1761,8 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3DoesRespondentsNameMatch",
     "Label": "Does the respondent's name match?",
-    "FieldType": "YesOrNo",
     "HintText": "Check the ET1 name.",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
@@ -1825,8 +1825,8 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3DoesRespondentsAddressMatch",
     "Label": "Does the respondent's address match?",
-    "FieldType": "YesOrNo",
     "HintText": "Check the ET1 address.",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
@@ -1848,8 +1848,8 @@
     "ID": "et3ContestClaim",
     "Label": "Does the respondent wish to contest any part of the claim?",
     "FieldType": "FixedRadioList",
-    "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_contest_claim_status"
+    "FieldTypeParameter": "fl_contest_claim_status",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1940,16 +1940,16 @@
     "ID": "et3IsThisLocationCorrect",
     "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
-    "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_et3_tribunal_location_change"
+    "FieldTypeParameter": "fl_et3_tribunal_location_change",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3RegionalOffice",
     "Label": "England & Wales regional office",
     "FieldType": "FixedList",
-    "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_TribunalOffice"
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2179,8 +2179,8 @@
     "Label": "Are there any other suggested orders, directions or issues?",
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
-    "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_et3_suggested_issues"
+    "FieldTypeParameter": "fl_et3_suggested_issues",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

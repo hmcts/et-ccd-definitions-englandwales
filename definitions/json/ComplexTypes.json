@@ -5196,6 +5196,14 @@
   },
   {
     "ID": "HearingPreference",
+    "ListElementCode": "hearing_preferences",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Claimant Hearing Preferences",
+    "FieldTypeParameter": "msl_HearingPreferences",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingPreference",
     "ListElementCode": "hearing_assistance",
     "FieldType": "Text",
     "ElementLabel": "Explain why you are unable to take part in video or phone hearings",

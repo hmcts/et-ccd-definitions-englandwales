@@ -5191,38 +5191,38 @@
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Applications for strike out or deposit",
     "ListElementCode": "Applications for strike out or deposit",
+    "ListElement": "Applications for strike out or deposit",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Interpreters",
     "ListElementCode": "Interpreters",
+    "ListElement": "Interpreters",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Jurisdictional issues",
     "ListElementCode": "Jurisdictional issues",
+    "ListElement": "Jurisdictional issues",
     "DisplayOrder": 3
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Request for adjustments",
     "ListElementCode": "Request for adjustments",
+    "ListElement": "Request for adjustments",
     "DisplayOrder": 4
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Rule 50",
     "ListElementCode": "Rule 50",
+    "ListElement": "Rule 50",
     "DisplayOrder": 5
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElement": "Time points",
     "ListElementCode": "Time points",
+    "ListElement": "Time points",
     "DisplayOrder": 6
   },
   {
@@ -5302,5 +5302,23 @@
     "ListElementCode": "DRB",
     "ListElement": "DRB",
     "DisplayOrder": 13
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Video",
+    "ListElement": "Video",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Phone",
+    "ListElement": "Phone",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Neither",
+    "ListElement": "Neither",
+    "DisplayOrder": 3
   }
 ]

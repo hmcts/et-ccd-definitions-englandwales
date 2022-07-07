@@ -299,6 +299,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initiateCase",
+    "CaseFieldID": "claimantHearingPreference",
+    "DisplayContext": "COMPLEX",
+    "PageID": 9,
+    "PageDisplayOrder": 9,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "receiptDate",
     "DisplayContext": "MANDATORY",
