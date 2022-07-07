@@ -5198,16 +5198,17 @@
     "ID": "HearingPreference",
     "ListElementCode": "hearing_preferences",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "Claimant Hearing Preferences",
+    "ElementLabel": "What are the claimant's hearing preferences",
     "FieldTypeParameter": "msl_HearingPreferences",
     "SecurityClassification": "Public"
   },
   {
     "ID": "HearingPreference",
     "ListElementCode": "hearing_assistance",
-    "FieldType": "Text",
-    "ElementLabel": "Explain why you are unable to take part in video or phone hearings",
-    "FieldShowCondition": "hearing_preferences=\"Neither\"",
+    "FieldType": "TextArea",
+    "ElementLabel": "Why is the claimant unable to take part in video or phone hearings",
+    "FieldShowCondition": "hearing_preferences CONTAINS \"Neither\"",
+    "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
   {
