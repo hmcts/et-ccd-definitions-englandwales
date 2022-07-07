@@ -925,15 +925,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleREJOrVPReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "referralToREJOrVPList",
-    "Label": "Select all that apply.",
+    "Label": "Does the claim include any of the following?",
+    "HintText": "Select all that apply.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_REJOrVP",
     "SecurityClassification": "Public"
@@ -1011,15 +1005,8 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1REJOrVPReferralGeneralNotesLabel",
-    "Label": "**<big>General notes (Optional)</big>**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1REJOrVPReferralGeneralNotes",
-    "Label": " ",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1189,15 +1176,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleSubstantiveDefects",
-    "Label": "<h2>Possible substantive defects</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "substantiveDefectsList",
-    "Label": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
+    "Label": "Possible substantive defects",
+    "HintText": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_Defects",
     "SecurityClassification": "Public"
@@ -1260,87 +1241,50 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1SubstantiveDefectsGeneralNotesLabel",
-    "Label": "**<big>General notes (Optional)</big>**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1SubstantiveDefectsGeneralNotes",
-    "Label": " ",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1GovOrMajorLabel",
-    "Label": "<hr><h2>Is the respondent a government agency or a major employer?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1GovOrMajorQuestion",
-    "Label": " ",
+    "Label": "Is the respondent a government agency or a major employer?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1ReasonableAdjustmentsLabel",
-    "Label": "<hr><h2>Are reasonable adjustments required?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReasonableAdjustmentsQuestion",
-    "Label": " ",
+    "Label": "Are reasonable adjustments required?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReasonableAdjustmentsTextArea",
-    "Label": " ",
-    "HintText": "Give details",
+    "Label": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1VideoHearingLabel",
-    "Label": "<hr><h2>Can the  claimant attend a video hearing?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VideoHearingQuestion",
-    "Label": " ",
+    "Label": "Can the claimant attend a video hearing?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VideoHearingTextArea",
-    "Label": " ",
-    "HintText": "Give details",
+    "Label": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1FurtherQuestionsGeneralNotesLabel",
-    "Label": "<hr><h2>General notes (Optional)</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1FurtherQuestionsGeneralNotes",
-    "Label": " ",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1578,15 +1522,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleJudgeOrLOReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "referralToJudgeOrLOList",
-    "Label": "Select all that apply.",
+    "Label": "Does the claim include any of the following?",
+    "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_judgeOrLO",
     "SecurityClassification": "Public"
@@ -1672,15 +1610,8 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1JudgeReferralGeneralNotesLabel",
-    "Label": "**<big>General notes (Optional)</big>**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralGeneralNotes",
-    "Label": " ",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1693,15 +1624,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "possibleOtherReferralOptions",
-    "Label": "<h2>Does the claim include any of the following?</h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "otherReferralList",
-    "Label": "Select all that apply.",
+    "Label": "Does the claim include any of the following?",
+    "HintText": "Select all that apply.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
     "SecurityClassification": "Public"
@@ -1771,15 +1696,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1OtherReferralGeneralNotesLabel",
-    "Label": "**<big>General notes (Optional)</big>**",
-    "FieldType": "Label",
+    "ID": "et1OtherReferralGeneralNotes",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1OtherReferralGeneralNotes",
-    "Label": " ",
+    "ID": "et1VettingAdditionalInformationTextArea",
+    "Label": "Additional Information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -2056,15 +1981,8 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "areTheseCodesCorrectLabel",
-    "Label": "**Are these codes correct?**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "areTheseCodesCorrect",
-    "Label": " ",
+    "Label": "Are these codes correct?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -2086,22 +2004,15 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "vettingJurisdictionCodeCollection",
-    "Label": " ",
+    "Label": "Jurisdiction code",
     "FieldType": "Collection",
     "FieldTypeParameter": "JurisdictionCode",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et1JurisdictionCodeGeneralNotesLabel",
-    "Label": "**General notes (Optional)**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JurisdictionCodeGeneralNotes",
-    "Label": " ",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -2121,37 +2032,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "isTrackAllocationCorrectLabel",
-    "Label": "**Is the track allocation correct?**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "isTrackAllocationCorrect",
-    "Label": " ",
+    "Label": "Is the track allocation correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isTrackAllocationCorrect",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "trackAllocationGeneralNotesLabel",
-    "Label": "**General notes (Optional)**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "trackAllocationGeneralNotes",
-    "Label": " ",
+    "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "suggestAnotherTrack",
-    "Label": " ",
+    "Label": "Track allocation",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_suggestAnotherTrack",
     "SecurityClassification": "Public"
@@ -2194,21 +2091,14 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "regionalOfficeList",
-    "Label": " ",
+    "Label": "Local or regional office",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "isLocationCorrectLabel",
-    "Label": "**Is this location correct?**",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "isLocationCorrect",
-    "Label": " ",
+    "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isLocationCorrect",
     "SecurityClassification": "Public"
