@@ -383,434 +383,441 @@
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
     "CaseFieldID": "et1VettingAcasCertGeneralNote",
-    "TabFieldDisplayOrder": 17
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "Et1Vetting",
-    "CaseFieldID": "substantiveDefectsList",
-    "TabFieldDisplayOrder": 17
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121aTextArea",
     "TabFieldDisplayOrder": 18
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121bTextArea",
+    "CaseFieldID": "substantiveDefectsList",
     "TabFieldDisplayOrder": 19
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121cTextArea",
+    "CaseFieldID": "rule121aTextArea",
     "TabFieldDisplayOrder": 20
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121dTextArea",
+    "CaseFieldID": "rule121bTextArea",
     "TabFieldDisplayOrder": 21
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121daTextArea",
+    "CaseFieldID": "rule121cTextArea",
     "TabFieldDisplayOrder": 22
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121eTextArea",
+    "CaseFieldID": "rule121dTextArea",
     "TabFieldDisplayOrder": 23
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule121fTextArea",
+    "CaseFieldID": "rule121daTextArea",
     "TabFieldDisplayOrder": 24
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1SubstantiveDefectsGeneralNotes",
-    "TabFieldDisplayOrder": 24
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "Et1Vetting",
-    "CaseFieldID": "areTheseCodesCorrect",
+    "CaseFieldID": "rule121eTextArea",
     "TabFieldDisplayOrder": 25
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "codesCorrectGiveDetails",
+    "CaseFieldID": "rule121fTextArea",
     "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "vettingJurisdictionCodeCollection",
-    "TabFieldDisplayOrder": 26
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "Et1Vetting",
-    "CaseFieldID": "isTrackAllocationCorrect",
+    "CaseFieldID": "et1SubstantiveDefectsGeneralNotes",
     "TabFieldDisplayOrder": 27
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "suggestAnotherTrack",
+    "CaseFieldID": "areTheseCodesCorrect",
     "TabFieldDisplayOrder": 28
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "whyChangeTrackAllocation",
+    "CaseFieldID": "codesCorrectGiveDetails",
     "TabFieldDisplayOrder": 29
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "trackAllocationGeneralNotes",
-    "TabFieldDisplayOrder": 29
+    "CaseFieldID": "vettingJurisdictionCodeCollection",
+    "TabFieldDisplayOrder": 30
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "isLocationCorrect",
+    "CaseFieldID": "et1JurisdictionCodeGeneralNotes",
     "TabFieldDisplayOrder": 31
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "regionalOfficeList",
+    "CaseFieldID": "isTrackAllocationCorrect",
+    "TabFieldDisplayOrder": 32
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "suggestAnotherTrack",
     "TabFieldDisplayOrder": 33
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "whyChangeOffice",
+    "CaseFieldID": "whyChangeTrackAllocation",
     "TabFieldDisplayOrder": 34
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1LocationGeneralNotes",
+    "CaseFieldID": "trackAllocationGeneralNotes",
     "TabFieldDisplayOrder": 35
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1SuggestHearingVenue",
+    "CaseFieldID": "isLocationCorrect",
     "TabFieldDisplayOrder": 36
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1HearingVenues",
+    "CaseFieldID": "regionalOfficeList",
     "TabFieldDisplayOrder": 37
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1HearingVenueGeneralNotes",
+    "CaseFieldID": "whyChangeOffice",
     "TabFieldDisplayOrder": 38
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1GovOrMajorQuestion",
+    "CaseFieldID": "et1LocationGeneralNotes",
     "TabFieldDisplayOrder": 39
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1ReasonableAdjustmentsQuestion",
+    "CaseFieldID": "et1SuggestHearingVenue",
     "TabFieldDisplayOrder": 40
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1ReasonableAdjustmentsTextArea",
+    "CaseFieldID": "et1HearingVenues",
     "TabFieldDisplayOrder": 41
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VideoHearingQuestion",
+    "CaseFieldID": "et1HearingVenueGeneralNotes",
     "TabFieldDisplayOrder": 42
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VideoHearingTextArea",
+    "CaseFieldID": "et1GovOrMajorQuestion",
     "TabFieldDisplayOrder": 43
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1FurtherQuestionsGeneralNotes",
-    "TabFieldDisplayOrder": 43
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "Et1Vetting",
-    "CaseFieldID": "et1JudgeReferralLine1",
+    "CaseFieldID": "et1ReasonableAdjustmentsQuestion",
     "TabFieldDisplayOrder": 44
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "referralToJudgeOrLOList",
+    "CaseFieldID": "et1ReasonableAdjustmentsTextArea",
     "TabFieldDisplayOrder": 45
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aClaimOfInterimReliefTextArea",
+    "CaseFieldID": "et1VideoHearingQuestion",
     "TabFieldDisplayOrder": 46
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aStatutoryAppealTextArea",
+    "CaseFieldID": "et1VideoHearingTextArea",
     "TabFieldDisplayOrder": 47
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anAllegationOfCommissionOfSexualOffenceTextArea",
+    "CaseFieldID": "et1FurtherQuestionsGeneralNotes",
     "TabFieldDisplayOrder": 48
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "insolvencyTextArea",
+    "CaseFieldID": "et1JudgeReferralLine1",
     "TabFieldDisplayOrder": 49
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "jurisdictionsUnclearTextArea",
+    "CaseFieldID": "referralToJudgeOrLOList",
     "TabFieldDisplayOrder": 50
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "lengthOfServiceTextArea",
+    "CaseFieldID": "aClaimOfInterimReliefTextArea",
     "TabFieldDisplayOrder": 51
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "potentiallyLinkedCasesInTheEcmTextArea",
+    "CaseFieldID": "aStatutoryAppealTextArea",
     "TabFieldDisplayOrder": 52
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule50IssuesTextArea",
+    "CaseFieldID": "anAllegationOfCommissionOfSexualOffenceTextArea",
     "TabFieldDisplayOrder": 53
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anotherReasonForJudicialReferralTextArea",
+    "CaseFieldID": "insolvencyTextArea",
     "TabFieldDisplayOrder": 54
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1JudgeReferralGeneralNotes",
+    "CaseFieldID": "jurisdictionsUnclearTextArea",
     "TabFieldDisplayOrder": 55
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "referralToREJOrVPList",
+    "CaseFieldID": "lengthOfServiceTextArea",
     "TabFieldDisplayOrder": 56
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "vexatiousLitigantOrderTextArea",
+    "CaseFieldID": "potentiallyLinkedCasesInTheEcmTextArea",
     "TabFieldDisplayOrder": 57
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aNationalSecurityIssueTextArea",
+    "CaseFieldID": "rule50IssuesTextArea",
     "TabFieldDisplayOrder": 58
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "nationalMultipleOrPresidentialOrderTextArea",
+    "CaseFieldID": "anotherReasonForJudicialReferralTextArea",
     "TabFieldDisplayOrder": 59
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "transferToOtherRegionTextArea",
+    "CaseFieldID": "et1JudgeReferralGeneralNotes",
     "TabFieldDisplayOrder": 60
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "serviceAbroadTextArea",
+    "CaseFieldID": "referralToREJOrVPList",
     "TabFieldDisplayOrder": 61
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "aSensitiveIssueTextArea",
+    "CaseFieldID": "vexatiousLitigantOrderTextArea",
     "TabFieldDisplayOrder": 62
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anyPotentialConflictTextArea",
+    "CaseFieldID": "aNationalSecurityIssueTextArea",
     "TabFieldDisplayOrder": 63
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anotherReasonREJOrVPTextArea",
+    "CaseFieldID": "nationalMultipleOrPresidentialOrderTextArea",
     "TabFieldDisplayOrder": 64
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1REJOrVPReferralGeneralNotes",
+    "CaseFieldID": "transferToOtherRegionTextArea",
     "TabFieldDisplayOrder": 65
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "otherReferralList",
+    "CaseFieldID": "serviceAbroadTextArea",
     "TabFieldDisplayOrder": 66
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "claimOutOfTimeTextArea",
+    "CaseFieldID": "aSensitiveIssueTextArea",
     "TabFieldDisplayOrder": 67
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "multipleClaimTextArea",
+    "CaseFieldID": "anyPotentialConflictTextArea",
     "TabFieldDisplayOrder": 68
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "employmentStatusIssuesTextArea",
+    "CaseFieldID": "anotherReasonREJOrVPTextArea",
     "TabFieldDisplayOrder": 69
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "pidJurisdictionRegulatorTextArea",
+    "CaseFieldID": "et1REJOrVPReferralGeneralNotes",
     "TabFieldDisplayOrder": 70
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "videoHearingPreferenceTextArea",
+    "CaseFieldID": "otherReferralList",
     "TabFieldDisplayOrder": 71
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "rule50IssuesForOtherReferralTextArea",
+    "CaseFieldID": "claimOutOfTimeTextArea",
     "TabFieldDisplayOrder": 72
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "anotherReasonForOtherReferralTextArea",
+    "CaseFieldID": "multipleClaimTextArea",
     "TabFieldDisplayOrder": 73
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1OtherReferralGeneralNotes",
+    "CaseFieldID": "employmentStatusIssuesTextArea",
     "TabFieldDisplayOrder": 74
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
-    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "CaseFieldID": "pidJurisdictionRegulatorTextArea",
     "TabFieldDisplayOrder": 75
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "videoHearingPreferenceTextArea",
+    "TabFieldDisplayOrder": 76
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "rule50IssuesForOtherReferralTextArea",
+    "TabFieldDisplayOrder": 77
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "anotherReasonForOtherReferralTextArea",
+    "TabFieldDisplayOrder": 78
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1OtherReferralGeneralNotes",
+    "TabFieldDisplayOrder": 79
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Et1Vetting",
+    "CaseFieldID": "et1VettingAdditionalInformationTextArea",
+    "TabFieldDisplayOrder": 80
   },
   {
     "CaseTypeID": "ET_EnglandWales",
