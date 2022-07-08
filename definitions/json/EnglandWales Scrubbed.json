@@ -2714,7 +2714,7 @@
   {
     "ID": "fl_Part_2",
     "ListElementCode": "2.10B",
-    "ListElement": "2.10B - Service on Secretary of State - Rule 96 ",
+    "ListElement": "2.10B - Service on Secretary of State - Rule 96 ",
     "DisplayOrder": 13
   },
   {
@@ -3650,13 +3650,13 @@
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.3C",
-    "ListElement": "8.3C - Notice of hearing upon non presentation or rejection of response - Rule 21 ",
+    "ListElement": "8.3C - Notice of hearing upon non presentation or rejection of response - Rule 21 ",
     "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.3D",
-    "ListElement": "8.3D - Notice of hearing by video upon non presentation or rejection of response - Rule 21 ",
+    "ListElement": "8.3D - Notice of hearing by video upon non presentation or rejection of response - Rule 21 ",
     "DisplayOrder": 8
   },
   {
@@ -3680,7 +3680,7 @@
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.5A",
-    "ListElement": "8.5A - Notice of wasted costs order by video - Judge to specify which representative - Rule 80 ",
+    "ListElement": "8.5A - Notice of wasted costs order by video - Judge to specify which representative - Rule 80 ",
     "DisplayOrder": 12
   },
   {
@@ -3836,13 +3836,13 @@
   {
     "ID": "fl_Part_10",
     "ListElementCode": "10.6A",
-    "ListElement": "10.6A Judgment cover letter Enforcement Notices ",
+    "ListElement": "10.6A Judgment cover letter Enforcement Notices ",
     "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_10",
     "ListElementCode": "10.6B",
-    "ListElement": "10.6B Rule 21 Judgment cover letter ",
+    "ListElement": "10.6B Rule 21 Judgment cover letter ",
     "DisplayOrder": 8
   },
   {
@@ -5302,5 +5302,23 @@
     "ListElementCode": "DRB",
     "ListElement": "DRB",
     "DisplayOrder": 13
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Video",
+    "ListElement": "Video",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Phone",
+    "ListElement": "Phone",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_HearingPreferences",
+    "ListElementCode": "Neither",
+    "ListElement": "Neither",
+    "DisplayOrder": 3
   }
 ]
