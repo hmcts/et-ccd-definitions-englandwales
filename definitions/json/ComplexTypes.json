@@ -5238,7 +5238,7 @@
     "ListElementCode": "et1VettingJurCodeList",
     "FieldType": "FixedList",
     "ElementLabel": "Jurisdiction code",
-    "FieldTypeParameter": "fl_vettingJurCodes",
+    "FieldTypeParameter": "fl_jurisdictionCodes",
     "SecurityClassification": "Public"
   }
 ]
