@@ -266,7 +266,7 @@
     "CaseFieldID": "et1VettingCanServeClaimYesOrNo",
     "TabFieldDisplayOrder": 1,
     "TabShowCondition": "[STATE]!=\"Submitted\" AND [STATE]!=\"Awaiting Submission\""
-},
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
