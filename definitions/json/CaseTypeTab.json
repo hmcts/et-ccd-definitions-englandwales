@@ -875,9 +875,81 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "TabLabel": "Initial Consideration",
+    "TabDisplayOrder": 7,
+    "CaseFieldID": "icReceiptET3FormIssues",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icRespondentsNameIdentityIssues",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icJurisdictionCodeIssues",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icApplicationIssues",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icEmployersContractClaimIssues",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icClaimProspectIssues",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icListingIssues",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDdaDisabilityIssues",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icOrderForFurtherInformation",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icOtherIssuesOrFinalOrders",
+    "TabFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseJurisdictions",
     "TabLabel": "Jurisdictions",
-    "TabDisplayOrder": 7,
+    "TabDisplayOrder": 8,
     "CaseFieldID": "jurCodesCollection",
     "TabFieldDisplayOrder": 1
   },
@@ -886,7 +958,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseHearings",
     "TabLabel": "Hearings",
-    "TabDisplayOrder": 8,
+    "TabDisplayOrder": 9,
     "CaseFieldID": "hearingCollection",
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue)"
@@ -896,7 +968,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
     "TabLabel": "Judgments",
-    "TabDisplayOrder": 9,
+    "TabDisplayOrder": 10,
     "CaseFieldID": "judgementCollection",
     "TabFieldDisplayOrder": 1
   },
@@ -905,7 +977,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseDeposit",
     "TabLabel": "Deposit Order",
-    "TabDisplayOrder": 10,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "depositType",
     "TabFieldDisplayOrder": 1
   },
@@ -914,7 +986,7 @@
     "Channel": "CaseWorker",
     "TabID": "RestrictedReportingTab",
     "TabLabel": "Restricted Reporting",
-    "TabDisplayOrder": 11,
+    "TabDisplayOrder": 12,
     "CaseFieldID": "restrictedReporting",
     "TabFieldDisplayOrder": 1
   },
@@ -923,7 +995,7 @@
     "Channel": "CaseWorker",
     "TabID": "BroughtForwardDate",
     "TabLabel": "BF Actions",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 13,
     "CaseFieldID": "bfActions",
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(bfDate)"
@@ -942,7 +1014,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
-    "TabDisplayOrder": 16,
+    "TabDisplayOrder": 15,
     "CaseFieldID": "caseHistory",
     "TabFieldDisplayOrder": 1
   },
