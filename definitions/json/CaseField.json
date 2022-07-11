@@ -1057,13 +1057,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "claimantTaskListChecks",
-    "Label": "Task list check",
-    "FieldType": "TaskListCheck",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "printAndSendPaperDocuments",
     "Label": "<hr><h2>Print and send paper documents<h2>",
     "FieldType": "Label",
