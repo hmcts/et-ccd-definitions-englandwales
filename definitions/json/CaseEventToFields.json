@@ -3471,7 +3471,6 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "${ET_COS_URL}/midServingDocumentRecipient",
     "PageLabel": "Who are you sending this document to?",
     "PageShowCondition": "otherTypeDocumentName != \"\"",
     "PageColumnNumber": 1
@@ -3524,7 +3523,6 @@
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "printAndSendPaperDocuments",
     "DisplayContext": "READONLY",
-    "PageShowCondition": "servingDocumentRecipient CONTAINS \"Respondent\" OR servingDocumentRecipient CONTAINS \"Claimant\"",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
@@ -3572,7 +3570,6 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Email Acas",
-    "PageShowCondition": "otherTypeDocumentName != \"\" AND servingDocumentRecipient CONTAINS \"Acas\"",
     "PageColumnNumber": 1
   },
   {
