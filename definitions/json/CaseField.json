@@ -2437,6 +2437,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseNameShowInset",
+    "Label": "Placeholder",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3StartPagePreamble",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\"> open the ET1 form, ACAS certificate and other documents in the Document tab (opens in a new tab)</a>.",
     "FieldType": "Label",
