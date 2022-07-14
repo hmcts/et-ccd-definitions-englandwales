@@ -5672,5 +5672,14 @@
     "EventElementLabel": "Jurisdiction code",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "et3ResponseForm",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Upload a document to your response",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
   }
 ]
