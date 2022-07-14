@@ -2468,7 +2468,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3OtherTypeDocumentNameLabel",
-    "Label": "${otherTypeDocumentName}",
+    "Label": "${et3OtherTypeDocumentName}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2503,7 +2503,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ClaimantAndRespondentAddressesLabel",
-    "Label": "${claimantAndRespondentAddresses}",
+    "Label": "${et3ClaimantAndRespondentAddresses}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2531,7 +2531,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3EmailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${et3EmailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
