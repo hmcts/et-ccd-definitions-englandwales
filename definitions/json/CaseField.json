@@ -50,6 +50,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "horizontalLine5",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
@@ -2426,6 +2433,113 @@
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3NotificationDocCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Et3NotificationDocUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3SelectAllThatApply",
+    "Label": "Select all that apply.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3NotificationDocRecipient",
+    "Label": " ",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_ServingDocumentRecipient",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3OtherTypeDocumentName",
+    "Label": "Serving document other type name placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3OtherTypeDocumentNameLabel",
+    "Label": "${otherTypeDocumentName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ClaimantTaskListChecks",
+    "Label": "Task list check",
+    "FieldType": "TaskListCheck",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3PrintAndSendPaperDocuments",
+    "Label": "<hr><h2>Print and send paper documents<h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3SendDocByFirstClass",
+    "Label": "Send documents by first class mail to:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ClaimantAndRespondentAddresses",
+    "Label": "claimantAndRespondentAddresses",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ClaimantAndRespondentAddressesLabel",
+    "Label": "${claimantAndRespondentAddresses}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3EmailDocsToAcasLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3EmailDocsToAcasTitle",
+    "Label": "<h2>Email documents to Acas</h2>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3EmailLinkToAcas",
+    "Label": "Email link to Acas placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3EmailDocsToAcasLink",
+    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3EmailDocsToAcasInstructions",
+    "Label": "Instructions for the content of the email are on the 'Sending general correspondence to Acas via email' job card.",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {

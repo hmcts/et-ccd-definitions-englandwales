@@ -506,6 +506,17 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3Notification",
+    "Name": "ET3 notification",
+    "Description": "ET3 notification",
+    "DisplayOrder": 40,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
