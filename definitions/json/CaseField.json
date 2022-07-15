@@ -50,13 +50,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "horizontalLine5",
-    "Label": "<hr>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
