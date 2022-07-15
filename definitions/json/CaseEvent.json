@@ -94,7 +94,7 @@
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": "",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
     "EventEnablingCondition": ""
   },
   {
