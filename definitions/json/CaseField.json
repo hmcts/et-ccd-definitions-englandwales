@@ -2647,7 +2647,7 @@
     "ID": "et3ResponseAreDatesCorrect",
     "Label": "Are the dates of employment given by the claimant correct?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "flr_yes_no_not_applicable",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
     "SecurityClassification": "Public"
   },
   {
@@ -2678,7 +2678,7 @@
     "ID": "et3ResponseContinuingEmployment",
     "Label": "Is the claimant's employment with the respondent continuing?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "flr_yes_no_not_applicable",
+    "FieldTypeParameter": "frl_yes_no_not_applicable",
     "SecurityClassification": "Public"
   },
   {
