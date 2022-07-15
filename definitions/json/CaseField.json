@@ -2496,7 +2496,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ClaimantAndRespondentAddresses",
-    "Label": "claimantAndRespondentAddresses",
+    "Label": "et3ClaimantAndRespondentAddresses",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
