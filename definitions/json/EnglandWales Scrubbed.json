@@ -5316,6 +5316,24 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "fl_et3_pay_frequency",
+    "ListElement": "Weekly",
+    "ListElementCode": "Weekly",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_et3_pay_frequency",
+    "ListElement": "Monthly",
+    "ListElementCode": "Monthly",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_et3_pay_frequency",
+    "ListElement": "Annually",
+    "ListElementCode": "Annually",
+    "DisplayOrder": 3
+  },
+  {
     "ID": "fl_Et3NotificationDocType",
     "ListElementCode": "2.11",
     "ListElement": "2.11 Response accepted",
