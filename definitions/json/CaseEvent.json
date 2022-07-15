@@ -510,7 +510,7 @@
     "ID": "et3Notification",
     "Name": "ET3 notification",
     "Description": "ET3 notification",
-    "DisplayOrder": 40,
+    "DisplayOrder": 41,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
