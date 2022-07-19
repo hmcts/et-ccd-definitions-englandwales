@@ -12663,7 +12663,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et3EmailLinkToAcas",
     "UserRole": "caseworker-employment",
-    "CRUD": "CRUD"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
