@@ -1013,6 +1013,15 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseDocuments",
+    "TabLabel": "Documents",
+    "TabDisplayOrder": 14,
+    "CaseFieldID": "et3ResponseDocumentCollection",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
     "TabDisplayOrder": 15,
