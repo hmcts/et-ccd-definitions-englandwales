@@ -1159,6 +1159,22 @@
     "ListElementCode": "name_of_organisation",
     "FieldType": "Text",
     "ElementLabel": "Name of Organisation",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "myHmctsYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the representative have a MyHMCTS account?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisation",
+    "FieldType": "Organisation",
+    "ElementLabel": "MyHMCTS Organisation",
+    "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -1166,6 +1182,7 @@
     "ListElementCode": "representative_reference",
     "FieldType": "Text",
     "ElementLabel": "Reference",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
@@ -1173,6 +1190,7 @@
     "ListElementCode": "representative_occupation",
     "FieldType": "FixedList",
     "ElementLabel": "Occupation",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
     "FieldTypeParameter": "fl_RepresentativeOccupation",
     "SecurityClassification": "Public"
   },
@@ -1190,6 +1208,7 @@
     "ListElementCode": "representative_address",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
