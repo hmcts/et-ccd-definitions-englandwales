@@ -115,6 +115,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Accepted",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
