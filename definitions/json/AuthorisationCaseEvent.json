@@ -973,6 +973,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "et3Response",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "et3Notification",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
