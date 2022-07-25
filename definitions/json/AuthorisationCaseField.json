@@ -3530,18 +3530,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "multipleFlag",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleFlag",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleFlag",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
