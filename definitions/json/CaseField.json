@@ -2984,7 +2984,14 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "referralsLabel",
-    "Label": "Referrals",
+    "Label": "**Referrals**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">Close a referral</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

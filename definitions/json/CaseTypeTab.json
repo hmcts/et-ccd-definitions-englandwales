@@ -976,6 +976,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
     "TabLabel": "Judgments",
     "TabDisplayOrder": 11,
