@@ -2996,6 +2996,81 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralHearingDetails",
+    "Label": "Referral Hearing Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralHearingDetailsLabel",
+    "Label": "${referralHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referCaseTo",
+    "Label": "Who are you referring this case to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referentEmail",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "isUrgent",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralSubject",
+    "Label": "What is the referral subject?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_ReferralSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralSubjectSpecify",
+    "Label": "Please specify",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralDetails",
+    "Label": "Give details of the referral",
+    "HintText": "Explain what you're referring and why, include answers or directions you need.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralInstruction",
+    "Label": "Which instructions do you recommend?",
+    "HintText": "Give details of directions, letter or decisions to issue.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

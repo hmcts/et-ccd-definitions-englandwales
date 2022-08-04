@@ -517,6 +517,18 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "createReferral",
+    "Name": "Referral",
+    "Description": "Referral",
+    "DisplayOrder": 42,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
