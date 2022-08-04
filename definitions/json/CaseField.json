@@ -1299,7 +1299,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icRespondentsNameIdentityIssues",
-    "Label": "Are there any issues or instructions regarding the respondenty’s name or identity?",
+    "Label": "Are there any issues or instructions regarding the respondent's name or identity?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
