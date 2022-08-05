@@ -2748,6 +2748,16 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et1Vetting",
+    "CaseFieldID": "trackType",
+    "FieldShowCondition": "et1JurisdictionCodeGeneralNotes=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et1Vetting",
     "CaseFieldID": "trackAllocation",
     "FieldShowCondition": "et1SubstantiveDefectsGeneralNotes=\"dummy\"",
     "DisplayContext": "READONLY",

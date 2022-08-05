@@ -525,6 +525,7 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
   },
