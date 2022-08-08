@@ -1,9 +1,17 @@
 [
   {
     "ID": "ClaimantIndividual",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "FieldType": "FixedList",
     "ElementLabel": "Title",
+    "FieldTypeParameter": "fl_PreferredTitle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_title1",
+    "FieldType": "FixedList",
+    "ElementLabel": "Deprecated",
     "FieldTypeParameter": "fl_Title",
     "SecurityClassification": "Public"
   },
@@ -12,7 +20,7 @@
     "ListElementCode": "claimant_title_other",
     "FieldType": "Text",
     "ElementLabel": "Other title",
-    "FieldShowCondition": "claimant_title1=\"Other\"",
+    "FieldShowCondition": "claimant_preferred_title=\"Other\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -55,9 +63,17 @@
   },
   {
     "ID": "ClaimantIndividual",
+    "ListElementCode": "claimant_gender_identity_same",
+    "FieldType": "FixedList",
+    "ElementLabel": "Is the claimant's identity and sex registered at birth the same?",
+    "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity",
     "FieldType": "Text",
-    "ElementLabel": "Gender Identity",
+    "ElementLabel": "Gender Identity description",
     "SecurityClassification": "Public"
   },
   {
@@ -1159,6 +1175,22 @@
     "ListElementCode": "name_of_organisation",
     "FieldType": "Text",
     "ElementLabel": "Name of Organisation",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "myHmctsYesNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Does the representative have a MyHMCTS account?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisation",
+    "FieldType": "Organisation",
+    "ElementLabel": "MyHMCTS Organisation",
+    "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
@@ -1166,6 +1198,7 @@
     "ListElementCode": "representative_reference",
     "FieldType": "Text",
     "ElementLabel": "Reference",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
@@ -1173,6 +1206,7 @@
     "ListElementCode": "representative_occupation",
     "FieldType": "FixedList",
     "ElementLabel": "Occupation",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
     "FieldTypeParameter": "fl_RepresentativeOccupation",
     "SecurityClassification": "Public"
   },
@@ -1190,6 +1224,7 @@
     "ListElementCode": "representative_address",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
+    "FieldShowCondition":"myHmctsYesNo=\"No\"",
     "SecurityClassification": "Public"
   },
   {
@@ -5239,6 +5274,28 @@
     "FieldType": "FixedList",
     "ElementLabel": "Jurisdiction code",
     "FieldTypeParameter": "fl_jurisdictionCodes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "typeOfDocument",
+    "FieldType": "FixedList",
+    "ElementLabel": "Type of Document",
+    "FieldTypeParameter": "fl_Et3NotificationDocType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Et3NotificationDocUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
     "SecurityClassification": "Public"
   }
 ]
