@@ -1474,8 +1474,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "otherReferralList",
-    "Label": "Other factors",
-    "HintText": "Does the claim include any of the following?",
+    "Label": "Does the claim include any other factors",
+    "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
     "SecurityClassification": "Public"
