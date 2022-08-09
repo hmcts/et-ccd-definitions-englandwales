@@ -1,7 +1,7 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "caseworker-ET-pcqextractor",
+    "UserRole": "caseworker-et-pcqextractor",
     "CRUD": "R"
   },
   {
