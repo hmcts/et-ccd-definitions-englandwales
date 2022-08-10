@@ -2983,6 +2983,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "referralCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "referralDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "referralsLabel",
     "Label": "**Referrals**",
     "FieldType": "Label",
