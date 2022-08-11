@@ -926,8 +926,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "referralToREJOrVPList",
-    "Label": "Does the claim include any of the following?",
-    "HintText": "Select all that apply.",
+    "Label": "Possible referral to Regional Employment Judge or Vice-President",
+    "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_REJOrVP",
     "SecurityClassification": "Public"
@@ -1299,7 +1299,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icRespondentsNameIdentityIssues",
-    "Label": "Are there any issues or instructions regarding the respondenty’s name or identity?",
+    "Label": "Are there any issues or instructions regarding the respondent's name or identity?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -1372,8 +1372,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "referralToJudgeOrLOList",
-    "Label": "Does the claim include any of the following?",
-    "HintText": "Select all that apply",
+    "Label": "Possible referral to a judge or legal officer",
+    "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_judgeOrLO",
     "SecurityClassification": "Public"
@@ -1474,7 +1474,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "otherReferralList",
-    "Label": "Does the claim include any of the following?",
+    "Label": "Does the claim include any other factors",
     "HintText": "Select all that apply.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
