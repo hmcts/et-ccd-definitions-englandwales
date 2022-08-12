@@ -3,7 +3,7 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -16,7 +16,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -63,7 +63,7 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -73,8 +73,8 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -702,7 +702,7 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -715,7 +715,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -762,7 +762,7 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -772,8 +772,8 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -1482,9 +1482,18 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job",
+    "EventElementLabel": "Have you got a new job",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 1,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1493,7 +1502,16 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job_pay_interval",
+    "EventElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1599,7 +1617,7 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -1612,7 +1630,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -1659,7 +1677,7 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -1669,8 +1687,8 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -2376,21 +2394,39 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "UpdateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
-    "ListElementCode": "newly_employed_from",
-    "EventElementLabel": "Employed from",
+    "ListElementCode": "new_job",
+    "EventElementLabel": "Have you got a new job",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "UpdateCase",
+    "ID": "CreateDraftCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "newly_employed_from",
+    "EventElementLabel": "Employed from",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job_pay_interval",
+    "EventElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2550,7 +2586,7 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -2563,7 +2599,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -2610,7 +2646,7 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -2620,8 +2656,8 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
