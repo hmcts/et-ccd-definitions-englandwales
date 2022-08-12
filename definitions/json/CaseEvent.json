@@ -521,7 +521,6 @@
     "ID": "createReferral",
     "Name": "Referral",
     "Description": "Referral",
-    "DisplayOrder": 42,
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
