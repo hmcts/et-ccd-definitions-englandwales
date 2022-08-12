@@ -3863,7 +3863,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3NoEt3Response",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
@@ -4019,12 +4019,12 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3ResponseInTimeDetails",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 7,
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
-    "FieldShowCondition": "et3ResponseInTime=\"Yes\" OR et3ResponseInTime=\"No\""
+    "FieldShowCondition": "et3ResponseInTime=\"No\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4231,7 +4231,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3ContestClaimGiveDetails",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 12,
     "PageDisplayOrder": 12,
     "PageFieldDisplayOrder": 2,
@@ -4268,7 +4268,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3ContractClaimSection7Details",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 13,
     "PageDisplayOrder": 13,
     "PageFieldDisplayOrder": 2,
@@ -4326,7 +4326,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3IsCaseListedForHearingDetails",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 14,
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 4,
@@ -4424,7 +4424,8 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Issues identified",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4436,7 +4437,8 @@
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "et3Rule26=\"Yes\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4446,7 +4448,8 @@
     "PageID": 16,
     "PageDisplayOrder": 16,
     "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4458,7 +4461,8 @@
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "et3SuggestedIssues CONTAINS \"Applications for strike out or deposit\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4470,7 +4474,8 @@
     "PageFieldDisplayOrder": 5,
     "FieldShowCondition": "et3SuggestedIssues CONTAINS \"Interpreters\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4482,7 +4487,8 @@
     "PageFieldDisplayOrder": 6,
     "FieldShowCondition": "et3SuggestedIssues CONTAINS \"Jurisdictional issues\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4494,7 +4500,8 @@
     "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "et3SuggestedIssues CONTAINS \"Request for adjustments\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4506,7 +4513,8 @@
     "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "et3SuggestedIssues CONTAINS \"Rule 50\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4518,7 +4526,8 @@
     "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "et3SuggestedIssues CONTAINS \"Time points\"",
     "RetainHiddenValue": "Yes",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4528,7 +4537,8 @@
     "PageID": 16,
     "PageDisplayOrder": 16,
     "PageFieldDisplayOrder": 10,
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
