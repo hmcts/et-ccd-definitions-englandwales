@@ -519,9 +519,9 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "createReferral",
-    "Name": "Referral",
+    "Name": "Referral (Create)",
     "Description": "Referral",
-    "PreConditionState(s)": "Submitted",
+    "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",

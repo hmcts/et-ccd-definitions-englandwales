@@ -5322,9 +5322,9 @@
   },
   {
     "ID": "referralDetails",
-    "ListElementCode": "referralHearingDetails",
+    "ListElementCode": "referralHearingDate",
     "FieldType": "Text",
-    "ElementLabel": "Referral hearing details",
+    "ElementLabel": "Hearing date",
     "SecurityClassification": "Public"
   },
   {
@@ -5336,9 +5336,9 @@
   },
   {
     "ID": "referralDetails",
-    "ListElementCode": "referrerEmail",
+    "ListElementCode": "referentEmail",
     "FieldType": "Text",
-    "ElementLabel": "Referrer email",
+    "ElementLabel": "Email",
     "SecurityClassification": "Public"
   },
   {
