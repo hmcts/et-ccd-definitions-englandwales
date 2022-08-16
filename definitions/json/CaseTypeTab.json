@@ -955,6 +955,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationDocument",
+    "TabFieldDisplayOrder": 11
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseJurisdictions",
     "TabLabel": "Jurisdictions",
     "TabDisplayOrder": 8,
