@@ -10574,12 +10574,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingDocument",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1VettingDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
