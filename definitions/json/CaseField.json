@@ -1364,6 +1364,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationDocument",
+    "Label": "Initial Consideration Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralLine1",
     "Label": "<hr>",
     "FieldType": "Label",
