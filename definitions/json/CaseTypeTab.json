@@ -886,71 +886,78 @@
     "TabID": "initialConsideration",
     "TabLabel": "Initial Consideration",
     "TabDisplayOrder": 7,
-    "CaseFieldID": "icReceiptET3FormIssues",
+    "CaseFieldID": "etInitialConsiderationDocument",
     "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icRespondentsNameIdentityIssues",
+    "CaseFieldID": "icReceiptET3FormIssues",
     "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icJurisdictionCodeIssues",
+    "CaseFieldID": "icRespondentsNameIdentityIssues",
     "TabFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icApplicationIssues",
+    "CaseFieldID": "icJurisdictionCodeIssues",
     "TabFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icEmployersContractClaimIssues",
+    "CaseFieldID": "icApplicationIssues",
     "TabFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icClaimProspectIssues",
+    "CaseFieldID": "icEmployersContractClaimIssues",
     "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icListingIssues",
+    "CaseFieldID": "icClaimProspectIssues",
     "TabFieldDisplayOrder": 7
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icDdaDisabilityIssues",
+    "CaseFieldID": "icListingIssues",
     "TabFieldDisplayOrder": 8
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icOrderForFurtherInformation",
+    "CaseFieldID": "icDdaDisabilityIssues",
     "TabFieldDisplayOrder": 9
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icOtherIssuesOrFinalOrders",
+    "CaseFieldID": "icOrderForFurtherInformation",
     "TabFieldDisplayOrder": 10
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icOtherIssuesOrFinalOrders",
+    "TabFieldDisplayOrder": 11
   },
   {
     "CaseTypeID": "ET_EnglandWales",
