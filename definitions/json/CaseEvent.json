@@ -526,6 +526,7 @@
     "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
     "ShowEventNotes": "N"
   },
   {
@@ -539,8 +540,23 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
+    "EventEnablingCondition": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "closeReferral",
+    "Name": "Referral (Close)",
+    "Description": "Close referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral",
     "EventEnablingCondition": ""
   },
   {

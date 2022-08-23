@@ -30,8 +30,8 @@
   },
   "config": {
     "local": {
-      "et_cos": "http://host.docker.internal:8081",
-      "ccd_url": "http://host.docker.internal:4452"
+      "et_cos": "http://172.19.104.10:8081",
+      "ccd_url": "http://172.19.104.10:4452"
     },
     "preview" : {
       "et_cos": "http://et-cos-aat.service.core-compute-aat.internal",
