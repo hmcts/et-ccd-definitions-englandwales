@@ -981,9 +981,35 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "TabLabel": "Referrals",
+    "TabDisplayOrder": 10,
+    "CaseFieldID": "referralsLabel",
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseReferrals",
+    "CaseFieldID": "referralCollection",
+    "TabFieldDisplayOrder": 3,
+    "TabLabel": "Referrals",
+    "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
     "TabLabel": "Judgments",
-    "TabDisplayOrder": 10,
+    "TabDisplayOrder": 11,
     "CaseFieldID": "judgementCollection",
     "TabFieldDisplayOrder": 1
   },
@@ -992,7 +1018,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseDeposit",
     "TabLabel": "Deposit Order",
-    "TabDisplayOrder": 11,
+    "TabDisplayOrder": 12,
     "CaseFieldID": "depositType",
     "TabFieldDisplayOrder": 1
   },
@@ -1001,7 +1027,7 @@
     "Channel": "CaseWorker",
     "TabID": "RestrictedReportingTab",
     "TabLabel": "Restricted Reporting",
-    "TabDisplayOrder": 12,
+    "TabDisplayOrder": 13,
     "CaseFieldID": "restrictedReporting",
     "TabFieldDisplayOrder": 1
   },
@@ -1010,7 +1036,7 @@
     "Channel": "CaseWorker",
     "TabID": "BroughtForwardDate",
     "TabLabel": "BF Actions",
-    "TabDisplayOrder": 13,
+    "TabDisplayOrder": 14,
     "CaseFieldID": "bfActions",
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(bfDate)"
@@ -1020,7 +1046,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseHistory",
     "TabLabel": "History",
-    "TabDisplayOrder": 14,
+    "TabDisplayOrder": 15,
     "CaseFieldID": "caseHistory",
     "TabFieldDisplayOrder": 1
   },
@@ -1029,7 +1055,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseDocuments",
     "TabLabel": "Documents",
-    "TabDisplayOrder": 15,
+    "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 1
   },

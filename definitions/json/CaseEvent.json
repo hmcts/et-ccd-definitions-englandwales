@@ -519,6 +519,33 @@
     "ShowEventNotes": "N"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "createReferral",
+    "Name": "Referral (Create)",
+    "Description": "Referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "replyToReferral",
+    "Name": "Referral (Reply)",
+    "Description": "Refer to admin, legal officer or judge",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "EventEnablingCondition": ""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
