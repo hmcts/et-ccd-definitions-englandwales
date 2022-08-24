@@ -5451,7 +5451,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
-    "CaseFieldID": "selectReferralToReply",
+    "CaseFieldID": "selectReferral",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
@@ -5464,7 +5464,7 @@
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "isJudge",
     "DisplayContext": "READONLY",
-    "FieldShowCondition": "selectReferralToReply=\"dummy\"",
+    "FieldShowCondition": "selectReferral=\"dummy\"",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
@@ -5586,7 +5586,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "closeReferral",
-    "CaseFieldID": "selectReferralToClose",
+    "CaseFieldID": "selectReferral",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,

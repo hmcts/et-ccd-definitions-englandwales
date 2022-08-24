@@ -3094,7 +3094,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "selectReferralToReply",
+    "ID": "selectReferral",
     "Label": "Select a referral",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
@@ -3125,7 +3125,7 @@
     "ID": "directionTo",
     "Label": "Who are you sending these directions to?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_ReferCaseTo",
+    "FieldTypeParameter": "frl_ReferCaseTo",
     "SecurityClassification": "Public"
   },
   {
@@ -3171,7 +3171,7 @@
     "ID": "replyTo",
     "Label": "Who are you referring or replying to?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_ReferCaseTo",
+    "FieldTypeParameter": "frl_ReferCaseTo",
     "SecurityClassification": "Public"
   },
   {
@@ -3186,13 +3186,6 @@
     "ID": "isJudge",
     "Label": "For checking if user is a judge",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "selectReferralToClose",
-    "Label": "Select a referral",
-    "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
