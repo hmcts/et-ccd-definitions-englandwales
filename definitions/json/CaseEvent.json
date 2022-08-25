@@ -528,6 +528,7 @@
     "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeReferral",
     "ShowEventNotes": "N"
   },
   {
@@ -542,7 +543,7 @@
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": "",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeReferral",
     "EventEnablingCondition": ""
   },
   {
