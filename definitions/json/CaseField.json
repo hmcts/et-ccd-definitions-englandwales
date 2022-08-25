@@ -1364,6 +1364,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etInitialConsiderationDocument",
+    "Label": "Initial Consideration Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralLine1",
     "Label": "<hr>",
     "FieldType": "Label",
@@ -2426,6 +2433,13 @@
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1VettingDocument",
+    "Label": "ET1 Vetting Document",
+    "FieldType": "Document",
     "SecurityClassification": "Public"
   },
   {
