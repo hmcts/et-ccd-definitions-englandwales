@@ -502,6 +502,7 @@
     "PostConditionState": "*",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitInitialConsideration",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "ShowEventNotes": "N"
@@ -516,6 +517,49 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "createReferral",
+    "Name": "Referral",
+    "Description": "Referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
+    "ShowEventNotes": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "replyToReferral",
+    "Name": "Referral",
+    "Description": "Refer to admin, legal officer or judge",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
+    "EventEnablingCondition": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "closeReferral",
+    "Name": "Referral",
+    "Description": "Close referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral",
+    "EventEnablingCondition": ""
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
