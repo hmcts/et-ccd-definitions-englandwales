@@ -49,11 +49,14 @@
     "Name": "ET1 case vetting",
     "Description": "Vetting a case",
     "DisplayOrder": 5,
-    "PreConditionState(s)": "Submitted",
+    "PreConditionState(s)": "Submitted;Rejected;Vetted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1VettingAboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
     "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -82,14 +85,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Vetting",
-    "Name": "ET3 Vetting",
-    "Description": "ET3 Vetting",
+    "Name": "ET3 Processing",
+    "Description": "ET3 Processing",
     "DisplayOrder": 8,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/initEt3RespondentList"
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -479,7 +485,10 @@
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitInitialConsideration",
     "SecurityClassification": "Public",
+    "ShowSummary": "Y",
     "ShowEventNotes": "N"
   },
   {
