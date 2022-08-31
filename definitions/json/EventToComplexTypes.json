@@ -1538,7 +1538,7 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claim_outcome",
     "EventElementLabel": "What do you want if your claim is successful",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1547,7 +1547,7 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
     "EventElementLabel": "Compensation amount requested",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1555,8 +1555,44 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_tribunal_recommendation",
-    "EventElementLabel": "Tribunal recommendation request ",
+    "EventElementLabel": "Tribunal recommendation request",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing",
+    "EventElementLabel": "Whistleblowing claim",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing_authority",
+    "EventElementLabel": "Whistleblowing authority",
     "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description_document",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2367,7 +2403,7 @@
     "RetainHiddenValue": "No"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_job",
@@ -2376,7 +2412,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
@@ -2385,7 +2421,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
@@ -2394,7 +2430,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateDraftCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_job_pay_interval",
@@ -2445,6 +2481,42 @@
     "ListElementCode": "claimant_tribunal_recommendation",
     "EventElementLabel": "Tribunal recommendation request ",
     "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing",
+    "EventElementLabel": "Whistleblowing claim",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing_authority",
+    "EventElementLabel": "Whistleblowing authority",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description_document",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL"
   },
   {
