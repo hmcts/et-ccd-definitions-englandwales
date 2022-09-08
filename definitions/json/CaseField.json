@@ -2990,6 +2990,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseDocument",
+    "Label": " ",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "referralCollection",
     "Label": "Referrals",
     "FieldType": "Collection",
