@@ -41,6 +41,8 @@
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "ShowEventNotes": "N"
   },
   {
