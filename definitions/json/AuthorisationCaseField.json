@@ -2929,12 +2929,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "documentCollection",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "correspondenceType",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
