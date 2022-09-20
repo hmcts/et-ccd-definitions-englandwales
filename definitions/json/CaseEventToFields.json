@@ -929,6 +929,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_CASE_SUBMITTED",
+    "CaseFieldID": "hubLinks",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "preAcceptanceCase",
     "CaseFieldID": "preAcceptCase",
     "DisplayContext": "MANDATORY",
@@ -1310,9 +1318,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
+    "PageFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
