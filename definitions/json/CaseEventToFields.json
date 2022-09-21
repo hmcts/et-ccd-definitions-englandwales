@@ -919,7 +919,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "UPDATE_CASE_SUBMITTED",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1
