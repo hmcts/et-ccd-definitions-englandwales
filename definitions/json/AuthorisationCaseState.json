@@ -45,7 +45,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Submitted",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -81,7 +81,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Vetted",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -141,7 +141,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Accepted",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -183,7 +183,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Closed",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -225,7 +225,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Rejected",
     "UserRole": "citizen",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
