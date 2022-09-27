@@ -926,30 +926,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "UPDATE_CASE_SUBMITTED",
-    "CaseFieldID": "ethosCaseReference",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "UPDATE_CASE_SUBMITTED",
-    "CaseFieldID": "ClaimantPcqId",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "UPDATE_CASE_SUBMITTED",
-    "CaseFieldID": "documentCollection",
-    "DisplayContext": "OPTIONAL",
-    "PageID": 2,
-    "PageDisplayOrder": 3
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "preAcceptanceCase",
     "CaseFieldID": "preAcceptCase",
     "DisplayContext": "MANDATORY",
