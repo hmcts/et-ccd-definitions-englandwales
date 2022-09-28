@@ -2929,12 +2929,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "documentCollection",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "correspondenceType",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
@@ -10231,38 +10225,44 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hubLinks",
+    "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "hubLinksStatuses",
+    "UserRole": "citizen",
     "CRUD": "CRUD"
   },
   {
