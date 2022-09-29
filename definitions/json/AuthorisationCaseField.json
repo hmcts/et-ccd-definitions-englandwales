@@ -9769,8 +9769,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et3ResponseContestClaimDetails",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
@@ -12553,7 +12551,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-  {
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et3GeneralNotesCompanyHouse",
