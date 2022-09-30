@@ -8,6 +8,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "typesOfClaim",
+    "Label": "Types Of Claim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
