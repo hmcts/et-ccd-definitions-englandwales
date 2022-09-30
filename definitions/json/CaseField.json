@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "typeOfClaim",
-    "Label": "Type Of Claim",
+    "Label": "Deprecated",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
