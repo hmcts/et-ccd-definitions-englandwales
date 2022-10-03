@@ -986,7 +986,7 @@
     "TabDisplayOrder": 10,
     "CaseFieldID": "referralsLabel",
     "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\" AND caseType=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1001,7 +1001,6 @@
     "TabID": "CaseReferrals",
     "CaseFieldID": "referralCollection",
     "TabFieldDisplayOrder": 3,
-    "TabLabel": "Referrals",
     "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
   },
   {
