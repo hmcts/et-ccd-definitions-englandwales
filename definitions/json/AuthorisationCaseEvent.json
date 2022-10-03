@@ -1023,91 +1023,91 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment",
-    "CRUD": "D"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "D"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "D"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "D"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "D"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment",
-    "CRUD": "D"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "D"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "D"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "D"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "D"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment",
-    "CRUD": "D"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "D"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "D"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "D"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "closeReferral",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "D"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
