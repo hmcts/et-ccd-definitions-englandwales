@@ -2,8 +2,16 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "typeOfClaim",
-    "Label": "Type Of Claim",
+    "Label": "Deprecated",
     "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "typesOfClaim",
+    "Label": "Types Of Claim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
     "SecurityClassification": "Public"
   },
   {
