@@ -17647,12 +17647,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "etInitialConsiderationRespondent",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "referralDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "CRUD"
