@@ -17656,7 +17656,8 @@
     "CaseFieldID": "referralDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
-   },
+  },
+  {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationDocument",
     "UserRole": "caseworker-employment-etjudge",
