@@ -1344,6 +1344,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "ClaimantRequest",
+    "ListElementCode": "other_claim",
+    "FieldType": "TextArea",
+    "ElementLabel": "Please describe what type of claim you want to make",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_preference",
     "FieldType": "FixedList",
