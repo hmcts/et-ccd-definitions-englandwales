@@ -41,6 +41,11 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "UserRole": "[RESPONDENTSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

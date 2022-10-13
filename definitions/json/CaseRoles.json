@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[CLAIMANTSOLICITOR]",
+    "Name": "Claimant Solicitor",
+    "Description": "Claimant Solicitor 1",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITOR]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[CREATOR]",
+    "Name": "Creator",
+    "Description": "Creator of case",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  }
+]

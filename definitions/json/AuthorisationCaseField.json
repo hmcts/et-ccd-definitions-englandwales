@@ -548,6 +548,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "receiptDate",
+    "UserRole": "[RESPONDENTSOLICITOR]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "receiptDate",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
@@ -2608,7 +2614,7 @@
     "CaseFieldID": "repCollection",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
-  },
+  },  
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "repCollection",
@@ -10294,7 +10300,7 @@
     "CaseFieldID": "hubLinksStatuses",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
+  },   
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "hubLinksStatuses",
