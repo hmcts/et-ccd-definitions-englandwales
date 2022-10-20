@@ -3234,6 +3234,76 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy0",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy1",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy2",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy3",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy4",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy5",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy6",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy7",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy8",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy9",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",    
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

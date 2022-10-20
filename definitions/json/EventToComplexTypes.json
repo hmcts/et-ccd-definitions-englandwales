@@ -3858,7 +3858,7 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "respondentOrganisationPolicy.Organisation.OrganisationID",
+    "ListElementCode": "respondentOrganisation.OrganisationID",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL"
   },
@@ -3866,33 +3866,8 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "respondentOrganisationPolicy.Organisation.OrganisationName",
+    "ListElementCode": "respondentOrganisation.OrganisationName",
     "FieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "respondentOrganisationPolicy.OrgPolicyCaseAssignedRole",
-    "DefaultValue": "[RESPONDENTSOLICITOR]",
-    "FieldDisplayOrder": 10,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "respondentOrganisationPolicy.OrgPolicyReference",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "respondentOrganisationPolicy.PrepopulateToUsersOrganisation",
-    "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3901,7 +3876,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "name_of_organisation",
     "EventElementLabel": "Name of Organisation",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3910,7 +3885,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_reference",
     "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3919,7 +3894,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3927,7 +3902,7 @@
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.AddressLine2",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3935,7 +3910,7 @@
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.AddressLine3",
-    "FieldDisplayOrder": 17,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3944,7 +3919,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3953,7 +3928,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3962,7 +3937,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 20,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3971,7 +3946,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 21,
+    "FieldDisplayOrder": 18,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3980,7 +3955,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_occupation",
     "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 22,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3989,7 +3964,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_occupation_other",
     "EventElementLabel": "What is the Representative's occupation?",
-    "FieldDisplayOrder": 23,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL"
   },
   {

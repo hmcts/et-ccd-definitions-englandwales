@@ -1209,8 +1209,8 @@
   },
   {
     "ID": "RespondentRepresentative",
-    "ListElementCode": "respondentOrganisationPolicy",
-    "FieldType": "OrganisationPolicy",
+    "ListElementCode": "respondentOrganisation",
+    "FieldType": "Organisation",
     "ElementLabel": "MyHMCTS Organisation",
     "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
     "SecurityClassification": "Public"
