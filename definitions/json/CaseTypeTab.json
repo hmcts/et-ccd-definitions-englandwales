@@ -1001,7 +1001,6 @@
     "TabID": "CaseReferrals",
     "CaseFieldID": "referralCollection",
     "TabFieldDisplayOrder": 3,
-    "TabLabel": "Referrals",
     "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
   },
   {
