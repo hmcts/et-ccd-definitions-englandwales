@@ -5,7 +5,7 @@
         "DisplayOrder": "1",
         "QuestionText": "Client first name",
         "AnswerFieldType": "Text",
-        "Answer": " ",
+        "Answer": "${noticeOfChangeAnswers0.respondentFirstName}:[RESPONDENTSOLICITOR],${noticeOfChangeAnswers1.respondentFirstName}:[RESPONDENTSOLICITOR]",
         "QuestionId": "respondentFirstName"
     },
     {
@@ -14,7 +14,7 @@
         "DisplayOrder": "2",
         "QuestionText": "Client surname",
         "AnswerFieldType": "Text",
-        "Answer": " ",
+        "Answer": "${noticeOfChangeAnswers0.respondentLastName}:[RESPONDENTSOLICITOR],${noticeOfChangeAnswers1.respondentLastName}:[RESPONDENTSOLICITOR]",
         "QuestionId": "respondentLastName"
     },
     {
@@ -23,7 +23,7 @@
         "DisplayOrder": "3",
         "QuestionText": "Client date of birth",
         "AnswerFieldType": "Date",
-        "Answer": " ",
+        "Answer": "${noticeOfChangeAnswers0.respondentDateOfBirth}:[RESPONDENTSOLICITOR],${noticeOfChangeAnswers1.respondentDateOfBirth}:[RESPONDENTSOLICITOR]",
         "QuestionId": "respondentDateOfBirth"
     }
 ]
