@@ -41,6 +41,16 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "UserRole": "caseworker-approver",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "UserRole": "[RESPONDENTSOLICITOR]",
     "CRUD": "CRU"
   },

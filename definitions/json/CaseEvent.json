@@ -106,7 +106,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStart",
-    "CallBackURLAboutToSubmitEvent":"${ET_COS_URL}/et3Response/aboutToSubmit",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
     "EventEnablingCondition": ""
   },
@@ -574,6 +574,43 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "nocRequest",
+    "Name": "NoC Request",
+    "Description": "Notice of Change Request",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${CCD_DEF_AAC_URL}/noc/check-noc-approval",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "applyNocDecision",
+    "Name": "Apply NoC Decision",
+    "Description": "Apply Notice of Change Request",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/noc-decision/about-to-start",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/noc-decision/submitted",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "ShowEventNotes": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateRepresentation",
+    "Name": "Update representation",
+    "Description": "Update respondent representation via NoC",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${CCD_DEF_AAC_URL}/noc/apply-decision",
+    "SecurityClassification": "Public",
+    "ShowSummary": "N",
+    "ShowEventNotes": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",

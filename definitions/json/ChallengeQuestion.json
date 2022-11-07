@@ -1,0 +1,29 @@
+[
+    {
+        "CaseTypeID": "ET_EnglandWales",
+        "ID": "NoCChallenge",
+        "DisplayOrder": "1",
+        "QuestionText": "Client first name",
+        "AnswerFieldType": "Text",
+        "Answer": " ",
+        "QuestionId": "respondentFirstName"
+    },
+    {
+        "CaseTypeID": "ET_EnglandWales",
+        "ID": "NoCChallenge",
+        "DisplayOrder": "2",
+        "QuestionText": "Client surname",
+        "AnswerFieldType": "Text",
+        "Answer": " ",
+        "QuestionId": "respondentLastName"
+    },
+    {
+        "CaseTypeID": "ET_EnglandWales",
+        "ID": "NoCChallenge",
+        "DisplayOrder": "3",
+        "QuestionText": "Client date of birth",
+        "AnswerFieldType": "Date",
+        "Answer": " ",
+        "QuestionId": "respondentDateOfBirth"
+    }
+]
