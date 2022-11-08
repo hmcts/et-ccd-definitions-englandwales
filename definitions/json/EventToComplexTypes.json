@@ -5083,7 +5083,7 @@
     "ListElementCode": "disposalDate",
     "EventElementLabel": "Disposal date",
     "FieldDisplayOrder": 73,
-    "DisplayContext": "OPTIONAL"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "RestrictedReporting",
