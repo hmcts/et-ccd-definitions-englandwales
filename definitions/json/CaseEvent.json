@@ -106,7 +106,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStart",
-    "CallBackURLAboutToSubmitEvent":"${ET_COS_URL}/et3Response/aboutToSubmit",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
     "EventEnablingCondition": ""
   },
