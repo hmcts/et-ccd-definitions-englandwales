@@ -5657,6 +5657,16 @@
     "PageColumnNumber": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "amendCaseDetails",
+    "CaseFieldID": "suggestedHearingVenues",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 14,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
