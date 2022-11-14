@@ -18522,6 +18522,12 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-api",
