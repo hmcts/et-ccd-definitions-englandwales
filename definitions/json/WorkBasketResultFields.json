@@ -37,14 +37,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
-    "CaseFieldID": "managingOffice",
-    "Label": "Managing Office",
+    "CaseFieldID": "documentName",
+    "Label": "Document Name",
     "DisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
-    "CaseFieldID": "documentName",
-    "Label": "Document Name",
+    "CaseFieldID": "managingOffice",
+    "Label": "Managing Office",
     "DisplayOrder": 2
   },
   {
