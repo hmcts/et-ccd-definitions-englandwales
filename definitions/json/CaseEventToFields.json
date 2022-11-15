@@ -5656,6 +5656,17 @@
     "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
+  {    
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "COMPLEX",
+    "PageID": "SingleFormPageWithComplex",
+    "PageLabel": "Change Organisation Request",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",

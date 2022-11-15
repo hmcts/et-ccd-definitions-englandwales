@@ -5559,24 +5559,8 @@
   },
   {
     "ID": "NoticeOfChangeAnswers",
-    "ListElementCode": "respondentFirstName",
+    "ListElementCode": "respondentName",
     "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "ID": "NoticeOfChangeAnswers",
-    "ListElementCode": "respondentLastName",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "ID": "NoticeOfChangeAnswers",
-    "ListElementCode": "respondentDateOfBirth",
-    "FieldType": "Date",
     "ElementLabel": " ",
     "SecurityClassification": "Public",
     "Searchable": "Y"
