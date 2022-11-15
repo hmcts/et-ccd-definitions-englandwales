@@ -42,6 +42,12 @@
     "DisplayOrder": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseFieldID": "managingOffice",
+    "Label": "Managing Office",
+    "DisplayOrder": 2
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseFieldID": "multipleName",
     "Label": "Multiple Name",
