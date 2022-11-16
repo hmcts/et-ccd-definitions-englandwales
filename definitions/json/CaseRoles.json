@@ -20,6 +20,96 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORA]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORB]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORC]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORD]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORE]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORF]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORG]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORH]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORI]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "[RESPONDENTSOLICITORJ]",
+    "Name": "Respondent Solicitor",
+    "Description": "Respondent Solicitor role",
+    "JurisdictionID": "EMPLOYMENT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "[CREATOR]",
     "Name": "Creator",
     "Description": "Creator of case",

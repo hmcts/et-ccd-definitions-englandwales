@@ -548,6 +548,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "receiptDate",
+    "UserRole": "[RESPONDENTSOLICITORA]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "receiptDate",
     "UserRole": "[RESPONDENTSOLICITOR]",
     "CRUD": "CRU"
   },

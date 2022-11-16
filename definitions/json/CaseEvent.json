@@ -594,7 +594,7 @@
     "Description": "Apply Notice of Change Request",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${CCD_DEF_AAC_URL}/noc/apply-decision",    
+    "CallBackURLAboutToStartEvent": "${CCD_DEF_AAC_URL}/noc/apply-decision",     
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/noc-decision/submitted",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
