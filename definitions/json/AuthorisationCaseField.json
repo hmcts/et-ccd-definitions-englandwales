@@ -793,6 +793,24 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "ethosCaseReference",
+    "UserRole": "caseworker-caa",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimant",
+    "UserRole": "caseworker-caa",
+    "CRUD": "R"
+  }, 
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "respondent",
+    "UserRole": "caseworker-caa",
+    "CRUD": "R"
+  }, 
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseRefNumberCount",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
