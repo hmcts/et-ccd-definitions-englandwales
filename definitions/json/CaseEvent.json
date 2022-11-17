@@ -19,7 +19,8 @@
     "DisplayOrder": 2,
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
