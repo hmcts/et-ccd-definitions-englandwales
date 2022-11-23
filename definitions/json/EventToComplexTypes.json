@@ -5918,5 +5918,23 @@
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "respondentTSEGiveDetails",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "respondentTSEGiveDetails",
+    "ListElementCode": "respondentTSEDocuments",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "respondentTSEGiveDetails",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "respondentTSEGiveDetails",
+    "ListElementCode": "respondentTSETextBox",
+    "EventElementLabel": "Use this box for any accompanying information",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
   }
 ]

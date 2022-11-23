@@ -3248,6 +3248,35 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentTseVariableContent",
+    "Label": "Variable Content",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentTseVariableContentLabel",
+    "Label": "${respondentTseVariableContent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentTseGenericGuidanceLabel",
+    "Label": "Consider when providing material that:",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentTSEGiveDetails",
+    "Label": "Give details of your application in the text box or upload a file",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "respondentTSEGiveDetails",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

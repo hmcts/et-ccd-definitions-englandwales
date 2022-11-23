@@ -5667,6 +5667,45 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "horizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Select an application"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "respondentTseVariableContentLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Main heading"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "respondentTseGenericGuidanceLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "respondentTSEGiveDetails",
+    "DisplayContext": "COMPLEX",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

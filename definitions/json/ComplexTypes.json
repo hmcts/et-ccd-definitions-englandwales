@@ -5594,5 +5594,19 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTSEGiveDetails",
+    "ListElementCode": "respondentTSEDocuments",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTSEGiveDetails",
+    "ListElementCode": "respondentTSETextBox",
+    "FieldType": "TextArea",
+    "ElementLabel": "Use this box for any accompanying information",
+    "SecurityClassification": "Public"
   }
 ]
