@@ -5836,5 +5836,77 @@
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Amend response",
+    "ListElementCode": "Amend response",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Change personal details",
+    "ListElementCode": "Change personal details",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Claimant not complied",
+    "ListElementCode": "Claimant not complied",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Consider a decision afresh",
+    "ListElementCode": "Consider a decision afresh",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Contact the tribunal",
+    "ListElementCode": "Contact the tribunal",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Order other party",
+    "ListElementCode": "Order other party",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Order a witness to attend to give evidence",
+    "ListElementCode": "Order a witness to attend to give evidence",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Postpone a hearing",
+    "ListElementCode": "Postpone a hearing",
+    "DisplayOrder": 8
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Reconsider judgement",
+    "ListElementCode": "Reconsider judgement",
+    "DisplayOrder": 9
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Restrict publicity",
+    "ListElementCode": "Restrict publicity",
+    "DisplayOrder": 10
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Strike out all or part of a claim",
+    "ListElementCode": "Strike out all or part of a claim",
+    "DisplayOrder": 11
+  },
+  {
+    "ID": "fl_resTseSelectApp",
+    "ListElement": "Vary or revoke an order",
+    "ListElementCode": "Vary or revoke an order",
+    "DisplayOrder": 12
   }
 ]
