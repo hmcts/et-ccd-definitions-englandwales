@@ -5920,19 +5920,19 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "respondentTSEGiveDetails",
+    "ID": "resTseGiveDetails",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "respondentTSEGiveDetails",
-    "ListElementCode": "respondentTSEDocuments",
+    "CaseFieldID": "resTseGiveDetails",
+    "ListElementCode": "resTseDocuments",
     "EventElementLabel": "Document",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "respondentTSEGiveDetails",
+    "ID": "resTseGiveDetails",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "respondentTSEGiveDetails",
-    "ListElementCode": "respondentTSETextBox",
+    "CaseFieldID": "resTseGiveDetails",
+    "ListElementCode": "resTseTextBox",
     "EventElementLabel": "Use this box for any accompanying information",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"

@@ -5669,8 +5669,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "horizontalLine",
-    "DisplayContext": "READONLY",
+    "CaseFieldID": "resTseSelectApplication",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -5679,7 +5679,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "respondentTseVariableContentLabel",
+    "CaseFieldID": "resTseVariableContentLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -5690,7 +5690,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "respondentTseGenericGuidanceLabel",
+    "CaseFieldID": "resTseGenericGuidanceLabel",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -5699,7 +5699,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondentTSE",
-    "CaseFieldID": "respondentTSEGiveDetails",
+    "CaseFieldID": "resTseGiveDetails",
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,

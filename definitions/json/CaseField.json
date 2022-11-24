@@ -3249,31 +3249,40 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentTseVariableContent",
+    "ID": "resTseSelectApplication",
+    "Label": "Select an application",
+    "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_resTseSelectApp",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseVariableContent",
     "Label": "Variable Content",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentTseVariableContentLabel",
-    "Label": "${respondentTseVariableContent}",
+    "ID": "resTseVariableContentLabel",
+    "Label": "${resTseVariableContent}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentTseGenericGuidanceLabel",
-    "Label": "Consider when providing material that:",
+    "ID": "resTseGenericGuidanceLabel",
+    "Label": "Consider when providing material that: * you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentTSEGiveDetails",
+    "ID": "resTseGiveDetails",
     "Label": "Give details of your application in the text box or upload a file",
     "FieldType": "Collection",
-    "FieldTypeParameter": "respondentTSEGiveDetails",
+    "FieldTypeParameter": "resTseGiveDetails",
     "SecurityClassification": "Public"
   },
   {

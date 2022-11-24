@@ -18529,25 +18529,25 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTseVariableContent",
+    "CaseFieldID": "resTseVariableContent",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTseVariableContentLabel",
+    "CaseFieldID": "resTseVariableContentLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTseGenericGuidanceLabel",
+    "CaseFieldID": "resTseGenericGuidanceLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTSEGiveDetails",
+    "CaseFieldID": "resTseGiveDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
