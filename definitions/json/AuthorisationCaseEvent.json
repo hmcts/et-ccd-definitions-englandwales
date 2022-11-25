@@ -1173,6 +1173,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
+    "CaseEventID": "createReport",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseEventID": "generateReport",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"

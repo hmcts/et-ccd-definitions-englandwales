@@ -802,13 +802,13 @@
     "CaseFieldID": "claimant",
     "UserRole": "caseworker-caa",
     "CRUD": "R"
-  }, 
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondent",
     "UserRole": "caseworker-caa",
     "CRUD": "R"
-  }, 
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseRefNumberCount",
@@ -10931,16 +10931,16 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-  {    
+  {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "changeOrganisationRequestField",
     "UserRole": "caseworker-caa",
     "CRUD": "CRU"
   },
-  {    
+  {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "changeOrganisationRequestField",
-    "UserRole": "caseworker-approver",    
+    "UserRole": "caseworker-approver",
     "CRUD": "CRU"
   },
   {
@@ -19124,6 +19124,48 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "closeReferralGeneralNotes",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "suggestedHearingVenues",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

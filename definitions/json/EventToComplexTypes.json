@@ -4383,11 +4383,41 @@
   },
   {
     "ID": "Judgement",
+    "CaseFieldID": "judgementCollection",
+    "CaseEventID": "addAmendJudgment",
+    "ListElementCode": "Judgement_costs.pro_bono_costs_awarded_to",
+    "EventElementLabel": "Pro Bono costs awarded to",
+    "FieldDisplayOrder": 34,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Judgement",
+    "CaseFieldID": "judgementCollection",
+    "CaseEventID": "addAmendJudgment",
+    "ListElementCode": "Judgement_costs.pro_bono_costs_awarded_against",
+    "EventElementLabel": "Pro Bono costs awarded against",
+    "FieldDisplayOrder": 35,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Judgement",
+    "CaseFieldID": "judgementCollection",
+    "CaseEventID": "addAmendJudgment",
+    "ListElementCode": "Judgement_costs.pro_bono_costs_amount_awarded",
+    "EventElementLabel": "Pro Bono costs amount awarded",
+    "FieldDisplayOrder": 36,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Judgement",
     "CaseEventID": "addAmendJudgment",
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsideration",
     "EventElementLabel": "Has a reconsideration application been made?",
-    "FieldDisplayOrder": 34,
+    "FieldDisplayOrder": 37,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4396,7 +4426,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationDate",
     "EventElementLabel": "Date of application for reconsideration",
-    "FieldDisplayOrder": 35,
+    "FieldDisplayOrder": 38,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -4405,7 +4435,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationOwnInitiative",
     "EventElementLabel": "Did the Tribunal reconsider the Judgment on its own initiative",
-    "FieldDisplayOrder": 36,
+    "FieldDisplayOrder": 39,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -4414,7 +4444,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationPartyInitiative",
     "EventElementLabel": "Who applied for reconsideration?",
-    "FieldDisplayOrder": 37,
+    "FieldDisplayOrder": 40,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4423,7 +4453,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationDirection",
     "EventElementLabel": "Employment Judge's direction",
-    "FieldDisplayOrder": 38,
+    "FieldDisplayOrder": 41,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -4432,7 +4462,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationDecision",
     "EventElementLabel": "Employment Judge's decision",
-    "FieldDisplayOrder": 39,
+    "FieldDisplayOrder": 42,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -5090,7 +5120,7 @@
     "ListElementCode": "disposalDate",
     "EventElementLabel": "Disposal date",
     "FieldDisplayOrder": 73,
-    "DisplayContext": "OPTIONAL"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "RestrictedReporting",
