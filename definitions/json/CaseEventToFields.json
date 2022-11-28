@@ -5706,6 +5706,47 @@
     "PageFieldDisplayOrder": 3
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseHorizontalLine",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Copy this correspondence to the other party"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseCopyThisCorrespondenceText",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseCopyToOtherPartyYesOrNo",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseCopyToOtherPartyTextArea",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "resTseCopyToOtherPartyYesOrNo=\"I do not want to copy\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

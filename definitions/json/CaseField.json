@@ -3286,6 +3286,42 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseHorizontalLine",
+    "Label": "<hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseCopyThisCorrespondenceText",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseCopyToOtherPartyYesOrNo",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseCopyToOtherPartyTextArea",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "applicationsTab",
+    "Label": "#### Applications",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
