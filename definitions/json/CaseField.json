@@ -1122,7 +1122,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "emailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${emailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -2532,7 +2532,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3EmailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${et3EmailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${et3EmailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
