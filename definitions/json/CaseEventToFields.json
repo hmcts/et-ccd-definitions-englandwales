@@ -5674,6 +5674,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/respondentTSE/midVariableContent",
     "PageLabel": "Select an application"
   },
   {
