@@ -1077,6 +1077,13 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",
