@@ -5713,7 +5713,8 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "Copy this correspondence to the other party"
+    "PageLabel": "Copy this correspondence to the other party",
+    "PageShowCondition": "resTseSelectApplication != \"Order a witness to attend to give evidence\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

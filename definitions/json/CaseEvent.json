@@ -588,7 +588,8 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
