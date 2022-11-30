@@ -56,57 +56,52 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITOR]",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORA]",
+    "UserRole": "[SOLICITORB]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORB]",
+    "UserRole": "[SOLICITORC]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORC]",
+    "UserRole": "[SOLICITORD]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORD]",
+    "UserRole": "[SOLICITORE]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORE]",
+    "UserRole": "[SOLICITORF]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORF]",
+    "UserRole": "[SOLICITORG]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORG]",
+    "UserRole": "[SOLICITORH]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORH]",
+    "UserRole": "[SOLICITORI]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORI]",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "[RESPONDENTSOLICITORJ]",
+    "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
   },
   {
