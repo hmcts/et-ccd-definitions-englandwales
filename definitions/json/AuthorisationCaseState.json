@@ -145,126 +145,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Accepted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRUD"
@@ -274,6 +154,126 @@
     "CaseStateID": "Accepted",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
