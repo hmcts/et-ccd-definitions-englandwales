@@ -5674,7 +5674,20 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/respondentTSE/midVariableContent",
     "PageLabel": "Select an application"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseVariableContent",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "resTseVariableContentLabel=\"dummy\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Main heading"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5683,9 +5696,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageLabel": "Main heading"
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5694,7 +5705,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2
+    "PageFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5703,7 +5714,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3
+    "PageFieldDisplayOrder": 4
   },
   {
     "CaseTypeID": "ET_EnglandWales",
