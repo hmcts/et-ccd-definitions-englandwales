@@ -117,7 +117,15 @@
     "ListElementCode": "claimant_contact_language",
     "FieldType": "FixedList",
     "ElementLabel": "Contact language",
-    "FieldTypeParameter": "fl_ContactLanguage",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantCorrespondence",
+    "ListElementCode": "claimant_hearing_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing language",
+    "FieldTypeParameter": "fl_languages",
     "SecurityClassification": "Public"
   },
   {
