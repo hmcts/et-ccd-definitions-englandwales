@@ -3329,6 +3329,27 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseGuidanceLabel1",
+    "Label": " <hr>Use this form to apply to amend the ET3 response.<br><br>The tribunal will decide if you can make the amendment by judging the fairness of the application. This decision may be made at a hearing.<br><br>The tribunal also needs to know if you consider the amendment minor or substantial.<br><br>Providing details of why you want to amend the response and the importance of the amendment will help the tribunal to decide your application more quickly.<h3>Details to include in your application:</h3><ul><li>what you want to amend in your response. Be specific and refer to your ET3 response form if possible</li><li>if you consider it a minor or substantial amendment</li><li>why you want to make this amendment</li><li>why you are asking to make this amendment now</li><li>how this amendment will benefit you and how could it disadvantage you if not granted</li></ul><h3>Consider when providing material that:</h3><ul><li>you can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul><br><h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseDocument1",
+    "Label": "Document",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseTextBox1",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

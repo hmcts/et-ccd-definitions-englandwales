@@ -5684,7 +5684,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "resTseVariableContentLabel=\"dummy\"",
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Main heading"
@@ -5696,7 +5696,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 2
+    "PageFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5705,7 +5705,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3
+    "PageFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5714,7 +5714,7 @@
     "DisplayContext": "COMPLEX",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 4
+    "PageFieldDisplayOrder": 7
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5757,7 +5757,38 @@
     "FieldShowCondition": "resTseCopyToOtherPartyYesOrNo=\"I do not want to copy\"",
     "ShowSummaryChangeOption": "Y"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseGuidanceLabel1",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "resTseSelectApplication=\"Amend response\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/respondentTSE/validateGiveDetails",
+    "PageLabel": "Amend response"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseDocument1",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "resTseTextBox1",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
