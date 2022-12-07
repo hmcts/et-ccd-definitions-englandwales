@@ -3552,6 +3552,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseCollection",
+    "Label": "Respondent TSE Collection",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "resTseDetails",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

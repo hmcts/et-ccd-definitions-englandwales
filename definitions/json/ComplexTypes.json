@@ -5594,5 +5594,40 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "resTseDetails",
+    "ListElementCode": "resTseSelectApplication",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "resTseDetails",
+    "ListElementCode": "resTseDocument",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "resTseDetails",
+    "ListElementCode": "resTseTextBox",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "resTseDetails",
+    "ListElementCode": "resTseCopyToOtherPartyYesOrNo",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "resTseDetails",
+    "ListElementCode": "resTseCopyToOtherPartyTextArea",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   }
 ]
