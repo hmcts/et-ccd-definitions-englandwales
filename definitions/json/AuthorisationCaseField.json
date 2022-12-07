@@ -18906,6 +18906,204 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel2",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument2",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox2",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel3",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument3",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox3",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel4",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument4",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox4",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel5",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument5",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox5",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel6",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument6",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox6",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel7",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument7",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox7",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel8",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument8",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox8",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel9",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument9",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox9",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel10",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument10",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox10",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel11",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument11",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox11",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseGuidanceLabel12",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument12",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseTextBox12",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-api",
