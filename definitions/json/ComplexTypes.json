@@ -5594,19 +5594,5 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "resTseGiveDetails",
-    "ListElementCode": "resTseDocuments",
-    "FieldType": "Document",
-    "ElementLabel": "Document",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "resTseGiveDetails",
-    "ListElementCode": "resTseTextBox",
-    "FieldType": "TextArea",
-    "ElementLabel": "Use this box for any accompanying information",
-    "SecurityClassification": "Public"
   }
 ]
