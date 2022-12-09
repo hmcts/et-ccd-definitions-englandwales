@@ -5596,36 +5596,57 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "resTseDetails",
-    "ListElementCode": "resTseSelectApplication",
+    "ID": "genericTseDetails",
+    "ListElementCode": "number",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "resTseDetails",
-    "ListElementCode": "resTseDocument",
+    "ID": "genericTseDetails",
+    "ListElementCode": "type",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "applicant",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "documentUpload",
     "FieldType": "Document",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "resTseDetails",
-    "ListElementCode": "resTseTextBox",
+    "ID": "genericTseDetails",
+    "ListElementCode": "details",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "resTseDetails",
-    "ListElementCode": "resTseCopyToOtherPartyYesOrNo",
+    "ID": "genericTseDetails",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "resTseDetails",
-    "ListElementCode": "resTseCopyToOtherPartyTextArea",
+    "ID": "genericTseDetails",
+    "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"

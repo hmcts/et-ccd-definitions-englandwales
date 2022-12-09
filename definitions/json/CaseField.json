@@ -3553,10 +3553,10 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "resTseCollection",
-    "Label": "Respondent TSE Collection",
+    "ID": "genericTseApplicationCollection",
+    "Label": "Generic TSE Application Collection",
     "FieldType": "Collection",
-    "FieldTypeParameter": "resTseDetails",
+    "FieldTypeParameter": "genericTseDetails",
     "SecurityClassification": "Public"
   },
   {
