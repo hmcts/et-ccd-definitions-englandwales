@@ -1083,6 +1083,16 @@
     "TabFieldDisplayOrder": 2
   },
   {
+    "CaseFieldID": "genericTseApplicationCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, type, applicant, date, due, responsesCount, status)",
+    "TabDisplayOrder": 17,
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabFieldDisplayOrder": 3
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",

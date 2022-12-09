@@ -3554,7 +3554,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "genericTseApplicationCollection",
-    "Label": "Generic TSE Application Collection",
+    "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "genericTseDetails",
     "SecurityClassification": "Public"

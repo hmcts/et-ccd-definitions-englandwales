@@ -19246,7 +19246,8 @@
     "CaseFieldID": "resTseDocument3",
     "UserRole": "citizen",
     "CRUD": "CRU"
-  },  {
+  },
+  {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "resTseTextBox3",
     "UserRole": "caseworker-employment-api",
@@ -20588,6 +20589,54 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "resTseTextBox12",
     "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {

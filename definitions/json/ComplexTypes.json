@@ -5599,42 +5599,42 @@
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
-    "ElementLabel": " ",
+    "ElementLabel": "No",
     "SecurityClassification": "Public"
   },
   {
     "ID": "genericTseDetails",
     "ListElementCode": "type",
     "FieldType": "Text",
-    "ElementLabel": " ",
+    "ElementLabel": "Type",
     "SecurityClassification": "Public"
   },
   {
     "ID": "genericTseDetails",
     "ListElementCode": "applicant",
     "FieldType": "Text",
-    "ElementLabel": " ",
+    "ElementLabel": "Applicant",
     "SecurityClassification": "Public"
   },
   {
     "ID": "genericTseDetails",
     "ListElementCode": "date",
     "FieldType": "Text",
-    "ElementLabel": " ",
+    "ElementLabel": "Application date",
     "SecurityClassification": "Public"
   },
   {
     "ID": "genericTseDetails",
     "ListElementCode": "documentUpload",
     "FieldType": "Document",
-    "ElementLabel": " ",
+    "ElementLabel": "Supporting material",
     "SecurityClassification": "Public"
   },
   {
     "ID": "genericTseDetails",
     "ListElementCode": "details",
     "FieldType": "Text",
-    "ElementLabel": " ",
+    "ElementLabel": "What do you want to tell or ask the tribunal?",
     "SecurityClassification": "Public"
   },
   {
@@ -5642,6 +5642,7 @@
     "ListElementCode": "copyToOtherPartyYesOrNo",
     "FieldType": "Text",
     "ElementLabel": " ",
+    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
@@ -5649,6 +5650,28 @@
     "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
     "ElementLabel": " ",
+    "FieldShowCondition": "copyToOtherPartyYesOrNo=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "due",
+    "FieldType": "Text",
+    "ElementLabel": "Response due",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "responsesCount",
+    "FieldType": "Text",
+    "ElementLabel": "Number of responses",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": "Status",
     "SecurityClassification": "Public"
   }
 ]
