@@ -5596,6 +5596,44 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "from",
+    "FieldType": "Text",
+    "ElementLabel": "Response from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Response date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "response",
+    "FieldType": "Text",
+    "ElementLabel": "What's your response to the claimant's application",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "hasSupportingMaterial",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "date=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "supportingMaterial",
+    "FieldType": "Collection",
+    "ElementLabel": "Supporting material",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -5672,6 +5710,14 @@
     "ListElementCode": "status",
     "FieldType": "Text",
     "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "respondentReply",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseRespondentResponse",
+    "ElementLabel": "Response",
     "SecurityClassification": "Public"
   }
 ]
