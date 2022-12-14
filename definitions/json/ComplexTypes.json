@@ -5634,6 +5634,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "copyToOtherParty",
+    "FieldType": "Text",
+    "ElementLabel": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "copyNoGiveDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
