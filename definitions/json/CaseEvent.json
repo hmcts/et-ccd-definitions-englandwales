@@ -601,8 +601,8 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentTSE/displayTable"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentTSE/displayTable",
+    "EndButtonLabel": "Close and return to case details"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
