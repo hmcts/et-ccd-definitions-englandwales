@@ -17,6 +17,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmin",
+    "Name": "Record a decision",
+    "Description": "Record a decision",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmin/aboutToStart"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "initiateCase",
     "Name": "Create Case",
     "Description": "Create a new case",

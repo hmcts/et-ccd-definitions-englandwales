@@ -1083,6 +1083,13 @@
     "TabFieldDisplayOrder": 2
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 3
+  },
+  {
     "CaseFieldID": "genericTseApplicationCollection",
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
