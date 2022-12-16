@@ -20761,6 +20761,72 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminTableMarkUp",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminTableLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminEnterNotificationTitle",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminDecision",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminDecisionDetails",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminTypeOfDecision",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminIsResponseRequired",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminSelectPartyRespond",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminAdditionalInformation",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminResponseRequiredYesDoc",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminResponseRequiredNoDoc",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "tseResponseIntro",
     "UserRole": "et-acas-api",
     "CRUD": "R"
