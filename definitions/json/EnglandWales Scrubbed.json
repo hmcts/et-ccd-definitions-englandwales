@@ -5986,5 +5986,35 @@
     "ListElement": "Respondent",
     "ListElementCode": "Respondent",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_tseAdminDecisionMadeBy",
+    "ListElement": "Legal officer",
+    "ListElementCode": "Legal officer",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminDecisionMadeBy",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Claimant only",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Respondent only",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 3
   }
 ]

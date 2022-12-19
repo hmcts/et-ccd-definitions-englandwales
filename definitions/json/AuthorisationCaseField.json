@@ -20827,6 +20827,24 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminDecisionMadeBy",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminDecisionMadeByFullName",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdminSelectPartyNotify",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "tseResponseIntro",
     "UserRole": "et-acas-api",
     "CRUD": "R"

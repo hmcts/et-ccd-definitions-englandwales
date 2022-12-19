@@ -3666,6 +3666,29 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminDecisionMadeBy",
+    "Label": "Decision was made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminDecisionMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminDecisionMadeByFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminSelectPartyNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tseResponseIntro",
     "Label": " ",
     "FieldType": "Text",

@@ -6365,6 +6365,37 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminDecisionMadeBy",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 12,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminDecisionMadeByFullName",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 13,
+    "FieldShowCondition": "tseAdminDecisionMadeBy=\"Legal officer\" OR tseAdminDecisionMadeBy=\"Judge\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminSelectPartyNotify",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 14,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
