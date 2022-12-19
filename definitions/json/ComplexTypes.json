@@ -5653,6 +5653,20 @@
   },
   {
     "ID": "genericTseDetails",
+    "ListElementCode": "due",
+    "FieldType": "Text",
+    "ElementLabel": "Response due",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "responsesCount",
+    "FieldType": "Text",
+    "ElementLabel": "Number of responses",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
     "ListElementCode": "status",
     "FieldType": "Text",
     "ElementLabel": " ",
