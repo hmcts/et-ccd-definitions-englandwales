@@ -6103,6 +6103,37 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTseAllApplications",
+    "CaseFieldID": "resTseAllApplicationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": " "
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTseAllApplications",
+    "CaseFieldID": "resTseTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "resTseAllApplicationsLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTseAllApplications",
+    "CaseFieldID": "resTseTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "tseRespondSelectApplication",
     "DisplayContext": "MANDATORY",

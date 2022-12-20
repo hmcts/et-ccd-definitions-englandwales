@@ -623,6 +623,20 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentTseAllApplications",
+    "Name": "All applications",
+    "Description": " ",
+    "DisplayOrder": 43,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentTSE/displayTable",
+    "EndButtonLabel": "Close and return to case details",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
