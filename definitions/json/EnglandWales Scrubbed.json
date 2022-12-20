@@ -5920,5 +5920,101 @@
     "ListElement": "No, I do not want to copy this correspondence to the other party. You must tell the tribunal why you do not want to inform the other party. The tribunal will consider your reasons and decide if you must inform the other party or not.",
     "ListElementCode": "I do not want to copy",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Granted",
+    "ListElementCode": "Granted",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Granted in part",
+    "ListElementCode": "Granted in part",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Refused",
+    "ListElementCode": "Refused",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_tseAdminDecision",
+    "ListElement": "Other",
+    "ListElementCode": "Other",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "frl_tseAdminTypeOfDecision",
+    "ListElement": "Judgment",
+    "ListElementCode": "Judgment",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminTypeOfDecision",
+    "ListElement": "Case management order",
+    "ListElementCode": "Case management order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminIsResponseRequired",
+    "ListElement": "Yes - view document for details",
+    "ListElementCode": "Yes",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminIsResponseRequired",
+    "ListElement": "No",
+    "ListElementCode": "No",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_tseAdminSelectPartyRespond",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_tseAdminSelectPartyRespond",
+    "ListElement": "Claimant",
+    "ListElementCode": "Claimant",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_tseAdminSelectPartyRespond",
+    "ListElement": "Respondent",
+    "ListElementCode": "Respondent",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_tseAdminDecisionMadeBy",
+    "ListElement": "Legal officer",
+    "ListElementCode": "Legal officer",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminDecisionMadeBy",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Both parties",
+    "ListElementCode": "Both parties",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Claimant only",
+    "ListElementCode": "Claimant only",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdminSelectPartyNotify",
+    "ListElement": "Respondent only",
+    "ListElementCode": "Respondent only",
+    "DisplayOrder": 3
   }
 ]

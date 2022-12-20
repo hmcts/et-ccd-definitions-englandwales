@@ -6103,6 +6103,37 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTseAllApplications",
+    "CaseFieldID": "resTseAllApplicationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": " "
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTseAllApplications",
+    "CaseFieldID": "resTseTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "resTseAllApplicationsLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondentTseAllApplications",
+    "CaseFieldID": "resTseTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "tseRespondSelectApplication",
     "DisplayContext": "MANDATORY",
@@ -6235,6 +6266,164 @@
     "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "tseResponseCopyToOtherParty=\"I do not want to copy\"",
     "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminSelectApplication",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Select an application",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midDetailsTable"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "tseAdminTableLabel=\"dummy\"",
+    "PageLabel": "Record a decision"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminEnterNotificationTitle",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminDecision",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminDecisionDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "tseAdminDecision=\"Other\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminTypeOfDecision",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminIsResponseRequired",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "tseAdminTypeOfDecision=\"Case management order\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminSelectPartyRespond",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "tseAdminTypeOfDecision=\"Case management order\" AND tseAdminIsResponseRequired=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminAdditionalInformation",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminResponseRequiredYesDoc",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "tseAdminTypeOfDecision=\"Case management order\" AND tseAdminIsResponseRequired=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminResponseRequiredNoDoc",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 11,
+    "FieldShowCondition": "tseAdminTypeOfDecision=\"Case management order\" AND tseAdminIsResponseRequired=\"No\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminDecisionMadeBy",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 12,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminDecisionMadeByFullName",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 13,
+    "FieldShowCondition": "tseAdminDecisionMadeBy=\"Legal officer\" OR tseAdminDecisionMadeBy=\"Judge\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmin",
+    "CaseFieldID": "tseAdminSelectPartyNotify",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 14,
     "ShowSummaryChangeOption": "Y"
   },
   {
