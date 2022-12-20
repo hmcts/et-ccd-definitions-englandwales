@@ -5648,6 +5648,15 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "summaryPdf",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "FieldShowCondition": "from=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
