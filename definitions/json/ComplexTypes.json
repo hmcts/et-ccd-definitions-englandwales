@@ -5648,6 +5648,15 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseRespondentResponse",
+    "ListElementCode": "summaryPdf",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "FieldShowCondition": "from=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -5707,6 +5716,14 @@
   },
   {
     "ID": "genericTseDetails",
+    "ListElementCode": "respondentReply",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseRespondentResponse",
+    "ElementLabel": "Response",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
     "ListElementCode": "due",
     "FieldType": "Text",
     "ElementLabel": "Response due",
@@ -5724,14 +5741,6 @@
     "ListElementCode": "status",
     "FieldType": "Text",
     "ElementLabel": "Status",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "genericTseDetails",
-    "ListElementCode": "respondentReply",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "tseRespondentResponse",
-    "ElementLabel": "Response",
     "SecurityClassification": "Public"
   }
 ]
