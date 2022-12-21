@@ -5724,7 +5724,7 @@
   },
   {
     "ID": "genericTseDetails",
-    "ListElementCode": "due",
+    "ListElementCode": "dueDate",
     "FieldType": "Text",
     "ElementLabel": "Response due",
     "SecurityClassification": "Public"

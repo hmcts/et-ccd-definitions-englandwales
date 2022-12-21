@@ -1093,7 +1093,7 @@
     "CaseFieldID": "genericTseApplicationCollection",
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
-    "DisplayContextParameter": "#TABLE(number, type, applicant, date, due, responsesCount, status)",
+    "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
     "TabDisplayOrder": 17,
     "TabID": "Applications",
     "TabLabel": "Applications",
