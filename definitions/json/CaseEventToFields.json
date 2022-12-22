@@ -6427,6 +6427,56 @@
     "ShowSummaryChangeOption": "Y"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdminCloseAnApplication",
+    "CaseFieldID": "tseAdminSelectApplication",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Close an application",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/selectCloseApplication"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdminCloseAnApplication",
+    "CaseFieldID": "tseAdminCloseApplicationTable",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/displayCloseApplicationTable"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdminCloseAnApplication",
+    "CaseFieldID": "tseAdminCloseApplicationTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdminCloseAnApplication",
+    "CaseFieldID": "tseAdminCloseApplicationYes",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdminCloseAnApplication",
+    "CaseFieldID": "tseAdminCloseApplicationText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

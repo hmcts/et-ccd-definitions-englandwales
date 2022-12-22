@@ -3797,6 +3797,35 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationTable",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationTableLabel",
+    "Label": "${tseAdminCloseApplicationTable}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationYes",
+    "Label": "Do you want to close this application?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_closeApplicationYes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationText",
+    "Label": "General notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

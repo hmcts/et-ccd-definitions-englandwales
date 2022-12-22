@@ -6016,5 +6016,11 @@
     "ListElement": "Respondent only",
     "ListElementCode": "Respondent only",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_closeApplicationYes",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
   }
 ]
