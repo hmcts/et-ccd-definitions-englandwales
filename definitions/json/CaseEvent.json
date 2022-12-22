@@ -639,7 +639,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "submitClaimantTSE",
+    "ID": "SUBMIT_CLAIMANT_TSE",
     "Name": "Contact the tribunal Claimant",
     "Description": "Claimant Tell Something Else",
     "DisplayOrder": 43,
