@@ -639,6 +639,31 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateClaimantTSE",
+    "Name": "Contact the tribunal Claimant",
+    "Description": "Claimant Tell Something Else",
+    "DisplayOrder": 43,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "submitClaimantTSE",
+    "Name": "Contact the tribunal Claimant",
+    "Description": "Claimant Tell Something Else",
+    "DisplayOrder": 43,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimant/aboutToSubmit"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "respondentTseAllApplications",
     "Name": "All applications",
     "Description": " ",

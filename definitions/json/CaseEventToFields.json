@@ -6103,6 +6103,202 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument1",
+    "PageID": "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox1",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument2",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox2",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument3",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox3",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument4",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox4",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument5",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox5",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument6",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox6",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument7",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox7",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument8",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox8",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument9",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox9",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument10",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox10",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument11",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox11",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument12",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox12",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseDocument13",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseTextBox13",
+    "PageID":  "1",
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseCopyToOtherPartyYesOrNo",
+    "PageID":  "1",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "updateClaimantTSE",
+    "CaseFieldID": "claimantTseCopyToOtherPartyTextArea",
+    "PageID":  "1",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondentTseAllApplications",
     "CaseFieldID": "resTseAllApplicationsLabel",
     "DisplayContext": "READONLY",
