@@ -82,7 +82,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "UPDATE_CASE_SUBMITTED",
     "Name": "UPDATE_CASE_SUBMITTED",
-    "Description": "Test updating a case when already submitted",
+    "Description": "Update a submitted case",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
@@ -636,18 +636,6 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "updateClaimantTSE",
-    "Name": "Contact the tribunal Claimant",
-    "Description": "Claimant Tell Something Else",
-    "DisplayOrder": 43,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
