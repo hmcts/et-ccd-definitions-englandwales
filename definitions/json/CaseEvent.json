@@ -620,7 +620,8 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
