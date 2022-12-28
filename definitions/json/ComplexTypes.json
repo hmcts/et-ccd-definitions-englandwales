@@ -5596,6 +5596,90 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Decision date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "enterNotificationTitle",
+    "FieldType": "Text",
+    "ElementLabel": "Enter notification title",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decision",
+    "FieldType": "Text",
+    "ElementLabel": "Decision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decisionDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Decision details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "typeOfDecision",
+    "FieldType": "Text",
+    "ElementLabel": "Type of decision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "isResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "Is a response to the tribunal required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "selectPartyRespond",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties who must respond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "additionalInformation",
+    "FieldType": "Text",
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "responseRequiredDoc",
+    "FieldType": "Text",
+    "ElementLabel": "Add document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decisionMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Decision was made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decisionMadeByFullName",
+    "FieldType": "Text",
+    "ElementLabel": "Enter their full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "selectPartyNotify",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties to notify",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "tseRespondentResponse",
     "ListElementCode": "from",
     "FieldType": "Text",
@@ -5720,6 +5804,14 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "tseRespondentResponse",
     "ElementLabel": "Response",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "adminDecision",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseAdminDecision",
+    "ElementLabel": "Record a decision",
     "SecurityClassification": "Public"
   },
   {

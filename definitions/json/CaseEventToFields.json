@@ -6392,7 +6392,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 11,
-    "FieldShowCondition": "tseAdminTypeOfDecision=\"Case management order\" AND tseAdminIsResponseRequired=\"No\"",
+    "FieldShowCondition": "tseAdminTypeOfDecision=\"Judgment\" OR tseAdminIsResponseRequired=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
