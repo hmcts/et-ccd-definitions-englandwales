@@ -3797,6 +3797,113 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondSelectApplication",
+    "Label": "Select an application",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondTableLabel",
+    "Label": "${tseAdmRespondTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondEnterResponseTitle",
+    "Label": "Enter response title",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondAdditionalInformation",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondAddDocumentMandatory",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondAddDocumentOptional",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondIsCmoOrRequest",
+    "Label": "Is this a case management order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_tseAdmRespondIsCmoOrRequest",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondCmoMadeBy",
+    "Label": "Case management order made by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdmRespondCmoMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondRequestMadeBy",
+    "Label": "Request made by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdmRespondRequestMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondEnterFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondSelectPartyRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmRespondSelectPartyNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
