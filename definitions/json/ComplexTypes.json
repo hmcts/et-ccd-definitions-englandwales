@@ -5654,7 +5654,7 @@
   {
     "ID": "tseAdminDecision",
     "ListElementCode": "responseRequiredDoc",
-    "FieldType": "Text",
+    "FieldType": "Document",
     "ElementLabel": "Add document",
     "SecurityClassification": "Public"
   },
