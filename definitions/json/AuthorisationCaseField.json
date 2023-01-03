@@ -784,7 +784,7 @@
     "CaseFieldID": "ethosCaseReference",
     "UserRole": "caseworker-caa",
     "CRUD": "R"
-  }, 
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseRefNumberCount",
