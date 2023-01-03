@@ -11,7 +11,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
-    "CallBackURLAboutToStartEvent": "tseAdmRespond/aboutToStart",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmRespond/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
   },
