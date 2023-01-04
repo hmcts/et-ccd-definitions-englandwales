@@ -6435,7 +6435,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Close an application",
-    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/selectCloseApplication"
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/displayCloseApplicationTable"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -6445,7 +6445,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/displayCloseApplicationTable"
+    "FieldShowCondition": "tseAdminSelectApplication=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
