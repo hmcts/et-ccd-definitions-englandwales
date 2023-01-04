@@ -10,7 +10,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseResponse/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseResponse/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseResponse/submitted"
@@ -20,15 +20,16 @@
     "ID": "tseAdmin",
     "Name": "Record a decision",
     "Description": "Record a decision",
-    "DisplayOrder": 1,
+    "DisplayOrder": 2,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmin/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmin/aboutToSubmit"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmin/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseAdmin/submitted"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -657,6 +658,8 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication"
   },
