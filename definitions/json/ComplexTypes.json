@@ -5824,6 +5824,14 @@
   },
   {
     "ID": "genericTseDetails",
+    "ListElementCode": "adminReply",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseAdmReply",
+    "ElementLabel": "Respond to an application",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
     "ListElementCode": "dueDate",
     "FieldType": "Text",
     "ElementLabel": "Response due",
@@ -5841,6 +5849,83 @@
     "ListElementCode": "status",
     "FieldType": "Text",
     "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "enterResponseTitle",
+    "FieldType": "Text",
+    "ElementLabel": "Enter response title",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "additionalInformation",
+    "FieldType": "Text",
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "addDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Add document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "isCmoOrRequest",
+    "FieldType": "Text",
+    "ElementLabel": "Is this a case management order or request?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "cmoMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Case management order made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "requestMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Request made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "enterFullName",
+    "FieldType": "Text",
+    "ElementLabel": "Enter their full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "isResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "Is a response to the tribunal required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "selectPartyRespond",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties who must respond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdmReply",
+    "ListElementCode": "selectPartyNotify",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties to notify",
     "SecurityClassification": "Public"
   }
 ]
