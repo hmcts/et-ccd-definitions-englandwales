@@ -1,7 +1,7 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespond",
+    "ID": "tseAdmReply",
     "Name": "Respond to an application",
     "Description": "Respond to an application",
     "DisplayOrder": 1,
@@ -11,7 +11,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmRespond/aboutToStart",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmin/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
   },

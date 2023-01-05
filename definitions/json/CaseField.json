@@ -3955,28 +3955,21 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondSelectApplication",
-    "Label": "Select an application",
-    "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondTableMarkUp",
+    "ID": "tseAdmReplyTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondTableLabel",
-    "Label": "${tseAdmRespondTableMarkUp}",
+    "ID": "tseAdmReplyTableLabel",
+    "Label": "${tseAdmReplyTableMarkUp}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondEnterResponseTitle",
+    "ID": "tseAdmReplyEnterResponseTitle",
     "Label": "Enter response title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
@@ -3984,14 +3977,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondAdditionalInformation",
+    "ID": "tseAdmReplyAdditionalInformation",
     "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondAddDocumentMandatory",
+    "ID": "tseAdmReplyAddDocumentMandatory",
     "Label": "Add document",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",
@@ -3999,7 +3992,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondAddDocumentOptional",
+    "ID": "tseAdmReplyAddDocumentOptional",
     "Label": "Add document",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",
@@ -4007,38 +4000,38 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondIsCmoOrRequest",
+    "ID": "tseAdmReplyIsCmoOrRequest",
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_tseAdmRespondIsCmoOrRequest",
+    "FieldTypeParameter": "fl_tseAdmReplyIsCmoOrRequest",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondCmoMadeBy",
+    "ID": "tseAdmReplyCmoMadeBy",
     "Label": "Case management order made by",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_tseAdmRespondCmoMadeBy",
+    "FieldTypeParameter": "fl_tseAdmReplyCmoMadeBy",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondRequestMadeBy",
+    "ID": "tseAdmReplyRequestMadeBy",
     "Label": "Request made by",
     "FieldType": "FixedList",
-    "FieldTypeParameter": "fl_tseAdmRespondRequestMadeBy",
+    "FieldTypeParameter": "fl_tseAdmReplyRequestMadeBy",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondEnterFullName",
+    "ID": "tseAdmReplyEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondIsResponseRequired",
+    "ID": "tseAdmReplyIsResponseRequired",
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
@@ -4046,7 +4039,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondSelectPartyRespond",
+    "ID": "tseAdmReplySelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
@@ -4054,7 +4047,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmRespondSelectPartyNotify",
+    "ID": "tseAdmReplySelectPartyNotify",
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
