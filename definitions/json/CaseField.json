@@ -4003,7 +4003,7 @@
     "ID": "tseAdmReplyIsCmoOrRequest",
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_tseAdmReplyIsCmoOrRequest",
+    "FieldTypeParameter": "frl_tseAdmReplyIsCmoOrRequest",
     "SecurityClassification": "Public"
   },
   {

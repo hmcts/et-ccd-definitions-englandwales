@@ -6018,16 +6018,22 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "fl_tseAdmReplyIsCmoOrRequest",
+    "ID": "frl_tseAdmReplyIsCmoOrRequest",
     "ListElement": "Case management order",
     "ListElementCode": "Case management order",
     "DisplayOrder": 1
   },
   {
-    "ID": "fl_tseAdmReplyIsCmoOrRequest",
+    "ID": "frl_tseAdmReplyIsCmoOrRequest",
     "ListElement": "Request",
     "ListElementCode": "Request",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseAdmReplyIsCmoOrRequest",
+    "ListElement": "Neither",
+    "ListElementCode": "Neither",
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_tseAdmReplyCmoMadeBy",
@@ -6057,12 +6063,6 @@
     "ID": "fl_tseAdmReplyRequestMadeBy",
     "ListElement": "Case worker",
     "ListElementCode": "Case worker",
-    "DisplayOrder": 3
-  },
-  {
-    "ID": "fl_tseAdmReplyIsCmoOrRequest",
-    "ListElement": "Neither",
-    "ListElementCode": "Neither",
     "DisplayOrder": 3
   }
 ]
