@@ -10,7 +10,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmin/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmReply/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
