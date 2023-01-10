@@ -3984,15 +3984,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmReplyAddDocumentMandatory",
-    "Label": "Add document",
-    "HintText": "Upload a document to the system",
-    "FieldType": "Document",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmReplyAddDocumentOptional",
+    "ID": "tseAdmReplyAddDocument",
     "Label": "Add document",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",

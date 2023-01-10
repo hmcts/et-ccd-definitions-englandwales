@@ -22363,85 +22363,43 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentMandatory",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "tseAdmReplyAddDocumentOptional",
+    "CaseFieldID": "tseAdmReplyAddDocument",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
@@ -22738,6 +22696,18 @@
     "CaseFieldID": "tseAdmReplySelectPartyNotify",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdmReplyAddDocument",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "tseAdmReplyTableMarkUp",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
