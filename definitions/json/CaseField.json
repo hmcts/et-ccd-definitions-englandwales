@@ -595,7 +595,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "officeCT",
-    "Label": "Select office to transfer case to",
+    "Label": "Select office to assign/transfer case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
