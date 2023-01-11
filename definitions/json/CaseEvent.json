@@ -49,6 +49,21 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseAnApplication",
+    "Name": "Close an application",
+    "Description": "Close an application",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseAdmin/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseAdmin/aboutToSubmitCloseApplication"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "initiateCase",
     "Name": "Create Case",
     "Description": "Create a new case",

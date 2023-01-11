@@ -3459,7 +3459,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsAdminLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Close application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdminCloseAnApplication/tseAdminCloseAnApplication1\">Close application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4043,6 +4043,35 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationTable",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationTableLabel",
+    "Label": "${tseAdminCloseApplicationTable}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationYes",
+    "Label": "Do you want to close this application?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_closeApplicationYes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdminCloseApplicationText",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {

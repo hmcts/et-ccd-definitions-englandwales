@@ -6064,5 +6064,11 @@
     "ListElement": "Case worker",
     "ListElementCode": "Case worker",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_closeApplicationYes",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes",
+    "DisplayOrder": 1
   }
 ]
