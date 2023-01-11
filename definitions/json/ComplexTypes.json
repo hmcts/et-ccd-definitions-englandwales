@@ -3593,13 +3593,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "reportRespondent",
-    "ListElementCode": "respondentName",
-    "FieldType": "Text",
-    "ElementLabel": "Respondent",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "reportET4",
     "ListElementCode": "actioned",
     "FieldType": "Text",
