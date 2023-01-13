@@ -3829,7 +3829,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminResponseRequiredYesDoc",
-    "Label": "Add document",
+    "Label": "Supporting material",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",
     "SecurityClassification": "Public"
@@ -3837,7 +3837,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminResponseRequiredNoDoc",
-    "Label": "Add document",
+    "Label": "Supporting material",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",
     "SecurityClassification": "Public"
@@ -3853,7 +3853,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminDecisionMadeByFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
