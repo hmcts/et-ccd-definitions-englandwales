@@ -86,6 +86,7 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimant/aboutToSubmit",
     "ShowEventNotes": "N"
   },
   {

@@ -5596,6 +5596,27 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "claimantTse",
+    "ListElementCode": "contactApplicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "contactApplicationText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "claimantTse",
+    "ListElementCode": "contactApplicationFile",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "tseRespondentResponse",
     "ListElementCode": "from",
     "FieldType": "Text",

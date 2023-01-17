@@ -918,22 +918,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "UPDATE_CASE_SUBMITTED",
-    "CaseFieldID": "hubLinksStatuses",
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "preAcceptanceCase",
     "CaseFieldID": "preAcceptCase",
     "DisplayContext": "MANDATORY",
