@@ -956,30 +956,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "et3Response",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -1129,6 +1105,18 @@
     "CaseEventID": "applyNocDecision",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "et3Response",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "et3Response",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
