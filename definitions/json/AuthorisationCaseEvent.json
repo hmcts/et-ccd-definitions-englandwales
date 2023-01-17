@@ -1107,18 +1107,6 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-englandwales",
