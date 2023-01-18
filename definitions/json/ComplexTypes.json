@@ -6011,14 +6011,6 @@
     "ID": "genericTseDetails",
     "ListElementCode": "respondCollection",
     "FieldType": "Collection",
-    "FieldTypeParameter": "tseRespondCollection",
-    "ElementLabel": "Respond to an application",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "genericTseDetails",
-    "ListElementCode": "respondCollection",
-    "FieldType": "Collection",
     "FieldTypeParameter": "tseReply",
     "ElementLabel": "Responses",
     "SecurityClassification": "Public"
