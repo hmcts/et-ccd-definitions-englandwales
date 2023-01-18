@@ -594,8 +594,16 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "assignOffice",
+    "Label": "Select the office you want to assign the case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "officeCT",
-    "Label": "Select office to transfer case to",
+    "Label": "Select the office you want to transfer the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
