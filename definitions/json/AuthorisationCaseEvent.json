@@ -1117,13 +1117,13 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTSE",
+    "CaseEventID": "respondentTSE",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTSE",
+    "CaseEventID": "respondentTSE",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
@@ -1141,7 +1141,7 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentTseAllApplications",
+    "CaseEventID": "respondentTseAllApplications",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
