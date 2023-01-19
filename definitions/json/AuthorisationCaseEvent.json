@@ -1172,12 +1172,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "tseAdmin",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "tseAdmin",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -1214,12 +1208,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "tseAdminCloseAnApplication",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "tseAdminCloseAnApplication",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -1239,12 +1227,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "tseAdmReply",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "tseAdmReply",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
