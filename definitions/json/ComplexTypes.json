@@ -117,7 +117,15 @@
     "ListElementCode": "claimant_contact_language",
     "FieldType": "FixedList",
     "ElementLabel": "Contact language",
-    "FieldTypeParameter": "fl_ContactLanguage",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantCorrespondence",
+    "ListElementCode": "claimant_hearing_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing language",
+    "FieldTypeParameter": "fl_languages",
     "SecurityClassification": "Public"
   },
   {
@@ -266,14 +274,14 @@
     "ID": "EmploymentDetails",
     "ListElementCode": "pastEmployer",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Did you work for the orgainsation or person",
+    "ElementLabel": "Did you work for the organisation or person",
     "SecurityClassification": "Public"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "stillWorking",
     "FieldType": "FixedList",
-    "ElementLabel": "Are you still working for the orgainsation or person",
+    "ElementLabel": "Are you still working for the organisation or person",
     "FieldTypeParameter": "fl_StillWorking",
     "SecurityClassification": "Public"
   },
@@ -5310,6 +5318,24 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "HearingPreference",
+    "ListElementCode": "contact_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Contact language",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_language",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "If a hearing is required, what language do you want to speak at a hearing?",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
+  },
+  {
     "ID": "ServingDocumentUpload",
     "ListElementCode": "typeOfDocument",
     "FieldType": "FixedList",
@@ -5598,6 +5624,22 @@
   {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantFirstName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantLastName",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public",
