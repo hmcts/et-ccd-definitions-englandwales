@@ -145,6 +145,18 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Accepted",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Accepted",
+    "UserRole": "caseworker-approver",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment",
     "CRUD": "R"

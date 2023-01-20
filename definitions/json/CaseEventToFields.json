@@ -2036,6 +2036,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "assignCase",
+    "CaseFieldID": "assignOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseTransferSameCountry",
     "CaseFieldID": "officeCT",
     "DisplayContext": "MANDATORY",
@@ -5665,6 +5676,17 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 14,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "COMPLEX",
+    "PageID": "SingleFormPageWithComplex",
+    "PageLabel": "Change Organisation Request",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
