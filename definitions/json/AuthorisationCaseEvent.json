@@ -1147,48 +1147,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "respondentTseAllApplications",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
