@@ -3243,6 +3243,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTse",
+    "Label": " ",
+    "FieldType": "claimantTse",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseRejectedEmailSent",
     "Label": " ",
     "FieldType": "YesOrNo",

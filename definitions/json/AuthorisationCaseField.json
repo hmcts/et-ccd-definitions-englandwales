@@ -10309,6 +10309,18 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantTse",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantTse",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "anotherReasonForJudicialReferralTextArea",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
