@@ -1067,6 +1067,39 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabDisplayOrder": 17,
+    "CaseFieldID": "applicationsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseFieldID": "genericTseApplicationCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
+    "TabDisplayOrder": 17,
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabFieldDisplayOrder": 3
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",
