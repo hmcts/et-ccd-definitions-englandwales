@@ -15,6 +15,7 @@ const sheetNames = [
   'CaseRoles',
   'CaseType',
   'CaseTypeTab',
+  'ChallengeQuestion',
   'ComplexTypes',
   'Jurisdiction',
   'SearchCaseResultFields',

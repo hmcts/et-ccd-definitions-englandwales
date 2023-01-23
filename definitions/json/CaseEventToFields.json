@@ -2028,6 +2028,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "assignCase",
+    "CaseFieldID": "assignOffice",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "caseTransferSameCountry",
     "CaseFieldID": "officeCT",
     "DisplayContext": "MANDATORY",
@@ -5660,6 +5671,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "COMPLEX",
+    "PageID": "SingleFormPageWithComplex",
+    "PageLabel": "Change Organisation Request",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondentTSE",
     "CaseFieldID": "resTseSelectApplication",
     "DisplayContext": "MANDATORY",
@@ -6268,9 +6290,8 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageLabel": "Select an application",
-    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midDetailsTable"
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/midDetailsTable",
+    "PageLabel": "Select an application"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -6384,7 +6405,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 11,
-    "FieldShowCondition": "tseAdminTypeOfDecision=\"Case management order\" AND tseAdminIsResponseRequired=\"No\"",
+    "FieldShowCondition": "tseAdminTypeOfDecision=\"Judgment\" OR tseAdminIsResponseRequired=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6420,6 +6441,150 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdminSelectApplication",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmReply/midDetailsTable",
+    "PageLabel": "Select an application"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "tseAdmReplyTableLabel =\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmReply/midValidateInput",
+    "PageLabel": "Respond to an application"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyEnterResponseTitle",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyAdditionalInformation",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyAddDocument",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyIsCmoOrRequest",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyCmoMadeBy",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "tseAdmReplyIsCmoOrRequest=\"Case management order\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyRequestMadeBy",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "tseAdmReplyIsCmoOrRequest=\"Request\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyEnterFullName",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 9,
+    "FieldShowCondition": "tseAdmReplyIsCmoOrRequest=\"Case management order\" OR tseAdmReplyIsCmoOrRequest=\"Request\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplyIsResponseRequired",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "tseAdmReplyIsCmoOrRequest=\"Case management order\" OR tseAdmReplyIsCmoOrRequest=\"Request\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplySelectPartyRespond",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 11,
+    "FieldShowCondition": "tseAdmReplyIsCmoOrRequest!=\"Neither\" AND tseAdmReplyIsResponseRequired=\"Yes\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseAdmReply",
+    "CaseFieldID": "tseAdmReplySelectPartyNotify",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 12,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "tseAdminCloseAnApplication",
     "CaseFieldID": "tseAdminSelectApplication",
     "DisplayContext": "MANDATORY",
@@ -6427,7 +6592,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Close an application",
-    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/selectCloseApplication"
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/displayCloseApplicationTable"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -6437,7 +6602,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/tseAdmin/displayCloseApplicationTable"
+    "FieldShowCondition": "tseAdminSelectApplication=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

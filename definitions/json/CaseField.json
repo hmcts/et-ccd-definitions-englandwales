@@ -594,8 +594,16 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "assignOffice",
+    "Label": "Select the office you want to assign the case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "officeCT",
-    "Label": "Select office to transfer case to",
+    "Label": "Select the office you want to transfer the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
@@ -850,7 +858,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantHearingPreference",
-    "Label": "Claimant Hearing Preferences",
+    "Label": "Additional Claimant Information",
     "FieldType": "HearingPreference",
     "SecurityClassification": "Public"
   },
@@ -1122,7 +1130,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "emailDocsToAcasLink",
-    "Label": "Attach and send document PDFs to Acas at [ET3@acas.org.uk](${emailLinkToAcas})",
+    "Label": "Attach and send document PDFs to Acas at [etsmail@acas.org.uk](${emailLinkToAcas})",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3256,6 +3264,163 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy0",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy1",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy2",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy3",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy4",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy5",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy6",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy7",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy8",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentOrganisationPolicy9",
+    "Label": "respondent's legal representative",
+    "FieldType": "OrganisationPolicy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers0",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers1",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers2",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers3",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers4",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers5",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers6",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers7",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers8",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "noticeOfChangeAnswers9",
+    "Label": " ",
+    "FieldType": "NoticeOfChangeAnswers",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "changeOrganisationRequestField",
+    "Label": "Change Organisation Request",
+    "FieldType": "ChangeOrganisationRequest",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseSelectApplication",
     "Label": "Select an application",
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
@@ -3309,7 +3474,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsAdminLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Close application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdminCloseAnApplication/tseAdminCloseAnApplication1\">Close application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3679,7 +3844,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminResponseRequiredYesDoc",
-    "Label": "Add document",
+    "Label": "Supporting material",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",
     "SecurityClassification": "Public"
@@ -3687,7 +3852,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminResponseRequiredNoDoc",
-    "Label": "Add document",
+    "Label": "Supporting material",
     "HintText": "Upload a document to the system",
     "FieldType": "Document",
     "SecurityClassification": "Public"
@@ -3703,7 +3868,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminDecisionMadeByFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -3801,6 +3966,98 @@
     "ID": "tseResponseCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyTableLabel",
+    "Label": "${tseAdmReplyTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyEnterResponseTitle",
+    "Label": "Enter response title",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyAdditionalInformation",
+    "Label": "Additional information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyAddDocument",
+    "Label": "Add document",
+    "HintText": "Upload a document to the system",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyIsCmoOrRequest",
+    "Label": "Is this a case management order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdmReplyIsCmoOrRequest",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyCmoMadeBy",
+    "Label": "Case management order made by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdmReplyCmoMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyRequestMadeBy",
+    "Label": "Request made by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdmReplyRequestMadeBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyEnterFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplySelectPartyRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplySelectPartyNotify",
+    "Label": "Select the party or parties to notify",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
     "SecurityClassification": "Public"
   },
   {

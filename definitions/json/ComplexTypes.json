@@ -117,7 +117,15 @@
     "ListElementCode": "claimant_contact_language",
     "FieldType": "FixedList",
     "ElementLabel": "Contact language",
-    "FieldTypeParameter": "fl_ContactLanguage",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantCorrespondence",
+    "ListElementCode": "claimant_hearing_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Hearing language",
+    "FieldTypeParameter": "fl_languages",
     "SecurityClassification": "Public"
   },
   {
@@ -266,14 +274,14 @@
     "ID": "EmploymentDetails",
     "ListElementCode": "pastEmployer",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Did you work for the orgainsation or person",
+    "ElementLabel": "Did you work for the organisation or person",
     "SecurityClassification": "Public"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "stillWorking",
     "FieldType": "FixedList",
-    "ElementLabel": "Are you still working for the orgainsation or person",
+    "ElementLabel": "Are you still working for the organisation or person",
     "FieldTypeParameter": "fl_StillWorking",
     "SecurityClassification": "Public"
   },
@@ -1209,7 +1217,7 @@
   },
   {
     "ID": "RespondentRepresentative",
-    "ListElementCode": "organisation",
+    "ListElementCode": "respondentOrganisation",
     "FieldType": "Organisation",
     "ElementLabel": "MyHMCTS Organisation",
     "FieldShowCondition": "myHmctsYesNo=\"Yes\"",
@@ -5310,6 +5318,24 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "HearingPreference",
+    "ListElementCode": "contact_language",
+    "FieldType": "FixedList",
+    "ElementLabel": "Contact language",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
+  },
+  {
+    "ID": "HearingPreference",
+    "ListElementCode": "hearing_language",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "If a hearing is required, what language do you want to speak at a hearing?",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
+  },
+  {
     "ID": "ServingDocumentUpload",
     "ListElementCode": "typeOfDocument",
     "FieldType": "FixedList",
@@ -5631,28 +5657,136 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
-    "ListElementCode": "from",
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "respondentName",
     "FieldType": "Text",
-    "ElementLabel": "Response from",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantFirstName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantLastName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Decision date",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseAdminDecision",
+    "ListElementCode": "enterNotificationTitle",
+    "FieldType": "Text",
+    "ElementLabel": "Enter notification title",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decision",
+    "FieldType": "Text",
+    "ElementLabel": "Decision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decisionDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Decision details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "typeOfDecision",
+    "FieldType": "Text",
+    "ElementLabel": "Type of decision",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "isResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "Is a response to the tribunal required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "selectPartyRespond",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties who must respond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "additionalInformation",
+    "FieldType": "Text",
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "responseRequiredDoc",
+    "FieldType": "Document",
+    "ElementLabel": "Add document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decisionMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Decision was made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "decisionMadeByFullName",
+    "FieldType": "Text",
+    "ElementLabel": "Enter their full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseAdminDecision",
+    "ListElementCode": "selectPartyNotify",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties to notify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
     "ListElementCode": "date",
     "FieldType": "Text",
     "ElementLabel": "Response date",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseRespondCollection",
+    "ListElementCode": "from",
+    "FieldType": "Text",
+    "ElementLabel": "Response from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseRespondCollection",
     "ListElementCode": "hasSupportingMaterial",
     "FieldType": "Text",
     "ElementLabel": " ",
@@ -5661,7 +5795,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseRespondCollection",
     "ListElementCode": "supportingMaterial",
     "FieldType": "Collection",
     "ElementLabel": "Supporting material",
@@ -5669,26 +5803,227 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseRespondCollection",
     "ListElementCode": "copyToOtherParty",
     "FieldType": "Text",
     "ElementLabel": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseRespondCollection",
     "ListElementCode": "copyNoGiveDetails",
     "FieldType": "Text",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondentResponse",
+    "ID": "tseRespondCollection",
     "ListElementCode": "summaryPdf",
     "FieldType": "Document",
     "ElementLabel": " ",
     "FieldShowCondition": "from=\"dummy\"",
     "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "enterResponseTitle",
+    "FieldType": "Text",
+    "ElementLabel": "Enter response title",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "additionalInformation",
+    "FieldType": "Text",
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "addDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Add document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "isCmoOrRequest",
+    "FieldType": "Text",
+    "ElementLabel": "Is this a case management order or request?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "cmoMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Case management order made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "requestMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Request made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "madeByFullName",
+    "FieldType": "Text",
+    "ElementLabel": "Enter their full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "isResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "Is a response to the tribunal required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "selectPartyRespond",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties who must respond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseRespondCollection",
+    "ListElementCode": "selectPartyNotify",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties to notify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "from",
+    "FieldType": "Text",
+    "ElementLabel": "Response from",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "date",
+    "FieldType": "Text",
+    "ElementLabel": "Response date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "response",
+    "FieldType": "Text",
+    "ElementLabel": "What's your response to the claimant's application",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "hasSupportingMaterial",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "date=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "supportingMaterial",
+    "FieldType": "Collection",
+    "ElementLabel": "Supporting material",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "copyToOtherParty",
+    "FieldType": "Text",
+    "ElementLabel": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "copyNoGiveDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Give details",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "summaryPdf",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "FieldShowCondition": "from=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "enterResponseTitle",
+    "FieldType": "Text",
+    "ElementLabel": "Enter response title",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "additionalInformation",
+    "FieldType": "Text",
+    "ElementLabel": "Additional information",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "addDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Add document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "isCmoOrRequest",
+    "FieldType": "Text",
+    "ElementLabel": "Is this a case management order or request?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "cmoMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Case management order made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "requestMadeBy",
+    "FieldType": "Text",
+    "ElementLabel": "Request made by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "madeByFullName",
+    "FieldType": "Text",
+    "ElementLabel": "Enter their full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "isResponseRequired",
+    "FieldType": "Text",
+    "ElementLabel": "Is a response to the tribunal required?",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "selectPartyRespond",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties who must respond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "selectPartyNotify",
+    "FieldType": "Text",
+    "ElementLabel": "Select the party or parties to notify",
     "SecurityClassification": "Public"
   },
   {
@@ -5751,10 +6086,18 @@
   },
   {
     "ID": "genericTseDetails",
-    "ListElementCode": "respondentReply",
+    "ListElementCode": "respondCollection",
     "FieldType": "Collection",
-    "FieldTypeParameter": "tseRespondentResponse",
-    "ElementLabel": "Response",
+    "FieldTypeParameter": "tseReply",
+    "ElementLabel": "Responses",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "adminDecision",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseAdminDecision",
+    "ElementLabel": "Record a decision",
     "SecurityClassification": "Public"
   },
   {
