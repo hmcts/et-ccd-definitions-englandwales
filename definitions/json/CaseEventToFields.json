@@ -4928,7 +4928,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 13,
     "PageDisplayOrder": 13,
-    "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Is the claimant's description of their job or job title correct?"
   },
@@ -4940,7 +4940,7 @@
     "PageID": 13,
     "PageDisplayOrder": 13,
     "PageFieldDisplayOrder": 2,
-    "FieldShowCondition": "et3ResponseIsJobTitleCorrect=\"No\"",
+    "FieldShowCondition": "et3ResponseIsJobCorrect=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
@@ -6631,6 +6631,170 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseIsJobCorrect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 13,
+    "PageDisplayOrder": 13,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Is the claimant's description of their job or job title correct?"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationInfo",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotifiicationTitle",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationLetter",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationUploadDocument",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "sendNotificationLetter=\"Yes\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationSubject",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationAdditionalInfo",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationNotify",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationAnotherLetter",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 12,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationSelectHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "sendNotificationSubject=\"Hearing\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationCaseManagement",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "sendNotificationSubject=\"Hearing\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationResponseTribunal",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "sendNotificationSubject=\"Hearing\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationWhoCaseOrder",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "sendNotificationSubject=\"Hearing\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationFullName",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 11,
+    "FieldShowCondition": "sendNotificationWhoCaseOrder=\"Legal officer\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationSelectParties",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 9,
+    "FieldShowCondition": "sendNotificationResponseTribunal=\"Yes - view document for details\"",
+    "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
   {
