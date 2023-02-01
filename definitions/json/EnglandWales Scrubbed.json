@@ -6103,9 +6103,15 @@
   },
   {
     "ID": "fl_sendNotificationSubject",
+    "ListElement": "Employer Contract Claim",
+    "ListElementCode": "Employer Contract Claim",
+    "DisplayOrder": 7
+  },
+  {
+    "ID": "fl_sendNotificationSubject",
     "ListElement": "Other (General correspondence)",
     "ListElementCode": "Other (General correspondence)",
-    "DisplayOrder": 7
+    "DisplayOrder": 8
   },
   {
     "ID": "sendNotificationNotify",
@@ -6180,9 +6186,69 @@
     "DisplayOrder": 3
   },
   {
+    "ID": "fl_sendNotificationDecision",
+    "ListElement": "Granted",
+    "ListElementCode": "Granted",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_sendNotificationDecision",
+    "ListElement": "Granted in part",
+    "ListElementCode": "Granted in part",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_sendNotificationDecision",
+    "ListElement": "Refused",
+    "ListElementCode": "Refused",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_sendNotificationDecision",
+    "ListElement": "Other",
+    "ListElementCode": "Other",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "Legal officer",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 1
+  },
+  {
     "ID": "msl_closeApplicationYes",
     "ListElementCode": "Yes",
     "ListElement": "Yes",
     "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_sendNotificationWhoMadeJudgement",
+    "ListElement": "Judge",
+    "ListElementCode": "Judge",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationEccQuestion",
+    "ListElement": "Notice of Employer Contract Claim",
+    "ListElementCode": "Notice of Employer Contract Claim",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "sendNotificationEccQuestion",
+    "ListElement": "Acceptance/Rejection of ECC response",
+    "ListElementCode": "Acceptance/Rejection of ECC response",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "sendNotificationEccQuestion",
+    "ListElement": "Provide parties with access to ECC case view",
+    "ListElementCode": "Provide parties with access to ECC case view",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_sendNotificationWhoMadeJudgement",
+    "ListElement": "Legal officer",
+    "ListElementCode": "Legal officer",
+    "DisplayOrder": 2
   }
 ]
