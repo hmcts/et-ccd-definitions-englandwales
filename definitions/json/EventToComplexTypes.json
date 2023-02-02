@@ -5995,19 +5995,22 @@
   },
   {
     "ID": "sendNotificationUploadDocument",
-    "EventElementLabel":"Short description of document",
     "CaseFieldID": "sendNotificationUploadDocument",
     "CaseEventID": "sendNotification",
     "ListElementCode": "shortDescription",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Employer Contract Claim\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "ID": "sendNotificationUploadDocument",
     "CaseFieldID": "sendNotificationUploadDocument",
     "CaseEventID": "sendNotification",
     "ListElementCode": "uploadedDocument",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Employer Contract Claim\"",
+    "RetainHiddenValue": "Yes"
   }
 ]

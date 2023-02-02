@@ -6667,7 +6667,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationUploadDocument",
-    "DisplayContext": "complex",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
@@ -6684,9 +6684,6 @@
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y"
   },
-
-
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "sendNotification",
@@ -6776,7 +6773,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 13,
+    "PageFieldDisplayOrder": 10,
     "FieldShowCondition": " sendNotificationSubject CONTAINS \"Judgment\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6788,7 +6785,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 14,
+    "PageFieldDisplayOrder": 13,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Judgment\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6800,7 +6797,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 15,
+    "PageFieldDisplayOrder": 12,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Judgment\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6812,7 +6809,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 16,
+    "PageFieldDisplayOrder": 14,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Employer Contract Claim\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6824,7 +6821,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 17,
+    "PageFieldDisplayOrder": 15,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6834,7 +6831,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 18,
+    "PageFieldDisplayOrder": 15,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6844,7 +6841,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 19,
+    "PageFieldDisplayOrder": 16,
     "ShowSummaryChangeOption": "Y"
   },
   {
