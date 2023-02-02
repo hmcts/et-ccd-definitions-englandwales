@@ -4098,7 +4098,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationInfo",
-    "Label": "Use this service to notfiy one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"http://localhost:3455/cases/case-details/1675157653143206/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notifcation - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notifcation service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
+    "Label": "Use this service to notifiy one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"http://localhost:3455/cases/case-details/1675157653143206/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notifcation - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notifcation service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4198,7 +4198,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationTitle",
     "Label": "Enter notification title",
-    "HintText": "Start with a verb if you need the parties to do something. For exmpale: submit hearing agenda, view notice of hearing",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -4239,6 +4239,21 @@
     "Label": "sendNotificationCollection",
     "FieldType": "Collection",
     "FieldTypeParameter": "sendNotificationCollection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "sendNotificationDetails",
+    "Label": "Details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "sendNotificationRequestBy",
+    "Label": "Request was made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_sendNotificationRequestBy",
     "SecurityClassification": "Public"
   },
   {

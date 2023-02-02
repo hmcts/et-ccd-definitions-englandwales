@@ -6138,14 +6138,16 @@
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationUploadDocument",
-    "FieldType": "Text",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "ElementLabel": "sendNotificationUploadDocument",
     "SecurityClassification": "Public"
   },
   {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationSubject",
-    "FieldType": "FixedList",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_sendNotificationSubject",
     "ElementLabel": "sendNotificationSubject",
     "SecurityClassification": "Public"
   },

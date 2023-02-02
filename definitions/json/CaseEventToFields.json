@@ -6667,7 +6667,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationUploadDocument",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
@@ -6728,7 +6728,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 11,
-    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\"",
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement=\"Case management order\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
@@ -6739,7 +6739,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 13,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6782,10 +6782,10 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationFullName2",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 13,
+    "PageFieldDisplayOrder": 14,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Judgment\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6797,7 +6797,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 12,
+    "PageFieldDisplayOrder": 15,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Judgment\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6809,7 +6809,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 14,
+    "PageFieldDisplayOrder": 16,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Employer Contract Claim\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -6821,7 +6821,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 15,
+    "PageFieldDisplayOrder": 18,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6831,7 +6831,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 15,
+    "PageFieldDisplayOrder": 17,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6841,7 +6841,31 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 16,
+    "PageFieldDisplayOrder": 69,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 17,
+    "FieldShowCondition": "sendNotificationDecision=\"Other\" AND sendNotificationSubject CONTAINS \"Judgment\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationRequestBy",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 12,
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement=\"Request\"",
+    "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
   },
   {
