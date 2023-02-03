@@ -164,6 +164,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "triageQuestions",
+    "Label": " ",
+    "FieldType": "TriageQuestions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "feeGroupReference",
     "Label": "Submission Reference",
     "HintText": "Submission Reference (12 or 16 digit number)",
