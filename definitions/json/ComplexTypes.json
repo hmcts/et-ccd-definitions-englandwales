@@ -1188,6 +1188,14 @@
   },
   {
     "ID": "RespondentRepresentative",
+    "ListElementCode": "respondentId",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent Id",
+    "FieldShowCondition": "resp_rep_name=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RespondentRepresentative",
     "ListElementCode": "dynamic_resp_rep_name",
     "FieldType": "DynamicList",
     "ElementLabel": "Respondent who is being represented",
@@ -5644,14 +5652,14 @@
   },
   {
     "ID": "claimantTse",
-    "ListElementCode": "copyCorrespondence",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
     "ID": "claimantTse",
-    "ListElementCode": "noCopyReason",
+    "ListElementCode": "copyToOtherPartyText",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
@@ -6122,6 +6130,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "genericTseDetails",
+    "ListElementCode": "closeApplicationNotes",
+    "FieldType": "Text",
+    "ElementLabel": "General notes",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",
@@ -6212,6 +6227,20 @@
     "ListElementCode": "sendNotificationFullName",
     "FieldType": "Text",
     "ElementLabel": "sendNotificationFullName",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationFullName2",
+    "FieldType": "Text",
+    "ElementLabel": "Full name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details",
     "SecurityClassification": "Public"
   }
 ]

@@ -4182,7 +4182,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
@@ -4221,7 +4221,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationFullName2",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },

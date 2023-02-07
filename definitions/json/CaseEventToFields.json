@@ -6672,6 +6672,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "sendNotificationLetter=\"Yes\"",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6693,7 +6694,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 6,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Hearing\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6705,7 +6706,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 7,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6717,7 +6718,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 8,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6727,9 +6728,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 11,
+    "PageFieldDisplayOrder": 10,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement=\"Case management order\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6739,9 +6740,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 13,
+    "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6753,7 +6754,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "sendNotificationResponseTribunal=\"Yes - view document for details\" AND sendNotificationSubject CONTAINS \"Case management orders / requests\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6773,9 +6774,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 12,
     "FieldShowCondition": " sendNotificationSubject CONTAINS \"Judgment\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6785,9 +6786,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 14,
+    "PageFieldDisplayOrder": 13,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Judgment\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6797,9 +6798,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 15,
+    "PageFieldDisplayOrder": 14,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Judgment\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6811,7 +6812,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 16,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Employer Contract Claim\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6841,7 +6842,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 69,
+    "PageFieldDisplayOrder": 19,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6851,9 +6852,9 @@
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 17,
+    "PageFieldDisplayOrder": 15,
     "FieldShowCondition": "sendNotificationDecision=\"Other\" AND sendNotificationSubject CONTAINS \"Judgment\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -6865,7 +6866,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 12,
     "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" AND sendNotificationCaseManagement=\"Request\"",
-    "RetainHiddenValue": "Yes",
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
