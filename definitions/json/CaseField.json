@@ -4143,13 +4143,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "sendNotificationAnotherLetter",
-    "Label": "Do you want to upload another letter?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationSelectHearing",
     "Label": "Select the hearing",
     "FieldType": "DynamicList",
