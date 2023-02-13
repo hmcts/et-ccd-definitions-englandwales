@@ -17725,6 +17725,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "resTseDocument2",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "resTseTextBox2",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
