@@ -1153,6 +1153,24 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "tseRespond",
     "UserRole": "et-acas-api",
     "CRUD": "R"

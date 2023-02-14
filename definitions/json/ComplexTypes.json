@@ -6136,6 +6136,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "viewRespondentTSEApplications",
+    "ListElementCode": "tseViewApplicationSelect",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Select Application",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "sendNotificationCollection",
     "ListElementCode": "sendNotificationTitle",
     "FieldType": "Text",
