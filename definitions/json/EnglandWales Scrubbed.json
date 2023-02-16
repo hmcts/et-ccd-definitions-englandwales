@@ -6274,5 +6274,17 @@
     "ListElement": "Legal officer",
     "ListElementCode": "Legal officer",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_tseApplicationsOpenOrClosed",
+    "ListElementCode": "Open",
+    "ListElement": "Open",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_tseApplicationsOpenOrClosed",
+    "ListElementCode": "Closed",
+    "ListElement": "Closed",
+    "DisplayOrder": 2
   }
 ]

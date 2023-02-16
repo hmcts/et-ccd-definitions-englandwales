@@ -740,6 +740,20 @@
     "EventEnablingCondition": "caseType =\"dummy\""
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "viewRespondentTSEApplications",
+    "Name": "View Applications",
+    "Description": " ",
+    "DisplayOrder": 45,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "EndButtonLabel": "Close and return to case details",
+    "CallBackURLAboutToStartEvent": ""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
