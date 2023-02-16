@@ -742,7 +742,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "viewRespondentTSEApplications",
-    "Name": "View Applications",
+    "Name": "View Application",
     "Description": " ",
     "DisplayOrder": 45,
     "PreConditionState(s)": "*",

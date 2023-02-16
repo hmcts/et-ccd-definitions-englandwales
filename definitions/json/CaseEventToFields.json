@@ -6656,6 +6656,47 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseApplicationSummary",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "tseApplicationSummaryLabel=\"dummy\"",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseApplicationSummaryLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseApplicationResponsesTable",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "tseApplicationResponsesTableLabel=\"dummy\"",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewRespondentTSEApplications",
+    "CaseFieldID": "tseApplicationResponsesTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4
+  },  
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Response",
     "CaseFieldID": "et3ResponseIsJobCorrect",
     "DisplayContext": "MANDATORY",
