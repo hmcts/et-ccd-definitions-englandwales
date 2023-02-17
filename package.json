@@ -40,7 +40,7 @@
       "aac_url": "http://localhost:4454"
     },
     "preview": {
-      "et_cos": "http://et-cos-et-ccd-definitions-admin-pr-88.service.core-compute-preview.internal",
+      "et_cos": "http://et-ccd-definitions-admin-pr-88-et-cos",
       "ccd_url": "http://ccd-data-store-api-aat.service.core-compute-aat.internal",
       "aac_url": "http://aac-manage-case-assignment-aat.service.core-compute-aat.internal"
     },
