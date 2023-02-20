@@ -1396,7 +1396,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icDateCompleted",
     "Label": "Date completed:",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
@@ -1806,7 +1806,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1DateCompleted",
     "Label": "Date completed:",
-    "FieldType": "Text",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   },
   {
