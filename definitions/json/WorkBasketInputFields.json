@@ -25,9 +25,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_last_name",
+    "Label": "Claimant Surname",
+    "DisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_first_names",
+    "Label": "Claimant First Name",
+    "DisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "respondent",
     "Label": "Respondent",
-    "DisplayOrder": 5
+    "DisplayOrder": 7
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
