@@ -27,7 +27,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "claimantIndType",
     "ListElementCode": "claimant_last_name",
-    "Label": "Claimant Surname",
+    "Label": "Claimant Last Name",
     "DisplayOrder": 5
   },
   {
