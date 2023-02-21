@@ -3466,7 +3466,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTseAllApplications/respondentTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewRespondentTSEApplications/viewRespondentTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\">Respond to an application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4090,6 +4090,21 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseViewApplicationOpenOrClosed",
+    "Label": "What application do you wish to view?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseApplicationsOpenOrClosed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseViewApplicationSelect",
+    "Label": "Select application",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseIsJobCorrect",
     "Label": "Is the claimant's description of their job or job title correct?",
     "FieldType": "YesOrNo",
@@ -4098,7 +4113,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationInfo",
-    "Label": "Use this service to notifiy one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"http://localhost:3455/cases/case-details/1675157653143206/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notifcation - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notifcation service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
+    "Label": "Use this service to notify one or both parties about this case. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n Do not use this service to notify parties about:\r\n * ET1 serving - use the <a href=\"http://localhost:3455/cases/case-details/1675157653143206/trigger/uploadDocumentForServing/uploadDocumentForServing1 \">ET1 serving service</a>\r\n * ET3 notification - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/et3Vetting/et3Vetting1 \">ET3 notifcation service</a>\r\n * Responding to an application - use the <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> or <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application service</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4248,6 +4263,94 @@
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_sendNotificationRequestBy",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqCopyPartyIntro",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exception circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqCopyToOtherParty",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqHasSupportingMaterial",
+    "Label": "Supporting material",
+    "HintText": "Do you have any supporting material you want to provide?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqPage2TableLabel",
+    "Label": "Consider when providing material that:<br><ul><li>you can upload letters, photos or documents to support your application</li><li>if you are taking a picture of a letter, place it on a flat surface and take the picture from above</li><li>if you are uploading written documents with tracked changes, make sure that tracked changes are turned on</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqResponseText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentOrdReqUploadDocument",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentRequestOrderTableLabel",
+    "Label": "${pseRespondentOrdReqTableMarkUp}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentSelectOrderOrRequest",
+    "Label": "Select an order or request from the tribunal",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "jonsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentAllNotifications/pseRespondentAllNotifications1\">All judgments, orders and notifications (TODO)</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentViewNotification/pseRespondentViewNotification1\">View a judgment, order or notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentRespondToTribunal/pseRespondentRespondToTribunal1\">Respond to an order or request from the tribunal</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "jonsTab",
+    "Label": "#### Judgments, orders & notifications",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
