@@ -4347,6 +4347,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "pseRespondentSelectJudgmentOrderNotification",
+    "Label": "Select a judgment, order or notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "jonsTab",
     "Label": "#### Judgments, orders & notifications",
     "FieldType": "Label",

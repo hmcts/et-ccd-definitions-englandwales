@@ -24238,5 +24238,23 @@
     "CaseFieldID": "jonsLinks",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
   }
 ]
