@@ -199,7 +199,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "ethosCaseReference",
-    "TabFieldDisplayOrder": 24,
+    "TabFieldDisplayOrder": 25,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
