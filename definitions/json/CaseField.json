@@ -4099,7 +4099,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseViewApplicationSelect",
-    "Label": "Select application",
+    "Label": "Select Application",
     "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
