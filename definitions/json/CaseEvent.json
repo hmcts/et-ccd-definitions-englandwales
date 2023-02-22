@@ -758,7 +758,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "viewRespondentTSEApplications",
-    "Name": "View Applications",
+    "Name": "View application",
     "Description": " ",
     "DisplayOrder": 45,
     "PreConditionState(s)": "*",
@@ -767,7 +767,7 @@
     "ShowEventNotes": "N",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "EndButtonLabel": "Close and return to case details",
-    "CallBackURLAboutToStartEvent": ""
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/viewRespondentTSEApplications/aboutToStart"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
