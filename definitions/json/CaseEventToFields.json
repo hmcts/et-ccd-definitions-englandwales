@@ -6641,7 +6641,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "View application",
+    "PageLabel": "",
     "CallBackURLMidEvent": "${ET_COS_URL}/viewRespondentTSEApplications/midPopulateChooseApplication"
   },
   {
@@ -6650,7 +6650,7 @@
     "CaseFieldID": "tseViewApplicationSelect",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
-    "PageLabel": "Select Application",
+    "PageLabel": "",
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1
   },
