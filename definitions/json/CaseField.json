@@ -4360,6 +4360,20 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "SelectNotificationTitle",
+    "Label": "Select a notification",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "selectNotificationDropdown",
+    "Label": "Select a notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
