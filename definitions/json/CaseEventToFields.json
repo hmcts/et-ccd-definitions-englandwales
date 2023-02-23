@@ -6986,6 +6986,16 @@
     "PageLabel": "Select an Order or Request"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "pseRespondentViewNotification",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",
