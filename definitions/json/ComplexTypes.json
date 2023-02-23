@@ -1353,7 +1353,7 @@
   },
   {
     "ID": "ClaimantRequest",
-    "ListElementCode": "other_claimcontact_language",
+    "ListElementCode": "other_claim",
     "FieldType": "TextArea",
     "ElementLabel": "Please describe what type of claim you want to make",
     "SecurityClassification": "Public"
