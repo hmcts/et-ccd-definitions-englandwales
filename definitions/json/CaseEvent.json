@@ -801,6 +801,22 @@
     "CallBackURLSubmittedEvent": ""
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "viewAllNotifications",
+    "Name": "View notifications",
+    "Description": "View all judgement, orders and notifications",
+    "DisplayOrder": 99,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/pseViewNotifications/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
