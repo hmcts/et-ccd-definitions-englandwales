@@ -606,6 +606,22 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondNotification",
+    "Name": "Respond to a notification",
+    "Description": "Respond to a notification",
+    "DisplayOrder": 70,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseTransferECM",
     "Name": "Case Transfer to ECM",
     "Description": "Transfer case to ECM system",
