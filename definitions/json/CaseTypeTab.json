@@ -168,22 +168,29 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "conciliationTrack",
+    "CaseFieldID": "et3DueDate",
     "TabFieldDisplayOrder": 21
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "reasonForCT",
+    "CaseFieldID": "conciliationTrack",
     "TabFieldDisplayOrder": 22
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 23
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "linkedCaseCT",
-    "TabFieldDisplayOrder": 23,
+    "TabFieldDisplayOrder": 24,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
@@ -191,7 +198,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "linkedCaseCTLabel",
-    "TabFieldDisplayOrder": 24,
+    "TabFieldDisplayOrder": 25,
     "FieldShowCondition": "linkedCaseCT=\"*\""
   },
   {
@@ -199,7 +206,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "ethosCaseReference",
-    "TabFieldDisplayOrder": 24,
+    "TabFieldDisplayOrder": 26,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
