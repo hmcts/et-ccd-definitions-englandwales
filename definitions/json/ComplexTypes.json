@@ -6130,6 +6130,13 @@
   },
   {
     "ID": "genericTseDetails",
+    "ListElementCode": "applicationState",
+    "FieldType": "Text",
+    "ElementLabel": "Application State",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
     "ListElementCode": "closeApplicationNotes",
     "FieldType": "Text",
     "ElementLabel": "General notes",
