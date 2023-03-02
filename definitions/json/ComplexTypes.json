@@ -6133,6 +6133,7 @@
     "ListElementCode": "applicationState",
     "FieldType": "Text",
     "ElementLabel": "Application State",
+    "FieldShowCondition": "status=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
