@@ -6602,7 +6602,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "tseAdminSelectApplication=\"dummy\""
+    "FieldShowCondition": "tseAdminCloseApplicationTableLabel=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
