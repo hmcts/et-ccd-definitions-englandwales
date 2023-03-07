@@ -1359,6 +1359,50 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "TriageQuestions",
+    "ListElementCode": "postcode",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "caseType",
+    "FieldType": "FixedList",
+    "ElementLabel": " ",
+    "FieldTypeParameter": "fl_CaseType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "acasMultiple",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "TriageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_typeOfClaim",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_preference",
     "FieldType": "FixedList",
@@ -5315,16 +5359,16 @@
     "ListElementCode": "reasonable_adjustments_detail",
     "FieldType": "TextArea",
     "ElementLabel": "Tell us what support you need to request",
+    "FieldShowCondition": "reasonable_adjustments=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "HearingPreference",
     "ListElementCode": "contact_language",
-    "FieldType": "FixedList",
+    "FieldType": "FixedRadioList",
     "ElementLabel": "Contact language",
     "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
+    "SecurityClassification": "Public"
   },
   {
     "ID": "HearingPreference",
@@ -5332,8 +5376,7 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "If a hearing is required, what language do you want to speak at a hearing?",
     "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public",
-    "FieldShowCondition": "contact_language=\"Welsh\" OR hearing_language=\"Welsh\""
+    "SecurityClassification": "Public"
   },
   {
     "ID": "ServingDocumentUpload",
