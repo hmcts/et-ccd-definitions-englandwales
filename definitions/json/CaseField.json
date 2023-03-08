@@ -4105,6 +4105,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseApplicationSummaryAndResponsesMarkup",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "Label": "${tseApplicationSummaryAndResponsesMarkup}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseIsJobCorrect",
     "Label": "Is the claimant's description of their job or job title correct?",
     "FieldType": "YesOrNo",
