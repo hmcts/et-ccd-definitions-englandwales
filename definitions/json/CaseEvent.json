@@ -117,6 +117,7 @@
     "Description": "Update a submitted case",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimant/aboutToSubmit",
     "ShowEventNotes": "N"
@@ -832,6 +833,7 @@
     "DisplayOrder": 2,
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "Submitted",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicListingVenue",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/listingHearings",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N"
