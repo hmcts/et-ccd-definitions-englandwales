@@ -3279,7 +3279,6 @@
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
-
   {
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
@@ -3316,8 +3315,6 @@
     "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
-
-
   {
     "ID": "ClaimantRepresentative",
     "CaseEventID": "addAmendClaimantRepresentative",
