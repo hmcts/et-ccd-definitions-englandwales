@@ -1634,6 +1634,60 @@
   {
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "postcode",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "caseType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "acasMultiple",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
     "EventElementLabel": "Have you completed this section?",
@@ -2594,6 +2648,60 @@
   {
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "postcode",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "caseType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "acasMultiple",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
     "EventElementLabel": "Have you completed this section?",
@@ -3169,6 +3277,42 @@
     "ListElementCode": "hearing_assistance",
     "EventElementLabel": "Why is the claimant unable to take part in video or phone hearings",
     "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "reasonable_adjustments",
+    "EventElementLabel": "Is there a physical, mental or learning disability or long term health condition which means support during the case is needed?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "reasonable_adjustments_detail",
+    "EventElementLabel": "Support requested",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "contact_language",
+    "EventElementLabel": "Contact Language",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_language",
+    "EventElementLabel": "Hearing Language",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
