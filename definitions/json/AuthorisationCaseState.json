@@ -1,18 +1,6 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
-    "UserRole": "caseworker-et-pcqextractor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Submitted",
-    "UserRole": "caseworker-et-pcqextractor",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -40,48 +28,6 @@
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Submitted",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Vetted",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Vetted",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Vetted",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Vetted",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Vetted",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Vetted",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -127,24 +73,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Accepted",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Accepted",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Accepted",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -172,18 +100,6 @@
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Closed",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -217,18 +133,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Rejected",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -256,12 +160,6 @@
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseStateID": "Transferred",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
