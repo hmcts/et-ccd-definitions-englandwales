@@ -4072,14 +4072,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmReplyEnterFullName",
+    "ID": "tseAdmReplyCmoEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmReplyIsResponseRequired",
+    "ID": "tseAdmReplyCmoIsResponseRequired",
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
@@ -4087,7 +4087,30 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseAdmReplySelectPartyRespond",
+    "ID": "tseAdmReplyRequestEnterFullName",
+    "Label": "Enter their full name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyRequestIsResponseRequired",
+    "Label": "Is a response to the tribunal required?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyRequestSelectPartyRespond",
+    "Label": "Select the party or parties who must respond",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseAdmReplyCmoSelectPartyRespond",
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
