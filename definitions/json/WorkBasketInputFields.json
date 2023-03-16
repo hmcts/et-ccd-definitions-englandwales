@@ -1,39 +1,59 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "managingOffice",
+    "Label": "Tribunal Office",
+    "DisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "ethosCaseReference",
     "Label": "Case Number",
-    "DisplayOrder": 1
+    "DisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "receiptDate",
     "Label": "Receipt Date",
-    "DisplayOrder": 2
+    "DisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "feeGroupReference",
     "Label": "Submission Reference",
-    "DisplayOrder": 3
+    "DisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_last_name",
+    "Label": "Claimant Last Name",
+    "DisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "claimantIndType",
+    "ListElementCode": "claimant_first_names",
+    "Label": "Claimant First Name",
+    "DisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "respondent",
     "Label": "Respondent",
-    "DisplayOrder": 4
+    "DisplayOrder": 7
   },
   {
-    "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "managingOffice",
-    "Label": "Tribunal Office",
-    "DisplayOrder": 5
+    "Label": "Managing Office",
+    "DisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "documentName",
     "Label": "Document Name",
-    "DisplayOrder": 1
+    "DisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
