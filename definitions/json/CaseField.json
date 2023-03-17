@@ -372,6 +372,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsCollection",
+    "Label": "Hearing Details",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "judgementCollection",
     "Label": " ",
     "FieldType": "Collection",
