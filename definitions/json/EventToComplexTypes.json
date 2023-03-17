@@ -4279,8 +4279,8 @@
     "ID": "AllocateHearing",
     "CaseEventID": "allocateHearing",
     "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingPostponedBy",
-    "EventElementLabel": "Postponed by",
+    "ListElementCode": "allocateHearingStatus",
+    "EventElementLabel": "Hearing Status",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL"
   },
@@ -4288,8 +4288,8 @@
     "ID": "AllocateHearing",
     "CaseEventID": "allocateHearing",
     "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingStatus",
-    "EventElementLabel": "Hearing Status",
+    "ListElementCode": "allocateHearingPostponedBy",
+    "EventElementLabel": "Postponed by",
     "FieldDisplayOrder": 9,
     "DisplayContext": "OPTIONAL"
   },
