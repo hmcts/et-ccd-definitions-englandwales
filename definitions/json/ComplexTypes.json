@@ -1256,6 +1256,15 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "et3ResponseContactReason",
+    "FieldType": "Text",
+    "ElementLabel": "Provide a reason why you have selected post",
+    "FieldShowCondition": "responseStruckOut !=\"Yes\" AND responseReceived=\"Yes\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "et3ResponseDXAddress",
     "FieldType": "Text",
     "ElementLabel": "DX address (if known)",
