@@ -177,7 +177,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midRespondentAddress",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -273,7 +273,7 @@
     "PageDisplayOrder": 9,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midEventHearingPreferences",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midEventHearingPreferences",
     "PageColumnNumber": 1
   },
   {
@@ -465,7 +465,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midRespondentAddress",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -796,7 +796,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midRespondentAddress",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentAddress",
     "PageColumnNumber": 1
   },
   {
@@ -980,7 +980,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/reinstateClosedCaseMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/reinstateClosedCaseMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1004,7 +1004,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/singleCaseMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/singleCaseMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1191,7 +1191,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/singleCaseMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/singleCaseMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1426,7 +1426,7 @@
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midEventHearingPreferences",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midEventHearingPreferences",
     "PageColumnNumber": 1
   },
   {
@@ -1483,7 +1483,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midEventAmendHearing",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midEventAmendHearing",
     "PageColumnNumber": 1
   },
   {
@@ -1495,7 +1495,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/allocatehearing/handleListingSelected",
+    "CallBackURLMidEvent": "${ET_COS_URL}/allocatehearing/handleListingSelected",
     "PageColumnNumber": 1
   },
   {
@@ -1563,7 +1563,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/hearingdetails/handleListingSelected",
+    "CallBackURLMidEvent": "${ET_COS_URL}/hearingdetails/handleListingSelected",
     "PageColumnNumber": 1
   },
   {
@@ -1586,7 +1586,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/judgmentValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/judgmentValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1598,7 +1598,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/jurisdictionValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/jurisdictionValidation",
     "PageColumnNumber": 1
   },
   {
@@ -1621,7 +1621,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1634,7 +1634,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\" AND correspondenceType.part_0_Documents=\"0.1\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1647,7 +1647,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midSelectedAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midSelectedAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1660,7 +1660,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midValidateAddressLabels",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midValidateAddressLabels",
     "PageColumnNumber": 1
   },
   {
@@ -1683,7 +1683,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/listingSingleCases",
+    "CallBackURLMidEvent": "${ET_COS_URL}/listingSingleCases",
     "PageColumnNumber": 1
   },
   {
@@ -1717,7 +1717,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midRespondentECC",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midRespondentECC",
     "PageColumnNumber": 1
   },
   {
@@ -2570,7 +2570,7 @@
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/jurisdictionCodes"
+    "CallBackURLMidEvent": "${ET_COS_URL}/jurisdictionCodes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2727,7 +2727,7 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/et1HearingVenue"
+    "CallBackURLMidEvent": "${ET_COS_URL}/et1HearingVenue"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3284,7 +3284,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midServingDocumentOtherTypeNames",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midServingDocumentOtherTypeNames",
     "PageLabel": "Upload documents",
     "PageColumnNumber": 1
   },
@@ -3650,7 +3650,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "http://localhost:8081/et3Vetting/midPopulateRespondentEt3Response",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midPopulateRespondentEt3Response",
     "PageLabel": "Select Respondent"
   },
   {
@@ -3662,7 +3662,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3DateLabel=\"dummy\"",
-    "CallBackURLMidEvent": "http://localhost:8081/et3Vetting/midCalculateResponseInTime",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midCalculateResponseInTime",
     "PageLabel": "Minimum required information",
     "PageColumnNumber": 1
   },
@@ -3828,7 +3828,7 @@
     "PageDisplayOrder": 7,
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
-    "CallBackURLMidEvent": "http://localhost:8081/et3Vetting/midRespondentNameAndAddressTable",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midRespondentNameAndAddressTable",
     "PageLabel": "Minimum required information"
   },
   {
@@ -4086,7 +4086,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/et3Vetting/midHearingListedTable",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midHearingListedTable",
     "PageLabel": "Minimum required information",
     "PageColumnNumber": 1
   },
@@ -4123,7 +4123,7 @@
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "et3HearingDetailsLabel=\"dummy\"",
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
-    "CallBackURLMidEvent": "http://localhost:8081/et3Vetting/midTransferApplicationTable",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Vetting/midTransferApplicationTable",
     "PageColumnNumber": 1
   },
   {
@@ -4702,7 +4702,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "et3ResponseAreDatesCorrect=\"No\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/et3Response/midEmploymentDates",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Response/midEmploymentDates",
     "PageLabel": "What are the claimant's employment dates?"
   },
   {
@@ -5023,7 +5023,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/et3Notification/midUploadDocuments",
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Notification/midUploadDocuments",
     "PageLabel": "Upload documents",
     "PageColumnNumber": 1
   },
@@ -5178,7 +5178,7 @@
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "referralHearingDetailsLabel=\"dummy\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/createReferral/validateReferentEmail",
+    "CallBackURLMidEvent": "${ET_COS_URL}/createReferral/validateReferentEmail",
     "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
@@ -5290,7 +5290,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "http://localhost:8081/replyReferral/initHearingAndReferralDetails",
+    "CallBackURLMidEvent": "${ET_COS_URL}/replyReferral/initHearingAndReferralDetails",
     "PageLabel": "Refer to admin, legal officer or judge"
   },
   {
@@ -5313,7 +5313,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "FieldShowCondition": "hearingAndReferralDetailsLabel=\"dummy\"",
-    "CallBackURLMidEvent": "http://localhost:8081/replyReferral/validateReplyToEmail",
+    "CallBackURLMidEvent": "${ET_COS_URL}/replyReferral/validateReplyToEmail",
     "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
@@ -5427,7 +5427,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "http://localhost:8081/closeReferral/initHearingAndReferralDetails",
+    "CallBackURLMidEvent": "${ET_COS_URL}/closeReferral/initHearingAndReferralDetails",
     "PageLabel": "Close referral"
   },
   {
@@ -5541,7 +5541,7 @@
     "FieldShowCondition": "hearingDateType=\"Range\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/listingsDateRangeMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/listingsDateRangeMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -5703,7 +5703,7 @@
     "FieldShowCondition": "hearingDateType=\"Range\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/listingsDateRangeMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/listingsDateRangeMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -5777,7 +5777,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/multipleCreationMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleCreationMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -5789,7 +5789,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/multipleCreationMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleCreationMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -5878,7 +5878,7 @@
     "FieldShowCondition": "typeOfAmendment CONTAINS \"Add cases to multiple\"",
     "PageShowCondition": "typeOfAmendment CONTAINS \"Add cases to multiple\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/multipleAmendCaseIdsMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleAmendCaseIdsMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -6034,7 +6034,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType=\"batchUpdateType3\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/multipleSingleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleSingleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -6047,7 +6047,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType =\"batchUpdateType1\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/multipleMidBatch1Validation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleMidBatch1Validation",
     "PageColumnNumber": 1
   },
   {
@@ -6105,7 +6105,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "batchUpdateType = \"batchUpdateType2\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/multipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/multipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -6197,7 +6197,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/subMultipleMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/subMultipleMidEventValidation",
     "PageColumnNumber": 1
   },
   {
@@ -6264,7 +6264,7 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midSelectedAddressLabelsMultiple",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midSelectedAddressLabelsMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -6289,7 +6289,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "correspondenceType.topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/midValidateAddressLabelsMultiple",
+    "CallBackURLMidEvent": "${ET_COS_URL}/midValidateAddressLabelsMultiple",
     "PageColumnNumber": 1
   },
   {
@@ -6499,7 +6499,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
-    "CallBackURLMidEvent": "http://localhost:8081/bulkAddSingleCasesImportFileMidEventValidation",
+    "CallBackURLMidEvent": "${ET_COS_URL}/bulkAddSingleCasesImportFileMidEventValidation",
     "PageColumnNumber": 1
   }
 ]
