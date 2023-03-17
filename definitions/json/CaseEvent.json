@@ -51,9 +51,9 @@
     "DisplayOrder": 4,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
+    "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "SecurityClassification": "Public",
     "ShowEventNotes": "N"
   },
   {
@@ -64,10 +64,10 @@
     "DisplayOrder": 5,
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "Submitted",
-    "EventEnablingCondition": "managingOffice =\"Unassigned\"",
+    "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/caseTransfer/initTransferToEnglandWales",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/assignCase",
-    "SecurityClassification": "Public",
+    "EventEnablingCondition": "managingOffice =\"Unassigned\"",
     "ShowEventNotes": "N"
   },
   {
@@ -77,10 +77,10 @@
     "Description": "Vetting a case",
     "DisplayOrder": 6,
     "PreConditionState(s)": "Submitted;Rejected;Vetted",
-    "PostConditionState": "Vetted",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseEt1Vetting",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1VettingAboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/finishEt1Vetting",
+    "PostConditionState": "Vetted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
@@ -117,12 +117,13 @@
     "DisplayOrder": 9,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "EventEnablingCondition": ""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

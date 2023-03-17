@@ -29,17 +29,21 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-  { "CaseTypeId": "ET_EnglandWales",
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "UserRole": "citizen",
-    "CRUD": "CRUD" },
+    "CRUD": "CRUD"
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
-  { "CaseTypeId": "ET_EnglandWales",
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "UserRole": "et-acas-api",
-    "CRUD": "R" },
+    "CRUD": "R"
+  },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "UserRole": "caseworker-employment-englandwales",
