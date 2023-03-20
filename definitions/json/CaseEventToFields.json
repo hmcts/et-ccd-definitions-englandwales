@@ -7135,21 +7135,11 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondNotification",
-    "CaseFieldID": "respondNotificationIsThis",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 6,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "respondNotification",
     "CaseFieldID": "respondNotificationResponseRequired",
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7,
+    "PageFieldDisplayOrder": 8,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7159,7 +7149,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 8,
+    "PageFieldDisplayOrder": 9,
     "FieldShowCondition": "respondNotificationResponseRequired=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
@@ -7202,7 +7192,7 @@
     "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7212,9 +7202,28 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 11,
     "FieldShowCondition": "respondNotificationCaseManagementMadeBy!=\"Dummy\"",
     "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondNotification",
+    "CaseFieldID": "respondNotificationDate",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 12
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "respondNotification",
+    "CaseFieldID": "respondNotificationCmoOrRequest",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y"
   },
   {

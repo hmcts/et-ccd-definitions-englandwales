@@ -4454,7 +4454,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "respondNotificationAdditionalInfo",
-    "Label": "Additional infomation",
+    "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -4465,14 +4465,6 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondNotificationIsThis",
-    "Label": "Is this a case managment order or request?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "respondNotificationIsThis",
     "SecurityClassification": "Public"
   },
   {
@@ -4527,6 +4519,21 @@
     "Label": "Enter their full name",
     "HintText": " ",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondNotificationDate",
+    "Label": "text",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondNotificationCmoOrRequest",
+    "Label": "Is this a case managment order or request",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_tseAdminTypeOfDecision",
     "SecurityClassification": "Public"
   },
   {
