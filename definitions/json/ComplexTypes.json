@@ -6373,5 +6373,13 @@
     "FieldTypeParameter": "pseRespondCollection",
     "ElementLabel": "Responses",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "notificationState",
+    "FieldType": "Text",
+    "ElementLabel": "Notification State",
+    "FieldShowCondition": "status=\"dummy\"",
+    "SecurityClassification": "Public"
   }
 ]
