@@ -2839,54 +2839,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "allocateHearingCollection",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "hearingDetailsCollection",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"

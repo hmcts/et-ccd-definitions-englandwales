@@ -1512,11 +1512,22 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingEmployerMember",
+    "CaseFieldID": "allocateHearingJudge",
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "allocateHearing",
+    "CaseFieldID": "allocateHearingEmployerMember",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "FieldShowCondition": "allocateHearingSitAlone=\"Full Panel\"",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
@@ -1528,7 +1539,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "allocateHearingSitAlone=\"Full Panel\"",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1

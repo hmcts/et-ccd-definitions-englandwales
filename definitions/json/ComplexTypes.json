@@ -5331,54 +5331,6 @@
     "Min": 1
   },
   {
-    "ID": "AllocateHearing",
-    "ListElementCode": "allocateHearingDate",
-    "FieldType": "DateTime",
-    "ElementLabel": "Hearing Date",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AllocateHearing",
-    "ListElementCode": "allocateHearingVenue",
-    "FieldType": "DynamicList",
-    "ElementLabel": "Select Hearing Venue",
-    "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AllocateHearing",
-    "ListElementCode": "allocateHearingRoom",
-    "FieldType": "DynamicList",
-    "ElementLabel": "Select Room",
-    "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AllocateHearing",
-    "ListElementCode": "allocateHearingClerk",
-    "FieldType": "DynamicList",
-    "ElementLabel": "Select Clerk",
-    "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AllocateHearing",
-    "ListElementCode": "allocateHearingStatus",
-    "FieldType": "FixedList",
-    "ElementLabel": "Hearing Status",
-    "FieldTypeParameter": "fl_HearingStatus",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "AllocateHearing",
-    "ListElementCode": "allocateHearingPostponedBy",
-    "FieldType": "FixedList",
-    "ElementLabel": "Postponed by",
-    "FieldTypeParameter": "fl_PostponedBy",
-    "FieldShowCondition": "allocateHearingStatus = \"Postponed\"",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "HearingDetails",
     "ListElementCode": "hearingDetailsDate",
     "FieldType": "DateTime",

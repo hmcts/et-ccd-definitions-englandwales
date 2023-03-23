@@ -5,7 +5,7 @@
     "Name": "Eng/Wales - Singles",
     "Description": "England/Wales - Singles",
     "JurisdictionID": "EMPLOYMENT",
-    "PrintableDocumentsUrl": "http://localhost:4452/callback/jurisdictions/EMPLOYMENT/case-types/ET_EnglandWales/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_URL}/callback/jurisdictions/EMPLOYMENT/case-types/ET_EnglandWales/documents",
     "SecurityClassification": "Public"
   },
   {
@@ -14,7 +14,7 @@
     "Name": "Eng/Wales - Hearings/Reports",
     "Description": "England/Wales - Hearings/Reports",
     "JurisdictionID": "EMPLOYMENT",
-    "PrintableDocumentsUrl": "http://localhost:4452/callback/jurisdictions/EMPLOYMENT/case-types/ET_EnglandWales_Listings/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_URL}/callback/jurisdictions/EMPLOYMENT/case-types/ET_EnglandWales_Listings/documents",
     "SecurityClassification": "Public"
   },
   {
@@ -23,7 +23,7 @@
     "Name": "Eng/Wales - Multiples",
     "Description": "England/Wales - Multiples",
     "JurisdictionID": "EMPLOYMENT",
-    "PrintableDocumentsUrl": "http://localhost:4452/callback/jurisdictions/EMPLOYMENT/case-types/ET_EnglandWales_Multiple/documents",
+    "PrintableDocumentsUrl": "${CCD_DEF_URL}/callback/jurisdictions/EMPLOYMENT/case-types/ET_EnglandWales_Multiple/documents",
     "SecurityClassification": "Public"
   }
 ]

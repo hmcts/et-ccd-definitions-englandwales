@@ -363,15 +363,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "allocateHearingCollection",
-    "Label": " ",
-    "HintText": " ",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "AllocateHearing",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsCollection",
     "Label": "Hearing Details",
     "FieldType": "Collection",

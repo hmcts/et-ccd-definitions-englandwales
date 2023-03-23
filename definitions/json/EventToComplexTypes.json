@@ -4213,60 +4213,6 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "AllocateHearing",
-    "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingDate",
-    "EventElementLabel": "Hearing Date",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "READONLY"
-  },
-  {
-    "ID": "AllocateHearing",
-    "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingVenue",
-    "EventElementLabel": "Select Hearing Venue",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "AllocateHearing",
-    "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingRoom",
-    "EventElementLabel": "Select Room",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "AllocateHearing",
-    "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingClerk",
-    "EventElementLabel": "Select Clerk",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "AllocateHearing",
-    "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingStatus",
-    "EventElementLabel": "Hearing Status",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "AllocateHearing",
-    "CaseEventID": "allocateHearing",
-    "CaseFieldID": "allocateHearingCollection",
-    "ListElementCode": "allocateHearingPostponedBy",
-    "EventElementLabel": "Postponed by",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
     "ID": "HearingDetails",
     "CaseEventID": "updateHearing",
     "CaseFieldID": "hearingDetailsCollection",
