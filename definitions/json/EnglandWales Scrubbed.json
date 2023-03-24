@@ -6152,7 +6152,7 @@
   {
     "ID": "sendNotificationResponseTribunal",
     "ListElement": "Yes - view document for details",
-    "ListElementCode": "Yes",
+    "ListElementCode": "Yes - view document for details",
     "DisplayOrder": 1
   },
   {
