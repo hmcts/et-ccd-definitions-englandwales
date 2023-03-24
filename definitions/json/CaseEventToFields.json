@@ -6982,7 +6982,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "sendNotification",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
