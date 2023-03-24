@@ -22711,43 +22711,43 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationRequestBy",
+    "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },

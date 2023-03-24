@@ -4347,10 +4347,10 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "sendNotificationRequestBy",
+    "ID": "sendNotificationRequestMadeBy",
     "Label": "Request was made by",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_sendNotificationRequestBy",
+    "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
     "SecurityClassification": "Public"
   },
   {
@@ -4552,7 +4552,7 @@
     "ID": "respondNotificationCaseManagementMadeBy",
     "Label": "Case management order made by",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_sendNotificationRequestBy",
+    "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
     "SecurityClassification": "Public"
   },
   {
