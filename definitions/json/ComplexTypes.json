@@ -449,259 +449,259 @@
     "ListElementCode": "et3IsThereAnEt3Response",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an ET3 response?",
-    "FieldShowCondition": "et3IsThereAnEt3Response!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThereAnEt3Response!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3NoEt3Response",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3NoEt3Response!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3NoEt3Response!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotes",
     "FieldType": "TextArea",
     "ElementLabel": "General Notes",
-    "FieldShowCondition": "et3GeneralNotes!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotes!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3IsThereACompaniesHouseSearchDocument",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there a Companies House search document?",
-    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3CompanyHouseDocument",
     "FieldType": "Document",
     "ElementLabel": "Upload the Companies House search document",
-    "FieldShowCondition": "et3CompanyHouseDocument!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3CompanyHouseDocument!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesCompanyHouse",
     "FieldType": "TextArea",
     "ElementLabel": "General Notes",
-    "FieldShowCondition": "et3GeneralNotesCompanyHouse!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesCompanyHouse!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3IsThereAnIndividualSearchDocument",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an individual insolvency search document?",
-    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3IndividualInsolvencyDocument",
     "FieldType": "Document",
     "ElementLabel": "Upload the individual insolvency search document",
-    "FieldShowCondition": "et3IndividualInsolvencyDocument!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IndividualInsolvencyDocument!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesIndividualInsolvency",
     "FieldType": "TextArea",
     "ElementLabel": "General Notes",
-    "FieldShowCondition": "et3GeneralNotesIndividualInsolvency!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesIndividualInsolvency!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3LegalIssue",
     "FieldType": "FixedRadioList",
     "ElementLabel": "Is there an issue with whether the respondent is a legal entity?",
+    "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_respondent_legal_entity",
-    "FieldShowCondition": "et3LegalIssue!=\"\"",
-    "SecurityClassification": "Public"
+    "FieldShowCondition": "et3LegalIssue!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3LegalIssueGiveDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3LegalIssueGiveDetails!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3LegalIssueGiveDetails!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesLegalEntity",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3GeneralNotesLegalEntity!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesLegalEntity!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3ChooseRespondent",
     "FieldType": "DynamicList",
     "ElementLabel": "Select the respondent you are processing",
-    "FieldShowCondition": "et3ChooseRespondent!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ChooseRespondent!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3ResponseInTime",
     "FieldType": "YesOrNo",
     "ElementLabel": "Did we receive the ET3 response in time?",
-    "FieldShowCondition": "et3ResponseInTime!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ResponseInTime!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3ResponseInTimeDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3ResponseInTimeDetails!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ResponseInTimeDetails!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3DoWeHaveRespondentsName",
     "FieldType": "YesOrNo",
     "ElementLabel": "Do we have the respondent's name?",
-    "FieldShowCondition": "et3DoWeHaveRespondentsName!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoWeHaveRespondentsName!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesRespondentName",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesRespondentName!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentName!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3DoesRespondentsNameMatch",
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the respondent's name match?",
-    "FieldShowCondition": "et3DoesRespondentsNameMatch!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoesRespondentsNameMatch!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3RespondentNameMismatchDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3RespondentNameMismatchDetails!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3RespondentNameMismatchDetails!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesRespondentNameMatch",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesRespondentNameMatch!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentNameMatch!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3DoWeHaveRespondentsAddress",
     "FieldType": "YesOrNo",
     "ElementLabel": "Do we have the respondent's address?",
-    "FieldShowCondition": "et3DoWeHaveRespondentsAddress!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoWeHaveRespondentsAddress!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesRespondentAddress",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3DoesRespondentsAddressMatch",
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the respondent's address match?",
-    "FieldShowCondition": "et3DoesRespondentsAddressMatch!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3DoesRespondentsAddressMatch!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3RespondentAddressMismatchDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3RespondentAddressMismatchDetails!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3RespondentAddressMismatchDetails!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesAddressMatch",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesAddressMatch!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesAddressMatch!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3IsCaseListedForHearing",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the case listed for hearing?",
-    "FieldShowCondition": "et3IsCaseListedForHearing!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsCaseListedForHearing!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3IsCaseListedForHearingDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3IsCaseListedForHearingDetails!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3IsCaseListedForHearingDetails!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesCaseListed",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesCaseListed!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesCaseListed!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3IsThisLocationCorrect",
     "FieldType": "FixedRadioList",
     "ElementLabel": "Is this location correct?",
-    "FieldTypeParameter": "fl_et3_tribunal_location_change",
+    "SecurityClassification": "Public",
     "FieldShowCondition": "et3IsThisLocationCorrect!=\"\"",
-    "SecurityClassification": "Public"
+    "FieldTypeParameter": "fl_et3_tribunal_location_change"
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3RegionalOffice",
     "FieldType": "FixedList",
     "ElementLabel": "England & Wales regional office",
+    "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_TribunalOffice",
-    "FieldShowCondition": "et3RegionalOffice!=\"\"",
-    "SecurityClassification": "Public"
+    "FieldShowCondition": "et3RegionalOffice!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3WhyWeShouldChangeTheOffice",
     "FieldType": "TextArea",
     "ElementLabel": "Why should we change the office?",
-    "FieldShowCondition": "et3WhyWeShouldChangeTheOffice!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3WhyWeShouldChangeTheOffice!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesTransferApplication",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesTransferApplication!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesTransferApplication!=\"\""
   },
   {
     "ID": "ET3Vetting",
@@ -709,137 +709,137 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Does the respondent wish to contest any part of the claim?",
     "FieldTypeParameter": "fl_contest_claim_status",
-    "FieldShowCondition": "et3ContestClaim!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContestClaim!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3ContestClaimGiveDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3ContestClaimGiveDetails!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContestClaimGiveDetails!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesContestClaim",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesContestClaim!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesContestClaim!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3ContractClaimSection7",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an Employer's Contract Claim in section 7 of the ET3 response?",
-    "FieldShowCondition": "et3ContractClaimSection7!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContractClaimSection7!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3ContractClaimSection7Details",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3ContractClaimSection7Details!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3ContractClaimSection7Details!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesContractClaimSection7",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesContractClaimSection7!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesContractClaimSection7!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3Rule26",
     "FieldType": "YesOrNo",
     "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
-    "FieldShowCondition": "et3Rule26!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3Rule26!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3Rule26Details",
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
-    "FieldShowCondition": "et3Rule26Details!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3Rule26Details!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssuesStrikeOut",
     "FieldType": "TextArea",
     "ElementLabel": "Applications for strike out or deposit",
-    "FieldShowCondition": "et3SuggestedIssuesStrikeOut!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssuesStrikeOut!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueInterpreters",
     "FieldType": "TextArea",
     "ElementLabel": "Interpreters",
-    "FieldShowCondition": "et3SuggestedIssueInterpreters!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueInterpreters!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueJurisdictional",
     "FieldType": "TextArea",
     "ElementLabel": "Jurisdictional issues",
-    "FieldShowCondition": "et3SuggestedIssueJurisdictional!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueJurisdictional!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueAdjustments",
     "FieldType": "TextArea",
     "ElementLabel": "Request for adjustments",
-    "FieldShowCondition": "et3SuggestedIssueAdjustments!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueAdjustments!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueRule50",
     "FieldType": "TextArea",
     "ElementLabel": "Rule 50",
-    "FieldShowCondition": "et3SuggestedIssueRule50!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueRule50!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueTimePoints",
     "FieldType": "TextArea",
     "ElementLabel": "Time points",
-    "FieldShowCondition": "et3SuggestedIssueTimePoints!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3SuggestedIssueTimePoints!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3GeneralNotesRule26",
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
-    "FieldShowCondition": "et3GeneralNotesRule26!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3GeneralNotesRule26!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3AdditionalInformation",
     "FieldType": "TextArea",
     "ElementLabel": "Additional information",
-    "FieldShowCondition": "et3AdditionalInformation!=\"\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3AdditionalInformation!=\"\""
   },
   {
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssues",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Are there any other suggested orders, directions or issues?",
+    "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_et3_suggested_issues",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\"",
-    "SecurityClassification": "Public"
+    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
   },
   {
     "ID": "Respondent",
@@ -866,9 +866,9 @@
     "ID": "Respondent",
     "ListElementCode": "extensionGranted",
     "FieldType": "YesOrNo",
+    "RetainHiddenValue": "Yes",
     "ElementLabel": "Has the request for extension been granted?",
     "FieldShowCondition": "extensionRequested=\"Yes\"",
-    "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
   {
@@ -1166,16 +1166,16 @@
     "ListElementCode": "et3VettingCompleted",
     "FieldType": "TextArea",
     "ElementLabel": "et3VettingCompleted",
-    "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "response_referred_to_judge=\"Dummy\""
   },
   {
     "ID": "Respondent",
     "ListElementCode": "et3Vetting",
     "FieldType": "ET3Vetting",
     "ElementLabel": "ET3 vetting",
-    "FieldShowCondition": "et3VettingCompleted=\"Yes\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "et3VettingCompleted=\"Yes\""
   },
   {
     "ID": "RespondentRepresentative",
@@ -1236,8 +1236,8 @@
     "ListElementCode": "representative_occupation",
     "FieldType": "FixedList",
     "ElementLabel": "Occupation",
-    "FieldTypeParameter": "fl_RepresentativeOccupation",
     "FieldShowCondition": "myHmctsYesNo=\"No\"",
+    "FieldTypeParameter": "fl_RepresentativeOccupation",
     "SecurityClassification": "Public"
   },
   {
@@ -1282,8 +1282,8 @@
     "ID": "ClaimantRequest",
     "ListElementCode": "claim_outcome",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "What do you want if your claim is successful?",
     "FieldTypeParameter": "msl_claimOutcomes",
+    "ElementLabel": "What do you want if your claim is successful?",
     "SecurityClassification": "Public"
   },
   {
@@ -1339,16 +1339,16 @@
     "ID": "ClaimantRequest",
     "ListElementCode": "discrimination_claims",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "What type of discrimination are you claiming?",
     "FieldTypeParameter": "msl_discriminationClaims",
+    "ElementLabel": "What type of discrimination are you claiming?",
     "SecurityClassification": "Public"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "pay_claims",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "What type of pay claim are you making?",
     "FieldTypeParameter": "msl_payClaims",
+    "ElementLabel": "What type of pay claim are you making?",
     "SecurityClassification": "Public"
   },
   {
@@ -1398,8 +1398,8 @@
     "ID": "TriageQuestions",
     "ListElementCode": "typesOfClaim",
     "FieldType": "MultiSelectList",
-    "ElementLabel": " ",
     "FieldTypeParameter": "msl_typeOfClaim",
+    "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
@@ -2775,9 +2775,9 @@
     "ListElementCode": "disposalDate",
     "FieldType": "Date",
     "ElementLabel": "Disposal date",
+    "HintText": "For a hearing disposal, enter the hearing date that disposed of this jurisdiction. For a non-hearing disposal, enter the judgment sent date for this jurisdiction.",
     "FieldShowCondition": "judgmentOutcome != \"Not allocated\" AND judgmentOutcome != \"Input in error\" AND judgmentOutcome != \"\"",
-    "SecurityClassification": "Public",
-    "HintText": "For a hearing disposal, enter the hearing date that disposed of this jurisdiction. For a non-hearing disposal, enter the judgment sent date for this jurisdiction."
+    "SecurityClassification": "Public"
   },
   {
     "ID": "judgmentReconsideration",
@@ -3082,8 +3082,8 @@
   {
     "ID": "JudgmentCosts",
     "ListElementCode": "pro_bono_costs_amount_awarded",
-    "FieldType": "MoneyGBP",
     "ElementLabel": "Pro Bono costs amount awarded",
+    "FieldType": "MoneyGBP",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -5391,7 +5391,7 @@
     "ID": "HearingDetails",
     "ListElementCode": "hearingDetailsAttendeeNonAttendees",
     "FieldType": "Number",
-    "ElementLabel": "Number of Non Attendees (Respondent) ",
+    "ElementLabel": "Number of Non Attendees (Respondent) ",
     "FieldShowCondition": "hearingDetailsStatus=\"Heard\"",
     "SecurityClassification": "Public"
   },
@@ -5683,8 +5683,8 @@
     "ID": "referralDetails",
     "ListElementCode": "referralDocument",
     "FieldType": "Collection",
-    "ElementLabel": "Documents",
     "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
     "SecurityClassification": "Public"
   },
   {
@@ -5713,6 +5713,13 @@
     "ListElementCode": "referralStatus",
     "FieldType": "Text",
     "ElementLabel": "Status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "closeReferralGeneralNotes",
+    "ElementLabel": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
