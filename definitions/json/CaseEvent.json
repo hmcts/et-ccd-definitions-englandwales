@@ -133,12 +133,12 @@
     "DisplayOrder": 10,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Vetting/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Vetting/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Vetting/processingComplete"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -326,9 +326,9 @@
     "DisplayOrder": 25,
     "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
     "PostConditionState": "*",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -338,9 +338,9 @@
     "DisplayOrder": 26,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -529,12 +529,12 @@
     "DisplayOrder": 41,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/startInitialConsideration",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitInitialConsideration",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/completeInitialConsideration",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "ShowEventNotes": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -544,9 +544,9 @@
     "DisplayOrder": 42,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Notification/submitted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Notification/submitted"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -555,13 +555,13 @@
     "Description": "Referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowEventNotes": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -570,13 +570,13 @@
     "Description": "Refer to admin, legal officer or judge",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/replyReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/replyReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/replyReferral/completeReplyToReferral"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -585,13 +585,13 @@
     "Description": "Close referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
