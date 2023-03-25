@@ -38,11 +38,11 @@
     "TabFieldDisplayOrder": 5
   },
   {
+    "CaseFieldID": "suggestedHearingVenues",
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
     "TabDisplayOrder": 1,
-    "CaseFieldID": "suggestedHearingVenues",
+    "TabID": "CaseOverview",
     "TabFieldDisplayOrder": 6
   },
   {
