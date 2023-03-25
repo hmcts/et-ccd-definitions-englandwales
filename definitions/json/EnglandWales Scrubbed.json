@@ -787,81 +787,93 @@
   },
   {
     "ID": "fl_DocumentType",
+    "ListElementCode": "ET1 Attachment",
+    "ListElement": "ET1 Attachment",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "fl_DocumentType",
     "ListElementCode": "ACAS Certificate",
     "ListElement": "ACAS Certificate",
-    "DisplayOrder": 2
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of a claim",
     "ListElement": "Notice of a claim",
-    "DisplayOrder": 3
+    "DisplayOrder": 4
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3",
     "ListElement": "ET3",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "ET3 Attachment",
+    "ListElement": "ET3 Attachment",
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Claimant correspondence",
     "ListElement": "Claimant correspondence",
-    "DisplayOrder": 5
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Respondent correspondence",
     "ListElement": "Respondent correspondence",
-    "DisplayOrder": 6
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of Hearing",
     "ListElement": "Notice of Hearing",
-    "DisplayOrder": 7
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal case file",
     "ListElement": "Tribunal case file",
-    "DisplayOrder": 8
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal correspondence",
     "ListElement": "Tribunal correspondence",
-    "DisplayOrder": 9
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Order/Deposit Order",
     "ListElement": "Tribunal Order/Deposit Order",
-    "DisplayOrder": 10
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Judgment/Reasons",
     "ListElement": "Tribunal Judgment/Reasons",
-    "DisplayOrder": 11
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Referral/Judicial direction",
     "ListElement": "Referral/Judicial direction",
-    "DisplayOrder": 12
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Rejection of claim",
     "ListElement": "Rejection of claim",
-    "DisplayOrder": 13
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 14
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_ResponseStatus",
@@ -5461,38 +5473,38 @@
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElementCode": "Applications for strike out or deposit",
     "ListElement": "Applications for strike out or deposit",
+    "ListElementCode": "Applications for strike out or deposit",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElementCode": "Interpreters",
     "ListElement": "Interpreters",
+    "ListElementCode": "Interpreters",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElementCode": "Jurisdictional issues",
     "ListElement": "Jurisdictional issues",
+    "ListElementCode": "Jurisdictional issues",
     "DisplayOrder": 3
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElementCode": "Request for adjustments",
     "ListElement": "Request for adjustments",
+    "ListElementCode": "Request for adjustments",
     "DisplayOrder": 4
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElementCode": "Rule 50",
     "ListElement": "Rule 50",
+    "ListElementCode": "Rule 50",
     "DisplayOrder": 5
   },
   {
     "ID": "fl_et3_suggested_issues",
-    "ListElementCode": "Time points",
     "ListElement": "Time points",
+    "ListElementCode": "Time points",
     "DisplayOrder": 6
   },
   {
@@ -5515,122 +5527,122 @@
   },
   {
     "ID": "fl_employer_type",
-    "ListElementCode": "Individual",
     "ListElement": "Individual",
+    "ListElementCode": "Individual",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_employer_type",
-    "ListElementCode": "Limited company",
     "ListElement": "Limited company",
+    "ListElementCode": "Limited company",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_employer_type",
-    "ListElementCode": "Partnership",
     "ListElement": "Partnership",
+    "ListElementCode": "Partnership",
     "DisplayOrder": 3
   },
   {
     "ID": "fl_employer_type",
-    "ListElementCode": "Unincorporated association",
     "ListElement": "Unincorporated association (such as a sports club)",
+    "ListElementCode": "Unincorporated association",
     "DisplayOrder": 4
   },
   {
     "ID": "fl_employer_type",
-    "ListElementCode": "Other",
     "ListElement": "Other",
+    "ListElementCode": "Other",
     "DisplayOrder": 5
   },
   {
     "ID": "frl_et3_contact_preference",
-    "ListElementCode": "Email",
     "ListElement": "Email",
+    "ListElementCode": "Email",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_et3_contact_preference",
-    "ListElementCode": "Post",
     "ListElement": "Post",
+    "ListElementCode": "Post",
     "DisplayOrder": 2
   },
   {
     "ID": "msl_et3_hearing_type",
-    "ListElementCode": "Phone hearings",
     "ListElement": "Phone hearings",
+    "ListElementCode": "Phone hearings",
     "DisplayOrder": 1
   },
   {
     "ID": "msl_et3_hearing_type",
-    "ListElementCode": "Video hearings",
     "ListElement": "Video hearings",
+    "ListElementCode": "Video hearings",
     "DisplayOrder": 2
   },
   {
     "ID": "frl_yes_no_not_applicable",
-    "ListElementCode": "Yes",
     "ListElement": "Yes",
+    "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_yes_no_not_applicable",
-    "ListElementCode": "No",
     "ListElement": "No",
+    "ListElementCode": "No",
     "DisplayOrder": 2
   },
   {
     "ID": "frl_yes_no_not_applicable",
-    "ListElementCode": "Not applicable",
     "ListElement": "Not applicable",
+    "ListElementCode": "Not applicable",
     "DisplayOrder": 3
   },
   {
     "ID": "fl_et3_pay_frequency",
-    "ListElementCode": "Weekly",
     "ListElement": "Weekly",
+    "ListElementCode": "Weekly",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_et3_pay_frequency",
-    "ListElementCode": "Monthly",
     "ListElement": "Monthly",
+    "ListElementCode": "Monthly",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_et3_pay_frequency",
-    "ListElementCode": "Annually",
     "ListElement": "Annually",
+    "ListElementCode": "Annually",
     "DisplayOrder": 3
   },
   {
     "ID": "frl_et3_contest_claim",
-    "ListElementCode": "Yes",
     "ListElement": "Yes - the respondent contests all or part of the claim",
+    "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_et3_contest_claim",
-    "ListElementCode": "No",
     "ListElement": "No - the respondent does not contest any of the claim",
+    "ListElementCode": "No",
     "DisplayOrder": 2
   },
   {
     "ID": "frl_et3_yes_no_not_sure_yet",
-    "ListElementCode": "Yes",
     "ListElement": "Yes",
+    "ListElementCode": "Yes",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_et3_yes_no_not_sure_yet",
-    "ListElementCode": "No",
     "ListElement": "No",
+    "ListElementCode": "No",
     "DisplayOrder": 2
   },
   {
     "ID": "frl_et3_yes_no_not_sure_yet",
-    "ListElementCode": "not sure",
     "ListElement": "I'm not sure yet",
+    "ListElementCode": "not sure",
     "DisplayOrder": 3
   },
   {
@@ -5827,20 +5839,20 @@
   },
   {
     "ID": "fl_costs_pro_bono_awarded_to",
-    "ListElementCode": "Access to Justice Foundation",
     "ListElement": "Access to Justice Foundation",
+    "ListElementCode": "Access to Justice Foundation",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_pro_bono_awarded_against",
-    "ListElementCode": "Claimant's Representative",
     "ListElement": "Claimant's Representative",
+    "ListElementCode": "Claimant's Representative",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_pro_bono_awarded_against",
-    "ListElementCode": "Respondent's Representative",
     "ListElement": "Respondent's Representative",
+    "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
   }
 ]
