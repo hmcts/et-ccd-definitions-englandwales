@@ -4516,13 +4516,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondNotificationDate",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "respondNotificationCmoOrRequest",
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
