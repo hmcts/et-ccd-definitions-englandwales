@@ -25166,6 +25166,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "pseViewNotifications",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "pseViewNotifications",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
@@ -25203,6 +25209,12 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "pseViewNotifications",
     "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "pseViewNotificationsLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
