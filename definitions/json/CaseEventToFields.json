@@ -7099,12 +7099,33 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "pseRespondentViewNotification",
-    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
+    "CaseFieldID": "pseRespondentSelectOrderOrRequest",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midDetailsTable",
     "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "pseRespondentViewNotification",
+    "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseRespondentRequestOrderTableLabel=\"dummy\"",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "pseRespondentViewNotification",
+    "CaseFieldID": "pseRespondentRequestOrderTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
