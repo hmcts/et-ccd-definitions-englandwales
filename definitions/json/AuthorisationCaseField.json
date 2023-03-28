@@ -2859,7 +2859,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "hearingDetailsCollection",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
+    "CRUD": "RUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -2871,7 +2871,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "hearingDetailsCollection",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "RUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
