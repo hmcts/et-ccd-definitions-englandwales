@@ -4488,7 +4488,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "respondNotificationAdditionalInfo",
-    "Label": "Additional infomation",
+    "Label": "Additional information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
@@ -4552,7 +4552,7 @@
     "ID": "respondNotificationCaseManagementMadeBy",
     "Label": "Case management order made by",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
+    "FieldTypeParameter": "frl_respondNotificationCmoRequestBy",
     "SecurityClassification": "Public"
   },
   {
@@ -4568,6 +4568,29 @@
     "ID": "notificationsTabLinks",
     "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondNotification/respondNotification1\">Respond to a notification</a>",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondNotificationCmoOrRequest",
+    "Label": "Is this a case management order or request?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_sendNotificationCaseManagement",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondNotificationRequestMadeBy",
+    "Label": "Request made by",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_respondNotificationRequestBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondNotificationDate",
+    "Label": " ",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
