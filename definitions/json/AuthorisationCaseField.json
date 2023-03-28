@@ -24927,13 +24927,13 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "pseRespondentOrdReqTableMarkUp",
     "UserRole": "caseworker-employment-api",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
