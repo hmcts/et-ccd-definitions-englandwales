@@ -7099,12 +7099,12 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "pseRespondentViewNotification",
-    "CaseFieldID": "pseRespondentSelectOrderOrRequest",
+    "CaseFieldID": "pseRespondentSelectJudgmentOrderNotification",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/midDetailsTable",
+    "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondentView/midDetailsTable",
     "PageLabel": "View a judgment, order or notification"
   },
   {
