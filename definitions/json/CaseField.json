@@ -4451,20 +4451,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "SelectNotificationTitle",
-    "Label": "Select a notification",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "selectNotificationDropdown",
-    "Label": "Select a notification",
-    "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "pseViewNotifications",
     "Label": "Placeholder",
     "FieldType": "Text",
@@ -4499,14 +4485,6 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondNotificationIsThis",
-    "Label": "Is this a case managment order or request?",
-    "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "respondNotificationIsThis",
     "SecurityClassification": "Public"
   },
   {
@@ -4558,7 +4536,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "respondNotificationFullName",
-    "Label": "Enter their full name",
+    "Label": "Full name",
     "HintText": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
@@ -4591,6 +4569,13 @@
     "ID": "respondNotificationDate",
     "Label": " ",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "selectNotificationDropdown",
+    "Label": "Select a notification",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public"
   },
   {
