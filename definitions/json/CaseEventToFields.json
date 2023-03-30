@@ -7109,17 +7109,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondNotification",
-    "CaseFieldID": "SelectNotificationTitle",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "CallBackURLMidEvent": "${ET_COS_URL}/respondNotification/midGetNotification/",
-    "PageLabel": "Select a notification"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "respondNotification",
     "CaseFieldID": "selectNotificationDropdown",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
@@ -7177,16 +7166,6 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "respondNotification",
-    "CaseFieldID": "respondNotificationIsThis",
-    "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7,
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -7262,7 +7241,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "respondNotification",
     "CaseFieldID": "respondNotificationFullName",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 12,
