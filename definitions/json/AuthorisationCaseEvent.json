@@ -1844,5 +1844,11 @@
     "CaseEventID": "bulkAddSingleCases",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_NOTIFICATION_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
