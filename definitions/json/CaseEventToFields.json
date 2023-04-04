@@ -1551,6 +1551,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
+    "FieldShowCondition": "allocateHearingSitAlone=\"Full Panel\"",
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
