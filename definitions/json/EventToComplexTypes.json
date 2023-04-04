@@ -3,7 +3,7 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -16,7 +16,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -63,7 +63,7 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -73,8 +73,8 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -702,7 +702,7 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -715,7 +715,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -762,7 +762,7 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -772,8 +772,8 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -1482,9 +1482,18 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job",
+    "EventElementLabel": "Have you got a new job",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 1,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1493,7 +1502,16 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job_pay_interval",
+    "EventElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1518,8 +1536,8 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_compensation",
-    "EventElementLabel": "Claimant is reqesting compensation",
+    "ListElementCode": "claim_outcome",
+    "EventElementLabel": "What do you want if your claim is successful",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -1527,27 +1545,9 @@
     "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_tribunal",
-    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "ListElementCode": "claimant_compensation_text",
+    "EventElementLabel": "What do you want if your claim is successful?",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateDraftCase",
-    "CaseEventID": "INITIATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_old_job",
-    "EventElementLabel": "Claimant is requesting their old job back",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateDraftCase",
-    "CaseEventID": "INITIATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_another_job",
-    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
-    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1556,7 +1556,7 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
     "EventElementLabel": "Compensation amount requested",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -1564,12 +1564,129 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_tribunal_recommendation",
-    "EventElementLabel": "Tribunal recommendation request ",
+    "EventElementLabel": "Tribunal recommendation request",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing",
+    "EventElementLabel": "Whistleblowing claim",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing_authority",
+    "EventElementLabel": "Whistleblowing authority",
     "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description_document",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "discrimination_claims",
+    "EventElementLabel": "What type of discrimination are you claiming",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "pay_claims",
+    "EventElementLabel": "What type of pay claim are you making?",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "other_claim",
+    "EventElementLabel": "Please describe what type of claim you want to make",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "postcode",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "caseType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "acasMultiple",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
+    "CaseEventID": "INITIATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
@@ -1578,7 +1695,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "employmentAndRespondentCheck",
@@ -1587,7 +1704,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "CreateDraftCase",
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "claimDetailsCheck",
@@ -1599,7 +1716,7 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -1612,7 +1729,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -1659,7 +1776,7 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -1669,8 +1786,8 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -2379,9 +2496,18 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job",
+    "EventElementLabel": "Have you got a new job",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
     "ListElementCode": "newly_employed_from",
     "EventElementLabel": "Employed from",
-    "FieldDisplayOrder": 1,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2390,7 +2516,16 @@
     "CaseFieldID": "newEmploymentType",
     "ListElementCode": "new_pay_before_tax",
     "EventElementLabel": "Pay before tax",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "newEmploymentType",
+    "ListElementCode": "new_job_pay_interval",
+    "EventElementLabel": "Is this your weekly, monthly or annual pay",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2415,8 +2550,8 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_compensation",
-    "EventElementLabel": "Claimant is reqesting compensation",
+    "ListElementCode": "claim_outcome",
+    "EventElementLabel": "What do you want if your claim is successful",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
@@ -2424,27 +2559,9 @@
     "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_tribunal",
-    "EventElementLabel": "Claimant is reqesting a tribunal",
+    "ListElementCode": "claimant_compensation_text",
+    "EventElementLabel": "What do you want if your claim is successful?",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "UpdateCase",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_old_job",
-    "EventElementLabel": "Claimant is requesting their old job back",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "UpdateCase",
-    "CaseEventID": "UPDATE_CASE_DRAFT",
-    "CaseFieldID": "claimantRequests",
-    "ListElementCode": "claimant_another_job",
-    "EventElementLabel": "Claimant wants to get another job with the employer or an associated employer",
-    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2453,7 +2570,7 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_compensation_amount",
     "EventElementLabel": "Compensation amount requested",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -2462,11 +2579,128 @@
     "CaseFieldID": "claimantRequests",
     "ListElementCode": "claimant_tribunal_recommendation",
     "EventElementLabel": "Tribunal recommendation request ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing",
+    "EventElementLabel": "Whistleblowing claim",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "whistleblowing_authority",
+    "EventElementLabel": "Whistleblowing authority",
     "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "claim_description_document",
+    "EventElementLabel": "Describe what happened to you",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "discrimination_claims",
+    "EventElementLabel": "What type of discrimination are you claiming",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "pay_claims",
+    "EventElementLabel": "What type of pay claim are you making?",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "claimantRequests",
+    "ListElementCode": "other_claim",
+    "EventElementLabel": "Please describe what type of claim you want to make",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "postcode",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "claimantRepresentedQuestion",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "caseType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "acasMultiple",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "validNoAcasReason",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
+    "CaseEventID": "UPDATE_CASE_DRAFT",
+    "CaseFieldID": "triageQuestions",
+    "ListElementCode": "typesOfClaim",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "personalDetailsCheck",
@@ -2475,7 +2709,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "employmentAndRespondentCheck",
@@ -2484,7 +2718,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "UpdateCase",
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantTaskListChecks",
     "ListElementCode": "claimDetailsCheck",
@@ -2550,7 +2784,7 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_title1",
+    "ListElementCode": "claimant_preferred_title",
     "EventElementLabel": "Title",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -2563,7 +2797,7 @@
     "ListElementCode": "claimant_title_other",
     "EventElementLabel": "Other title",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -2610,7 +2844,7 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender_identity",
+    "ListElementCode": "claimant_gender_identity_same",
     "EventElementLabel": "Gender Identity",
     "FieldDisplayOrder": 7,
     "DisplayContext": "OPTIONAL",
@@ -2620,8 +2854,8 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantIndType",
-    "ListElementCode": "claimant_gender",
-    "EventElementLabel": "Gender",
+    "ListElementCode": "claimant_gender_identity",
+    "EventElementLabel": "Gender Identity description",
     "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "Yes"
@@ -3045,6 +3279,45 @@
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
+
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "reasonable_adjustments",
+    "EventElementLabel": "Is there a physical, mental or learning disability or long term health condition which means support during the case is needed?",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "reasonable_adjustments_detail",
+    "EventElementLabel": "Support requested",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "contact_language",
+    "EventElementLabel": "Contact Language",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_language",
+    "EventElementLabel": "Hearing Language",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+
+
   {
     "ID": "ClaimantRepresentative",
     "CaseEventID": "addAmendClaimantRepresentative",
@@ -3687,106 +3960,9 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "name_of_organisation",
-    "EventElementLabel": "Name of Organisation",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_occupation",
-    "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_reference",
-    "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_occupation_other",
-    "EventElementLabel": "What is the Representative's occupation?",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine1",
-    "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine2",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine3",
-    "FieldDisplayOrder": 9,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.PostTown",
-    "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 10,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.County",
-    "EventElementLabel": "County",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.Country",
-    "EventElementLabel": "Country",
-    "FieldDisplayOrder": 12,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.PostCode",
-    "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 13,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
     "ListElementCode": "representative_phone_number",
     "EventElementLabel": "Phone number",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3795,7 +3971,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_mobile_number",
     "EventElementLabel": "Alternative number",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3804,7 +3980,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_email_address",
     "EventElementLabel": "Email address",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3813,7 +3989,122 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_preference",
     "EventElementLabel": "Contact preference",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "myHmctsYesNo",
+    "EventElementLabel": "Does the representative have a MyHMCTS account?",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "organisation",
+    "EventElementLabel": "MyHMCTS Organisation",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "name_of_organisation",
+    "EventElementLabel": "Name of Organisation",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_reference",
+    "EventElementLabel": "Reference",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine1",
+    "EventElementLabel": "Building and Street",
+    "FieldDisplayOrder": 11,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine2",
+    "FieldDisplayOrder": 12,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine3",
+    "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.PostTown",
+    "EventElementLabel": "Town or City",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.County",
+    "EventElementLabel": "County",
+    "FieldDisplayOrder": 15,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.Country",
+    "EventElementLabel": "Country",
+    "FieldDisplayOrder": 16,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.PostCode",
+    "EventElementLabel": "Postcode",
     "FieldDisplayOrder": 17,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_occupation",
+    "EventElementLabel": "Occupation",
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_occupation_other",
+    "EventElementLabel": "What is the Representative's occupation?",
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4232,11 +4523,41 @@
   },
   {
     "ID": "Judgement",
+    "CaseFieldID": "judgementCollection",
+    "CaseEventID": "addAmendJudgment",
+    "ListElementCode": "Judgement_costs.pro_bono_costs_awarded_to",
+    "EventElementLabel": "Pro Bono costs awarded to",
+    "FieldDisplayOrder": 34,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Judgement",
+    "CaseFieldID": "judgementCollection",
+    "CaseEventID": "addAmendJudgment",
+    "ListElementCode": "Judgement_costs.pro_bono_costs_awarded_against",
+    "EventElementLabel": "Pro Bono costs awarded against",
+    "FieldDisplayOrder": 35,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Judgement",
+    "CaseFieldID": "judgementCollection",
+    "CaseEventID": "addAmendJudgment",
+    "ListElementCode": "Judgement_costs.pro_bono_costs_amount_awarded",
+    "EventElementLabel": "Pro Bono costs amount awarded",
+    "FieldDisplayOrder": 36,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "ID": "Judgement",
     "CaseEventID": "addAmendJudgment",
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsideration",
     "EventElementLabel": "Has a reconsideration application been made?",
-    "FieldDisplayOrder": 34,
+    "FieldDisplayOrder": 37,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4245,7 +4566,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationDate",
     "EventElementLabel": "Date of application for reconsideration",
-    "FieldDisplayOrder": 35,
+    "FieldDisplayOrder": 38,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -4254,7 +4575,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationOwnInitiative",
     "EventElementLabel": "Did the Tribunal reconsider the Judgment on its own initiative",
-    "FieldDisplayOrder": 36,
+    "FieldDisplayOrder": 39,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -4263,7 +4584,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationPartyInitiative",
     "EventElementLabel": "Who applied for reconsideration?",
-    "FieldDisplayOrder": 37,
+    "FieldDisplayOrder": 40,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4272,7 +4593,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationDirection",
     "EventElementLabel": "Employment Judge's direction",
-    "FieldDisplayOrder": 38,
+    "FieldDisplayOrder": 41,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -4281,7 +4602,7 @@
     "CaseFieldID": "judgementCollection",
     "ListElementCode": "reconsiderations.reconsiderationDecision",
     "EventElementLabel": "Employment Judge's decision",
-    "FieldDisplayOrder": 39,
+    "FieldDisplayOrder": 42,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4939,7 +5260,7 @@
     "ListElementCode": "disposalDate",
     "EventElementLabel": "Disposal date",
     "FieldDisplayOrder": 73,
-    "DisplayContext": "OPTIONAL"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "RestrictedReporting",
@@ -5671,6 +5992,78 @@
     "ListElementCode": "et1VettingJurCodeList",
     "EventElementLabel": "Jurisdiction code",
     "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "et3ResponseForm",
+    "CaseEventID": "et3Response",
+    "CaseFieldID": "et3ResponseContestClaimDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Upload a document to your response",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "typeOfDocument",
+    "EventElementLabel": "Type of Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "et3NotificationDoc",
+    "CaseEventID": "et3Notification",
+    "CaseFieldID": "et3NotificationDocCollection",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short Description",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "referralDocument",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "referralDocument",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralDocument",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description of document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "replyDocument",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "replyDocument",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyDocument",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description of document",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   }
 ]
