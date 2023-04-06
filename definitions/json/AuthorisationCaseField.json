@@ -25834,5 +25834,23 @@
     "CaseFieldID": "respondNotificationDate",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
   }
 ]
