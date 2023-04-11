@@ -7305,13 +7305,33 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "BundlesPrepareDocForHearing",
-    "CaseFieldID": "BundlesPrepareDocForHearingGuidance",
-    "DisplayContext": "READONLY",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotesShow",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "bundlesRespondentPrepareDocNotes1=\"dummy\"",
     "PageLabel": "Prepare and submit documents for a hearing"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes1",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentPrepareDocNotes2",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "bundlesRespondentPrepareDocNotesShow=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",

@@ -868,7 +868,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "BundlesPrepareDocForHearing",
+    "ID": "bundlesRespondentPrepareDoc",
     "Name": "Prepare documents for hearing",
     "Description": "Prepare documents for a hearing",
     "PreConditionState(s)": "*",
@@ -877,7 +877,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "caseType=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
   },
