@@ -363,6 +363,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "judgementCollection",
     "Label": " ",
     "FieldType": "Collection",
@@ -741,14 +749,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "hearingDetailsHearing",
-    "Label": "Select Hearing",
-    "FieldType": "DynamicList",
-    "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsStatus",
     "Label": "Hearing Status",
     "FieldType": "FixedList",
@@ -860,6 +860,14 @@
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsHearing",
+    "Label": "Select Hearing",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
     "SecurityClassification": "Public"
   },
   {
