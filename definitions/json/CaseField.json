@@ -4608,6 +4608,30 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentAgreedDocWithOtherParty",
+    "Label": " ",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesRespondentAgreedDocWithOtherParty",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentAgreedDocWithOtherPartyBut",
+    "Label": "We have agreed but there are some disputed documents",
+    "HintText": "Tell us which documents are disputed",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentAgreedDocWithOtherPartyNo",
+    "Label": "No, we have not agreed and I want to provide my own documents",
+    "HintText": "Tell us why you’ve not been able to agree with the other party",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
