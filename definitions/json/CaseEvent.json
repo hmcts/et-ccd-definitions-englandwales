@@ -878,7 +878,7 @@
     "ShowSummary": "Y",
     "EventEnablingCondition": "caseType=\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   },
   {
