@@ -25171,55 +25171,55 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherParty",
+    "CaseFieldID": "bundlesRespondentAgreedDocWith",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherParty",
+    "CaseFieldID": "bundlesRespondentAgreedDocWith",
     "UserRole": "et-acas-api",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherParty",
+    "CaseFieldID": "bundlesRespondentAgreedDocWith",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyBut",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithBut",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyBut",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithBut",
     "UserRole": "et-acas-api",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyBut",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithBut",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyNo",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithNo",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyNo",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithNo",
     "UserRole": "et-acas-api",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundlesRespondentAgreedDocWithOtherPartyNo",
+    "CaseFieldID": "bundlesRespondentAgreedDocWithNo",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }
