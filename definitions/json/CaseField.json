@@ -749,6 +749,121 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsStatus",
+    "Label": "Hearing Status",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_HearingStatus",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsPostponedBy",
+    "Label": "Postponed by",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_PostponedBy",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsCaseDisposed",
+    "Label": "Has the case been disposed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsPartHeard",
+    "Label": "Has the hearing been part heard?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsReservedJudgment",
+    "Label": "Is there a reserved Judgment?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsAttendeeClaimant",
+    "Label": "Attendees (Claimant)",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Attendee",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsAttendeeNonAttendees",
+    "Label": "Number of Non Attendees (Respondent) ",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsAttendeeRespNoRep",
+    "Label": "Respondent Attended - No Representative",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsAttendeeRespAndRep",
+    "Label": "Respondent and Representative Attended",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsAttendeeRepOnly",
+    "Label": "Respondent representative only attended",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsTimingStart",
+    "Label": "Start Time",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsTimingBreak",
+    "Label": "Break",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsTimingResume",
+    "Label": "Resume",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsTimingFinish",
+    "Label": "Finish",
+    "FieldType": "DateTime",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsTimingDuration",
+    "Label": "Duration",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingDetailsHearingNotes2",
+    "Label": "Hearing Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsHearing",
     "Label": "Select Hearing",
     "FieldType": "DynamicList",
