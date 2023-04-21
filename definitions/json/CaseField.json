@@ -4632,6 +4632,29 @@
     "Max": 2500
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentSelectHearing",
+    "Label": "Select the hearing these documents are for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentWhoseDocuments",
+    "Label": "Whose hearing documents are you uploading?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesWhoseDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentWhatDocuments",
+    "Label": "What are these documents?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_bundlesWhatDocuments",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
