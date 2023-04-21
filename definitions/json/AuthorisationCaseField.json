@@ -25294,5 +25294,23 @@
     "CaseFieldID": "bundlesRespondentUploadFileLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentUploadFile",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentUploadFile",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentUploadFile",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]

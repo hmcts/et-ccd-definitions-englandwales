@@ -7194,7 +7194,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "bundlesRespondentPrepareDoc",
-    "CaseFieldID": "respondNotificationFullName",
+    "CaseFieldID": "bundlesRespondentSelectHearing",
     "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,
@@ -7231,6 +7231,16 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Upload your file of documents"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "CaseFieldID": "bundlesRespondentUploadFile",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
