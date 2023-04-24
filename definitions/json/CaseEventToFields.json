@@ -1503,6 +1503,7 @@
     "CaseEventID": "addAmendHearing",
     "CaseFieldID": "listedDateInPastWarningLabel",
     "FieldShowCondition": "listedDateInPastWarning=\"Yes\"",
+    "PageShowCondition": "listedDateInPastWarning=\"Yes\"",
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
