@@ -4138,6 +4138,14 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
+    "ListElementCode": "respondentOrganisation.OrganisationAddress",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
     "ListElementCode": "name_of_organisation",
     "EventElementLabel": "Name of Organisation",
     "FieldDisplayOrder": 10,
