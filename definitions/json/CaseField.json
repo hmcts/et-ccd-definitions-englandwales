@@ -4665,11 +4665,9 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "bundlesRespondentUploadFile",
     "Label": "Upload document",
-    "FieldType": "Collection",
+    "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public",
-    "Min": "1",
-    "Max": "1"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
