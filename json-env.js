@@ -1,3 +1,4 @@
+const { execFileSync } = require('child_process');
 const env = process.argv[2];
 if (!env) {
   console.error('Provide an environment parameter');
@@ -17,10 +18,6 @@ Object.entries(config[env]).forEach(([k, v]) => {
 
 process.env.ET_ENV = env;
 let excludeJson = env === 'prod' ? 'nonprod.json' : 'prod.json';
-require('./node_modules/.bin/yarn')([
-  'run',
-  `generate-excel`,
-  '-e',
-  '*-${excludeJson}',
-]);
+args = [  'run',  `generate-excel`,  '-e',  '*-${excludeJson}'];
+execFileSync("yarn", args,{ encoding: 'utf-8', stdio: 'inherit' })
 
