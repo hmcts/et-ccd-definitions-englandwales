@@ -1488,30 +1488,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "addAmendHearing",
-    "CaseFieldID": "listedDateInPastWarning",
-    "FieldShowCondition": "hearingCollection=\"dummy\"",
-    "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "addAmendHearing",
-    "CaseFieldID": "listedDateInPastWarningLabel",
-    "FieldShowCondition": "listedDateInPastWarning=\"Yes\"",
-    "DisplayContext": "READONLY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "allocateHearing",
     "CaseFieldID": "allocateHearingHearing",
     "DisplayContext": "MANDATORY",
@@ -1551,8 +1527,8 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "FieldShowCondition": "allocateHearingSitAlone=\"Full Panel\"",
     "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "allocateHearingSitAlone=\"Full Panel\"",
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
