@@ -6332,6 +6332,7 @@
     "ListElementCode": "decisionState",
     "FieldType": "Text",
     "ElementLabel": "Decision State",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   },
   {
