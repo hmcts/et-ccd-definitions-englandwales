@@ -6586,7 +6586,7 @@
     "CaseFieldID": "et1VettingAcasCertExemptYesOrNo6",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-   },
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et1VettingAcasCertGeneralNote",
@@ -15349,7 +15349,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et1VettingDocument",
     "CaseFieldID": "et1VettingDocument",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
