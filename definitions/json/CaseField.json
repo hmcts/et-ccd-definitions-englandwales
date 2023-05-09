@@ -2748,6 +2748,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseReferenceNumber",
+    "Label": "What is your reference number?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseContactPreference",
     "Label": "How would you prefer to be contacted?",
     "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
