@@ -4637,7 +4637,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Response",
-    "CaseFieldID": "et3ResponseReferenceNumber",
+    "CaseFieldID": "et3ResponseReference",
     "DisplayContext": "OPTIONAL",
     "PageID": 7,
     "PageDisplayOrder": 7,
