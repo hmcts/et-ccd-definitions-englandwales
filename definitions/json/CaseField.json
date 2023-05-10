@@ -3306,14 +3306,14 @@
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "listedDateInPastWarning",
     "Label": " ",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_Scotland",
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "listedDateInPastWarningLabel",
     "Label": "<h3>One of the listed dates are in the past. If you want to change it please click Previous and enter a date after today otherwise click Continue.</h3>",
     "FieldType": "Label",
