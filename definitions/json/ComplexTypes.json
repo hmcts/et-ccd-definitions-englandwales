@@ -6302,8 +6302,9 @@
   {
     "ID": "tseAdminDecision",
     "ListElementCode": "responseRequiredDoc",
-    "FieldType": "Document",
+    "FieldType": "Collection",
     "ElementLabel": "Add document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -6413,8 +6414,9 @@
   {
     "ID": "tseRespondCollection",
     "ListElementCode": "addDocument",
-    "FieldType": "Document",
+    "FieldType": "Collection",
     "ElementLabel": "Add document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -6544,8 +6546,9 @@
   {
     "ID": "tseReply",
     "ListElementCode": "addDocument",
-    "FieldType": "Document",
+    "FieldType": "Collection",
     "ElementLabel": "Add document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {

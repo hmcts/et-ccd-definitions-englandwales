@@ -3904,15 +3904,18 @@
     "ID": "tseAdminResponseRequiredYesDoc",
     "Label": "Supporting material",
     "HintText": "Upload a document to the system",
-    "FieldType": "Document",
-    "SecurityClassification": "Public"
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": "1"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminResponseRequiredNoDoc",
     "Label": "Supporting material",
     "HintText": "Upload a document to the system",
-    "FieldType": "Document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
@@ -4002,7 +4005,8 @@
     "Label": "Upload a document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Min": "1"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4060,7 +4064,8 @@
     "ID": "tseAdmReplyAddDocument",
     "Label": "Add document",
     "HintText": "Upload a document to the system",
-    "FieldType": "Document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
