@@ -900,6 +900,7 @@
     "ID": "bundlesRespondentPrepareDoc",
     "Name": "Prepare documents for hearing",
     "Description": "Prepare documents for a hearing",
+    "DisplayOrder": 1,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
@@ -908,7 +909,7 @@
     "EventEnablingCondition": " ",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/aboutToSubmit",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/submitted"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",

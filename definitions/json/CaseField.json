@@ -4676,6 +4676,14 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesRespondentCollection",
+    "Label": "Hearing Bundles",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
