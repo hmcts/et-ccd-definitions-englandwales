@@ -3479,6 +3479,14 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "legalrepDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
