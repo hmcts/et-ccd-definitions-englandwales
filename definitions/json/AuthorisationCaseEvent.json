@@ -1162,6 +1162,12 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "legalrepDocuments",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-englandwales",

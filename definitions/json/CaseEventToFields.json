@@ -5559,7 +5559,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "legalrepDocuments",
     "CaseFieldID": "legalrepDocumentCollection",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
