@@ -583,6 +583,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "feeGroupReference",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "positionType",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
@@ -3957,6 +3963,12 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "managingOffice",
     "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "managingOffice",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
   },
   {
