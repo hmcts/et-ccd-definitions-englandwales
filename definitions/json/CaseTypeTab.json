@@ -1125,6 +1125,42 @@
     "TabFieldDisplayOrder": 3
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "caseFlags",
+    "CaseFieldID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "flagLauncher = \"DO_NOT_SHOW_IN_UI\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "caseFlags",
+    "CaseFieldID": "appellantFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "flagLauncher = \"DO_NOT_SHOW_IN_UI\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "respondentFlags",
+    "CaseFieldID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 1,
+    "FieldShowCondition": "flagLauncher = \"DO_NOT_SHOW_IN_UI\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "caseFlags",
+    "CaseFieldID": "flagLauncher",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(READ)"
+   },
+  {
     "CaseFieldID": "genericTseApplicationCollection",
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
