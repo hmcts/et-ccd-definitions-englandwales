@@ -272,7 +272,7 @@
     "ID": "amendCaseDetails",
     "Name": "Case Details",
     "Description": "Amend Case Details",
-    "DisplayOrder": 11,
+    "DisplayOrder": 15,
     "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
