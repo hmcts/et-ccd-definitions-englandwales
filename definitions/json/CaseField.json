@@ -3104,7 +3104,8 @@
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3118,7 +3119,8 @@
     "ID": "isUrgent",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3126,7 +3128,8 @@
     "Label": "What is the referral subject?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_ReferralSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
