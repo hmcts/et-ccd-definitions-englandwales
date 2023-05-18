@@ -1009,13 +1009,13 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3ResponseClaimDetails",
+    "CaseEventID": "et3ResponseDetails",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },

@@ -139,6 +139,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "EndButtonLabel": "Submit ET3 as draft",
     "ShowSummary": "Y"
   },
   {
@@ -154,13 +155,14 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "EndButtonLabel": "Submit ET3 as draft",
     "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3ResponseClaimDetails",
-    "Name": "ET3 - Claim Details",
-    "Description": "ET3 - Claim Details",
+    "ID": "et3ResponseDetails",
+    "Name": "ET3 - Response Details",
+    "Description": "ET3 - Response Details",
     "DisplayOrder": 12,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
@@ -169,6 +171,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "EndButtonLabel": "Submit ET3 as draft",
     "ShowSummary": "Y"
   },
   {
@@ -184,6 +187,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/processingComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
+    "EndButtonLabel": "Submit ET3 to Tribunal",
     "ShowSummary": "Y"
   },
   {
@@ -209,7 +213,6 @@
     "DisplayOrder": 15,
     "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted",
     "PostConditionState": "*",
-    "EventEnablingCondition": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseAmendCaseDetails",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "SecurityClassification": "Public",
