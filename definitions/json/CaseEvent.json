@@ -622,7 +622,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -695,7 +696,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/submitInitialConsideration",
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
