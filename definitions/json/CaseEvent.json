@@ -54,7 +54,6 @@
     "SecurityClassification": "Public",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
-    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "ShowEventNotes": "N"
   },
   {
