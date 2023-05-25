@@ -1174,7 +1174,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -2188,7 +2188,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -3230,7 +3230,7 @@
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
