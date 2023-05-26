@@ -651,7 +651,7 @@
     "ID": "SUBMIT_CLAIMANT_BUNDLES",
     "Name": "Submit hearing docs",
     "Description": "Submit hearing docs",
-    "PreConditionState(s)": "*",
+    "PreConditionState(s)": "Accepted;Rejected",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
