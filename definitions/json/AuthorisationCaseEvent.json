@@ -1541,6 +1541,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_CLAIMANT_TSE_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "legalrepDocuments",
     "UserRole": "et-acas-api",
     "CRUD": "R"
