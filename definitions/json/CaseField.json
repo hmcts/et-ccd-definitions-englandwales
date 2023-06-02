@@ -2620,7 +2620,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3StartPagePreamble",
-    "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/legalrepDocuments/legalrepDocuments1\" target=\"_blank\"> open the ET1 form, ACAS certificate and other documents in the document event in the next steps menu (opens in a new tab)</a>.",
+    "Label": "To help you complete this, open the ET1 form, ACAS certificate and other documents in the <strong>Case Documents</strong> event in the next steps menu.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3076,6 +3076,22 @@
     "Label": "Add document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "submitEt3Respondent",
+    "Label": "Select which respondent this ET3 is for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "confirmEt3Submit",
+    "Label": "Do you want to submit this ET3?",
+    "HintText": "If you wish to submit the ET3 to the tribunal, please select the option below and continue. You will not be able to make any further changes once submitted.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_confirmSubmitEt3",
     "SecurityClassification": "Public"
   },
   {
