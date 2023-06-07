@@ -5739,7 +5739,6 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
     "CallBackURLMidEvent": "${ET_COS_URL}/respondentTSE/showError",
     "PageColumnNumber": 1
   },
@@ -6230,7 +6229,6 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
     "CallBackURLMidEvent": "${ET_COS_URL}/tseRespond/showError",
     "PageColumnNumber": 1
   },
@@ -6815,7 +6813,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Response",
+    "CaseEventID": "et3ResponseEmploymentDetails",
     "CaseFieldID": "et3ResponseIsJobCorrect",
     "DisplayContext": "MANDATORY",
     "PageID": 13,
@@ -7049,7 +7047,6 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y",
     "CallBackURLMidEvent": "${ET_COS_URL}/pseRespondToTribunal/showError",
     "PageColumnNumber": 1
   },
