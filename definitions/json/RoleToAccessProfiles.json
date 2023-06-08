@@ -2,7 +2,7 @@
     {
         "RoleName" : "idam:caseworker-caa",
         "Authorisation": "",
-        "CaseTypeID": "CIVIL",
+        "CaseTypeID": "ET_EnglandWales",
         "AccessProfiles": "caseworker-caa",
         "ReadOnly": "N",
         "Disabled": "F",
@@ -11,7 +11,43 @@
     {
         "RoleName" : "idam:caseworker-approver",
         "Authorisation": "",
-        "CaseTypeID": "CIVIL",
+        "CaseTypeID": "ET_EnglandWales",
+        "AccessProfiles": "caseworker-approver",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+    },
+    {
+        "RoleName" : "idam:caseworker-caa",
+        "Authorisation": "",
+        "CaseTypeID": "ET_EnglandWales_Listings",
+        "AccessProfiles": "caseworker-caa",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+    },
+    {
+        "RoleName" : "idam:caseworker-approver",
+        "Authorisation": "",
+        "CaseTypeID": "ET_EnglandWales_Listings",
+        "AccessProfiles": "caseworker-approver",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+    },
+    {
+        "RoleName" : "idam:caseworker-caa",
+        "Authorisation": "",
+        "CaseTypeID": "ET_EnglandWales_Multiple",
+        "AccessProfiles": "caseworker-caa",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+    },
+    {
+        "RoleName" : "idam:caseworker-approver",
+        "Authorisation": "",
+        "CaseTypeID": "ET_EnglandWales_Multiple",
         "AccessProfiles": "caseworker-approver",
         "ReadOnly": "N",
         "Disabled": "F",
