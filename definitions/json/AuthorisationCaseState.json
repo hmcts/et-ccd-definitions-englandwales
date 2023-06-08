@@ -49,6 +49,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Submitted",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Vetted",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -85,6 +91,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Vetted",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
@@ -94,6 +106,12 @@
     "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
     "UserRole": "citizen",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "AWAITING_SUBMISSION_TO_HMCTS",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -157,6 +175,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Accepted",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Closed",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -199,6 +223,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Rejected",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -241,6 +271,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Rejected",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -276,6 +312,12 @@
     "CRUD": "R"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseStateID": "Submitted",
     "UserRole": "caseworker-employment-englandwales",
@@ -295,6 +337,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseStateID": "Submitted",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseStateID": "SubmittedReport",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
@@ -310,6 +358,12 @@
     "CaseStateID": "SubmittedReport",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseStateID": "SubmittedReport",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -331,6 +385,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Open",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Updating",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
@@ -346,6 +406,12 @@
     "CaseStateID": "Updating",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Updating",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -367,6 +433,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Closed",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Error",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
@@ -385,6 +457,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Error",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
@@ -400,5 +478,11 @@
     "CaseStateID": "Transferred",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Transferred",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   }
 ]
