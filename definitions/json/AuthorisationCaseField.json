@@ -7135,12 +7135,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "et3ResponseIsJobTitleCorrect",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et3ResponseCorrectJobTitle",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
