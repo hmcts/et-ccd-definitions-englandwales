@@ -1,0 +1,20 @@
+[
+    {
+        "RoleName" : "idam:caseworker-caa",
+        "Authorisation": "",
+        "CaseTypeID": "CIVIL",
+        "AccessProfiles": "caseworker-caa",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+    },
+    {
+        "RoleName" : "idam:caseworker-approver",
+        "Authorisation": "",
+        "CaseTypeID": "CIVIL",
+        "AccessProfiles": "caseworker-approver",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+    }
+]
