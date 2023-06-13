@@ -4325,7 +4325,8 @@
     "PageShowCondition": "et3IsThereAnEt3Response=\"Yes\"",
     "PageLabel": "Issues identified",
     "PageColumnNumber": 1,
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5297,7 +5298,8 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5319,7 +5321,8 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5330,7 +5333,8 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 6,
     "ShowSummaryChangeOption": "Y",
-    "PageColumnNumber": 1
+    "PageColumnNumber": 1,
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
