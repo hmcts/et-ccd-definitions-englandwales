@@ -1,0 +1,11 @@
+[
+    {
+        "RoleName" : "caseworker_profile",
+        "Authorisation": "",
+        "CaseTypeID": "ET_EnglandWales",
+        "AccessProfiles": "caseworker-employment-api",
+        "ReadOnly": "N",
+        "Disabled": "F",
+        "CaseAccessCategories": ""
+      }
+]

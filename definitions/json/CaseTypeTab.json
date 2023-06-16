@@ -1587,5 +1587,45 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "claimantFlags",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "TabDisplayOrder": 69,
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "respondentFlags",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "TabDisplayOrder": 1,
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "caseFlagsXui",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncher = \"hidden\"",
+    "TabDisplayOrder": 69,
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseFieldID": "flagLauncher",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 69,
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "TabFieldDisplayOrder": 4,
+    "DisplayContextParameter": "#ARGUMENT(READ)"
   }
 ]
