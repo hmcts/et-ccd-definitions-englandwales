@@ -1033,7 +1033,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "et3DueDate",
-    "DisplayContext": "READONLY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
