@@ -2548,7 +2548,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ClaimantAndRespondentAddresses",
-    "Label": "et3ClaimantAndRespondentAddresses",
+    "Label": "Deprecated",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
