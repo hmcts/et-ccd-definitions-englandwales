@@ -105,11 +105,6 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "UserRole": "caseworker_profile",
-    "CRUD": "CRU"
-  },
-  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"

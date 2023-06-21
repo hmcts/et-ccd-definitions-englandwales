@@ -24008,30 +24008,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlagsXui",
-    "UserRole": "caseworker_profile",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentFlags",
-    "UserRole": "caseworker_profile",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
-    "UserRole": "caseworker_profile",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
-    "UserRole": "caseworker_profile",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseFlagsXui",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
