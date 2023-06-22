@@ -1961,12 +1961,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "createFlag",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "manageFlags",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -1999,12 +1993,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "manageFlags",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageFlags",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   }
 ]
