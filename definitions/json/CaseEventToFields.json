@@ -7366,12 +7366,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "createFlag",
-    "CaseFieldID": "caseFlagsXui",
+    "CaseFieldID": "caseFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -7402,7 +7403,8 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -7412,12 +7414,13 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "manageFlags",
-    "CaseFieldID": "caseFlagsXui",
+    "CaseFieldID": "caseFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
@@ -7443,7 +7446,8 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",

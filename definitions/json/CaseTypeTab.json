@@ -1609,7 +1609,7 @@
     "TabFieldDisplayOrder": 2
   },
   {
-    "CaseFieldID": "caseFlagsXui",
+    "CaseFieldID": "caseFlags",
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "FieldShowCondition": "flagLauncher = \"hidden\"",

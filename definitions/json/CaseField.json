@@ -4689,7 +4689,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "caseFlagsXui",
+    "ID": "caseFlags",
     "Label": "Case Flags",
     "FieldType": "Flags",
     "SecurityClassification": "Public"
