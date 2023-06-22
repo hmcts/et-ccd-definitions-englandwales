@@ -1,22 +1,6 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "createFlag",
-    "Name": "Create a case flag",
-    "Description": "Create Flag",
-    "DisplayOrder": 1,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y",
-    "EventEnablingCondition": "",
-    "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "SUBMIT_CLAIMANT_TSE",
     "Name": "Create an application",
     "Description": "Create an application",
@@ -717,7 +701,7 @@
     "ID": "fixCaseAPI",
     "Name": "Fix Case API",
     "Description": "Fix Case API",
-    "DisplayOrder": 2,
+    "DisplayOrder": 1,
     "PreConditionState(s)": "*",
     "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;*",
     "SecurityClassification": "Public",
@@ -999,6 +983,21 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "EventEnablingCondition": "caseType=\"Dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "createFlag",
+    "Name": "Create a case flag",
+    "Description": "Create Flag",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
