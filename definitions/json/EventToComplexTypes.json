@@ -1174,7 +1174,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -2188,7 +2188,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -3230,7 +3230,7 @@
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -6273,7 +6273,7 @@
   },
   {
     "ID": "et3ResponseForm",
-    "CaseEventID": "et3Response",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseContestClaimDocument",
     "ListElementCode": "uploadedDocument",
     "EventElementLabel": "Upload a document to your response",
@@ -6305,7 +6305,7 @@
     "ListElementCode": "shortDescription",
     "EventElementLabel": "Short Description",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "referralDocument",
@@ -6348,7 +6348,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToAdd.OrganisationID",
-    "FieldDisplayOrder": "1",
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6356,7 +6356,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToAdd.OrganisationName",
-    "FieldDisplayOrder": "2",
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6364,7 +6364,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToRemove.OrganisationID",
-    "FieldDisplayOrder": "3",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6372,7 +6372,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "OrganisationToRemove.OrganisationName",
-    "FieldDisplayOrder": "4",
+    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6380,7 +6380,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "CaseRoleId",
-    "FieldDisplayOrder": "5",
+    "FieldDisplayOrder": 5,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6388,7 +6388,7 @@
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "RequestTimestamp",
-    "FieldDisplayOrder": "6",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6397,7 +6397,31 @@
     "CaseFieldID": "changeOrganisationRequestField",
     "ListElementCode": "ApprovalStatus",
     "DefaultValue": "1",
-    "FieldDisplayOrder": "7",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "typeOfDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   },
   {
