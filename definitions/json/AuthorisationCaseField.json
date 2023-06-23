@@ -24008,56 +24008,20 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlags",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseFlags",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlags",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseFlags",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -24068,38 +24032,14 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "flagLauncher",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "flagLauncher",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentFlags",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentFlags",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -24110,38 +24050,14 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondentFlags",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentFlags",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondentFlags",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentFlags",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -24152,25 +24068,13 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantFlags",
-    "UserRole": "caseworker-employment-etjudge",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantFlags",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   }
 ]
