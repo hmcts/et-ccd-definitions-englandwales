@@ -4039,7 +4039,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseRespondToTribunalText",
+    "ID": "tseRespondingToTribunalText",
     "Label": "What's your response to the tribunal?",
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
@@ -4047,7 +4047,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "tseRespondToTribunal",
+    "ID": "tseRespondingToTribunal",
     "Label": "Respondent is responding to Tribunal request/order",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"

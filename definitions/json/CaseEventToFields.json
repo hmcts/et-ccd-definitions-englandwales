@@ -6312,7 +6312,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "tseRespond",
-    "CaseFieldID": "tseRespondToTribunal",
+    "CaseFieldID": "tseRespondingToTribunal",
     "DisplayContext": "READONLY",
     "PageID": 3,
     "PageDisplayOrder": 3,
@@ -6327,18 +6327,18 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 7,
-    "FieldShowCondition": "tseRespondToTribunal!=\"Yes\"",
+    "FieldShowCondition": "tseRespondingToTribunal!=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "tseRespond",
-    "CaseFieldID": "tseRespondToTribunalText",
+    "CaseFieldID": "tseRespondingToTribunalText",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "tseRespondToTribunal=\"Yes\"",
+    "FieldShowCondition": "tseRespondingToTribunal=\"Yes\"",
     "ShowSummaryChangeOption": "Y"
   },
   {
