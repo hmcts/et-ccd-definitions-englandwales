@@ -424,7 +424,6 @@
     "SecurityClassification": "Public",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "ShowEventNotes": "N",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Serving/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted"
   },
   {
