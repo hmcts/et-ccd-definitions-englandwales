@@ -4797,6 +4797,12 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "hmctsInternalCaseName",
+    "Label": "claimant vs respondent",
+    "FieldType": "Text",
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseFlags",
     "Label": "Case Flags",
     "FieldType": "Flags",
