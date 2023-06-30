@@ -1015,7 +1015,7 @@
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseFlags/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   },
   {
@@ -1030,7 +1030,7 @@
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseFlags/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   },
   {

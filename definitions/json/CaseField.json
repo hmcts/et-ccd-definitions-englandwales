@@ -4800,6 +4800,7 @@
     "ID": "hmctsInternalCaseName",
     "Label": "claimant vs respondent",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4827,6 +4828,34 @@
     "ID": "claimantFlags",
     "Label": "Claimant Flags",
     "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseRestrictedFlag",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "autoListFlag",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseInterpreterRequiredFlag",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseAdditionalSecurityFlag",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
   {
