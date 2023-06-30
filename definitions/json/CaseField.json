@@ -4800,6 +4800,7 @@
     "ID": "hmctsInternalCaseName",
     "Label": "claimant vs respondent",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
