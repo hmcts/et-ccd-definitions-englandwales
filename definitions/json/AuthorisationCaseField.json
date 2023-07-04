@@ -20582,12 +20582,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "sendNotificationCollection",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "sendNotificationCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -23895,12 +23889,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "notificationsTabLinks",
     "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "notificationsTabLinks",
-    "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
