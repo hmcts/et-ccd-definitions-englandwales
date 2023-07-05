@@ -1174,7 +1174,7 @@
     "CaseEventID": "INITIATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -2188,7 +2188,7 @@
     "CaseEventID": "UPDATE_CASE_DRAFT",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -3230,7 +3230,7 @@
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantOtherType",
     "ListElementCode": "claimant_pension_contribution",
-    "EventElementLabel": "Pension Contribution",
+    "EventElementLabel": "Pension Scheme",
     "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
@@ -3279,7 +3279,6 @@
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
   },
-
   {
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
@@ -3316,8 +3315,6 @@
     "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
-
-
   {
     "ID": "ClaimantRepresentative",
     "CaseEventID": "addAmendClaimantRepresentative",
@@ -3641,7 +3638,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "extensionGranted",
     "EventElementLabel": "Has the request for extension been granted?",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3650,7 +3647,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "extensionDate",
     "EventElementLabel": "Enter the extension date",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3659,7 +3656,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceived",
     "EventElementLabel": "Has the ET3 form been received?",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3668,7 +3665,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReceivedDate",
     "EventElementLabel": "Response received date",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3677,7 +3674,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentName",
     "EventElementLabel": "Title",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3686,7 +3683,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseReference",
     "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 17,
+    "FieldDisplayOrder": 18,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3695,7 +3692,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOut",
     "EventElementLabel": "Response Struck Out",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3704,7 +3701,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutDate",
     "EventElementLabel": "Struck Out Date",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3713,7 +3710,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutChairman",
     "EventElementLabel": "Judge's only consent",
-    "FieldDisplayOrder": 20,
+    "FieldDisplayOrder": 21,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3722,7 +3719,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseStruckOutReason",
     "EventElementLabel": "Why struck out",
-    "FieldDisplayOrder": 21,
+    "FieldDisplayOrder": 22,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3731,7 +3728,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_status",
     "EventElementLabel": "Response",
-    "FieldDisplayOrder": 22,
+    "FieldDisplayOrder": 23,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3740,7 +3737,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseToClaim",
     "EventElementLabel": "Is the claim resisted?",
-    "FieldDisplayOrder": 23,
+    "FieldDisplayOrder": 24,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3749,7 +3746,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "rejection_reason",
     "EventElementLabel": "Reason for the rejection",
-    "FieldDisplayOrder": 24,
+    "FieldDisplayOrder": 25,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3758,7 +3755,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "rejection_reason_other",
     "EventElementLabel": "Reason for the rejection",
-    "FieldDisplayOrder": 25,
+    "FieldDisplayOrder": 26,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3767,7 +3764,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotes",
     "EventElementLabel": "Notes",
-    "FieldDisplayOrder": 26,
+    "FieldDisplayOrder": 27,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3776,7 +3773,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_referred_to_judge",
     "EventElementLabel": "Date referred to Judge",
-    "FieldDisplayOrder": 27,
+    "FieldDisplayOrder": 28,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3785,7 +3782,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "response_returned_from_judge",
     "EventElementLabel": "Date returned from Judge",
-    "FieldDisplayOrder": 28,
+    "FieldDisplayOrder": 29,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3794,7 +3791,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseOutOfTime",
     "EventElementLabel": "Response received outside of time allowed?",
-    "FieldDisplayOrder": 29,
+    "FieldDisplayOrder": 30,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3803,7 +3800,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseNotOnPrescribedForm",
     "EventElementLabel": "Not on prescribed form?",
-    "FieldDisplayOrder": 30,
+    "FieldDisplayOrder": 31,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3812,7 +3809,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRequiredInfoAbsent",
     "EventElementLabel": "Required information missing?",
-    "FieldDisplayOrder": 31,
+    "FieldDisplayOrder": 32,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3821,7 +3818,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentAddress",
     "EventElementLabel": "Respondent Address (from the ET3 form)",
-    "FieldDisplayOrder": 32,
+    "FieldDisplayOrder": 33,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
   },
@@ -3830,7 +3827,7 @@
     "CaseEventID": "amendRespondentDetails",
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "et3Vetting",
-    "FieldDisplayOrder": 33,
+    "FieldDisplayOrder": 34,
     "DisplayContext": "READONLY",
     "FieldShowCondition": "responseRespondentAddress=\"dummy\""
   },
@@ -3917,7 +3914,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentPhone2",
     "EventElementLabel": "Alternative number (from the ET3 form)",
-    "FieldDisplayOrder": 34,
+    "FieldDisplayOrder": 35,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3926,7 +3923,7 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentEmail",
     "EventElementLabel": "Email address (from the ET3 form)",
-    "FieldDisplayOrder": 35,
+    "FieldDisplayOrder": 36,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -3935,8 +3932,128 @@
     "CaseFieldID": "respondentCollection",
     "ListElementCode": "responseRespondentContactPreference",
     "EventElementLabel": "Contact preference (from the ET3 form)",
-    "FieldDisplayOrder": 36,
+    "FieldDisplayOrder": 37,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseRespondentContactName",
+    "EventElementLabel": "Name of contact at respondent's address if not you as the representative",
+    "FieldDisplayOrder": 38,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseHearingRepresentative",
+    "EventElementLabel": "Which types of hearing can you, as the representative, attend?",
+    "FieldDisplayOrder": 39,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseHearingRespondent",
+    "EventElementLabel": "Which types of hearing can the respondent attend?",
+    "FieldDisplayOrder": 40,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseRespondentContestClaim",
+    "EventElementLabel": "Does the respondent contest the claim?",
+    "FieldDisplayOrder": 41,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseContestClaimDocument",
+    "EventElementLabel": "Upload a document to your response",
+    "FieldDisplayOrder": 42,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseContestClaimDetails",
+    "EventElementLabel": "Use this text box for any accompanying information",
+    "FieldDisplayOrder": 43,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseEmployerClaim",
+    "EventElementLabel": "Does the respondent wish to make an Employer's Contract Claim?",
+    "FieldDisplayOrder": 44,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseEmployerClaimDocument",
+    "EventElementLabel": "Add a document",
+    "FieldDisplayOrder": 45,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseEmployerClaimDetails",
+    "EventElementLabel": "Provide the background and details of your Employer's Contract Claim",
+    "FieldDisplayOrder": 46,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseRespondentSupportNeeded",
+    "EventElementLabel": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
+    "FieldDisplayOrder": 45,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "et3ResponseRespondentSupportDocument",
+    "EventElementLabel": "Add document",
+    "FieldDisplayOrder": 46,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "Respondent",
+    "CaseFieldID": "respondentCollection",
+    "CaseEventID": "amendRespondentDetails",
+    "ListElementCode": "Use this text box or upload the requirements in a document",
+    "EventElementLabel": "et3ResponseRespondentSupportDocument",
+    "FieldDisplayOrder": 47,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "RespondentRepresentative",
@@ -4005,9 +4122,16 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "organisation",
-    "EventElementLabel": "MyHMCTS Organisation",
+    "ListElementCode": "respondentOrganisation.OrganisationID",
     "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "respondentOrganisation.OrganisationName",
+    "FieldDisplayOrder": 9,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4016,7 +4140,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "name_of_organisation",
     "EventElementLabel": "Name of Organisation",
-    "FieldDisplayOrder": 9,
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4025,7 +4149,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_reference",
     "EventElementLabel": "Reference",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4034,14 +4158,6 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.AddressLine1",
     "EventElementLabel": "Building and Street",
-    "FieldDisplayOrder": 11,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "CaseEventID": "amendRespondentRepresentative",
-    "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine2",
     "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL"
   },
@@ -4049,8 +4165,16 @@
     "ID": "RespondentRepresentative",
     "CaseEventID": "amendRespondentRepresentative",
     "CaseFieldID": "repCollection",
-    "ListElementCode": "representative_address.AddressLine3",
+    "ListElementCode": "representative_address.AddressLine2",
     "FieldDisplayOrder": 13,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "CaseEventID": "amendRespondentRepresentative",
+    "CaseFieldID": "repCollection",
+    "ListElementCode": "representative_address.AddressLine3",
+    "FieldDisplayOrder": 14,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4059,7 +4183,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.PostTown",
     "EventElementLabel": "Town or City",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4068,7 +4192,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.County",
     "EventElementLabel": "County",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4077,7 +4201,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.Country",
     "EventElementLabel": "Country",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4086,8 +4210,8 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_address.PostCode",
     "EventElementLabel": "Postcode",
-    "FieldDisplayOrder": 17,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 18,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "RespondentRepresentative",
@@ -4095,7 +4219,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_occupation",
     "EventElementLabel": "Occupation",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -4104,7 +4228,7 @@
     "CaseFieldID": "repCollection",
     "ListElementCode": "representative_occupation_other",
     "EventElementLabel": "What is the Representative's occupation?",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -6149,7 +6273,7 @@
   },
   {
     "ID": "et3ResponseForm",
-    "CaseEventID": "et3Response",
+    "CaseEventID": "et3ResponseDetails",
     "CaseFieldID": "et3ResponseContestClaimDocument",
     "ListElementCode": "uploadedDocument",
     "EventElementLabel": "Upload a document to your response",
@@ -6181,42 +6305,123 @@
     "ListElementCode": "shortDescription",
     "EventElementLabel": "Short Description",
     "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "referralDocument",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "referralDocument",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralDocument",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description of document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "replyDocument",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "replyDocument",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyDocument",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description of document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToAdd.OrganisationID",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToAdd.OrganisationName",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToRemove.OrganisationID",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "OrganisationToRemove.OrganisationName",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "CaseRoleId",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "RequestTimestamp",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ChangeOrganisationRequest",
+    "CaseEventID": "nocRequest",
+    "CaseFieldID": "changeOrganisationRequestField",
+    "ListElementCode": "ApprovalStatus",
+    "DefaultValue": "1",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
+    "ListElementCode": "typeOfDocument",
+    "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "referralDocument",
-    "CaseEventID": "createReferral",
-    "CaseFieldID": "referralDocument",
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
     "ListElementCode": "uploadedDocument",
-    "EventElementLabel": "Document",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "referralDocument",
-    "CaseEventID": "createReferral",
-    "CaseFieldID": "referralDocument",
-    "ListElementCode": "shortDescription",
-    "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL"
+    "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "replyDocument",
-    "CaseEventID": "replyToReferral",
-    "CaseFieldID": "replyDocument",
-    "ListElementCode": "uploadedDocument",
-    "EventElementLabel": "Document",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "replyDocument",
-    "CaseEventID": "replyToReferral",
-    "CaseFieldID": "replyDocument",
+    "ID": "ServingDocumentUpload",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "servingDocumentCollection",
     "ListElementCode": "shortDescription",
-    "EventElementLabel": "Short description of document",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
   }
 ]

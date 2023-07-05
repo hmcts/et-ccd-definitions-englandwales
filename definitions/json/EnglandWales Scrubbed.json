@@ -799,81 +799,87 @@
   },
   {
     "ID": "fl_DocumentType",
+    "ListElementCode": "Acknowledgement of claim",
+    "ListElement": "Acknowledgement of claim",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_DocumentType",
     "ListElementCode": "Notice of a claim",
     "ListElement": "Notice of a claim",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3",
     "ListElement": "ET3",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "ET3 Attachment",
     "ListElement": "ET3 Attachment",
-    "DisplayOrder": 6
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Claimant correspondence",
     "ListElement": "Claimant correspondence",
-    "DisplayOrder": 7
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Respondent correspondence",
     "ListElement": "Respondent correspondence",
-    "DisplayOrder": 8
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Notice of Hearing",
     "ListElement": "Notice of Hearing",
-    "DisplayOrder": 9
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal case file",
     "ListElement": "Tribunal case file",
-    "DisplayOrder": 10
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal correspondence",
     "ListElement": "Tribunal correspondence",
-    "DisplayOrder": 11
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Order/Deposit Order",
     "ListElement": "Tribunal Order/Deposit Order",
-    "DisplayOrder": 12
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Tribunal Judgment/Reasons",
     "ListElement": "Tribunal Judgment/Reasons",
-    "DisplayOrder": 13
+    "DisplayOrder": 14
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Referral/Judicial direction",
     "ListElement": "Referral/Judicial direction",
-    "DisplayOrder": 14
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Rejection of claim",
     "ListElement": "Rejection of claim",
-    "DisplayOrder": 15
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_DocumentType",
     "ListElementCode": "Other ",
     "ListElement": "Other ",
-    "DisplayOrder": 16
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_ResponseStatus",
@@ -4032,6 +4038,12 @@
     "DisplayOrder": 18
   },
   {
+    "ID": "fl_Part_10",
+    "ListElementCode": "10.17",
+    "ListElement": "10.17 - Letter with Corrected Judgment - Rule 69 ",
+    "DisplayOrder": 19
+  },
+  {
     "ID": "fl_Part_11",
     "ListElementCode": "11.1C",
     "ListElement": "11.1C - Reconsideration - non-compliance - claimant - Rule 71 ",
@@ -4992,36 +5004,6 @@
     "DisplayOrder": 7
   },
   {
-    "ID": "fl_ServingDocumentType",
-    "ListElementCode": "EC Certification",
-    "ListElement": "EC Certification",
-    "DisplayOrder": 8
-  },
-  {
-    "ID": "fl_ServingDocumentType",
-    "ListElementCode": "ET1 claim form",
-    "ListElement": "ET1 claim form",
-    "DisplayOrder": 9
-  },
-  {
-    "ID": "fl_ServingDocumentType",
-    "ListElementCode": "ET3 form",
-    "ListElement": "ET3 form",
-    "DisplayOrder": 10
-  },
-  {
-    "ID": "fl_ServingDocumentType",
-    "ListElementCode": "Particulars of Claim",
-    "ListElement": "Particulars of Claim",
-    "DisplayOrder": 11
-  },
-  {
-    "ID": "fl_ServingDocumentType",
-    "ListElementCode": "Another type of document",
-    "ListElement": "Another type of document",
-    "DisplayOrder": 12
-  },
-  {
     "ID": "fl_ServingDocumentRecipient",
     "ListElementCode": "Acas",
     "ListElement": "Acas",
@@ -5676,24 +5658,6 @@
     "DisplayOrder": 5
   },
   {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "4.18",
-    "ListElement": "4.18 Rule 26 referral to EJ - response received",
-    "DisplayOrder": 6
-  },
-  {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "et3From",
-    "ListElement": "ET3 form",
-    "DisplayOrder": 7
-  },
-  {
-    "ID": "fl_Et3NotificationDocType",
-    "ListElementCode": "Another type of document",
-    "ListElement": "Another type of document",
-    "DisplayOrder": 8
-  },
-  {
     "ID": "frl_ReferCaseTo",
     "ListElementCode": "Admin",
     "ListElement": "Admin",
@@ -5860,5 +5824,11 @@
     "ListElement": "Respondent's Representative",
     "ListElementCode": "Respondent's Representative",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_confirmSubmitEt3",
+    "ListElementCode": "Yes",
+    "ListElement": "Yes - I want to submit this ET3",
+    "DisplayOrder": 1
   }
 ]
