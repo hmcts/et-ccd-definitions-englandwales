@@ -2547,30 +2547,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3PrintAndSendPaperDocuments",
-    "Label": "<hr><h2>Print and send paper documents<h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3SendDocByFirstClass",
-    "Label": "Send documents by first class mail to:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ClaimantAndRespondentAddresses",
-    "Label": "et3ClaimantAndRespondentAddresses",
+    "Label": "Deprecated",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3ClaimantAndRespondentAddressesLabel",
-    "Label": "${et3ClaimantAndRespondentAddresses}",
-    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
