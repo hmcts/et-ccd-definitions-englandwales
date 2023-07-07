@@ -2547,30 +2547,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3PrintAndSendPaperDocuments",
-    "Label": "<hr><h2>Print and send paper documents<h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3SendDocByFirstClass",
-    "Label": "Send documents by first class mail to:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ClaimantAndRespondentAddresses",
-    "Label": "et3ClaimantAndRespondentAddresses",
+    "Label": "Deprecated",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3ClaimantAndRespondentAddressesLabel",
-    "Label": "${et3ClaimantAndRespondentAddresses}",
-    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
@@ -4035,6 +4014,23 @@
     "Label": "What's your response to the claimant's application?",
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseRespondingToTribunalText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseRespondingToTribunal",
+    "Label": "Respondent is responding to Tribunal request/order",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
@@ -4776,6 +4772,34 @@
     "Label": "Hearing Bundles",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseFlags",
+    "Label": "Case Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "flagLauncher",
+    "Label": "Flag Launcher",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentFlags",
+    "Label": "Respondent Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantFlags",
+    "Label": "Claimant Flags",
+    "FieldType": "Flags",
     "SecurityClassification": "Public"
   },
   {
