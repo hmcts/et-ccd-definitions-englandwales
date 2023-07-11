@@ -4064,7 +4064,35 @@
     "ID": "reportRespondent",
     "ListElementCode": "respondentName",
     "FieldType": "Text",
-    "ElementLabel": "Respondent",
+    "ElementLabel": "Name of respondent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "reportRespondent",
+    "ListElementCode": "respondentType",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Type of respondent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "reportRespondent",
+    "ListElementCode": "respondentOrganisationName",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation or business name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "reportRespondent",
+    "ListElementCode": "respondentFirstName",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent first name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "reportRespondent",
+    "ListElementCode": "respondentLastName",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent last name",
     "SecurityClassification": "Public"
   },
   {
