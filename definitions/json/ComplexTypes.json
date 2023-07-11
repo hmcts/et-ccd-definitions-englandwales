@@ -866,8 +866,22 @@
   {
     "ID": "Respondent",
     "ListElementCode": "respondent_name",
-    "FieldType": "TextArea",
-    "ElementLabel": "Name of respondent",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation or business name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentFirstName",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent First Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentLastName",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent Last Name",
     "SecurityClassification": "Public"
   },
   {
