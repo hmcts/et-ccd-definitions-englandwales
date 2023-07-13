@@ -6147,6 +6147,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "referralDetails",
+    "ListElementCode": "referralLinks",
+    "FieldType": "Label",
+    "ElementLabel": "Dummy",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "hubLinksStatuses",
     "ListElementCode": "personalDetails",
     "FieldType": "Text",
