@@ -429,7 +429,7 @@
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "respondentCollection",
-    "ListElementCode": "respondentOrganisationName",
+    "ListElementCode": "respondentOrganisation",
     "EventElementLabel": "Organisation or business name",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"

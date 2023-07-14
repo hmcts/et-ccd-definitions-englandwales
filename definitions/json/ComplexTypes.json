@@ -872,6 +872,14 @@
   },
   {
     "ID": "Respondent",
+    "ListElementCode": "respondentType",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Type of respondent",
+    "FieldTypeParameter": "frl_respondentType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
     "ListElementCode": "respondentFirstName",
     "FieldType": "Text",
     "ElementLabel": "Respondent First Name",
@@ -882,6 +890,14 @@
     "ListElementCode": "respondentLastName",
     "FieldType": "Text",
     "ElementLabel": "Respondent Last Name",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "ID": "Respondent",
+    "ListElementCode": "respondentOrganisation",
+    "FieldType": "Text",
+    "ElementLabel": "Organisation or business name",
     "SecurityClassification": "Public"
   },
   {
@@ -4065,34 +4081,6 @@
     "ListElementCode": "respondentName",
     "FieldType": "Text",
     "ElementLabel": "Name of respondent",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "reportRespondent",
-    "ListElementCode": "respondentType",
-    "FieldType": "FixedRadioList",
-    "ElementLabel": "Type of respondent",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "reportRespondent",
-    "ListElementCode": "respondentOrganisationName",
-    "FieldType": "Text",
-    "ElementLabel": "Organisation or business name",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "reportRespondent",
-    "ListElementCode": "respondentFirstName",
-    "FieldType": "Text",
-    "ElementLabel": "Respondent first name",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "reportRespondent",
-    "ListElementCode": "respondentLastName",
-    "FieldType": "Text",
-    "ElementLabel": "Respondent last name",
     "SecurityClassification": "Public"
   },
   {
