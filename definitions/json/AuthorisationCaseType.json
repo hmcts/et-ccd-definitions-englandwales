@@ -5,7 +5,8 @@
       "caseworker-et-pcqextractor",
       "caseworker-employment",
       "caseworker-employment-etjudge",
-      "et-acas-api"
+      "et-acas-api",
+      "GS_profile"
     ],
     "CRUD": "R"
   },

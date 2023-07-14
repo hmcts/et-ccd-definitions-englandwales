@@ -155,6 +155,34 @@
     },
     {
         "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales",
+        "RoleName": "hmcts-admin",
+        "ReadOnly": "Y",
+        "AccessProfiles": "GS_profile"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales",
+        "RoleName": "hmcts-judiciary",
+        "ReadOnly": "Y",
+        "AccessProfiles": "GS_profile"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales",
+        "RoleName": "hmcts-legal-operations",
+        "ReadOnly": "Y",
+        "AccessProfiles": "GS_profile"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales",
+        "RoleName": "hmcts-ctsc",
+        "ReadOnly": "Y",
+        "AccessProfiles": "GS_profile"
+    },
+    {
+        "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_EnglandWales_Listings",
         "RoleName": "idam:caseworker-employment-englandwales",
         "ReadOnly": "N",
@@ -209,4 +237,5 @@
         "ReadOnly": "N",
         "AccessProfiles": "caseworker-wa-task-configuration"
     }
+    
 ]
