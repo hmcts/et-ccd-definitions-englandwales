@@ -12714,11 +12714,11 @@
     "CRUD": "R"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icListingIssues",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
+  "CaseTypeId": "ET_EnglandWales",
+  "CaseFieldID": "icListingIssues",
+  "UserRole": "caseworker-employment-etjudge",
+  "CRUD": "R"
+},
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "icListingIssues",
@@ -12740,6 +12740,36 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "icListingIssues",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icListingPreliminaryHearing",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

@@ -1372,6 +1372,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "icListingPreliminaryHearing",
+    "Label": "Should the case be listed listed for a private preliminary hearing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "icDdaDisabilityIssues",
     "Label": "Are there any issues or instructions where DDA or disability is disputed?",
     "FieldType": "TextArea",
