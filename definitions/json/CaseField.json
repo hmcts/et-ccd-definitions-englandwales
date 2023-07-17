@@ -3091,7 +3091,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "referralLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/closeReferral/closeReferral1\">Close a referral</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createReferral/createReferral1\">Send a new referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/updateReferral/updateReferral1\">Update this referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/replyToReferral/replyToReferral1\">Reply to a referral</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/closeReferral/closeReferral1\">Close a referral</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -3170,6 +3170,61 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferCaseTo",
+    "Label": "Who are you referring this case to?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ReferCaseTo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferentEmail",
+    "Label": "What is their email address?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateIsUrgent",
+    "Label": "Is this urgent?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferralSubject",
+    "Label": "What is the referral subject?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_ReferralSubject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferralSubjectSpecify",
+    "Label": "Please specify",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferralDocument",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferralInstruction",
+    "Label": "Which instructions do you recommend?",
+    "HintText": "Give details of directions, letter or decisions to issue.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "trackType",
