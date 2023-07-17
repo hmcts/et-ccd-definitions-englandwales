@@ -94,6 +94,7 @@
     "FieldType": "FixedList",
     "ElementLabel": "Type of Document",
     "FieldTypeParameter": "fl_DocumentType",
+    "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\" OR topLevelDocuments != \"*\"",
     "SecurityClassification": "Public"
   },
   {
