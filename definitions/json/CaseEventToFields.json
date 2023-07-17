@@ -1174,11 +1174,22 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "amendCaseDetails",
-    "CaseFieldID": "additionalCaseInfo",
+    "CaseFieldID": "nextListedDate",
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "amendCaseDetails",
+    "CaseFieldID": "additionalCaseInfo",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   },
