@@ -1373,7 +1373,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icListingPreliminaryHearing",
-    "Label": "Should the case be listed listed for a private preliminary hearing?",
+    "Label": "Should the case be listed for a private preliminary hearing?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
