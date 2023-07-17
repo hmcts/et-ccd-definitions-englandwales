@@ -6326,6 +6326,24 @@
     "DisplayContext": "OPTIONAL"
   },
   {
+    "ID": "referralDocument",
+    "CaseEventID": "updateReferral",
+    "CaseFieldID": "referralDocument",
+    "ListElementCode": "uploadedDocument",
+    "EventElementLabel": "Document",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "referralDocument",
+    "CaseEventID": "updateReferral",
+    "CaseFieldID": "referralDocument",
+    "ListElementCode": "shortDescription",
+    "EventElementLabel": "Short description of document",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
     "ID": "replyDocument",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "replyDocument",
