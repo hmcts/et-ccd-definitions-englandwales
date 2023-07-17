@@ -25,7 +25,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -35,7 +36,8 @@
     "DisplayOrder": 3,
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -46,7 +48,8 @@
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -58,7 +61,8 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -71,7 +75,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/preDefaultValues",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -85,7 +90,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/caseTransfer/initTransferToEnglandWales",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/assignCase",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -113,7 +119,8 @@
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "EventEnablingCondition": "caseType !=\"Multiple\" AND preAcceptCase.caseAccepted !=\"Yes\" AND managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -125,7 +132,8 @@
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\"):1;Rejected",
     "EventEnablingCondition": "caseType =\"dummy\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -219,7 +227,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "SecurityClassification": "Public",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -233,7 +242,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendCaseDetails",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -246,7 +256,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendClaimantDetails",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -258,7 +269,8 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -271,7 +283,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendRespondentDetails",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -286,7 +299,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -299,7 +313,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendJurisdiction",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -313,7 +328,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendHearing",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -327,7 +343,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/allocatehearing/aboutToSubmit",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -341,7 +358,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingdetails/aboutToSubmit",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -357,7 +375,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Print List"
+    "EndButtonLabel": "Print List",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -371,7 +390,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/judgementSubmitted",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -384,7 +404,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bfActions",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -398,7 +419,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/depositValidation",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -411,7 +433,8 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -424,7 +447,8 @@
     "SecurityClassification": "Public",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "ShowEventNotes": "N",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -438,7 +462,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/generateDocument",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/generateDocumentConfirmation",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -452,7 +477,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/restrictedCases",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -464,7 +490,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createECC",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/linkOriginalCaseECC",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -523,7 +550,8 @@
     "PostConditionState": "Transferred",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -534,7 +562,8 @@
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed(positionType=\"Case closed\"):3;Submitted",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -546,7 +575,8 @@
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed(positionType=\"Case closed\"):3;Submitted",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/postDefaultValues",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -570,7 +600,8 @@
     "PreConditionState(s)": "Closed",
     "PostConditionState": "Accepted(preAcceptCase.caseAccepted=\"Yes\" AND positionType!=\"Case closed\"):1;Rejected(preAcceptCase.caseAccepted=\"No\" AND positionType!=\"Case closed\"):2;Closed",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -581,7 +612,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "Closed(positionType=\"Case closed\"):1;*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -592,7 +624,8 @@
     "PreConditionState(s)": "*",
     "PostConditionState": "Submitted(stateAPI=\"Submitted\"):1;Accepted(stateAPI=\"Accepted\"):2;Rejected(stateAPI=\"Rejected\"):3;Transferred(stateAPI=\"Transferred\"):4;Closed(stateAPI=\"Closed\"):5;*",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -604,7 +637,8 @@
     "PostConditionState": "Transferred",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferToEcm",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -631,7 +665,8 @@
     "PostConditionState": "*",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Notification/submitted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -744,7 +779,8 @@
     "PostConditionState": "Submitted",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/listingCaseCreation",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -756,7 +792,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dynamicListingVenue",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/listingHearings",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -767,7 +804,8 @@
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Print Cause List"
+    "EndButtonLabel": "Print Cause List",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -780,7 +818,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/generateHearingDocumentConfirmation",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Print List"
+    "EndButtonLabel": "Print List",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -790,7 +829,8 @@
     "PreConditionState(s)": "Submitted",
     "PostConditionState": "Submitted",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -800,7 +840,8 @@
     "PostConditionState": "SubmittedReport",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/listingCaseCreation",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -813,7 +854,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/generateHearingDocumentConfirmation",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Generate Report"
+    "EndButtonLabel": "Generate Report",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -824,7 +866,8 @@
     "PostConditionState": "Open",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -836,7 +879,8 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/preAcceptMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -848,7 +892,8 @@
     "PostConditionState": "Open",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -861,7 +906,8 @@
     "EventEnablingCondition": "multipleSource=\"dummy\"",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/amendMultipleAPI",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -873,7 +919,8 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updatePayloadMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -885,7 +932,8 @@
     "PostConditionState": "Open",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/importMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -898,7 +946,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/printSchedule",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/printDocumentConfirmation",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -912,7 +961,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/batchUpdate",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Flag based batch update of cases in Multiple"
+    "EndButtonLabel": "Flag based batch update of cases in Multiple",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -923,7 +973,8 @@
     "PostConditionState": "Open",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updateSubMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -937,7 +988,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/printLetter",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/printDocumentConfirmation",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -950,7 +1002,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseCloseMultiple",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeMultiple",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -962,7 +1015,8 @@
     "PostConditionState": "*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/resetMultipleState",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -976,7 +1030,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransferMultiples/transferSameCountry",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Transfer Multiple"
+    "EndButtonLabel": "Transfer Multiple",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -990,7 +1045,8 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransferMultiples/transferDifferentCountry",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Transfer Multiple"
+    "EndButtonLabel": "Transfer Multiple",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -1002,7 +1058,8 @@
     "PostConditionState": "Open(state=\"Open\"):1;Transferred(state=\"Transferred\"):2;Error(state=\"Error\"):3;Updating(state=\"Updating\"):4;Closed(state=\"Closed\"):5;*",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/fixMultipleCaseApi",
     "SecurityClassification": "Public",
-    "ShowEventNotes": "N"
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -1016,6 +1073,7 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bulkAddSingleCasesToMultiple",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Add Cases to Multiple"
+    "EndButtonLabel": "Add Cases to Multiple",
+    "ShowSummary": "N"
   }
 ]

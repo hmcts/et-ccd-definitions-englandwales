@@ -157,6 +157,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "nextListedDate",
+    "Label": "Next Listed Date",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantRequests",
     "Label": "Claimant Requests",
     "FieldType": "ClaimantRequest",
