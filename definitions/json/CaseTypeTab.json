@@ -33,6 +33,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "managingOffice",
     "TabFieldDisplayOrder": 5
@@ -1099,7 +1100,8 @@
     "TabLabel": "Documents",
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
