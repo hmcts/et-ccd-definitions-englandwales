@@ -12718,7 +12718,7 @@
   "CaseFieldID": "icListingIssues",
   "UserRole": "caseworker-employment-etjudge",
   "CRUD": "R"
-},
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "icListingIssues",
