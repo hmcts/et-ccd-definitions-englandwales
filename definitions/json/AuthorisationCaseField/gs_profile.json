@@ -1,0 +1,86 @@
+[
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  }
+]

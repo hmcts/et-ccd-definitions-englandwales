@@ -1,0 +1,446 @@
+[
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseIdCollection",
+    "Label": "Case Numbers",
+    "HintText": "The first case will be assigned as the lead for this multiple",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multipleName",
+    "Label": "Multiple Name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multipleReference",
+    "Label": "Multiple reference",
+    "HintText": "Assign a multiple reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "state",
+    "Label": "state is $[STATE]",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multipleSource",
+    "Label": "Source",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "caseSourceList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseImporterFile",
+    "Label": "Selection Criteria",
+    "FieldType": "importerFileUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "customHistoryViewer",
+    "Label": "My history",
+    "FieldType": "CaseHistoryViewer",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "scheduleDocName",
+    "Label": "Select schedule to print",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_scheduleDoc",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "docMarkUp ",
+    "Label": "Doc MarkUp",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "subMultiple",
+    "Label": "Submultiple Name",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "flag1",
+    "Label": "Flag 1",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "flag2",
+    "Label": "Flag 2",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "flag3",
+    "Label": "Flag 3",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "flag4",
+    "Label": "Flag 4",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateType",
+    "Label": "Batch Update",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_batchUpdate",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateCase",
+    "Label": "Case Number",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateClaimantRep",
+    "Label": "Claimant Representative Name",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchRemoveClaimantRep",
+    "Label": "Do you wish to remove or add the representative from all the filtered cases ? (Yes = Remove, No = Add)",
+    "HintText": "If the representative is to be removed then it is also removed from the case driving the batch update",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateJurisdiction",
+    "Label": "Jurisdiction",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateRespondent",
+    "Label": "Respondent",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateJudgment",
+    "Label": "Judgment",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateRespondentRep",
+    "Label": "Respondent Representative",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchRemoveRespondentRep",
+    "Label": "Do you wish to remove or add the representative from all the filtered cases ? (Yes = Remove, No = Add)",
+    "HintText": "If the representative is to be removed then it is also removed from the case driving the batch update",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "positionType",
+    "Label": "Current Position",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Position",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "fileLocation",
+    "Label": "Physical Location",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "hearingStageEQP",
+    "Label": "EQP Stage Hearing",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_Stage",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "receiptDate",
+    "Label": "Date of Receipt",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "clerkResponsible",
+    "Label": "Clerk Responsible",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchMoveCases",
+    "Label": " ",
+    "FieldType": "moveCases",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "subMultipleCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "subMultipleType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "subMultipleAction",
+    "Label": " ",
+    "FieldType": "subMultipleActionType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "stateLabel",
+    "Label": "#### Case Status:  ${[STATE]} ",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "leadCase",
+    "Label": "Lead Case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "leadCaseLabel",
+    "Label": "Lead Case: ${leadCase}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseMultipleCollection",
+    "Label": "Multiple Information",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "multipleMigrationData",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseCounter",
+    "Label": "Case Ref Number Count",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseCounterLabel",
+    "Label": "Number of cases: ${caseCounter}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "preAcceptDone",
+    "Label": "preAccept system field",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "correspondenceType",
+    "Label": "List of correspondence items",
+    "FieldType": "LettersMultiples",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "addressLabelsSelectionTypeMSL",
+    "Label": "Select the labels you wish to print",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_SelectLabels",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "addressLabelsAttributesType",
+    "Label": "Address labels attributes",
+    "FieldType": "addressLabelsAttributes",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "typeOfAmendment",
+    "Label": "Select the amendments you wish to make:",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "multiplesAmendment",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "newLeadCase",
+    "Label": "New lead case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "addCasesLabel",
+    "Label": "**Press Continue to add cases to this Multiple on the next page**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "preAcceptMultiple",
+    "Label": "Accept/Reject",
+    "FieldType": "acceptOrRejectCase",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "notes",
+    "Label": "Notes",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "positionLabel",
+    "Label": "The position will be set to: **Case closed**",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "officeMultipleCT",
+    "Label": "Select office to transfer case to",
+    "FieldType": "DynamicList",
+    "FieldTypeParameter": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "reasonForCT",
+    "Label": "Reason for Case Transfer",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "linkedMultipleCTLabel",
+    "Label": "Multiple Transfer: ${linkedMultipleCT}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "linkedMultipleCT",
+    "Label": "Link to related multiple",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "positionTypeCT",
+    "Label": "Current Position",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_PositionCT",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "bulkAddSingleCasesImportFile",
+    "Label": "Select import file",
+    "FieldType": "importerFileUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "managingOffice",
+    "Label": "Tribunal Office",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "isFixCase",
+    "Label": "Fix Case",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "SearchCriteria",
+    "Label": " ",
+    "FieldType": "SearchCriteria",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseNameHmctsInternal",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseManagementLocation",
+    "Label": " ",
+    "FieldType": "CaseLocation",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseManagementCategory",
+    "Label": " ",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  }
+]
