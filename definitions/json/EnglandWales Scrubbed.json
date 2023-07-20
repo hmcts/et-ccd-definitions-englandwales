@@ -6397,8 +6397,8 @@
   },
   {
     "ID": "frl_respondentType",
-    "ListElement": "Company",
-    "ListElementCode": "Company",
+    "ListElement": "Organisation",
+    "ListElementCode": "Organisation",
     "DisplayOrder": 2
   }
 ]
