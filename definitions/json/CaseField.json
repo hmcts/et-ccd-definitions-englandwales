@@ -3239,7 +3239,14 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "updateReferralHearingDate",
+    "Label": "Which instructions do you recommend?",
+    "HintText": "Give details of directions, letter or decisions to issue.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "trackType",
