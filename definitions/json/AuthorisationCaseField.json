@@ -14585,13 +14585,6 @@
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
-
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferCaseTo",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "updateReferCaseTo",
@@ -14627,12 +14620,6 @@
     "CaseFieldID": "updateReferCaseTo",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferentEmail",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -14673,12 +14660,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "updateIsUrgent",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateIsUrgent",
     "UserRole": "caseworker-employment",
     "CRUD": "CRU"
   },
@@ -14715,12 +14696,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "updateReferralSubject",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferralSubject",
     "UserRole": "caseworker-employment",
     "CRUD": "CRU"
   },
@@ -14753,14 +14728,6 @@
     "CaseFieldID": "updateReferralSubject",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-
-
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferralDetails",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -14801,12 +14768,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "updateReferralDocument",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferralDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "CRUD"
   },
@@ -14833,12 +14794,6 @@
     "CaseFieldID": "updateReferralDocument",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferralInstruction",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -14875,12 +14830,6 @@
     "CaseFieldID": "updateReferralInstruction",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "updateReferralSubjectSpecify",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
