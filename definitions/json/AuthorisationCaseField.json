@@ -14798,11 +14798,6 @@
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
-
-
-
-
-
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "updateReferralDocument",

@@ -6220,7 +6220,7 @@
     "ID": "referralDetails",
     "ListElementCode": "referralReplyCollection",
     "FieldType": "Collection",
-    "ElementLabel": "Replies",
+    "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
     "SecurityClassification": "Public"
   },
