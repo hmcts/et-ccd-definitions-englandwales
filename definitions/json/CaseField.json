@@ -4855,7 +4855,8 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "caseDeepLink",
     "Label": "hidden",
-    "FieldType": "Text"
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   },
   {
     "LiveFrom": "03/11/2022",
