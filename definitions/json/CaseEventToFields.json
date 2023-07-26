@@ -1041,7 +1041,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "et3DueDate",
-    "DisplayContext": "READONLY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
@@ -3676,8 +3676,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icDdaDisabilityIssues",
-    "DisplayContext": "OPTIONAL",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "DisplayContext": "MANDATORY",
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
@@ -3686,7 +3686,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icOrderForFurtherInformation",
+    "CaseFieldID": "icDdaDisabilityIssues",
     "DisplayContext": "OPTIONAL",
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
@@ -3696,12 +3696,22 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icOtherIssuesOrFinalOrders",
+    "CaseFieldID": "icOrderForFurtherInformation",
     "DisplayContext": "OPTIONAL",
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 16
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icOtherIssuesOrFinalOrders",
+    "DisplayContext": "OPTIONAL",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 17
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5311,53 +5321,10 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3PrintAndSendPaperDocuments",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 1,
-    "PageLabel": "Send documents",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3SendDocByFirstClass",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 2,
-    "PageLabel": "Send documents",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3ClaimantAndRespondentAddresses",
-    "DisplayContext": "READONLY",
-    "FieldShowCondition": "et3PrintAndSendPaperDocuments=\"dummy\"",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Notification",
-    "CaseFieldID": "et3ClaimantAndRespondentAddressesLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 3,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 4,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailDocsToAcasTitle",
     "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 1,
     "PageLabel": "Email Acas",
     "PageColumnNumber": 1
@@ -5368,8 +5335,8 @@
     "CaseFieldID": "et3EmailLinkToAcas",
     "DisplayContext": "MANDATORY",
     "FieldShowCondition": "et3EmailDocsToAcasTitle=\"dummy\"",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 2,
     "PageColumnNumber": 1
   },
@@ -5378,8 +5345,8 @@
     "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailDocsToAcasLink",
     "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 3,
     "PageColumnNumber": 1
   },
@@ -5388,8 +5355,8 @@
     "CaseEventID": "et3Notification",
     "CaseFieldID": "et3EmailDocsToAcasInstructions",
     "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 4,
+    "PageID": 3,
+    "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
     "PageColumnNumber": 1
   },
@@ -7590,6 +7557,52 @@
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "flagLauncher=\"hidden\"",
     "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(CREATE,LinkedCases)",
+    "PageID": "createCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "caseLinks",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "LinkedCasesComponentLauncher = \"DO_NOT_SHOW\"",
+    "RetainHiddenValue": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "maintainCaseLink",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "PageFieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "DisplayContextParameter": "#ARGUMENT(UPDATE,LinkedCases)",
+    "PageID": "maintainCaseLink",
+    "PageDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
