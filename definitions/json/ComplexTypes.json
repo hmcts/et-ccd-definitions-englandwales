@@ -867,7 +867,7 @@
     "ID": "Respondent",
     "ListElementCode": "respondent_name",
     "FieldType": "Text",
-    "ElementLabel": "Organisation or business name",
+    "ElementLabel": "Name of respondent",
     "FieldShowCondition": "respondentType !=\"\"",
     "SecurityClassification": "Public"
   },
