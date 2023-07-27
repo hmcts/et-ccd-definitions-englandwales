@@ -1144,13 +1144,22 @@
     "FieldShowCondition": "LinkedCasesComponentLauncher!=\"\""
   },
   {
-  "CaseTypeID": "ET_EnglandWales",
-  "TabID": "caseLinksTab",
-  "TabLabel": "Linked cases",
-  "CaseFieldID": "LinkedCasesComponentLauncher",
-  "TabDisplayOrder": 19,
-  "TabFieldDisplayOrder": 2,
-  "DisplayContextParameter": "#ARGUMENT(LinkedCases)"
+    "CaseTypeID": "ET_EnglandWales",
+    "TabID": "caseLinksTab",
+    "TabLabel": "Linked cases",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#ARGUMENT(LinkedCases)"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "TabID": "caseLinksTab",
+    "TabLabel": "Linked cases",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "TabDisplayOrder": 19,
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "caseLinks=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
