@@ -2554,30 +2554,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3PrintAndSendPaperDocuments",
-    "Label": "<hr><h2>Print and send paper documents<h2>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3SendDocByFirstClass",
-    "Label": "Send documents by first class mail to:",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ClaimantAndRespondentAddresses",
-    "Label": "et3ClaimantAndRespondentAddresses",
+    "Label": "Deprecated",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3ClaimantAndRespondentAddressesLabel",
-    "Label": "${et3ClaimantAndRespondentAddresses}",
-    "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
@@ -4876,6 +4855,31 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "caseDeepLink",
     "Label": "hidden",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2022",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseLinks",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseLink",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "LinkedCasesComponentLauncher",
+    "Label": "Component Launcher (for displaying Linked Cases data)",
+    "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "privateHearingRequiredFlag",
+    "Label": "Private hearing",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
