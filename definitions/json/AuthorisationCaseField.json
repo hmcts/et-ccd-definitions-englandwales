@@ -24199,7 +24199,7 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "hmctsInternalCaseName",
+    "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
