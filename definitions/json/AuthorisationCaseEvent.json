@@ -2021,20 +2021,8 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "createCaseLink",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "maintainCaseLink",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "maintainCaseLink",
-    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }
 ]
