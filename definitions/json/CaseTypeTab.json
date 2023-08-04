@@ -212,6 +212,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "nextListedDate",
+    "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "TabLabel": "Claimant",
     "TabDisplayOrder": 2,
@@ -1102,6 +1109,39 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabDisplayOrder": 17,
+    "CaseFieldID": "applicationsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseFieldID": "genericTseApplicationCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
+    "TabDisplayOrder": 17,
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabFieldDisplayOrder": 3
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "Channel": "CaseWorker",
     "TabID": "ListingsOverview",
@@ -1510,6 +1550,41 @@
     "CaseFieldID": "linkedMultipleCTLabel",
     "TabFieldDisplayOrder": 8,
     "FieldShowCondition": "linkedMultipleCT=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "JONs",
+    "TabLabel": "Judgments, orders & notifications",
+    "TabDisplayOrder": 18,
+    "CaseFieldID": "jonsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "JONs",
+    "CaseFieldID": "jonsLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "notificationsTabLinks",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 18,
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "sendNotificationCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(number, sendNotificationSubjectString, sendNotificationNotify, date, sendNotificationResponseTribunalTable, sendNotificationResponsesCount)",
+    "TabDisplayOrder": 18,
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
