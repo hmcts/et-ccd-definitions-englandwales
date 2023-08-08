@@ -6033,6 +6033,91 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralNumber",
+    "FieldType": "Text",
+    "ElementLabel": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralHearingDate",
+    "FieldType": "Text",
+    "ElementLabel": "Hearing date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferCaseTo",
+    "FieldType": "Text",
+    "ElementLabel": "Referred to",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferentEmail",
+    "FieldType": "Text",
+    "ElementLabel": "Email address",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDetails",
+    "FieldType": "Text",
+    "ElementLabel": "Details of the referral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateIsUrgent",
+    "FieldType": "Text",
+    "ElementLabel": "Urgent",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralSubject",
+    "FieldType": "Text",
+    "ElementLabel": "Subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralSubjectSpecify",
+    "FieldType": "Text",
+    "ElementLabel": "Referral subject",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDocument",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "ElementLabel": "Documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralInstruction",
+    "FieldType": "Text",
+    "ElementLabel": "Recommended instructions",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferredBy",
+    "FieldType": "Text",
+    "ElementLabel": "Referred by",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "updateReferralDetails",
+    "ListElementCode": "updateReferralDate",
+    "FieldType": "Text",
+    "ElementLabel": "Referral date",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "referralDetails",
     "ListElementCode": "referralNumber",
     "FieldType": "Text",
@@ -6137,6 +6222,14 @@
     "FieldType": "Collection",
     "ElementLabel": "Reply",
     "FieldTypeParameter": "referralReply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "updateReferralCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Updates",
+    "FieldTypeParameter": "updateReferralDetails",
     "SecurityClassification": "Public"
   },
   {
@@ -6369,138 +6462,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "date",
-    "FieldType": "Text",
-    "ElementLabel": "Response date",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "from",
-    "FieldType": "Text",
-    "ElementLabel": "Response from",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "response",
-    "FieldType": "Text",
-    "ElementLabel": "What's your response to the claimant's application",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "hasSupportingMaterial",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "date=\"dummy\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "supportingMaterial",
-    "FieldType": "Collection",
-    "ElementLabel": "Supporting material",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "copyToOtherParty",
-    "FieldType": "Text",
-    "ElementLabel": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "copyNoGiveDetails",
-    "FieldType": "Text",
-    "ElementLabel": "Give details",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "summaryPdf",
-    "FieldType": "Document",
-    "ElementLabel": " ",
-    "FieldShowCondition": "from=\"dummy\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "enterResponseTitle",
-    "FieldType": "Text",
-    "ElementLabel": "Enter response title",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "additionalInformation",
-    "FieldType": "Text",
-    "ElementLabel": "Additional information",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "addDocument",
-    "FieldType": "Collection",
-    "ElementLabel": "Add document",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "isCmoOrRequest",
-    "FieldType": "Text",
-    "ElementLabel": "Is this a case management order or request?",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "cmoMadeBy",
-    "FieldType": "Text",
-    "ElementLabel": "Case management order made by",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "requestMadeBy",
-    "FieldType": "Text",
-    "ElementLabel": "Request made by",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "madeByFullName",
-    "FieldType": "Text",
-    "ElementLabel": "Enter their full name",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "isResponseRequired",
-    "FieldType": "Text",
-    "ElementLabel": "Is a response to the tribunal required?",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "selectPartyRespond",
-    "FieldType": "Text",
-    "ElementLabel": "Select the party or parties who must respond",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseRespondCollection",
-    "ListElementCode": "selectPartyNotify",
-    "FieldType": "Text",
-    "ElementLabel": "Select the party or parties to notify",
-    "SecurityClassification": "Public"
-  },
-  {
     "ID": "tseReply",
     "ListElementCode": "from",
     "FieldType": "Text",
@@ -6630,6 +6591,13 @@
     "ListElementCode": "selectPartyNotify",
     "FieldType": "Text",
     "ElementLabel": "Select the party or parties to notify",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
+    "ListElementCode": "viewedByClaimant",
+    "FieldType": "Text",
+    "ElementLabel": "Viewed by the claimant",
     "SecurityClassification": "Public"
   },
   {

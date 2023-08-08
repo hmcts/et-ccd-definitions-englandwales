@@ -212,6 +212,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "nextListedDate",
+    "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "TabLabel": "Claimant",
     "TabDisplayOrder": 2,
