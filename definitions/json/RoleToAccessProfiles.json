@@ -149,6 +149,13 @@
     {
         "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_EnglandWales",
+        "RoleName": "idam:caseworker-ras-validation",
+        "ReadOnly": "N",
+        "AccessProfiles": "caseworker-ras-validation"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales",
         "RoleName": "idam:caseworker-wa-task-configuration",
         "ReadOnly": "N",
         "AccessProfiles": "caseworker-wa-task-configuration"
@@ -183,6 +190,13 @@
     },
     {
         "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales_Listings",
+        "RoleName": "idam:caseworker-ras-validation",
+        "ReadOnly": "N",
+        "AccessProfiles": "caseworker-ras-validation"
+    },
+    {
+        "LiveFrom": "01/01/2017",
         "CaseTypeID": "ET_EnglandWales_Multiple",
         "RoleName": "idam:caseworker-employment-api",
         "ReadOnly": "N",
@@ -208,5 +222,12 @@
         "RoleName": "idam:caseworker-wa-task-configuration",
         "ReadOnly": "N",
         "AccessProfiles": "caseworker-wa-task-configuration"
+    },
+    {
+        "LiveFrom": "01/01/2017",
+        "CaseTypeID": "ET_EnglandWales_Multiple",
+        "RoleName": "idam:caseworker-ras-validation",
+        "ReadOnly": "N",
+        "AccessProfiles": "caseworker-ras-validation"
     }
 ]
