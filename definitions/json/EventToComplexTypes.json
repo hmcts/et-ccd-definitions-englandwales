@@ -6751,6 +6751,16 @@
   },
   {
     "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "genericTseApplicationCollection",
     "ListElementCode": "type",
@@ -6796,6 +6806,16 @@
     "ListElementCode": "respondCollection.dateTime",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
