@@ -11,7 +11,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingShowDetails",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -25,7 +25,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "Hearing_type",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -39,7 +39,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingFormat",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -53,7 +53,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "judicialMediation",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -67,7 +67,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingPublicPrivate",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -81,7 +81,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingNumber",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -95,7 +95,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "Hearing_venue",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -109,7 +109,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingEstLengthNum",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -123,7 +123,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingEstLengthNumType",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -137,7 +137,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingSitAlone",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -151,7 +151,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "judge",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -165,7 +165,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingERMember",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -179,7 +179,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingEEMember",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -193,7 +193,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "Hearing_stage",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -207,7 +207,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRUD"
+    "CRUD": "RD"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -221,7 +221,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.listedDate",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -235,7 +235,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.Hearing_status",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -249,7 +249,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.Postponed_by",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -263,7 +263,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.postponedDate",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -277,7 +277,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingVenueDay",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -291,7 +291,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingRoom",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -305,7 +305,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingClerk",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -319,7 +319,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingCaseDisposed",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -333,7 +333,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.Hearing_part_heard",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -347,7 +347,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.Hearing_reserved_judgement",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "R"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -361,7 +361,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.attendee_claimant",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -375,7 +375,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.attendee_non_attendees",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -389,7 +389,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.attendee_resp_no_rep",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -403,7 +403,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.attendee_resp_&_rep",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -417,7 +417,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.attendee_rep_only",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -431,7 +431,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingTimingStart",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -445,7 +445,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingTimingBreak",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -459,7 +459,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingTimingResume",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -473,7 +473,7 @@
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingDateCollection.hearingTimingFinish",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
+    "CRUD": "D"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
