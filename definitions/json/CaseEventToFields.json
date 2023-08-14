@@ -1686,7 +1686,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "uploadDocument",
     "CaseFieldID": "documentCollection",
-    "DisplayContext": "OPTIONAL",
+    "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
@@ -5496,7 +5496,7 @@
     "DisplayContext": "READONLY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder":1,
+    "PageFieldDisplayOrder": 1,
     "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
@@ -7732,6 +7732,31 @@
     "PageFieldDisplayOrder": 4,
     "FieldShowCondition": "flagLauncher=\"hidden\"",
     "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createAndStitch",
+    "CaseFieldID": "bundleConfiguration",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "CallBackURLMidEvent": "${ET_COS_URL}/bundle/selectBundle",
+    "PageLabel": "Choose case file",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createAndStitch",
+    "CaseFieldID": "caseBundles",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Configure case file",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
