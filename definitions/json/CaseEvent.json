@@ -730,7 +730,8 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/aboutToStartDisposal",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
