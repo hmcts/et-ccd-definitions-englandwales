@@ -107,7 +107,10 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Create Case Link",
-    "Publish": "Y"
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/create/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y" 
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -121,6 +124,9 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Maintain Case Links",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/maintain/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
   },
   {
