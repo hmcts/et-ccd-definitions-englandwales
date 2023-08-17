@@ -21140,12 +21140,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "createDigitalCaseFileLink",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
