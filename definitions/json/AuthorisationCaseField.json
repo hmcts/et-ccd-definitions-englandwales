@@ -21116,12 +21116,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "digitalCaseFile",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "digitalCaseFile",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
