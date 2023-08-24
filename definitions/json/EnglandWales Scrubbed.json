@@ -2803,14 +2803,14 @@
   },
   {
     "ID": "fl_Part_2",
-    "ListElementCode": "2.6A",
-    "ListElement": "2.6A - Multiple claims - Rule 16(3)",
+    "ListElementCode": "2.6 Reform",
+    "ListElement": "2.6 Reform - ET2 - no hearing date",
     "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_2",
-    "ListElementCode": "2.6 Reform",
-    "ListElement": "2.6 Reform - ET2 - no hearing date",
+    "ListElementCode": "2.6A",
+    "ListElement": "2.6A - Multiple claims - Rule 16(3)",
     "DisplayOrder": 8
   },
   {
