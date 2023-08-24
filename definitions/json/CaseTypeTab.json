@@ -282,6 +282,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantDocumentCollection",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "Et1Vetting",
     "TabLabel": "ET1 Vetting",
     "TabDisplayOrder": 3,
