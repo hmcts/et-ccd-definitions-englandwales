@@ -36,6 +36,12 @@
     "DisplayOrder": 6
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "currentPosition",
+    "Label": "Current Position",
+    "DisplayOrder": 7
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "documentName",
     "Label": "Document Name",
