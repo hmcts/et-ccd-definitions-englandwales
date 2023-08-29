@@ -1037,6 +1037,21 @@
     "CallBackURLSubmittedEvent": ""
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "SUBMIT_STORED_CLAIMANT_TSE",
+    "Name": "Submit a stored claimant application",
+    "Description": "Submit a stored application",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",

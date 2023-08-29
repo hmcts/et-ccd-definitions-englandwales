@@ -1631,6 +1631,12 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_STORED_CLAIMANT_TSE",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseEventID": "generateListing",
     "UserRole": "caseworker-employment-englandwales",
