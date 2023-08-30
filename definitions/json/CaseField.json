@@ -4096,7 +4096,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseResponseText",
-    "Label": "What's your response to the claimant's application?",
+    "Label": "What's your response to the application?",
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
