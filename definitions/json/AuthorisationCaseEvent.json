@@ -1953,5 +1953,23 @@
     "CaseEventID": "UPDATE_NOTIFICATION_STATE",
     "UserRole": "citizen",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "migrateCase",
+    "UserRole": "caseworker-employment-system-update",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "migrateCase",
+    "UserRole": "caseworker-employment-system-update",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Listings",
+    "CaseEventID": "migrateCase",
+    "UserRole": "caseworker-employment-system-update",
+    "CRUD": "CRU"
   }
 ]

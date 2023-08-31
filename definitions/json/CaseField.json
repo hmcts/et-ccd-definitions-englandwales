@@ -4982,6 +4982,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "ID": "claimant",
+    "Label": "Claimant",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "ID": "respondent",
+    "Label": "Respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "caseIdCollection",
     "Label": "Case Numbers",
@@ -5488,5 +5502,19 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "claimant",
+    "Label": "Claimant",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "respondent",
+    "Label": "Respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
