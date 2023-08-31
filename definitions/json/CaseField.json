@@ -4968,6 +4968,23 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "partySelection",
+    "Label": "Which parties do you have hearing unavailability dates for?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "frl_partyUnavailability",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantUnavailabilityCollection",
+    "Label": "Add a date range of unavailability",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "UnavailabilityDateRange", 
+    "SecurityClassification": "Public"
+  },
+
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

@@ -7719,6 +7719,28 @@
     "ShowSummaryChangeOption": "N"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "partySelection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Party Selection"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "partyUnavailability",
+    "CaseFieldID": "claimantUnavailabilityCollection",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Unavailability date ranges - Claimant"
+  },
+
+
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
     "CaseFieldID": "hearingDocType",

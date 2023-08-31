@@ -1119,6 +1119,22 @@
     "CallBackURLSubmittedEvent": ""
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "partyUnavailability",
+    "Name": "Hearings: Unavailability dates",
+    "Description": "party unavailability date ranges for hearing request",
+    "DisplayOrder": 1,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "createCase",
     "Name": "Create Case",
