@@ -24097,6 +24097,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
