@@ -260,8 +260,15 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantDocumentCollection",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
     "CaseFieldID": "claimantWorkAddress",
-    "TabFieldDisplayOrder": 4,
+    "TabFieldDisplayOrder": 5,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\""
   },
   {
@@ -269,7 +276,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "companyPremises",
-    "TabFieldDisplayOrder": 4,
+    "TabFieldDisplayOrder": 5,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\""
   },
   {
@@ -277,13 +284,6 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantHearingPreference",
-    "TabFieldDisplayOrder": 5
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 6
   },
   {
