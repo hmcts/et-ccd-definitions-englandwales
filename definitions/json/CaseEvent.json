@@ -1039,7 +1039,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "SUBMIT_STORED_CLAIMANT_TSE",
-    "Name": "Submit a stored claimant application",
+    "Name": "Submit stored application",
     "Description": "Submit a stored application",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
