@@ -4983,7 +4983,14 @@
     "FieldTypeParameter": "UnavailabilityDateRange", 
     "SecurityClassification": "Public"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respUnavailCollection",
+    "Label": "Add a date range of unavailability",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "UnavailabilityDateRange", 
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",

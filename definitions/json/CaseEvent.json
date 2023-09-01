@@ -1131,8 +1131,8 @@
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/hearingUnavailability/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/hearingUnavailability/submitted"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
