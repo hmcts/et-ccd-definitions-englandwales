@@ -21086,86 +21086,85 @@
 
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
-
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },

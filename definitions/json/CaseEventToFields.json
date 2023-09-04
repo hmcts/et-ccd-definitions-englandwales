@@ -7732,7 +7732,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "partyUnavailability",
-    "CaseFieldID": "claimantUnavailabilityCollection",
+    "CaseFieldID": "claimantUnavailability",
     "DisplayContext": "MANDATORY",
     "ShowSummaryChangeOption": "Y",
     "PageID": 2,
@@ -7744,7 +7744,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "partyUnavailability",
-    "CaseFieldID": "respUnavailCollection",
+    "CaseFieldID": "respondentUnavailability",
     "DisplayContext": "MANDATORY",
     "ShowSummaryChangeOption": "Y",
     "PageID": 3,

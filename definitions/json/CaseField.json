@@ -4977,16 +4977,16 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "claimantUnavailabilityCollection",
-    "Label": "Add a date range of unavailability",
+    "ID": "claimantUnavailability",
+    "Label": "Claimant unavailability date ranges",
     "FieldType": "Collection",
     "FieldTypeParameter": "UnavailabilityDateRange", 
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "respUnavailCollection",
-    "Label": "Add a date range of unavailability",
+    "ID": "respondentUnavailability",
+    "Label": "Respondent unavailability date ranges",
     "FieldType": "Collection",
     "FieldTypeParameter": "UnavailabilityDateRange", 
     "SecurityClassification": "Public"
