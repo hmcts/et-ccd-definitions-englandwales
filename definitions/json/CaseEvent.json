@@ -109,8 +109,7 @@
     "EndButtonLabel": "Create Case Link",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/create/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "",
-    "Publish": "Y" 
+    "CallBackURLSubmittedEvent": ""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -126,8 +125,7 @@
     "EndButtonLabel": "Maintain Case Links",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/maintain/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "",
-    "Publish": "Y"
+    "CallBackURLSubmittedEvent": ""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
