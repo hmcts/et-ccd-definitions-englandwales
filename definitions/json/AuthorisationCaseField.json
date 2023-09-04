@@ -24295,6 +24295,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
@@ -24358,5 +24364,29 @@
     "CaseFieldID": "claimantFlags",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseLinks",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseLinks",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "LinkedCasesComponentLauncher",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
   }
 ]
