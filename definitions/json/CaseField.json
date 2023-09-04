@@ -3597,6 +3597,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "systemUserYesOrNo",
+    "FieldType": "YesOrNo",
+    "Label": "Dummy Label This Field is used only check for showing resTseCopyThisCorrespondenceTextBold field or not",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseHorizontalLine",
     "Label": "<hr>",
     "FieldType": "Label",
@@ -3606,6 +3613,13 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseCopyThisCorrespondenceText",
     "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "resTseCopyThisCorrespondenceTextBold",
+    "Label": "<strong>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</strong>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
