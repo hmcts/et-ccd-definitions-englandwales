@@ -24388,5 +24388,11 @@
     "CaseFieldID": "LinkedCasesComponentLauncher",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
   }
 ]

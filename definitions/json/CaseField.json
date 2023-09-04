@@ -4822,6 +4822,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "componentLauncher",
+    "Label": "Component Launcher (for displaying Case View categories)",
+    "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",
