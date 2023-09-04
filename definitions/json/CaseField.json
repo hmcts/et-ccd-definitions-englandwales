@@ -4762,6 +4762,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseNameHmctsInternal",
+    "Label": "claimant vs respondent",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseFlags",
     "Label": "Case Flags",
     "FieldType": "Flags",
@@ -4786,6 +4793,24 @@
     "ID": "claimantFlags",
     "Label": "Claimant Flags",
     "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "LiveFrom": "03/11/2022",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseLinks",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseLink",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "LiveFrom": "10/02/2023",
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "LinkedCasesComponentLauncher",
+    "Label": "Component Launcher (for displaying Linked Cases data)",
+    "FieldType": "ComponentLauncher",
     "SecurityClassification": "Public"
   },
   {
