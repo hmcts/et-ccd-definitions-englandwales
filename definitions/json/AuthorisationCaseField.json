@@ -21079,13 +21079,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "partySelection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantUnavailability",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -21118,12 +21111,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantUnavailability",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantUnavailability",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {
@@ -21162,14 +21149,6 @@
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondentUnavailability",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CRU"
-  },
-
-
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "listingDate",
