@@ -531,7 +531,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -589,7 +590,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "ShowEventNotes": "N",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et1Serving/submitted",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -604,7 +606,8 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/generateDocumentConfirmation",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -923,7 +926,8 @@
     "EventEnablingCondition": "caseType =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/closeReferral/completeCloseReferral",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
