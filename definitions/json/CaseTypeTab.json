@@ -246,21 +246,21 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantType",
+    "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantOtherType",
+    "CaseFieldID": "claimantType",
     "TabFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantDocumentCollection",
+    "CaseFieldID": "claimantOtherType",
     "TabFieldDisplayOrder": 4
   },
   {
