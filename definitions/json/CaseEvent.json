@@ -394,7 +394,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -421,7 +422,8 @@
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N"
+    "ShowSummary": "N",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
