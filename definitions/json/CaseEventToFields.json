@@ -7753,7 +7753,6 @@
     "PageShowCondition": "partySelection CONTAINS \"respondent\"",
     "PageLabel": "Unavailability date ranges - Respondent"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseEventID": "createCase",
