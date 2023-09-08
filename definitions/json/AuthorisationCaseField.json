@@ -24497,7 +24497,7 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
-    "CaseFieldID": "SearchCriteria",
+    "CaseFieldID": "caseNameHmctsInternal",
     "UserRoles": [
       "caseworker-employment-api"
     ],
