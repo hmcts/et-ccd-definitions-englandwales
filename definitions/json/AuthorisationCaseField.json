@@ -1736,7 +1736,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimant",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -1796,7 +1796,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondent",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -4070,7 +4070,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -21740,7 +21740,7 @@
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -21764,13 +21764,13 @@
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "claimant",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "respondent",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -23030,7 +23030,7 @@
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "managingOffice",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -23066,13 +23066,13 @@
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "claimant",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "respondent",
-    "UserRole": "caseworker-employment-system-update",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "R"
   },
   {
@@ -24365,7 +24365,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "SearchCriteria",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24393,7 +24393,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24421,7 +24421,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "caseManagementLocation",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24449,7 +24449,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "caseManagementCategory",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24477,7 +24477,7 @@
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "SearchCriteria",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24505,7 +24505,7 @@
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "SearchCriteria",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24533,7 +24533,7 @@
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseManagementLocation",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24561,7 +24561,7 @@
     "CaseTypeID": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseManagementCategory",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24589,7 +24589,7 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseFieldID": "SearchCriteria",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24617,7 +24617,7 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseNameHmctsInternal",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24645,7 +24645,7 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseManagementLocation",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   },
@@ -24673,7 +24673,7 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseManagementCategory",
     "UserRoles": [
-      "caseworker-employment-system-update"
+      "caseworker-employment-api"
     ],
     "CRUD": "CRUD"
   }
