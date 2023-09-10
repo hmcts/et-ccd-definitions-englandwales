@@ -1121,7 +1121,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
@@ -1989,5 +1988,29 @@
     "CaseEventID": "maintainCaseLink",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "flagsRequestSupport",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "flagsManageSupport",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "flagsRequestSupport",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "flagsManageSupport",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
   }
 ]

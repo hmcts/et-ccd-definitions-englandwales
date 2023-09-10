@@ -3176,7 +3176,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "updateReferCaseTo",
@@ -4811,6 +4810,27 @@
     "ID": "LinkedCasesComponentLauncher",
     "Label": "Component Launcher (for displaying Linked Cases data)",
     "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "externalFlagLauncher",
+    "Label": "Launch the external Flags screen",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "externalRespondentFlags",
+    "Label": "External flags for Respondent",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "externalClaimantFlags",
+    "Label": "External flags for Claimant",
+    "FieldType": "Flags",
     "SecurityClassification": "Public"
   },
   {
