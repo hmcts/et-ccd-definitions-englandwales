@@ -2079,5 +2079,17 @@
     "CaseEventID": "manageFlags",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "createCaseLink",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "maintainCaseLink",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
   }
 ]
