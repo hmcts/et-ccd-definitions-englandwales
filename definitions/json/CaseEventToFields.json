@@ -14,7 +14,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "feeGroupReference",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
@@ -7409,6 +7409,17 @@
     "PageFieldDisplayOrder": 22,
     "FieldShowCondition": " respondNotificationCmoOrRequest=\"dummy\"",
     "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "retrieveAcasCertificate",
+    "CaseFieldID": "acasCertificate",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Retrieve ACAS Certificate"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
