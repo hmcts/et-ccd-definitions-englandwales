@@ -97,6 +97,38 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "createCaseLink",
+    "Name": "Link cases",
+    "Description": "To link related cases",
+    "DisplayOrder": 63,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "ShowSummary": "N",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Case Link",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/create/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "maintainCaseLink",
+    "Name": "Manage case links",
+    "Description": "To maintain linked cases",
+    "DisplayOrder": 64,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "ShowSummary": "N",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Maintain Case Links",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/maintain/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminCloseAnApplication",
     "Name": "Close an application",
     "Description": "Close an application",
@@ -261,7 +293,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Submit ET3 as draft",
+    "EndButtonLabel": "Save ET3 as draft",
     "ShowSummary": "Y"
   },
   {
@@ -277,7 +309,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Submit ET3 as draft",
+    "EndButtonLabel": "Save ET3 as draft",
     "ShowSummary": "Y"
   },
   {
@@ -293,7 +325,7 @@
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/sectionComplete",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Submit ET3 as draft",
+    "EndButtonLabel": "Save ET3 as draft",
     "ShowSummary": "Y"
   },
   {
