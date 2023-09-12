@@ -1633,12 +1633,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "retrieveAcasCertificate",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "retrieveAcasCertificate",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
