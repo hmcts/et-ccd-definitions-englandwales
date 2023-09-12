@@ -6778,15 +6778,5 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
-  },
-  {
-    "ID": "bundlesRespondentUploadFile",
-    "CaseFieldID": "bundlesRespondentUploadFile",
-    "CaseEventID": "bundlesRespondentPrepareDoc",
-    "ListElementCode": "uploadedDocument",
-    "EventElementLabel": "Document",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY",
-    "RetainHiddenValue": "No"
   }
 ]
