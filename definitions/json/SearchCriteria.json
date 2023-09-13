@@ -4,5 +4,17 @@
     "LiveTo": "",
     "CaseTypeID": "ET_EnglandWales",
     "OtherCaseReference": "ethosCaseReference"
+  },
+  {
+    "LiveFrom": "",
+    "LiveTo": "",
+    "CaseTypeID": "ET_EnglandWales_Listings",
+    "OtherCaseReference": "ethosCaseReference"
+  },
+  {
+    "LiveFrom": "",
+    "LiveTo": "",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "OtherCaseReference": "ethosCaseReference"
   }
 ]
