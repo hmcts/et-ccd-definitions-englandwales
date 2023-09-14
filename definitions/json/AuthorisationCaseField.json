@@ -24326,6 +24326,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseNameHmctsInternal",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
