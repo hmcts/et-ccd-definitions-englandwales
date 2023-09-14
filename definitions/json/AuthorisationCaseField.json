@@ -24410,6 +24410,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseLinks",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseLinks",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
