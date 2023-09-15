@@ -4993,6 +4993,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "unavailabilityTabTitle",
+    "Label": "# Unavailability Dates",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseManagementLocationCode",
     "Label": "hidden",
     "FieldType": "Text",
