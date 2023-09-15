@@ -1770,7 +1770,7 @@
     "ListElementCode": "claim_description_document",
     "FieldType": "Document",
     "ElementLabel": "Describe what happened to you",
-    "CategoryID": "C11",
+    "CategoryID": "C12",
     "SecurityClassification": "Public"
   },
   {
