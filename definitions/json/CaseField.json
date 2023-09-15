@@ -4999,6 +4999,13 @@
     "SecurityClassification": "PUBLIC"
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseManagementLocationCode",
+    "Label": "hidden",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "hearingDateType",
     "Label": "Single or Range",

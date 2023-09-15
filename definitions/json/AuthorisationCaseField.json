@@ -24802,5 +24802,11 @@
     "CaseFieldID": "hearingIsLinkedFlag",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementLocationCode",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
   }
 ]
