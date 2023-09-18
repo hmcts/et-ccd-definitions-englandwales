@@ -24316,5 +24316,11 @@
     "CaseFieldID": "respondNotificationDate",
     "UserRole": "citizen",
     "CRUD": "CRU"
-  }
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  }	
 ]
