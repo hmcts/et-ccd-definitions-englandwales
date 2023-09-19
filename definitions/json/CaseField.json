@@ -3184,7 +3184,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "updateReferCaseTo",
