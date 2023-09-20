@@ -24315,324 +24315,168 @@
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "SearchCriteria",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "SearchCriteria",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseNameHmctsInternal",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseNameHmctsInternal",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseManagementLocation",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseManagementLocation",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseManagementCategory",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseManagementCategory",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "SearchCriteria",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "SearchCriteria",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseNameHmctsInternal",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseNameHmctsInternal",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseManagementLocation",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseManagementLocation",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseManagementCategory",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "caseManagementCategory",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "SearchCriteria",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "SearchCriteria",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseNameHmctsInternal",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseNameHmctsInternal",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseManagementLocation",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseManagementLocation",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseManagementCategory",
-    "UserRoles": [
-      "GS_profile",
-      "caseworker-employment-legalrep-solicitor",
-      "caseworker-employment-etjudge",
-      "caseworker-employment-etjudge-englandwales",
-      "caseworker-employment-englandwales",
-      "caseworker-employment",
-      "citizen",
-      "et-acas-api",
-      "caseworker-et-pcqextractor",
-      "caseworker-caa"
-    ],
+    "UserRole": "GS_profile",
     "CRUD": "R"
   },
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseManagementCategory",
-    "UserRoles": [
-      "caseworker-employment-api"
-    ],
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }
 ]
