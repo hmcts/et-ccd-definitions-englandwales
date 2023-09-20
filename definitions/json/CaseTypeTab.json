@@ -1028,16 +1028,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
-    "TabID": "CaseHearings",
-    "TabLabel": "Hearings",
-    "TabDisplayOrder": 9,
-    "CaseFieldID": "hearingCollection",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue)"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
     "TabID": "CaseReferrals",
     "TabLabel": "Referrals",
     "TabDisplayOrder": 10,
@@ -1592,6 +1582,16 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "hearingCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue)",
+    "TabDisplayOrder": 19,
+    "TabID": "CaseHearingsLegacy",
+    "TabLabel": "ECM Hearings",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
