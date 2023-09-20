@@ -1595,6 +1595,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_APPLICATION_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
     "UserRole": "citizen",
     "CRUD": "CRU"
