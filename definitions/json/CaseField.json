@@ -4998,20 +4998,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "ID": "claimant",
-    "Label": "Claimant",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "ID": "respondent",
-    "Label": "Respondent",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "caseIdCollection",
     "Label": "Case Numbers",
@@ -5454,83 +5440,5 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "ID": "SearchCriteria",
-    "Label": " ",
-    "FieldType": "SearchCriteria",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "ID": "caseNameHmctsInternal",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "ID": "caseManagementLocation",
-    "Label": " ",
-    "FieldType": "CaseLocation",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "ID": "caseManagementCategory",
-    "Label": " ",
-    "FieldType": "DynamicList",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "SearchCriteria",
-    "Label": " ",
-    "FieldType": "SearchCriteria",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "caseNameHmctsInternal",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "caseManagementLocation",
-    "Label": " ",
-    "FieldType": "CaseLocation",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "caseManagementCategory",
-    "Label": " ",
-    "FieldType": "DynamicList",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "claimant",
-    "Label": "Claimant",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "respondent",
-    "Label": "Respondent",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
   }
 ]
