@@ -51,22 +51,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "UPDATE_APPLICATION_STATE",
-    "Name": "View an application",
-    "Description": "View an application",
-    "DisplayOrder": 59,
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "EventEnablingCondition": "caseType=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "",
-    "CallBackURLSubmittedEvent": ""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "pseRespondentRespondToTribunal",
     "Name": "Respond to an Order or Request",
     "Description": "Respond to an Order or Request",

@@ -5426,14 +5426,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "caseNameHmctsInternal",
-    "Label": " ",
-    "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseManagementLocation",
     "Label": " ",
     "FieldType": "CaseLocation",
