@@ -14,7 +14,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initiateCase",
     "CaseFieldID": "feeGroupReference",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
@@ -5494,6 +5494,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
     "PageLabel": "Refer to admin, legal officer or judge",
     "PageColumnNumber": 1
   },
@@ -7752,6 +7753,17 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "partySelection CONTAINS \"respondent\"",
     "PageLabel": "Unavailability date ranges - Respondent"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "retrieveAcasCertificate",
+    "CaseFieldID": "acasCertificate",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Retrieve ACAS Certificate"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",

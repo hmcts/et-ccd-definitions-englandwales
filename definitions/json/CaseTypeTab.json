@@ -246,22 +246,29 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantType",
+    "CaseFieldID": "claimantDocumentCollection",
     "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
-    "CaseFieldID": "claimantOtherType",
+    "CaseFieldID": "claimantType",
     "TabFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
+    "CaseFieldID": "claimantOtherType",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseClaimant",
     "CaseFieldID": "claimantWorkAddress",
-    "TabFieldDisplayOrder": 4,
+    "TabFieldDisplayOrder": 5,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Individual\""
   },
   {
@@ -269,7 +276,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "companyPremises",
-    "TabFieldDisplayOrder": 4,
+    "TabFieldDisplayOrder": 5,
     "FieldShowCondition": "claimant_TypeOfClaimant=\"Company\""
   },
   {
@@ -277,7 +284,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantHearingPreference",
-    "TabFieldDisplayOrder": 5
+    "TabFieldDisplayOrder": 6
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1017,6 +1024,16 @@
     "TabDisplayOrder": 8,
     "CaseFieldID": "jurCodesCollection",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseHearingsLegacy",
+    "TabLabel": "ECM Hearings",
+    "TabDisplayOrder": 9,
+    "CaseFieldID": "hearingCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

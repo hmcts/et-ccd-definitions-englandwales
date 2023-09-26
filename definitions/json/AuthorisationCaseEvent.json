@@ -1595,6 +1595,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_APPLICATION_STATE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
     "UserRole": "citizen",
     "CRUD": "CRU"
@@ -1628,6 +1634,30 @@
     "CaseEventID": "legalrepDocuments",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "retrieveAcasCertificate",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
@@ -2089,6 +2119,12 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "partyUnavailability",
     "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "migrateCase",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   }
 ]
