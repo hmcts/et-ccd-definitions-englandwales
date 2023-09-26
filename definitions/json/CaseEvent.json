@@ -110,7 +110,7 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseLinks/create/aboutToSubmit",
     "CallBackURLSubmittedEvent": "",
-    "Publish": "Y" 
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
