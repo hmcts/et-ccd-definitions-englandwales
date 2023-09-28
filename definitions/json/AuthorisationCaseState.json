@@ -402,7 +402,7 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Transferred",
     "UserRole": "GS_profile",
     "CRUD": "R"
