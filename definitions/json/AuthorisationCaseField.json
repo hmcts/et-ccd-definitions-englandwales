@@ -24318,6 +24318,62 @@
     "CRUD": "CRU"
   },
   {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "SearchCriteria",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseNameHmctsInternal",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementLocation",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "caseManagementCategory",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseFlags",
     "UserRole": "caseworker-employment-api",
