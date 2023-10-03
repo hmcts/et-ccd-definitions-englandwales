@@ -1988,5 +1988,11 @@
     "CaseEventID": "migrateCase",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "rollbackCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
   }
 ]
