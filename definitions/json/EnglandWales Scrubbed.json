@@ -877,16 +877,35 @@
   },
   {
     "ID": "fl_DocumentType",
-    "ListElementCode": "Other ",
-    "ListElement": "Other ",
-    "DisplayOrder": 17
-  },
-  {
-    "ID": "fl_DocumentType",
     "ListElementCode": "Tse admin correspondence",
     "ListElement": "Tse admin correspondence",
     "DisplayOrder": 18
   },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "PII Document",
+    "ListElement": "PII Document",
+    "DisplayOrder": 19
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "Appeal Document",
+    "ListElement": "Appeal Document",
+    "DisplayOrder": 20
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "Other ",
+    "ListElement": "Other ",
+    "DisplayOrder": 21
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "Other ",
+    "ListElement": "Other ",
+    "DisplayOrder": 17
+  },
+
   {
     "ID": "fl_ResponseStatus",
     "ListElementCode": "Accepted",
