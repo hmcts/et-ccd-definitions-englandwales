@@ -1066,7 +1066,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "appealDocuments",
-    "Name": "PII Documents",
+    "Name": "Appeal Documents",
     "Description": "Appeal Documents",
     "DisplayOrder": 59,
     "PreConditionState(s)": "*",
