@@ -6531,6 +6531,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "storedPending",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "enterResponseTitle",
     "FieldType": "Text",
     "ElementLabel": "Enter response title",
