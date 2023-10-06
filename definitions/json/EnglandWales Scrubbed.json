@@ -879,6 +879,12 @@
     "ID": "fl_DocumentType",
     "ListElementCode": "Tse admin correspondence",
     "ListElement": "Tse admin correspondence",
+    "DisplayOrder": 17
+  },
+  {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "ADR Document",
+    "ListElement": "ADR Document",
     "DisplayOrder": 18
   },
   {
@@ -899,13 +905,6 @@
     "ListElement": "Other ",
     "DisplayOrder": 21
   },
-  {
-    "ID": "fl_DocumentType",
-    "ListElementCode": "Other ",
-    "ListElement": "Other ",
-    "DisplayOrder": 17
-  },
-
   {
     "ID": "fl_ResponseStatus",
     "ListElementCode": "Accepted",
