@@ -6803,6 +6803,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "storedPending",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "respondNotificationTypeCollection",
     "ListElementCode": "respondNotificationCmoOrRequest",
     "FieldType": "Text",
