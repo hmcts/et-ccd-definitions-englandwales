@@ -24360,12 +24360,6 @@
     "CRUD": "CRU"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseNameHmctsInternal",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "SearchCriteria",
