@@ -72,6 +72,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_EnglandWales",
+    "RoleName": "[CREATOR]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[CREATOR]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
     "RoleName": "[SOLICITORA]",
     "ReadOnly": "N",
     "AccessProfiles": "[SOLICITORA]"
