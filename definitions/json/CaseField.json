@@ -4769,13 +4769,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "caseNameHmctsInternal",
-    "Label": "claimant vs respondent",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "acasCertificate",
     "Label": "Please enter an ACAS Certificate number",
     "HintText": "For example R123456/12/34, MU123456/12/34",
@@ -5421,6 +5414,14 @@
     "ID": "SearchCriteria",
     "Label": " ",
     "FieldType": "SearchCriteria",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseNameHmctsInternal",
+    "Label": " ",
+    "FieldType": "Text",
     "SecurityClassification": "Public",
     "Searchable": "Y"
   },
