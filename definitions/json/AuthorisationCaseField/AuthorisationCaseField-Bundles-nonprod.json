@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantBundles",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantBundles",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  }
+]
