@@ -6484,6 +6484,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": "Response status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
@@ -6527,13 +6534,6 @@
     "ElementLabel": " ",
     "FieldShowCondition": "from=\"dummy\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "tseReply",
-    "ListElementCode": "storedPending",
-    "FieldType": "Text",
-    "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
@@ -6762,6 +6762,13 @@
   },
   {
     "ID": "pseRespondCollection",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": "Response status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the tribunal?",
@@ -6800,13 +6807,6 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "copyToOtherParty=\"dummy\"",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "pseRespondCollection",
-    "ListElementCode": "storedPending",
-    "FieldType": "Text",
-    "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
   {
