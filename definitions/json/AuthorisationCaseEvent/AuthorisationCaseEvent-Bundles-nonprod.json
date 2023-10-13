@@ -1,0 +1,20 @@
+[
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  }
+]
