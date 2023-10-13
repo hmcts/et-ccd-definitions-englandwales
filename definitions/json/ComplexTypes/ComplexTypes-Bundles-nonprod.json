@@ -48,5 +48,54 @@
         "FieldType": "Text",
         "ElementLabel": "Whose hearing documents are you uploading?",
         "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "agreedDocWith",
+        "FieldType": "Text",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "agreedDocWithBut",
+        "FieldType": "Text",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "agreedDocWithNo",
+        "FieldType": "Text",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "hearing",
+        "FieldType": "Text",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "whatDocuments",
+        "FieldType": "Text",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "whoseDocuments",
+        "FieldType": "Text",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
+      },
+      {
+        "ID": "claimantBundles",
+        "ListElementCode": "uploadFile",
+        "FieldType": "Document",
+        "ElementLabel": " ",
+        "SecurityClassification": "Public"
       }
 ]

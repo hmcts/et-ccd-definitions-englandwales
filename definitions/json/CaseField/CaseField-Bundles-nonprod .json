@@ -89,5 +89,12 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantBundles",
+    "Label": " ",
+    "FieldType": "claimantBundles",
+    "SecurityClassification": "Public"
   }
 ]
