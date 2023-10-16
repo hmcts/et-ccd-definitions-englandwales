@@ -3573,6 +3573,30 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "adrDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "AdrDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "piiDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "PiiDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "appealDocumentCollection",
+    "Label": "Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "AppealDocumentUploadDetails",
+    "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "legalrepDocumentCollection",
     "Label": "Documents",
     "FieldType": "Collection",
