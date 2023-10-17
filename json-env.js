@@ -16,8 +16,8 @@ Object.entries(config[env]).forEach(([k, v]) => {
   process.env[k] = v.startsWith('$') ? process.env[v.slice(1)] : v;
 });
 
+const files = process.argv[3];
 process.env.ET_ENV = env;
-let excludeJson = env === 'prod' ? 'nonprod.json' : 'prod.json';
-args = [  'run',  `generate-excel`,  '-e',  `*-${excludeJson}`];
-execFileSync("yarn", args,{ encoding: 'utf-8', stdio: 'inherit' })
-
+let excludeJson = files === 'prod' ? 'nonprod.json' : 'prod.json';
+const args = [  'run',  `generate-excel`,  '-e',  `*-${excludeJson}`];
+execFileSync("yarn", args, { encoding: 'utf-8', stdio: 'inherit' })
