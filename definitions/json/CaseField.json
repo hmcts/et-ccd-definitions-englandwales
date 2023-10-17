@@ -1350,6 +1350,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICCanProceed",
+    "Label": "Can the claim proceed due to an arguable claim and/or response?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingAlreadyListed",
+    "Label": "Is the hearing already listed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationDocument",
     "Label": "Initial Consideration Document",
     "FieldType": "Document",

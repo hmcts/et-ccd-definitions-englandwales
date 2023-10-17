@@ -950,6 +950,21 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICCanProceed",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingAlreadyListed",
+    "TabFieldDisplayOrder": 5,
+    "FieldShowCondition": "etICCanProceed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseJurisdictions",
     "TabLabel": "Jurisdictions",
     "TabDisplayOrder": 8,
