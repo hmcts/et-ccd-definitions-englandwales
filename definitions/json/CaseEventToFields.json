@@ -3527,12 +3527,14 @@
     "PageID": 1,
     "PageLabel": "Before you start",
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "initialConsiderationBeforeYouStart",
+    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
