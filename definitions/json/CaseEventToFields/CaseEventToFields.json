@@ -3658,7 +3658,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedRespondentLabel",
     "DisplayContext": "READONLY",
     "PageLabel": "Rule 26",
