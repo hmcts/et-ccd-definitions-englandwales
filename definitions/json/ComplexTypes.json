@@ -6484,6 +6484,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": "Response status",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
@@ -6752,6 +6759,13 @@
     "ElementLabel": "Response from",
     "SecurityClassification": "Public",
     "DisplayOrder": 1
+  },
+  {
+    "ID": "pseRespondCollection",
+    "ListElementCode": "status",
+    "FieldType": "Text",
+    "ElementLabel": "Response status",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "pseRespondCollection",
