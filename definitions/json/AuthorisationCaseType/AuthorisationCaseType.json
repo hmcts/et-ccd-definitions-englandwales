@@ -133,5 +133,10 @@
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "UserRole": "GS_profile",
+    "CRUD": "R"
   }
 ]
