@@ -6339,6 +6339,12 @@
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
   },
+
+
+
+
+
+
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
@@ -6348,6 +6354,53 @@
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
   },
+
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingLabel",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingDays",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingHours",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingMinutes",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "MANDATORY"
+  },
+
+
+
+
+
+
+
+
+
+  
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",

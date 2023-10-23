@@ -6032,6 +6032,10 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
+
+
+
+
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICLengthOfPrelimHearing",
@@ -6041,6 +6045,52 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
+
+
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingLabel",
+    "FieldType": "Label",
+    "ElementLabel": "### Length of hearing",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingDays",
+    "FieldType": "Number",
+    "ElementLabel": "Days",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "HintText": "For example, 2",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingHours",
+    "FieldType": "Number",
+    "ElementLabel": "Hours",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "HintText": "For example, 4",
+    "SecurityClassification": "Public",
+    "RegularExpression": "^([0-9]|[1-9][0-9]|[1-9][0-9][0-9])$"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearing",
+    "ListElementCode": "lengthOfPrelimHearingMinutes",
+    "FieldType": "Number",
+    "ElementLabel": "Minutes",
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
+    "RetainHiddenValue": "No",
+    "HintText": "For example, 0",
+    "SecurityClassification": "Public",
+    "RegularExpression": "[0-9]|[0-5][0-9]"
+  },
+
+
+
   {
     "ID": "etICHearingNotListedListForFinalHearing",
     "ListElementCode": "etICTypeOfFinalHearing",

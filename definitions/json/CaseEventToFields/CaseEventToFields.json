@@ -3746,11 +3746,21 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "Y"
   },
 

@@ -1006,8 +1006,16 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
     "TabFieldDisplayOrder": 11,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "TabFieldDisplayOrder": 12,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
 
