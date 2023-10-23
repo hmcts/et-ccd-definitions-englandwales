@@ -34,5 +34,11 @@
     "CaseEventID": "maintainCaseLink",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "UPDATE_HUBLINK_STATUS",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
