@@ -37,7 +37,19 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "UPDATE_HUBLINK_STATUS",
+    "CaseEventID": "migrateCaseFlags",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "rollbackCaseFlags",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+     "CaseEventID": "UPDATE_HUBLINK_STATUS",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   }
