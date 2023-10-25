@@ -6442,6 +6442,26 @@
     "Publish": "Y"
   },
   {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.replyDateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralReplyCollection.referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
     "ID": "ChangeOrganisationRequest",
     "CaseEventID": "nocRequest",
     "CaseFieldID": "changeOrganisationRequestField",
@@ -6651,51 +6671,11 @@
   },
   {
     "ID": "genericTseDetails",
-    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseEventID": "SUBMIT_CLAIMANT_TSE",
     "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "type",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "genericTseDetails",
-    "CaseEventID": "CLAIMANT_TSE_RESPOND",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "applicant",
+    "ListElementCode": "number",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "genericTseDetails",
-    "CaseEventID": "CLAIMANT_TSE_RESPOND",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "responsesCount",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "genericTseDetails",
-    "CaseEventID": "CLAIMANT_TSE_RESPOND",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "respondCollection",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "genericTseDetails",
-    "CaseEventID": "CLAIMANT_TSE_RESPOND",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "respondCollection.from",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 4,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
@@ -6711,6 +6691,76 @@
   },
   {
     "ID": "genericTseDetails",
+    "CaseEventID": "respondentTSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.from",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.dateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "genericTseApplicationCollection",
     "ListElementCode": "type",
@@ -6723,7 +6773,7 @@
     "ID": "genericTseDetails",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "applicant",
+    "ListElementCode": "number",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
@@ -6733,19 +6783,9 @@
     "ID": "genericTseDetails",
     "CaseEventID": "tseRespond",
     "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "responsesCount",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "genericTseDetails",
-    "CaseEventID": "tseRespond",
-    "CaseFieldID": "genericTseApplicationCollection",
     "ListElementCode": "respondCollection",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
@@ -6756,6 +6796,26 @@
     "ListElementCode": "respondCollection.from",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 4,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.dateTime",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "tseRespond",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "respondCollection.applicationType",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 6,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
