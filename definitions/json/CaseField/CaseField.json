@@ -1364,6 +1364,53 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingListedOptions",
+    "Label": "Hearing already listed",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICHearingAlreadyListed",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "extendDuration",
+    "Label": "Extend duration of hearing",
+    "HintText": "Give details",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingListedOther",
+    "Label": "Other",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
+
+
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherDirectionsLabel",
+    "Label": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherDirections",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
+
+
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedRespondentLabel",
     "Label": "${etInitialConsiderationRespondent}",
     "FieldType": "Label",

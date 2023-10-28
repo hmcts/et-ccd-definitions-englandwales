@@ -3721,6 +3721,9 @@
     "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for preliminary hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
+
+
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3765,8 +3768,60 @@
   },
 
 
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedOptions",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "extendDuration",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "FieldShowCondition": "hearingListedOptions CONTAINS \"Extend duration of hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedOther",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "hearingListedOptions CONTAINS \"Other\"",
+    "ShowSummaryChangeOption": "Y"
+  },
 
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "otherDirectionsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "otherDirections",
+    "DisplayContext": "MANDATORY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
 
 
 
