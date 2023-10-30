@@ -1161,10 +1161,37 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "DisplayContextParameter": "#TABLE(number, type, applicant, date, dueDate, responsesCount, status)",
-    "TabDisplayOrder": 17,
+    "TabDisplayOrder": 18,
     "TabID": "Applications",
     "TabLabel": "Applications",
     "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseFieldID": "adrDocumentCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 19,
+    "TabID": "ADR",
+    "TabLabel": "ADR",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "piiDocumentCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 20,
+    "TabID": "PII",
+    "TabLabel": "PII",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "appealDocumentCollection",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 21,
+    "TabID": "Appeals",
+    "TabLabel": "Appeals",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
