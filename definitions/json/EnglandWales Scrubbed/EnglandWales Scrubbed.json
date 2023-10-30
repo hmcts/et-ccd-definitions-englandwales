@@ -882,6 +882,12 @@
     "DisplayOrder": 17
   },
   {
+    "ID": "fl_DocumentType",
+    "ListElementCode": "Tse admin correspondence",
+    "ListElement": "Tse admin correspondence",
+    "DisplayOrder": 18
+  },
+  {
     "ID": "fl_ResponseStatus",
     "ListElementCode": "Accepted",
     "ListElement": "Accepted",
