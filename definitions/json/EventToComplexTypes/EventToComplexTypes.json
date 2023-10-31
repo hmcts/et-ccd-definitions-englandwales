@@ -6368,6 +6368,16 @@
     "ID": "ReferralDetails",
     "CaseEventID": "createReferral",
     "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "ReferralDetails",
+    "CaseEventID": "createReferral",
+    "CaseFieldID": "referralCollection",
     "ListElementCode": "isUrgent",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 3,
@@ -6401,16 +6411,6 @@
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "ReferralReplyDetails",
-    "CaseEventID": "replyToReferral",
-    "CaseFieldID": "referralCollection",
-    "ListElementCode": "referralSubject",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
   },
   {
     "ID": "ReferralReplyDetails",
