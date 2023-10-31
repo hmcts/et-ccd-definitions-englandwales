@@ -525,6 +525,16 @@
   {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Rule26",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 14,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "CreateCase",
+    "CaseEventID": "initiateCase",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "name_of_representative",
     "EventElementLabel": "Name of representative",
@@ -1239,7 +1249,8 @@
     "ListElementCode": "respondent_ACAS_no",
     "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
     "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
   },
   {
     "ID": "CreateDraftCase",
@@ -6357,16 +6368,6 @@
     "ID": "ReferralDetails",
     "CaseEventID": "createReferral",
     "CaseFieldID": "referralCollection",
-    "ListElementCode": "referralSubject",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
-  },
-  {
-    "ID": "ReferralDetails",
-    "CaseEventID": "createReferral",
-    "CaseFieldID": "referralCollection",
     "ListElementCode": "isUrgent",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 3,
@@ -6400,6 +6401,16 @@
     "EventElementLabel": "Short description of document",
     "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "ReferralReplyDetails",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "referralCollection",
+    "ListElementCode": "referralSubject",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   },
   {
     "ID": "ReferralReplyDetails",
