@@ -1483,7 +1483,6 @@
   },
 
 
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationDocument",
@@ -1491,6 +1490,182 @@
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingListedRespondentLabel",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingListedHearingLabel",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingListedJurisdictionCodesLabel",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICFurtherInfoRespondentLabel",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICFurtherInfoHearingLabel",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICFurtherInfoJurisdictionCodesLabel",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "furtherInformation",
+    "Label": "Further information",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_furtherInformation",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "furtherInformationLabel",
+    "Label": "<h3>Further information required</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "furtherInformationDetails",
+    "Label": "Give details to include in the letter",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "furtherInformationComplyTime",
+    "Label": "How much time to comply? (days)",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule27ClaimToBeLabel",
+    "Label": "<h3>Issue Rule 27 Notice and order</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule27ClaimToBe",
+    "Label": "Claim to be",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_rule2728ClaimToBe",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule27DimissedPart",
+    "Label": "Which part?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule27Direction",
+    "Label": "Employment Judge's direction to Rule 27 Notice",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_rule27direction",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule27NoSuccessReason",
+    "Label": "Set out reason",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },  
+   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule27WrittenRepresentationsDays",
+    "Label": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule28ClaimToBeLabel",
+    "Label": "<h3>Issue Rule 28 Notice and order</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule28ClaimToBe",
+    "Label": "Claim to be",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "fl_rule2728ClaimToBe",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule28DimissedPart",
+    "Label": "Which part?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule28reasons",
+    "Label": "Employment Judge’s reasons",
+    "HintText": "No reasonable prospect of success because",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "Rule28WrittenRepresentationsDays",
+    "Label": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherDirectionsFurtherInfoLabel",
+    "Label": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "otherDirectionsFurtherInfo",
+    "Label": " ",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralLine1",
