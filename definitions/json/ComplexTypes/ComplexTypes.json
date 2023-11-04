@@ -5965,8 +5965,6 @@
     "SecurityClassification": "Public"
   },
 
-
-
   {
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICTypeOfVideoHearing",
@@ -5993,7 +5991,7 @@
     "FieldShowCondition": "etICTypeOfVideoHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
-  },  
+  },
   {
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICPrelimHearingYesNo",
@@ -6032,21 +6030,6 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
-
-
-
-
-  {
-    "ID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "etICLengthOfPrelimHearing",
-    "FieldType": "Text",
-    "ElementLabel": "Length of hearing",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
-
-
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "lengthOfPrelimHearingLabel",
@@ -6058,39 +6041,26 @@
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingDays",
+    "ListElementCode": "etICLengthOfPrelimHearing",
     "FieldType": "Number",
-    "ElementLabel": "Days",
+    "ElementLabel": " ",
     "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
-    "HintText": "For example, 2",
     "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingHours",
-    "FieldType": "Number",
-    "ElementLabel": "Hours",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
-    "RetainHiddenValue": "No",
-    "HintText": "For example, 4",
+    "ListElementCode": "hearingLengthNumType",
+    "FieldType": "FixedList",
+    "ElementLabel": "Days, Hours or Minutes",
+    "FieldTypeParameter": "fl_HearingLength",
     "SecurityClassification": "Public",
-    "RegularExpression": "^([0-9]|[1-9][0-9]|[1-9][0-9][0-9])$"
-  },
-  {
-    "ID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingMinutes",
-    "FieldType": "Number",
-    "ElementLabel": "Minutes",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
     "RetainHiddenValue": "No",
-    "HintText": "For example, 0",
-    "SecurityClassification": "Public",
-    "RegularExpression": "[0-9]|[0-5][0-9]"
+    "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\""
   },
 
 
-
+ 
   {
     "ID": "etICHearingNotListedListForFinalHearing",
     "ListElementCode": "etICTypeOfFinalHearing",
@@ -6101,14 +6071,37 @@
     "HintText": "Select all that apply",
     "SecurityClassification": "Public"
   },
-  {
-    "ID": "etICHearingNotListedListForFinalHearing",
-    "ListElementCode": "etICLengthOfFinalHearing",
-    "FieldType": "Text",
-    "ElementLabel": "Length of hearing",
-    "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
-  },
+
+{
+  "ID": "etICHearingNotListedListForFinalHearing",
+  "ListElementCode": "etICLengthOfFinalHearingLabel",
+  "FieldType": "Label",
+  "ElementLabel": "### Length of hearing",
+  "RetainHiddenValue": "No",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "etICHearingNotListedListForFinalHearing",
+  "ListElementCode": "etICLengthOfFinalHearing",
+  "FieldType": "Number",
+  "ElementLabel": " ",
+  "RetainHiddenValue": "No",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "etICHearingNotListedListForFinalHearing",
+  "ListElementCode": "finalHearingLengthNumType",
+  "FieldType": "FixedList",
+  "ElementLabel": "Days, Hours or Minutes",
+  "FieldTypeParameter": "fl_HearingLength",
+  "SecurityClassification": "Public",
+  "RetainHiddenValue": "No"
+},
+
+
+
+
+
   {
     "ID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICEJSitAlone",
@@ -6227,20 +6220,6 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   {
     "ID": "Et3NotificationDocUpload",

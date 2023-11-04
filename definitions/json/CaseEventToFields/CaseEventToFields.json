@@ -3811,6 +3811,7 @@
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
+    "RetainHiddenValue": "No",
     "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
   {
@@ -3821,6 +3822,7 @@
     "PageID": 4,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 5,
+    "RetainHiddenValue": "No",
     "FieldShowCondition": "hearingListedOptions CONTAINS \"Extend duration of hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3832,6 +3834,7 @@
     "PageID": 4,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 6,
+    "RetainHiddenValue": "No",
     "FieldShowCondition": "hearingListedOptions CONTAINS \"Other\"",
     "ShowSummaryChangeOption": "Y"
   },
@@ -3850,6 +3853,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "otherDirections",
     "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No",
     "PageID": 4,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 8,
@@ -3901,6 +3905,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 4,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3912,6 +3917,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 5,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3923,6 +3929,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 6,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3934,6 +3941,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 7,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3945,6 +3953,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 8,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3956,6 +3965,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 9,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3967,6 +3977,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 10,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3978,6 +3989,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder":11,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -3989,6 +4001,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 12,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4000,6 +4013,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 13,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4011,6 +4025,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 14,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4022,6 +4037,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 15,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4033,6 +4049,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 16,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4044,6 +4061,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 17,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4055,6 +4073,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 18,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
 
@@ -4066,6 +4085,7 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 19,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
   {
@@ -4076,9 +4096,9 @@
     "PageID": 5,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 20,
+    "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
-
 
   
   {
