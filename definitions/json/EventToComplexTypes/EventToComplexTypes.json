@@ -6349,7 +6349,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "etICLengthOfPrelimHearing",
+    "ListElementCode": "etICLengthOfPrelimHearingNum",
     "EventElementLabel": "Length of hearing",
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
@@ -6359,38 +6359,12 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingLabel",
-    "EventElementLabel": "Length of hearing",
+    "ListElementCode": "hearingLengthNumType",
+    "EventElementLabel": "Days, Hours or Minutes",
     "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
   },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingDays",
-    "EventElementLabel": "Length of hearing",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingHours",
-    "EventElementLabel": "Length of hearing",
-    "FieldDisplayOrder": 7,
-    "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "InitialConsideration",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "lengthOfPrelimHearingMinutes",
-    "EventElementLabel": "Length of hearing",
-    "FieldDisplayOrder": 8,
-    "DisplayContext": "MANDATORY"
-  },
+  
 
 
 
@@ -6414,10 +6388,21 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
-    "ListElementCode": "etICLengthOfFinalHearing",
+    "ListElementCode": "etICLengthOfFinalHearingNum",
     "EventElementLabel": "Length of hearing",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "ListElementCode": "finalHearingLengthNumType",
+    "EventElementLabel": "Days, Hours or Minutes",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
   },
   {
     "ID": "InitialConsideration",

@@ -3751,7 +3751,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 9,
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
