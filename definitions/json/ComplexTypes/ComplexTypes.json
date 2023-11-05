@@ -6263,13 +6263,7 @@
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
-  {
-    "ID": "furtherInfoComplex",
-    "ListElementCode": "furtherInformationLabel",
-    "ElementLabel": "<h3>Further information required</h3>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
+
   {
     "ID": "furtherInfoComplex",
     "ListElementCode": "furtherInformationDetails",
@@ -6286,6 +6280,84 @@
     "FieldType": "Number",
     "SecurityClassification": "Public"
   },
+
+
+  {
+    "ID": "issueRule27Complex",
+    "ListElementCode": "rule27ClaimToBe",
+    "ElementLabel": "Claim to be",
+    "FieldType": "FixedRadioList",
+    "RetainHiddenValue": "No",
+    "FieldTypeParameter": "fl_rule2728ClaimToBe",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "issueRule27Complex",
+    "ListElementCode": "Rule27DimissedPart",
+    "ElementLabel": "Which part?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "rule27ClaimToBe=\"Dismissed in part\""
+  },
+  {
+    "ID": "issueRule27Complex",
+    "ListElementCode": "Rule27Direction",
+    "ElementLabel": "Employment Judge's direction to Rule 27 Notice",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_rule27direction",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "issueRule27Complex",
+    "ListElementCode": "Rule27NoSuccessReason",
+    "ElementLabel": "Set out reason",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "Rule27Direction CONTAINS \"No reasonable prospect of success\""
+  },
+  {
+    "ID": "issueRule27Complex",
+    "ListElementCode": "Rule27WrittenRepresentationsDays",
+    "ElementLabel": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+
+
+
+  {
+    "ID": "issueRule28Complex",
+    "ListElementCode": "rule28ClaimToBe",
+    "ElementLabel": "Claim to be",
+    "FieldTypeParameter": "fl_rule2728ClaimToBe",
+    "FieldType": "FixedRadioList",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "issueRule28Complex",
+    "ListElementCode": "Rule28DimissedPart",
+    "ElementLabel": "Which part?",
+    "FieldType": "Text",
+    "FieldShowCondition": "rule28ClaimToBe=\"Dismissed in part\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "issueRule28Complex",
+    "ListElementCode": "Rule28reasons",
+    "ElementLabel": "Employment Judge’s reasons",
+    "HintText": "No reasonable prospect of success because",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "issueRule28Complex",
+    "ListElementCode": "Rule28WrittenRepresentationsDays",
+    "ElementLabel": "Number of days for claimant to provide written representations",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
+
   {
     "ID": "Et3NotificationDocUpload",
     "ListElementCode": "typeOfDocument",

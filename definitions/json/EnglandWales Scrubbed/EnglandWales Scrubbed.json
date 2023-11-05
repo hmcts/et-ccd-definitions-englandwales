@@ -6586,5 +6586,29 @@
     "ListElementCode": "Issue Rule 28 Notice and order",
     "ListElement": "Issue Rule 28 Notice and order",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_rule2728ClaimToBe",
+    "ListElementCode": "Dismissed in full",
+    "ListElement": "Dismissed in full",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_rule2728ClaimToBe",
+    "ListElementCode": "Dismissed in part",
+    "ListElement": "Dismissed in part",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_rule27direction",
+    "ListElementCode": "No jurisdiction",
+    "ListElement": "No jurisdiction",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_rule27direction",
+    "ListElementCode": "No reasonable prospect of success",
+    "ListElement": "No reasonable prospect of success",
+    "DisplayOrder": 2
   }
 ]
