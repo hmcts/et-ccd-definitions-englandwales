@@ -6002,6 +6002,141 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "hearingListedComplex",
+    "ListElementCode": "hearingAlreadyListedOptions",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Hearing already listed",
+    "FieldTypeParameter": "msl_etICHearingAlreadyListed",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+{
+  "ID": "hearingListedComplex",
+  "ListElementCode": "extendDuration",
+  "FieldType": "Text",
+  "ElementLabel": "Extend duration of hearing",
+  "HintText": "Give details",
+  "RetainHiddenValue": "No",
+  "FieldShowCondition": "hearingAlreadyListedOptions CONTAINS \"Extend duration of hearing\"",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "hearingListedComplex",
+  "ListElementCode": "hearingListedOther",
+  "FieldType": "TextArea",
+  "ElementLabel": "Other",
+  "HintText": "Give details",
+  "FieldShowCondition": "hearingAlreadyListedOptions CONTAINS \"Other\"",
+  "RetainHiddenValue": "No",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "hearingListedComplex",
+  "ListElementCode": "otherDirectionsLabel",
+  "ElementLabel": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+  "FieldType": "Label",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "hearingListedComplex",
+  "ListElementCode": "otherDirections",
+  "FieldType": "TextArea",
+  "ElementLabel": " ",
+  "SecurityClassification": "Public"
+},
+
+{
+  "ID": "furtherInfoComplex",
+  "ListElementCode": "furtherInformationLabel",
+  "ElementLabel": "<h3>Further information required</h3>",
+  "FieldType": "Label",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "furtherInfoComplex",
+  "ListElementCode": "furtherInformationDetails",
+  "ElementLabel": "Give details to include in the letter",
+  "HintText": "Give details",
+  "FieldType": "TextArea",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "furtherInfoComplex",
+  "ListElementCode": "furtherInformationComplyTime",
+  "ElementLabel": "How much time to comply? (days)",
+  "HintText": "Give details",
+  "FieldType": "Number",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule27Complex",
+  "ListElementCode": "Rule27ClaimToBeLabel",
+  "ElementLabel": "<h3>Issue Rule 27 Notice and order</h3>",
+  "FieldType": "Label",
+  "SecurityClassification": "Public"
+},
+
+{
+  "ID": "issueRule27Complex",
+  "ListElementCode": "Rule27DimissedPart",
+  "ElementLabel": "Which part?",
+  "FieldType": "Text",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule27Complex",
+  "ListElementCode": "Rule27Direction",
+  "ElementLabel": "Employment Judge's direction to Rule 27 Notice",
+  "FieldType": "MultiSelectList",
+  "FieldTypeParameter": "msl_rule27direction",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule27Complex",
+  "ListElementCode": "Rule27NoSuccessReason",
+  "ElementLabel": "Set out reason",
+  "FieldType": "TextArea",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule27Complex",
+  "ListElementCode": "Rule27WrittenRepresentationsDays",
+  "ElementLabel": "Number of days for claimant to provide written representations",
+  "FieldType": "Number",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule28Complex",
+  "ListElementCode": "Rule28ClaimToBeLabel",
+  "ElementLabel": "<h3>Issue Rule 28 Notice and order</h3>",
+  "FieldType": "Label",
+  "SecurityClassification": "Public"
+},
+
+{
+  "ID": "issueRule28Complex",
+  "ListElementCode": "Rule27DimissedPart",
+  "ElementLabel": "Which part?",
+  "FieldType": "Text",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule28Complex",
+  "ListElementCode": "Rule28reasons",
+  "ElementLabel": "Employment Judge’s reasons",
+  "HintText": "No reasonable prospect of success because",
+  "FieldType": "TextArea",
+  "SecurityClassification": "Public"
+},
+{
+  "ID": "issueRule28Complex",
+  "ListElementCode": "Rule28WrittenRepresentationsDays",
+  "ElementLabel": "Number of days for claimant to provide written representations",
+  "FieldType": "Number",
+  "SecurityClassification": "Public"
+},
+
+  {
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICTypeOfPreliminaryHearing",
     "FieldType": "MultiSelectList",

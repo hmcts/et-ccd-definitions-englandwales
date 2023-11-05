@@ -3805,60 +3805,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedOptions",
-    "DisplayContext": "MANDATORY",
+    "CaseFieldID": "hearingListedComplex",
+    "DisplayContext": "COMPLEX",
     "PageID": 4,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 4,
     "ShowSummaryChangeOption": "Y",
-    "RetainHiddenValue": "No",
     "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "extendDuration",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 5,
-    "RetainHiddenValue": "No",
-    "FieldShowCondition": "hearingListedOptions CONTAINS \"Extend duration of hearing\"",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedOther",
-    "DisplayContext": "MANDATORY",
-    "PageID": 4,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 6,
-    "RetainHiddenValue": "No",
-    "FieldShowCondition": "hearingListedOptions CONTAINS \"Other\"",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "otherDirectionsLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 4,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 7,
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "otherDirections",
-    "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No",
-    "PageID": 4,
-    "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 8,
-    "ShowSummaryChangeOption": "Y"
-  },
+
+
+  
 
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3908,47 +3865,14 @@
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
+
+
+
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "furtherInformationLabel",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Further information required\"",
-    "DisplayContext": "READONLY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 5,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "furtherInformationDetails",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Further information required\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 6,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "furtherInformationComplyTime",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Further information required\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 7,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule27ClaimToBeLabel",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
+    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
     "DisplayContext": "READONLY",
     "PageID": 5,
     "PageDisplayOrder": 4,
@@ -3959,143 +3883,11 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule27ClaimToBe",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 9,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule27DimissedPart",
-    "FieldShowCondition": "Rule27ClaimToBe=\"Dismissed in part\" AND furtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 10,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule27Direction",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder":11,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule27NoSuccessReason",
-    "FieldShowCondition": "Rule27Direction CONTAINS \"No reasonable prospect of success\"  AND furtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 12,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule27WrittenRepresentationsDays",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 13,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule28ClaimToBeLabel",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 28 Notice and order\"",
-    "DisplayContext": "READONLY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 14,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule28ClaimToBe",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 28 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 15,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule28DimissedPart",
-    "FieldShowCondition": "Rule28ClaimToBe=\"Dismissed in part\" AND furtherInformation CONTAINS \"Issue Rule 28 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 16,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule28reasons",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 28 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 17,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "Rule28WrittenRepresentationsDays",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 28 Notice and order\"",
-    "DisplayContext": "MANDATORY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 18,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 5,
-    "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 19,
-    "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
     "CaseFieldID": "otherDirectionsFurtherInfo",
     "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 4,
-    "PageFieldDisplayOrder": 20,
+    "PageFieldDisplayOrder": 9,
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
