@@ -3848,7 +3848,17 @@
     "PageColumnNumber": 1
   },
 
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "furtherInformation",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4,
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
 
 
 

@@ -6568,5 +6568,23 @@
     "ListElementCode": "5 Updated schedule of loss",
     "ListElement": "5 Updated schedule of loss",
     "DisplayOrder": 5
+  },
+  {
+    "ID": "msl_furtherInformation",
+    "ListElementCode": "Further information required",
+    "ListElement": "Further information required",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_furtherInformation",
+    "ListElementCode": "Issue Rule 27 Notice and order",
+    "ListElement": "Issue Rule 27 Notice and order",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_furtherInformation",
+    "ListElementCode": "Issue Rule 28 Notice and order",
+    "ListElement": "Issue Rule 28 Notice and order",
+    "DisplayOrder": 3
   }
 ]

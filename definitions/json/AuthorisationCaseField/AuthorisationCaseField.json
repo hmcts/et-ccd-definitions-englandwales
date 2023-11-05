@@ -13595,7 +13595,36 @@
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
-
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "furtherInformation",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "furtherInformation",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "furtherInformation",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "furtherInformation",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "furtherInformation",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
 
 
 

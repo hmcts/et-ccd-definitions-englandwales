@@ -1496,6 +1496,19 @@
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
+
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "furtherInformation",
+    "Label": "Further information",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_furtherInformation",
+    "SecurityClassification": "Public"
+  },
+  
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralLine1",
