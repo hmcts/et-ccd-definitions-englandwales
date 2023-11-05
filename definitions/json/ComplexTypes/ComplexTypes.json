@@ -5965,8 +5965,6 @@
     "SecurityClassification": "Public"
   },
 
-
-
   {
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICTypeOfVideoHearing",
@@ -5993,7 +5991,7 @@
     "FieldShowCondition": "etICTypeOfVideoHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
-  },  
+  },
   {
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICPrelimHearingYesNo",
@@ -6033,9 +6031,6 @@
     "SecurityClassification": "Public"
   },
 
-
-
-
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICLengthOfPrelimHearing",
@@ -6045,7 +6040,6 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
-
 
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
@@ -6088,8 +6082,6 @@
     "SecurityClassification": "Public",
     "RegularExpression": "[0-9]|[0-5][0-9]"
   },
-
-
 
   {
     "ID": "etICHearingNotListedListForFinalHearing",
@@ -6228,19 +6220,49 @@
     "SecurityClassification": "Public"
   },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  {
+    "ID": "hearingListedComplex",
+    "ListElementCode": "hearingAlreadyListedOptions",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Hearing already listed",
+    "FieldTypeParameter": "msl_etICHearingAlreadyListed",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hearingListedComplex",
+    "ListElementCode": "extendDuration",
+    "FieldType": "Text",
+    "ElementLabel": "Extend duration of hearing",
+    "HintText": "Give details",
+    "RetainHiddenValue": "No",
+    "FieldShowCondition": "hearingAlreadyListedOptions CONTAINS \"Extend duration of hearing\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hearingListedComplex",
+    "ListElementCode": "hearingListedOther",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other",
+    "HintText": "Give details",
+    "FieldShowCondition": "hearingAlreadyListedOptions CONTAINS \"Other\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hearingListedComplex",
+    "ListElementCode": "otherDirectionsLabel",
+    "ElementLabel": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "hearingListedComplex",
+    "ListElementCode": "otherDirections",
+    "FieldType": "TextArea",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
 
   {
     "ID": "Et3NotificationDocUpload",

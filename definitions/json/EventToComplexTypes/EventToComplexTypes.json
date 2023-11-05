@@ -6538,16 +6538,48 @@
   },
 
 
-
-
-
-
-
-
-
-
-
-
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedComplex",
+    "ListElementCode": "hearingAlreadyListedOptions",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedComplex",
+    "ListElementCode": "extendDuration",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedComplex",
+    "ListElementCode": "hearingListedOther",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedComplex",
+    "ListElementCode": "otherDirectionsLabel",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "READONLY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "hearingListedComplex",
+    "ListElementCode": "otherDirections",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
 
 
 

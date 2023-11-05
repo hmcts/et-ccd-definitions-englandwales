@@ -1435,7 +1435,59 @@
     "SecurityClassification": "Public"
   },
 
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingListedRespondentLabel",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
 
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingListedHearingLabel",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingListedJurisdictionCodesLabel",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICFurtherInfoRespondentLabel",
+    "Label": "${etInitialConsiderationRespondent}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICFurtherInfoHearingLabel",
+    "Label": "${etInitialConsiderationHearing}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICFurtherInfoJurisdictionCodesLabel",
+    "Label": "${etInitialConsiderationJurisdictionCodes}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingListedComplex",
+    "Label": "Hearing already listed",
+    "FieldType": "hearingListedComplex",
+    "SecurityClassification": "Public"
+  },
 
   {
     "CaseTypeID": "ET_EnglandWales",
