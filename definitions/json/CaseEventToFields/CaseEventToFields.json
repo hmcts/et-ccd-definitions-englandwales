@@ -3860,7 +3860,18 @@
     "ShowSummaryChangeOption": "Y"
   },
 
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "furtherInfoComplex",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 5,
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "furtherInformation=\"Further information required\""
+  },
 
 
 

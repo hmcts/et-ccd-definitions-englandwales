@@ -6263,7 +6263,29 @@
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
-
+  {
+    "ID": "furtherInfoComplex",
+    "ListElementCode": "furtherInformationLabel",
+    "ElementLabel": "<h3>Further information required</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "furtherInfoComplex",
+    "ListElementCode": "furtherInformationDetails",
+    "ElementLabel": "Give details to include in the letter",
+    "HintText": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "furtherInfoComplex",
+    "ListElementCode": "furtherInformationComplyTime",
+    "ElementLabel": "How much time to comply? (days)",
+    "HintText": "Give details",
+    "FieldType": "Number",
+    "SecurityClassification": "Public"
+  },
   {
     "ID": "Et3NotificationDocUpload",
     "ListElementCode": "typeOfDocument",

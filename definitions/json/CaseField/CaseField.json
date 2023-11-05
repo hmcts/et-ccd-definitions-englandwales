@@ -1507,7 +1507,13 @@
     "FieldTypeParameter": "msl_furtherInformation",
     "SecurityClassification": "Public"
   },
-  
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "furtherInfoComplex",
+    "Label": "Further information",
+    "FieldType": "furtherInfoComplex",
+    "SecurityClassification": "Public"
+  },
 
   {
     "CaseTypeID": "ET_EnglandWales",
