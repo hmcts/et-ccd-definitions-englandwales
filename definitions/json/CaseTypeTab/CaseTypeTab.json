@@ -1020,14 +1020,51 @@
   },
 
 
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "hearingListedComplex",
+    "TabFieldDisplayOrder": 13,
+    "FieldShowCondition": "etICHearingAlreadyListed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "furtherInformation",
+    "TabFieldDisplayOrder": 14,
+    "FieldShowCondition": "etICHearingAlreadyListed=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "furtherInfoComplex",
+    "TabFieldDisplayOrder": 15
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "issueRule27Complex",
+    "TabFieldDisplayOrder": 16
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "issueRule28Complex",
+    "TabFieldDisplayOrder": 17
+  },
 
-
-
-
-
-
-
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "TabFieldDisplayOrder": 18
+  },
 
 
   {
