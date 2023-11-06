@@ -6199,7 +6199,7 @@
 
   {
     "ID": "hearingListedComplex",
-    "ListElementCode": "hearingAlreadyListedOptions",
+    "ListElementCode": "etICHearingListed",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Hearing already listed",
     "FieldTypeParameter": "msl_etICHearingAlreadyListed",
@@ -6208,21 +6208,21 @@
   },
   {
     "ID": "hearingListedComplex",
-    "ListElementCode": "extendDuration",
+    "ListElementCode": "etICExtendDurationGiveDetails",
     "FieldType": "Text",
     "ElementLabel": "Extend duration of hearing",
     "HintText": "Give details",
     "RetainHiddenValue": "No",
-    "FieldShowCondition": "hearingAlreadyListedOptions CONTAINS \"Extend duration of hearing\"",
+    "FieldShowCondition": "etICHearingListed CONTAINS \"Extend duration of hearing\"",
     "SecurityClassification": "Public"
   },
   {
     "ID": "hearingListedComplex",
-    "ListElementCode": "hearingListedOther",
+    "ListElementCode": "etICOtherGiveDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Other",
     "HintText": "Give details",
-    "FieldShowCondition": "hearingAlreadyListedOptions CONTAINS \"Other\"",
+    "FieldShowCondition": "etICHearingListed CONTAINS \"Other\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -6235,7 +6235,7 @@
   },
   {
     "ID": "hearingListedComplex",
-    "ListElementCode": "otherDirections",
+    "ListElementCode": "etICHearingAnyOtherDirections",
     "FieldType": "TextArea",
     "ElementLabel": " ",
     "SecurityClassification": "Public"
@@ -6260,8 +6260,8 @@
 
 
   {
-    "ID": "issueRule27Complex",
-    "ListElementCode": "rule27ClaimToBe",
+    "ID": "EtInitialConsiderationRule27",
+    "ListElementCode": "etICRule27ClaimToBe",
     "ElementLabel": "Claim to be",
     "FieldType": "FixedRadioList",
     "RetainHiddenValue": "No",
@@ -6269,32 +6269,32 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "issueRule27Complex",
-    "ListElementCode": "Rule27DimissedPart",
+    "ID": "EtInitialConsiderationRule27",
+    "ListElementCode": "etICRule27WhichPart",
     "ElementLabel": "Which part?",
     "FieldType": "Text",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "rule27ClaimToBe=\"Dismissed in part\""
+    "FieldShowCondition": "etICRule27ClaimToBe=\"Dismissed in part\""
   },
   {
-    "ID": "issueRule27Complex",
-    "ListElementCode": "Rule27Direction",
+    "ID": "EtInitialConsiderationRule27",
+    "ListElementCode": "etICRule27Direction",
     "ElementLabel": "Employment Judge's direction to Rule 27 Notice",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_rule27direction",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "issueRule27Complex",
-    "ListElementCode": "Rule27NoSuccessReason",
+    "ID": "EtInitialConsiderationRule27",
+    "ListElementCode": "etICRule27DirectionReason",
     "ElementLabel": "Set out reason",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "Rule27Direction CONTAINS \"No reasonable prospect of success\""
+    "FieldShowCondition": "etICRule27Direction CONTAINS \"No reasonable prospect of success\""
   },
   {
-    "ID": "issueRule27Complex",
-    "ListElementCode": "Rule27WrittenRepresentationsDays",
+    "ID": "EtInitialConsiderationRule27",
+    "ListElementCode": "etICRule27NumberOfDays",
     "ElementLabel": "Number of days for claimant to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public"
@@ -6303,8 +6303,8 @@
 
 
   {
-    "ID": "issueRule28Complex",
-    "ListElementCode": "rule28ClaimToBe",
+    "ID": "EtInitialConsiderationRule28",
+    "ListElementCode": "etICRule28ClaimToBe",
     "ElementLabel": "Claim to be",
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
     "FieldType": "FixedRadioList",
@@ -6312,24 +6312,24 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "issueRule28Complex",
-    "ListElementCode": "Rule28DimissedPart",
+    "ID": "EtInitialConsiderationRule28",
+    "ListElementCode": "etICRule28WhichPart",
     "ElementLabel": "Which part?",
     "FieldType": "Text",
-    "FieldShowCondition": "rule28ClaimToBe=\"Dismissed in part\"",
+    "FieldShowCondition": "etICRule28ClaimToBe=\"Dismissed in part\"",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "issueRule28Complex",
-    "ListElementCode": "Rule28reasons",
+    "ID": "EtInitialConsiderationRule28",
+    "ListElementCode": "etICRule28DirectionReason",
     "ElementLabel": "Employment Judge’s reasons",
     "HintText": "No reasonable prospect of success because",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "issueRule28Complex",
-    "ListElementCode": "Rule28WrittenRepresentationsDays",
+    "ID": "EtInitialConsiderationRule28",
+    "ListElementCode": "etICRule28NumberOfDays",
     "ElementLabel": "Number of days for claimant to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public"

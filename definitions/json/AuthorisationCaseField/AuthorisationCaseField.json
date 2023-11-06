@@ -13657,61 +13657,61 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule27Complex",
+    "CaseFieldID": "EtInitialConsiderationRule27",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule27Complex",
+    "CaseFieldID": "EtInitialConsiderationRule27",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule27Complex",
+    "CaseFieldID": "EtInitialConsiderationRule27",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule27Complex",
+    "CaseFieldID": "EtInitialConsiderationRule27",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule27Complex",
+    "CaseFieldID": "EtInitialConsiderationRule27",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule28Complex",
+    "CaseFieldID": "EtInitialConsiderationRule28",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule28Complex",
+    "CaseFieldID": "EtInitialConsiderationRule28",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule28Complex",
+    "CaseFieldID": "EtInitialConsiderationRule28",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule28Complex",
+    "CaseFieldID": "EtInitialConsiderationRule28",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "issueRule28Complex",
+    "CaseFieldID": "EtInitialConsiderationRule28",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

@@ -1516,16 +1516,16 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "issueRule27Complex",
+    "ID": "EtInitialConsiderationRule27",
     "Label": "Issue Rule 27 Notice and order",
-    "FieldType": "issueRule27Complex",
+    "FieldType": "EtInitialConsiderationRule27",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "issueRule28Complex",
+    "ID": "EtInitialConsiderationRule28",
     "Label": "Issue Rule 28 Notice and order",
-    "FieldType": "issueRule28Complex",
+    "FieldType": "EtInitialConsiderationRule28",
     "SecurityClassification": "Public"
   },
   {

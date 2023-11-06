@@ -3875,7 +3875,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "issueRule27Complex",
+    "CaseFieldID": "EtInitialConsiderationRule27",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 4,
@@ -3887,7 +3887,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "issueRule28Complex",
+    "CaseFieldID": "EtInitialConsiderationRule28",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 4,
