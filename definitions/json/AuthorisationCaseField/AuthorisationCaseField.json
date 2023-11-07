@@ -13597,31 +13597,31 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "furtherInformation",
+    "CaseFieldID": "etICFurtherInformationtion",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "furtherInformation",
+    "CaseFieldID": "etICFurtherInformation",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "furtherInformation",
+    "CaseFieldID": "etICFurtherInformation",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "furtherInformation",
+    "CaseFieldID": "etICFurtherInformation",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "furtherInformation",
+    "CaseFieldID": "etICFurtherInformation",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },

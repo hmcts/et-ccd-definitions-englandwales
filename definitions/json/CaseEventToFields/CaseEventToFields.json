@@ -3851,7 +3851,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "furtherInformation",
+    "CaseFieldID": "etICFurtherInformation",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 4,
@@ -3870,7 +3870,7 @@
     "PageFieldDisplayOrder": 5,
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Further information required\""
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Further information required\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3882,7 +3882,7 @@
     "PageFieldDisplayOrder": 6,
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 27 Notice and order\""
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 27 Notice and order\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3894,7 +3894,7 @@
     "PageFieldDisplayOrder": 7,
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y",
-    "FieldShowCondition": "furtherInformation CONTAINS \"Issue Rule 28 Notice and order\""
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 28 Notice and order\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

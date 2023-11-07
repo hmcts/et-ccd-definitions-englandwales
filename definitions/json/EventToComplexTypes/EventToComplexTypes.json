@@ -6349,7 +6349,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "etICLengthOfPrelimHearingNum",
+    "ListElementCode": "etICLengthOfPrelimHearing",
     "EventElementLabel": "Length of hearing",
     "FieldDisplayOrder": 4,
     "DisplayContext": "MANDATORY"
@@ -6388,7 +6388,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
-    "ListElementCode": "etICLengthOfFinalHearingNum",
+    "ListElementCode": "etICLengthOfFinalHearing",
     "EventElementLabel": "Length of hearing",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY",

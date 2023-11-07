@@ -1500,7 +1500,7 @@
 
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "furtherInformation",
+    "ID": "etICFurtherInformation",
     "Label": "Further information",
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",

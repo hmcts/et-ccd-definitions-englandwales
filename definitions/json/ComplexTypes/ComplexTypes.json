@@ -6033,7 +6033,7 @@
 
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "etICLengthOfPrelimHearingNum",
+    "ListElementCode": "etICLengthOfPrelimHearing",
     "FieldType": "Number",
     "ElementLabel": "Length of hearing",
     "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\"",
@@ -6042,7 +6042,7 @@
   },
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "hearingLengthNumType",
+    "ListElementCode": "prelimHearingLengthNumType",
     "FieldType": "FixedList",
     "ElementLabel": "Days, Hours or Minutes",
     "FieldTypeParameter": "fl_HearingLength",
@@ -6063,7 +6063,7 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearing",
-    "ListElementCode": "etICLengthOfFinalHearingNum",
+    "ListElementCode": "etICLengthOfFinalHearing",
     "FieldType": "Number",
     "ElementLabel": "Length of hearing",
     "RetainHiddenValue": "No",
