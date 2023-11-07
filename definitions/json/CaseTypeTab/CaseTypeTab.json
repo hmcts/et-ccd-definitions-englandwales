@@ -1072,6 +1072,20 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icCompletedBy",
+    "TabFieldDisplayOrder": 20
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 21
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
     "TabID": "CaseJurisdictions",
     "TabLabel": "Jurisdictions",
     "TabDisplayOrder": 8,

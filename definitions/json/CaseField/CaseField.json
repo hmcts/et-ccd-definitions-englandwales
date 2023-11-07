@@ -1548,7 +1548,20 @@
     "FieldType": "Label",
     "SecurityClassification": "PUBLIC"
   },
-
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icCompletedBy",
+    "Label": "Initial consideration completed by:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDateCompleted",
+    "Label": "Date completed:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralLine1",
