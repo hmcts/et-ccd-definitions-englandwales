@@ -6198,7 +6198,7 @@
   },
 
   {
-    "ID": "hearingListedComplex",
+    "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingListed",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Hearing already listed",
@@ -6207,7 +6207,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "hearingListedComplex",
+    "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICExtendDurationGiveDetails",
     "FieldType": "Text",
     "ElementLabel": "Extend duration of hearing",
@@ -6217,7 +6217,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "hearingListedComplex",
+    "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICOtherGiveDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Other",
@@ -6227,14 +6227,14 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "hearingListedComplex",
+    "ID": "etICHearingListedAnswers",
     "ListElementCode": "otherDirectionsLabel",
     "ElementLabel": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "hearingListedComplex",
+    "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingAnyOtherDirections",
     "FieldType": "TextArea",
     "ElementLabel": " ",
@@ -6242,16 +6242,16 @@
   },
 
   {
-    "ID": "furtherInfoComplex",
-    "ListElementCode": "furtherInformationDetails",
+    "ID": "etICFurtherInfoAnswers",
+    "ListElementCode": "etICFurtherInformationGiveDetails",
     "ElementLabel": "Give details to include in the letter",
     "HintText": "Give details",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
   {
-    "ID": "furtherInfoComplex",
-    "ListElementCode": "furtherInformationComplyTime",
+    "ID": "etICFurtherInfoAnswers",
+    "ListElementCode": "etICFurtherInformationTimeToComply",
     "ElementLabel": "How much time to comply? (days)",
     "HintText": "Give details",
     "FieldType": "Number",
@@ -6260,7 +6260,7 @@
 
 
   {
-    "ID": "EtInitialConsiderationRule27",
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27ClaimToBe",
     "ElementLabel": "Claim to be",
     "FieldType": "FixedRadioList",
@@ -6269,7 +6269,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "EtInitialConsiderationRule27",
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27WhichPart",
     "ElementLabel": "Which part?",
     "FieldType": "Text",
@@ -6277,7 +6277,7 @@
     "FieldShowCondition": "etICRule27ClaimToBe=\"Dismissed in part\""
   },
   {
-    "ID": "EtInitialConsiderationRule27",
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27Direction",
     "ElementLabel": "Employment Judge's direction to Rule 27 Notice",
     "FieldType": "MultiSelectList",
@@ -6285,7 +6285,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "EtInitialConsiderationRule27",
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27DirectionReason",
     "ElementLabel": "Set out reason",
     "FieldType": "TextArea",
@@ -6293,7 +6293,7 @@
     "FieldShowCondition": "etICRule27Direction CONTAINS \"No reasonable prospect of success\""
   },
   {
-    "ID": "EtInitialConsiderationRule27",
+    "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27NumberOfDays",
     "ElementLabel": "Number of days for claimant to provide written representations",
     "FieldType": "Number",
@@ -6303,7 +6303,7 @@
 
 
   {
-    "ID": "EtInitialConsiderationRule28",
+    "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
     "ElementLabel": "Claim to be",
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
@@ -6312,7 +6312,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "EtInitialConsiderationRule28",
+    "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28WhichPart",
     "ElementLabel": "Which part?",
     "FieldType": "Text",
@@ -6320,7 +6320,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "EtInitialConsiderationRule28",
+    "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28DirectionReason",
     "ElementLabel": "Employment Judge’s reasons",
     "HintText": "No reasonable prospect of success because",
@@ -6328,7 +6328,7 @@
     "SecurityClassification": "Public"
   },
   {
-    "ID": "EtInitialConsiderationRule28",
+    "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28NumberOfDays",
     "ElementLabel": "Number of days for claimant to provide written representations",
     "FieldType": "Number",

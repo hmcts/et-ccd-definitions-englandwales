@@ -1483,9 +1483,9 @@
 
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "hearingListedComplex",
+    "ID": "etICHearingListedAnswers",
     "Label": "Hearing already listed",
-    "FieldType": "hearingListedComplex",
+    "FieldType": "etICHearingListedAnswers",
     "SecurityClassification": "Public"
   },
 
@@ -1509,23 +1509,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "furtherInfoComplex",
+    "ID": "etICFurtherInfoAnswers",
     "Label": "Further information required",
-    "FieldType": "furtherInfoComplex",
+    "FieldType": "etICFurtherInfoAnswers",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "EtInitialConsiderationRule27",
+    "ID": "etInitialConsiderationRule27",
     "Label": "Issue Rule 27 Notice and order",
-    "FieldType": "EtInitialConsiderationRule27",
+    "FieldType": "etInitialConsiderationRule27",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "EtInitialConsiderationRule28",
+    "ID": "etInitialConsiderationRule28",
     "Label": "Issue Rule 28 Notice and order",
-    "FieldType": "EtInitialConsiderationRule28",
+    "FieldType": "etInitialConsiderationRule28",
     "SecurityClassification": "Public"
   },
   {
@@ -1542,6 +1542,14 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "initialConsiderationTabTitle",
+    "Label": "### Initial Consideration",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
+  },
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JudgeReferralLine1",

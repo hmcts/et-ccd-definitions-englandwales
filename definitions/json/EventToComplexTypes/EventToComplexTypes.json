@@ -6359,7 +6359,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "ListElementCode": "hearingLengthNumType",
+    "ListElementCode": "prelimHearingLengthNumType",
     "EventElementLabel": "Days, Hours or Minutes",
     "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
@@ -6526,7 +6526,7 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedComplex",
+    "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingListed",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
@@ -6534,7 +6534,7 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedComplex",
+    "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICExtendDurationGiveDetails",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
@@ -6542,7 +6542,7 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedComplex",
+    "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICOtherGiveDetails",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
@@ -6550,7 +6550,7 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedComplex",
+    "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "otherDirectionsLabel",
     "FieldDisplayOrder": 4,
     "DisplayContext": "READONLY"
@@ -6558,7 +6558,7 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedComplex",
+    "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingAnyOtherDirections",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 5,
@@ -6569,7 +6569,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule27",
+  "CaseFieldID": "etInitialConsiderationRule27",
   "ListElementCode": "etICRule27ClaimToBe",
   "EventElementLabel": "11 ",
   "FieldDisplayOrder": 1,
@@ -6579,7 +6579,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule27",
+  "CaseFieldID": "etInitialConsiderationRule27",
   "ListElementCode": "etICRule27WhichPart",
   "EventElementLabel": " 22",
   "FieldDisplayOrder": 2,
@@ -6589,7 +6589,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule27",
+  "CaseFieldID": "etInitialConsiderationRule27",
   "ListElementCode": "etICRule27Direction",
   "EventElementLabel": "33 ",
   "FieldDisplayOrder": 3,
@@ -6599,7 +6599,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule27",
+  "CaseFieldID": "etInitialConsiderationRule27",
   "ListElementCode": "etICRule27DirectionReason",
   "EventElementLabel": " 44",
   "FieldDisplayOrder": 4,
@@ -6609,7 +6609,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule27",
+  "CaseFieldID": "etInitialConsiderationRule27",
   "ListElementCode": "etICRule27NumberOfDays",
   "EventElementLabel": "55 ",
   "FieldDisplayOrder": 5,
@@ -6619,7 +6619,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule28",
+  "CaseFieldID": "etInitialConsiderationRule28",
   "ListElementCode": "etICRule28ClaimToBe",
   "EventElementLabel": "11 ",
   "FieldDisplayOrder": 1,
@@ -6629,7 +6629,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule28",
+  "CaseFieldID": "etInitialConsiderationRule28",
   "ListElementCode": "etICRule28WhichPart",
   "EventElementLabel": " 22",
   "FieldDisplayOrder": 2,
@@ -6639,7 +6639,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule28",
+  "CaseFieldID": "etInitialConsiderationRule28",
   "ListElementCode": "etICRule28DirectionReason",
   "EventElementLabel": "33 ",
   "FieldDisplayOrder": 3,
@@ -6649,7 +6649,7 @@
 {
   "ID": "InitialConsideration",
   "CaseEventID": "initialConsideration",
-  "CaseFieldID": "EtInitialConsiderationRule28",
+  "CaseFieldID": "etInitialConsiderationRule28",
   "ListElementCode": "etICRule28NumberOfDays",
   "EventElementLabel": " 44",
   "FieldDisplayOrder": 4,

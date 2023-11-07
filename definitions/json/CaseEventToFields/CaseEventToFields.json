@@ -3804,7 +3804,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "hearingListedComplex",
+    "CaseFieldID": "etICHearingListedAnswers",
     "DisplayContext": "COMPLEX",
     "PageID": 4,
     "PageDisplayOrder": 3,
@@ -3863,7 +3863,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "furtherInfoComplex",
+    "CaseFieldID": "etICFurtherInfoAnswers",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 4,
@@ -3875,7 +3875,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "EtInitialConsiderationRule27",
+    "CaseFieldID": "etInitialConsiderationRule27",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 4,
@@ -3887,7 +3887,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "EtInitialConsiderationRule28",
+    "CaseFieldID": "etInitialConsiderationRule28",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
     "PageDisplayOrder": 4,
