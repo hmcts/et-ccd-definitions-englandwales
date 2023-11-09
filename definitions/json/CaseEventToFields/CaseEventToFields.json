@@ -3525,15 +3525,17 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "horizontalLine",
     "DisplayContext": "READONLY",
-    "PageID": 1,
     "PageLabel": "Before you start",
+    "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "initialConsiderationBeforeYouStart",
+    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
@@ -3545,10 +3547,11 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etInitialConsiderationRespondent",
     "DisplayContext": "READONLY",
-    "PageID": 2,
     "PageLabel": "Rule 26",
+    "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationRespondentLabel=\"dummy\""
   },
@@ -3560,6 +3563,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
   {
@@ -3570,6 +3574,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationHearingLabel=\"dummy\""
   },
@@ -3581,6 +3586,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
   {
@@ -3591,6 +3597,7 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
     "FieldShowCondition": "etInitialConsiderationJurisdictionCodesLabel=\"dummy\""
   },
@@ -3602,108 +3609,314 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icReceiptET3FormIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 7
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icRespondentsNameIdentityIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 8
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icJurisdictionCodeIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 9
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icApplicationIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 10
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icEmployersContractClaimIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icClaimProspectIssues",
+    "CaseFieldID": "etICJuridictionCodesInvalid",
     "DisplayContext": "MANDATORY",
-    "ShowSummaryChangeOption": "Y",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 12
+    "PageFieldDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icListingIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
+    "CaseFieldID": "etICInvalidDetails",
+    "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 13
+    "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1,
+    "FieldShowCondition": "etICJuridictionCodesInvalid=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icDdaDisabilityIssues",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
+    "CaseFieldID": "etICCanProceed",
+    "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 14
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icOrderForFurtherInformation",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
+    "CaseFieldID": "etICHearingAlreadyListed",
+    "DisplayContext": "MANDATORY",
     "PageID": 2,
     "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 15
+    "PageFieldDisplayOrder": 10,
+    "FieldShowCondition": "etICCanProceed=\"Yes\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icOtherIssuesOrFinalOrders",
-    "DisplayContext": "OPTIONAL",
-    "ShowSummaryChangeOption": "Y",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 16
+    "CaseFieldID": "etICHearingNotListedRespondentLabel",
+    "DisplayContext": "READONLY",
+    "PageLabel": "Rule 26",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1,
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedHearingLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedJurCodesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedList",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedSeekComments",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"Seek comments on the video hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for preliminary hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearing",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"List for final hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedUDLHearing",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"UDL hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "Y"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedRespondentLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedHearingLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedJurisdictionCodesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y",
+    "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInfoRespondentLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInfoHearingLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInfoJurisdictionCodesLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformation",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 4,
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y"
+  },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInfoAnswers",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 5,
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Further information required\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule27",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 6,
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 27 Notice and order\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etInitialConsiderationRule28",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 7,
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 28 Notice and order\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 8,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 5,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y"
+  },
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
