@@ -2149,6 +2149,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "CRU"
+    "CRUD": "R"
   }
 ]
