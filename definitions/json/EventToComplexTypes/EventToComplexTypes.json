@@ -529,8 +529,7 @@
     "ListElementCode": "et3Rule26",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 14,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "CreateCase",
@@ -7214,5 +7213,25 @@
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY",
     "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "completeInitialConsideration",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "completeInitialConsideration",
+    "CaseEventID": "et3Vetting",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting.et3Rule26",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   }
 ]
