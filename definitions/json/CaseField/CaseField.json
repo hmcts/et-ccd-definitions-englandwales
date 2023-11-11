@@ -1434,7 +1434,6 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingListedRespondentLabel",
@@ -1442,7 +1441,6 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingListedHearingLabel",
@@ -1457,7 +1455,6 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICFurtherInfoRespondentLabel",
@@ -1465,7 +1462,6 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICFurtherInfoHearingLabel",
@@ -1480,7 +1476,6 @@
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingListedAnswers",
@@ -1488,7 +1483,6 @@
     "FieldType": "etICHearingListedAnswers",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationDocument",
@@ -1496,7 +1490,6 @@
     "FieldType": "Document",
     "SecurityClassification": "Public"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICFurtherInformation",

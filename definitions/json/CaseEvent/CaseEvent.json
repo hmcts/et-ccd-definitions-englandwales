@@ -1448,5 +1448,20 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "issueInitialConsiderationDirectionsWA",
+    "Name": "issueICDirectionsWA",
+    "Description": "",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
