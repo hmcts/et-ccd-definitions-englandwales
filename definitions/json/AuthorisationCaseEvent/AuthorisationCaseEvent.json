@@ -1157,7 +1157,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createReferral",
@@ -2144,6 +2143,12 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "migrateCase",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "issueInitialConsiderationDirectionsWA",
+    "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRU"
   }
 ]

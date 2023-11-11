@@ -3764,7 +3764,6 @@
     "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "Y"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3776,7 +3775,6 @@
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3788,7 +3786,6 @@
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3800,7 +3797,6 @@
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3812,7 +3808,6 @@
     "ShowSummaryChangeOption": "Y",
     "PageShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"Yes\""
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3824,7 +3819,6 @@
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3847,7 +3841,6 @@
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3859,7 +3852,6 @@
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -3916,7 +3908,6 @@
     "PageFieldDisplayOrder": 9,
     "ShowSummaryChangeOption": "Y"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
