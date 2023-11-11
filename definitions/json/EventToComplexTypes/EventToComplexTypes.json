@@ -525,15 +525,6 @@
   {
     "ID": "CreateCase",
     "CaseEventID": "initiateCase",
-    "CaseFieldID": "respondentCollection",
-    "ListElementCode": "et3Rule26",
-    "EventElementLabel": " ",
-    "FieldDisplayOrder": 14,
-    "DisplayContext": "OPTIONAL"
-  },
-  {
-    "ID": "CreateCase",
-    "CaseEventID": "initiateCase",
     "CaseFieldID": "representativeClaimantType",
     "ListElementCode": "name_of_representative",
     "EventElementLabel": "Name of representative",
@@ -1248,8 +1239,7 @@
     "ListElementCode": "respondent_ACAS_no",
     "EventElementLabel": "What are the reasons for not having an ACAS Certificate number?",
     "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY",
-    "Publish": "Y"
+    "DisplayContext": "MANDATORY"
   },
   {
     "ID": "CreateDraftCase",
