@@ -1,32 +1,44 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CRUD": "R",
-    "UserRole": "caseworker-ras-validation"
+    "UserRoles": [
+      "caseworker-ras-validation"
+    ],
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CRUD": "CRU",
-    "UserRole": "caseworker-wa-task-configuration"
+    "UserRoles": [
+      "caseworker-wa-task-configuration"
+    ],
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
-    "CRUD": "R",
-    "UserRole": "caseworker-ras-validation"
+    "UserRoles": [
+      "caseworker-ras-validation"
+    ],
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Listings",
-    "CRUD": "CRU",
-    "UserRole": "caseworker-wa-task-configuration"
+    "UserRoles": [
+      "caseworker-wa-task-configuration"
+    ],
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CRUD": "R",
-    "UserRole": "caseworker-ras-validation"
+    "UserRoles": [
+      "caseworker-ras-validation"
+    ],
+    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CRUD": "CRU",
-    "UserRole": "caseworker-wa-task-configuration"
+    "UserRoles": [
+      "caseworker-wa-task-configuration"
+    ],
+    "CRUD": "CRU"
   }
 ]
