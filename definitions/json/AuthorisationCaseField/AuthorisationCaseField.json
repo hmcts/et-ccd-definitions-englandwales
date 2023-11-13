@@ -12602,12 +12602,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "initialConsiderationBeforeYouStart",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "D"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
