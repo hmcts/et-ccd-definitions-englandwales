@@ -1,0 +1,74 @@
+[
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "TabLabel": "Initial Consideration",
+    "TabDisplayOrder": 7,
+    "CaseFieldID": "etInitialConsiderationDocument",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icReceiptET3FormIssues",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icRespondentsNameIdentityIssues",
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icJurisdictionCodeIssues",
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icApplicationIssues",
+    "TabFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icEmployersContractClaimIssues",
+    "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icClaimProspectIssues",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icListingIssues",
+    "TabFieldDisplayOrder": 8
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDdaDisabilityIssues",
+    "TabFieldDisplayOrder": 9
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icOrderForFurtherInformation",
+    "TabFieldDisplayOrder": 10
+  }
+]
