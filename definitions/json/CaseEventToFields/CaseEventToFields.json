@@ -3877,7 +3877,8 @@
     "PageFieldDisplayOrder": 6,
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y",
-    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 27 Notice and order\""
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 27 Notice and order\"",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3889,7 +3890,8 @@
     "PageFieldDisplayOrder": 7,
     "RetainHiddenValue": "No",
     "ShowSummaryChangeOption": "Y",
-    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 28 Notice and order\""
+    "FieldShowCondition": "etICFurtherInformation CONTAINS \"Issue Rule 28 Notice and order\"",
+    "Publish": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

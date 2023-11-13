@@ -6027,6 +6027,7 @@
     "FieldTypeParameter": "fl_jurisdictionCodes",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "etICHearingNotListedSeekComments",
     "ListElementCode": "etICTypeOfVideoHearing",
@@ -6092,6 +6093,7 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICLengthOfPrelimHearing",
@@ -6111,6 +6113,7 @@
     "RetainHiddenValue": "No",
     "FieldShowCondition": "etICPurposeOfPreliminaryHearing != \"\""
   },
+
   {
     "ID": "etICHearingNotListedListForFinalHearing",
     "ListElementCode": "etICTypeOfFinalHearing",
@@ -6256,6 +6259,7 @@
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingListed",
@@ -6299,6 +6303,7 @@
     "ElementLabel": " ",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "etICFurtherInfoAnswers",
     "ListElementCode": "etICFurtherInformationGiveDetails",
@@ -6315,6 +6320,7 @@
     "FieldType": "Number",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "etInitialConsiderationRule27",
     "ListElementCode": "etICRule27ClaimToBe",
@@ -6322,7 +6328,8 @@
     "FieldType": "FixedRadioList",
     "RetainHiddenValue": "No",
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Publish": "Y"
   },
   {
     "ID": "etInitialConsiderationRule27",
@@ -6355,6 +6362,7 @@
     "FieldType": "Number",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
@@ -6362,7 +6370,8 @@
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
     "FieldType": "FixedRadioList",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Publish": "Y"
   },
   {
     "ID": "etInitialConsiderationRule28",
@@ -6387,6 +6396,7 @@
     "FieldType": "Number",
     "SecurityClassification": "Public"
   },
+
   {
     "ID": "Et3NotificationDocUpload",
     "ListElementCode": "typeOfDocument",
