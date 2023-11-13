@@ -1288,13 +1288,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "initialConsiderationBeforeYouStart",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "etInitialConsiderationBeforeYouStart",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in new tab).</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
