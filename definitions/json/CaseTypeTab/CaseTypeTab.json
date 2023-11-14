@@ -1008,35 +1008,36 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "icOtherIssuesOrFinalOrders",
-    "TabFieldDisplayOrder": 11
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "initialConsideration",
-    "CaseFieldID": "icCompletedBy",
     "TabFieldDisplayOrder": 12
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icDateCompleted",
+    "CaseFieldID": "etICJuridictionCodesInvalid",
     "TabFieldDisplayOrder": 13
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
+    "CaseFieldID": "etICInvalidDetails",
+    "TabFieldDisplayOrder": 14,
+    "FieldShowCondition": "etICJuridictionCodesInvalid=\"Yes\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
     "CaseFieldID": "etICCanProceed",
-    "TabFieldDisplayOrder": 14
+    "TabFieldDisplayOrder": 15
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingAlreadyListed",
-    "TabFieldDisplayOrder": 15,
+    "TabFieldDisplayOrder": 16,
     "FieldShowCondition": "etICCanProceed=\"Yes\""
   },
   {
@@ -1044,7 +1045,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedList",
-    "TabFieldDisplayOrder": 16,
+    "TabFieldDisplayOrder": 17,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {
@@ -1052,7 +1053,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
-    "TabFieldDisplayOrder": 17,
+    "TabFieldDisplayOrder": 18,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Seek comments on the video hearing\""
   },
   {
@@ -1060,7 +1061,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
-    "TabFieldDisplayOrder": 18,
+    "TabFieldDisplayOrder": 19,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for preliminary hearing\""
   },
   {
@@ -1068,7 +1069,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearing",
-    "TabFieldDisplayOrder": 19,
+    "TabFieldDisplayOrder": 20,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"List for final hearing\""
   },
   {
@@ -1076,7 +1077,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "TabFieldDisplayOrder": 20,
+    "TabFieldDisplayOrder": 21,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"UDL hearing\""
   },
   {
@@ -1084,7 +1085,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
-    "TabFieldDisplayOrder": 21,
+    "TabFieldDisplayOrder": 22,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedAnyOtherDirections!=\"\""
   },
   {
@@ -1092,7 +1093,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
-    "TabFieldDisplayOrder": 22,
+    "TabFieldDisplayOrder": 23,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {
@@ -1100,57 +1101,56 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
-    "TabFieldDisplayOrder": 23
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "initialConsideration",
-    "CaseFieldID": "etICFurtherInformation",
     "TabFieldDisplayOrder": 24
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICFurtherInfoAnswers",
+    "CaseFieldID": "etICFurtherInformation",
     "TabFieldDisplayOrder": 25
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRule27",
+    "CaseFieldID": "etICFurtherInfoAnswers",
     "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRule28",
+    "CaseFieldID": "etInitialConsiderationRule27",
     "TabFieldDisplayOrder": 27
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etInitialConsiderationRule28",
     "TabFieldDisplayOrder": 28
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICJuridictionCodesInvalid",
+    "CaseFieldID": "otherDirectionsFurtherInfo",
     "TabFieldDisplayOrder": 29
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICInvalidDetails",
-    "TabFieldDisplayOrder": 30,
-    "FieldShowCondition": "etICJuridictionCodesInvalid=\"Yes\""
+    "CaseFieldID": "icCompletedBy",
+    "TabFieldDisplayOrder": 30
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 31
   },
   {
     "CaseTypeID": "ET_EnglandWales",
