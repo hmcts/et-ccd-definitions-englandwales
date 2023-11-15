@@ -6547,7 +6547,8 @@
     "ListElementCode": "etICRule27ClaimToBe",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "RetainHiddenValue": "No",
+    "Publish": "Y"
   },
   {
     "ID": "InitialConsideration",
@@ -6592,7 +6593,8 @@
     "ListElementCode": "etICRule28ClaimToBe",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
-    "RetainHiddenValue": "No"
+    "RetainHiddenValue": "No",
+    "Publish": "Y"
   },
   {
     "ID": "InitialConsideration",

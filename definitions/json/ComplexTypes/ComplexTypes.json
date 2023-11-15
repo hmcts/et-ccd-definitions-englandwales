@@ -6328,8 +6328,7 @@
     "FieldType": "FixedRadioList",
     "RetainHiddenValue": "No",
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "etInitialConsiderationRule27",
@@ -6370,8 +6369,7 @@
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
     "FieldType": "FixedRadioList",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Publish": "Y"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "etInitialConsiderationRule28",
