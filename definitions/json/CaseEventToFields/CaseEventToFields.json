@@ -3535,7 +3535,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationBeforeYouStart",
+    "CaseFieldID": "initialConsiderationBeforeYouStart",
     "DisplayContext": "READONLY",
     "PageID": 1,
     "PageDisplayOrder": 1,
