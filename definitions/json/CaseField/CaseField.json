@@ -1287,7 +1287,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "etInitialConsiderationBeforeYouStart",
+    "ID": "initialConsiderationBeforeYouStart",
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in new tab).</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
@@ -1332,6 +1332,94 @@
     "ID": "etInitialConsiderationJurisdictionCodesLabel",
     "Label": "${etInitialConsiderationJurisdictionCodes}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icReceiptET3FormIssues",
+    "Label": "Are there any issues or instructions regarding the receipt of the ET3 form?",
+    "FieldType": "TextArea",
+    "HintText": "For example the date it was due, the date it was received or any application for extension of time (Rule 18 and 20)",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icRespondentsNameIdentityIssues",
+    "Label": "Are there any issues or instructions regarding the respondent's name or identity?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icJurisdictionCodeIssues",
+    "Label": "Are there any issues or instructions regarding the jurisdiction codes?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icApplicationIssues",
+    "Label": "Are there any issues or instructions regarding the applications?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icEmployersContractClaimIssues",
+    "Label": "Are there any issues or instructions regarding an Employer’s Contract Claim?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icClaimProspectIssues",
+    "Label": "Are there any issues or instructions regarding the prospects of the claim or response?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icListingIssues",
+    "Label": "Are there any issues or instructions regarding the listing?",
+    "FieldType": "TextArea",
+    "HintText": "For example list for PH, if public or private and set out the issues to be determined with directions, in person or video",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDdaDisabilityIssues",
+    "Label": "Are there any issues or instructions where DDA or disability is disputed?",
+    "FieldType": "TextArea",
+    "HintText": "The claimant is to provide a statement - limited to 750 words, explaining the length of the disability, the nature of its effects upon daily activities and any existing medical evidence relied upon - the the respondent by [date]. The respondent should state their position on disability, giving reasons for any denial, by [date]",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icOrderForFurtherInformation",
+    "Label": "Should either side be ordered to provide any further information?",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icOtherIssuesOrFinalOrders",
+    "Label": "Are there any issues or instructions to consider or final orders to be given?",
+    "FieldType": "TextArea",
+    "HintText": "For example, Rule 50, transfer to another region, interpreters, adjustments required for hearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icCompletedBy",
+    "Label": "Initial consideration completed by:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDateCompleted",
+    "Label": "Date completed:",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
@@ -1540,20 +1628,6 @@
     "Label": "### Initial Consideration",
     "FieldType": "Label",
     "SecurityClassification": "PUBLIC"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "icCompletedBy",
-    "Label": "Initial consideration completed by:",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "icDateCompleted",
-    "Label": "Date completed:",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
