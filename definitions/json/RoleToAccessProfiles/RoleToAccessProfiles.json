@@ -168,7 +168,7 @@
     "AccessProfiles": "caseworker-wa-task-configuration"
   },
   {
-    "RoleName" : "circuit-judge",
+    "RoleName": "circuit-judge",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -177,7 +177,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "hmcts-judiciary",
+    "RoleName": "hmcts-judiciary",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -186,7 +186,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "case-allocator",
+    "RoleName": "case-allocator",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -195,7 +195,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "hmcts-admin",
+    "RoleName": "hmcts-admin",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -204,7 +204,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "hmcts-legal-operations",
+    "RoleName": "hmcts-legal-operations",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -213,7 +213,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "hmcts-ctsc",
+    "RoleName": "hmcts-ctsc",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -222,7 +222,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "hmcts-staff",
+    "RoleName": "hmcts-staff",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -231,7 +231,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "tribunal-caseworker",
+    "RoleName": "tribunal-caseworker",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile,caseworker-employment",
@@ -240,7 +240,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "specific-access-legal-ops",
+    "RoleName": "specific-access-legal-ops",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile,caseworker-employment",
@@ -249,7 +249,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "challenged-access-legal-ops",
+    "RoleName": "challenged-access-legal-ops",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile,caseworker-employment",
@@ -258,7 +258,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "senior-tribunal-caseworker",
+    "RoleName": "senior-tribunal-caseworker",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile,caseworker-employment",
@@ -267,7 +267,7 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName" : "specific-access-ctsc",
+    "RoleName": "specific-access-ctsc",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile,caseworker-employment",
