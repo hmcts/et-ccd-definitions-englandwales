@@ -72,27 +72,6 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_EnglandWales",
-    "RoleName": "idam:et-acas-api",
-    "ReadOnly": "Y",
-    "AccessProfiles": "et-acas-api"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales",
-    "RoleName": "idam:caseworker-ras-validation",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-ras-validation"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales",
-    "RoleName": "idam:caseworker-wa-task-configuration",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-wa-task-configuration"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales",
     "RoleName": "[CREATOR]",
     "ReadOnly": "N",
     "AccessProfiles": "[CREATOR]"
@@ -168,13 +147,25 @@
     "AccessProfiles": "[SOLICITORJ]"
   },
   {
-    "RoleName": "case-allocator",
-    "Authorisation": "",
+    "LiveFrom": "01/01/2017",
     "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile",
+    "RoleName": "idam:et-acas-api",
     "ReadOnly": "Y",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
+    "AccessProfiles": "et-acas-api"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "RoleName": "idam:caseworker-ras-validation",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-ras-validation"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales",
+    "RoleName": "idam:caseworker-wa-task-configuration",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-wa-task-configuration"
   },
   {
     "RoleName": "circuit-judge",
@@ -187,6 +178,15 @@
   },
   {
     "RoleName": "hmcts-judiciary",
+    "Authorisation": "",
+    "CaseTypeID": "ET_EnglandWales",
+    "AccessProfiles": "GS_profile",
+    "ReadOnly": "Y",
+    "Disabled": "F",
+    "CaseAccessCategories": ""
+  },
+  {
+    "RoleName": "case-allocator",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
     "AccessProfiles": "GS_profile",
@@ -231,123 +231,6 @@
     "CaseAccessCategories": ""
   },
   {
-    "RoleName": "leadership-judge",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-etjudge-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "judge",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-etjudge-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "fee-paid-judge",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-etjudge-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "tribunal-member",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-etjudge-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "senior-tribunal-caseworker",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "tribunal-caseworker",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-legalrep-solicitor",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "hearing-centre-team-leader",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "regional-centre-team-leader",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "hearing-centre-admin",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "regional-centre-admin",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "ctsc-team-leader",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "ctsc",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
-    "RoleName": "clerk",
-    "Authorisation": "",
-    "CaseTypeID": "ET_EnglandWales",
-    "AccessProfiles": "GS_profile,caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "Disabled": "F",
-    "CaseAccessCategories": ""
-  },
-  {
     "RoleName": "specific-access-legal-ops",
     "Authorisation": "",
     "CaseTypeID": "ET_EnglandWales",
@@ -373,75 +256,5 @@
     "ReadOnly": "Y",
     "Disabled": "F",
     "CaseAccessCategories": ""
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "RoleName": "idam:caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-englandwales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "RoleName": "idam:caseworker-employment-etjudge-englandwales",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-etjudge-englandwales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "RoleName": "idam:caseworker-employment-api",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-api"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "RoleName": "idam:caseworker-wa-task-configuration",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-wa-task-configuration"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Listings",
-    "RoleName": "idam:caseworker-ras-validation",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-ras-validation"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "RoleName": "idam:caseworker-employment-api",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-api"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "RoleName": "idam:caseworker-employment-englandwales",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-englandwales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "RoleName": "idam:caseworker-employment-etjudge-englandwales",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-employment-etjudge-englandwales"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "RoleName": "idam:caseworker-wa-task-configuration",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-wa-task-configuration"
-  },
-  {
-    "LiveFrom": "01/01/2017",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "RoleName": "idam:caseworker-ras-validation",
-    "ReadOnly": "N",
-    "AccessProfiles": "caseworker-ras-validation"
   }
 ]
