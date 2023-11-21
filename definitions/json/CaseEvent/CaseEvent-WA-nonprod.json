@@ -392,5 +392,20 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "broughtForward",
+    "Name": "B/F Action",
+    "Description": "B/F Action",
+    "DisplayOrder": 27,
+    "PreConditionState(s)": "Accepted;Rejected;Submitted;Vetted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bfActions",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "Publish": "Y"
   }
 ]

@@ -1,0 +1,11 @@
+[
+  {
+    "ID": "BFActions",
+    "CaseEventID": "broughtForward",
+    "CaseFieldID": "bfActions",
+    "ListElementCode": "bfDate",
+    "EventElementLabel": "B/F Date",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  }
+]
