@@ -1,85 +1,85 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "leadMultipleName",
+    "CaseFieldID": "multipleName",
     "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "multipleCaseNumbers",
+    "CaseFieldID": "caseIdCollection",
     "UserRole": "citizen",
     "CRUD": "CRU"
   }
