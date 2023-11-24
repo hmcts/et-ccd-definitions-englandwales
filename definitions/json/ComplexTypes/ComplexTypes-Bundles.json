@@ -24,7 +24,7 @@
     "ID": "HearingBundle",
     "ListElementCode": "hearing",
     "FieldType": "Text",
-    "ElementLabel": "Hearing these documents are for (id)",
+    "ElementLabel": "Hearing",
     "FieldShowCondition": "formattedSelectedHearing=\"dummy\"",
     "SecurityClassification": "Public"
   },
