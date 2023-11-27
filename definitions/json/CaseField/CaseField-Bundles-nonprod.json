@@ -80,12 +80,13 @@
     "Label": "Upload document",
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C57",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "bundlesRespondentCollection",
-    "Label": "Hearing Bundles",
+    "Label": "Respondent Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
@@ -93,9 +94,16 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "bundlesClaimantCollection",
-    "Label": "Hearing Bundles",
+    "Label": "Claimant Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "bundlesTabTitle",
+    "Label": "### Hearing Documents",
+    "FieldType": "Label",
+    "SecurityClassification": "PUBLIC"
   }
 ]
