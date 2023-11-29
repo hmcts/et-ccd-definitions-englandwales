@@ -94,5 +94,11 @@
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "uploadDocumentForServing",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   }
 ]
