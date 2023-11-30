@@ -72,7 +72,7 @@
     {
         "CaseTypeID": "ET_EnglandWales",
         "CategoryID": "C12",
-        "CategoryLabel": "ET 1 Attachment",
+        "CategoryLabel": "ET1 Attachment",
         "DisplayOrder": 2,
         "ParentCategoryID": "C1"
     },
@@ -113,6 +113,13 @@
     },
     {
         "CaseTypeID": "ET_EnglandWales",
+        "CategoryID": "C71",
+        "CategoryLabel": "ET1 Vetting",
+        "DisplayOrder": 8,
+        "ParentCategoryID": "C1"
+    },
+    {
+        "CaseTypeID": "ET_EnglandWales",
         "CategoryID": "C18",
         "CategoryLabel": "ET3",
         "DisplayOrder": 1,
@@ -144,6 +151,13 @@
         "CategoryID": "C22",
         "CategoryLabel": "App to extend time to present a response",
         "DisplayOrder": 5,
+        "ParentCategoryID": "C2"
+    },
+    {
+        "CaseTypeID": "ET_EnglandWales",
+        "CategoryID": "C72",
+        "CategoryLabel": "ET3 Processing",
+        "DisplayOrder": 6,
         "ParentCategoryID": "C2"
     },
     {
