@@ -1678,8 +1678,7 @@
     "FieldType": "Collection",
     "ElementLabel": "Upload a document to your response",
     "FieldTypeParameter": "DocumentUpload",
-      "CategoryID": "C19",
-      "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseRespondentContestClaim=\"Yes\"",
     "SecurityClassification": "Public"
   },
   {
