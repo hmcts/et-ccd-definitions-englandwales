@@ -7601,5 +7601,20 @@
     "ElementLabel": "Configure image for stitched PDF?",
     "FieldTypeParameter": "DocumentImage",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Digital Case File",
+    "SecurityClassification": "Public",
+    "CategoryID": "C69"
+  },
+  {
+    "ID": "DigitalCaseFile",
+    "ListElementCode": "dateGenerated",
+    "FieldType": "Date",
+    "ElementLabel": "Date Generated",
+    "SecurityClassification": "Public"
   }
 ]

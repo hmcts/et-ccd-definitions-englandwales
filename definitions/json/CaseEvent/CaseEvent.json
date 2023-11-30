@@ -758,6 +758,7 @@
     "DisplayOrder": 29,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundle/selectBundle",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundle/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
