@@ -650,10 +650,10 @@
     "Publish": "Y"
   },
   {
-    "ID": "BFActions",
+    "ID": "genericTseDetails",
     "CaseEventID": "uploadDocumentForServing",
-    "CaseFieldID": "bfActions",
-    "ListElementCode": "bfDate",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
@@ -663,9 +663,19 @@
     "ID": "BFActions",
     "CaseEventID": "uploadDocumentForServing",
     "CaseFieldID": "bfActions",
-    "ListElementCode": "allActions",
+    "ListElementCode": "bfDate",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "BFActions",
+    "CaseEventID": "uploadDocumentForServing",
+    "CaseFieldID": "bfActions",
+    "ListElementCode": "allActions",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   }
