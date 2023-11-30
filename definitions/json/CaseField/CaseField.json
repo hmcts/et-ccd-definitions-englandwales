@@ -1420,6 +1420,7 @@
     "ID": "etInitialConsiderationDocument",
     "Label": "Initial Consideration Document",
     "FieldType": "Document",
+    "CategoryID": "C23",
     "SecurityClassification": "Public"
   },
   {
