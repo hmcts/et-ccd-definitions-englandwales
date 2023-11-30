@@ -631,7 +631,7 @@
     "ListElementCode": "et3VettingDocument",
     "FieldType": "Document",
     "ElementLabel": "ET3 Processing Document",
-    "CategoryID": "C18",
+    "CategoryID": "C72",
     "SecurityClassification": "Public"
   },
   {
@@ -1710,7 +1710,7 @@
     "FieldType": "Document",
     "ElementLabel": "Add a document",
     "FieldTypeParameter": "DocumentUpload",
-    "CategoryID": "C18",
+    "CategoryID": "C19",
     "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
     "SecurityClassification": "Public"
   },
@@ -1737,7 +1737,7 @@
     "FieldType": "Document",
     "ElementLabel": "Add document",
     "FieldTypeParameter": "DocumentUpload",
-    "CategoryID": "C18",
+    "CategoryID": "C19",
     "FieldShowCondition": "et3ResponseRespondentSupportNeeded=\"Yes\"",
     "SecurityClassification": "Public"
   },
