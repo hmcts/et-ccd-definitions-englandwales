@@ -5216,7 +5216,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "createReferral",
     "CaseFieldID": "referentEmail",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
