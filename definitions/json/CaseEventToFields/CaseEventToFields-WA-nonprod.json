@@ -396,17 +396,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "uploadDocumentForServing",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "PageShowCondition": "genericTseApplicationCollection.type=\"dummy\"",
-    "DisplayContext": "COMPLEX",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3,
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "horizontalLine",
     "DisplayContext": "READONLY",

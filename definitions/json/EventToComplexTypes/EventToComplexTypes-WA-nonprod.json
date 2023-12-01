@@ -665,7 +665,7 @@
     "CaseFieldID": "bfActions",
     "ListElementCode": "bfDate",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 2,
+    "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   },
@@ -675,7 +675,7 @@
     "CaseFieldID": "bfActions",
     "ListElementCode": "allActions",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 2,
     "DisplayContext": "OPTIONAL",
     "Publish": "Y"
   }
