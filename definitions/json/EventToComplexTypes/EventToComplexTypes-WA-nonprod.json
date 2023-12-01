@@ -650,10 +650,10 @@
     "Publish": "Y"
   },
   {
-    "ID": "genericTseDetails",
-    "CaseEventID": "uploadDocumentForServing",
-    "CaseFieldID": "genericTseApplicationCollection",
-    "ListElementCode": "type",
+    "ID": "amendRespondentDetails",
+    "CaseEventID": "amendRespondentDetails",
+    "CaseFieldID": "respondentCollection",
+    "ListElementCode": "responseReceived",
     "EventElementLabel": " ",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL",
