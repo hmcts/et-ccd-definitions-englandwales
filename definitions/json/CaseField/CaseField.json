@@ -1294,13 +1294,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "initialConsiderationBeforeYouStart",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\">Open the case documents tab here</a>",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationRespondent",
     "Label": "etInitialConsiderationRespondent",
     "FieldType": "Text",
