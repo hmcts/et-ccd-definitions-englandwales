@@ -21320,12 +21320,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundleYesNo",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundleYesNo",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21346,12 +21340,6 @@
     "CaseFieldID": "bundleYesNo",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundleConfiguration",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -21380,12 +21368,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseBundles",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseBundles",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21410,12 +21392,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "digitalCaseFile",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "digitalCaseFile",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -21436,12 +21412,6 @@
     "CaseFieldID": "digitalCaseFile",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
