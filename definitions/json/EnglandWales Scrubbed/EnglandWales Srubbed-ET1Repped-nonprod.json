@@ -1,0 +1,3 @@
+[  {"ID": "msl_HearingAttendence", "ListElementCode": "Phone hearings", "ListElement": "Phone hearings", "DisplayOrder": 1},
+  {"ID": "msl_HearingAttendence", "ListElementCode": "Video hearings", "ListElement": "Video hearings", "DisplayOrder": 2},
+  {"ID": "msl_HearingAttendence", "ListElementCode": "In person hearings", "ListElement": "In person hearings", "DisplayOrder": 3}]

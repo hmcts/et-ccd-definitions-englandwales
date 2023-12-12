@@ -1,0 +1,7 @@
+[
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "et1ReppedCreateCase", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "et1SectionOne", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "submitEt1Draft", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+]

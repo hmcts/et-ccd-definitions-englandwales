@@ -1,0 +1,44 @@
+[
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1ReppedCreateCase",
+    "Name": "Create Draft Case",
+    "Description": "Create a new draft case",
+    "DisplayOrder": 54,
+    "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/createCase/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Draft Case",
+    "ShowSummary": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SectionOne",
+    "Name": "ET1 - Claimant Details",
+    "Description": "Claimant Details",
+    "DisplayOrder": 55,
+    "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
+    "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
+    "CallBackURLAboutToSubmitEvent": "http://localhost:8081/et1Repped/aboutToSubmitSection",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SectionTwo",
+    "Name": "Employment & Respondent Detail",
+    "Description": "Employment & Respondent Detail",
+    "DisplayOrder": 56,
+    "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
+    "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
+    "CallBackURLAboutToSubmitEvent": "http://localhost:8081/et1Repped/aboutToSubmitSection",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1SectionThree", "Name": "Claim Details", "Description": "Claim Details", "DisplayOrder": 57, "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS", "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS", "CallBackURLAboutToSubmitEvent": "http://localhost:8081/et1Repped/aboutToSubmitSection", "SecurityClassification": "Public", "ShowEventNotes": "N", "ShowSummary": "Y"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "submitEt1Draft", "Name": "Submit ET1 Draft", "Description": "Submit ET1 Draft", "DisplayOrder": 57, "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS", "PostConditionState": "Submitted", "SecurityClassification": "Public", "ShowEventNotes": "N", "ShowSummary": "Y"}]
+
+
