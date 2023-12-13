@@ -1269,6 +1269,13 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "respondentCollection",
+    "ListElementCode": "et3Vetting",
+    "UserRole": "caseworker-employment",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "respondentCollection",
     "ListElementCode": "et3ResponseIsClaimantNameCorrect",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
