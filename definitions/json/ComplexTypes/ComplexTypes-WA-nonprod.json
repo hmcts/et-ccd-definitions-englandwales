@@ -374,6 +374,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "referralReply",
+    "ListElementCode": "referralNumber",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "tseReply",
     "ListElementCode": "dateTime",
     "FieldType": "Text",
