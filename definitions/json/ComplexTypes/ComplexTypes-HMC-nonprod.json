@@ -71,12 +71,5 @@
     "ElementLabel": "Organisation or business name",
     "FieldShowCondition": "respondentType=\"Organisation\"",
     "SecurityClassification": "Public"
-  },
-  {
-    "ID": "HearingBundle",
-    "ListElementCode": "agreedWithNo",
-    "FieldType": "Text",
-    "ElementLabel": "Why you've not been able to agree with the other party",
-    "SecurityClassification": "Public"
   }
 ]
