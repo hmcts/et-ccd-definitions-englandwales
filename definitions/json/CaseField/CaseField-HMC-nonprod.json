@@ -71,5 +71,40 @@
     "Label": "# Unavailability Dates",
     "FieldType": "Label",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icListingPreliminaryHearing",
+    "Label": "Should the case be listed for a private preliminary hearing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseRestrictedFlag",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "autoListFlag",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseDeepLink",
+    "Label": "hidden",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingIsLinkedFlag",
+    "Label": "hidden",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

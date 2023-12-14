@@ -33,5 +33,15 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "partySelection CONTAINS \"respondent\"",
     "PageLabel": "Unavailability date ranges - Respondent"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "DisplayContext": "MANDATORY",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 14
   }
 ]
