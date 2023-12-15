@@ -72,5 +72,6 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "respondentNoAcasCertificateReason", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "addAdditionalRespondentPreamble", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "addAdditionalRespondentPreambleLabel", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "addAdditionalRespondent", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "addAdditionalRespondent", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1ReppedRespondentCollection", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
 ]

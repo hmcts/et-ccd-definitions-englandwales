@@ -187,6 +187,6 @@
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "CaseFieldID": "respondentNoAcasCertificateReason", "DisplayContext": "MANDATORY", "PageID": 18, "PageDisplayOrder": 18, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y"},
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "CaseFieldID": "addAdditionalRespondentPreamble", "DisplayContext": "OPTIONAL", "PageID": 19, "PageDisplayOrder": 19, "PageFieldDisplayOrder": 1, "FieldShowCondition": "addAdditionalRespondent = \"dummy\"", "PageLabel": "Do you want to add another respondent?"},
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "CaseFieldID": "addAdditionalRespondentPreambleLabel", "DisplayContext": "READONLY", "PageID": 19, "PageDisplayOrder": 19, "PageFieldDisplayOrder": 2},
-  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "CaseFieldID": "addAdditionalRespondent", "DisplayContext": "MANDATORY", "PageID": 19, "PageDisplayOrder": 19, "PageFieldDisplayOrder": 3, "ShowSummaryChangeOption": "Y"}
-
+  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "CaseFieldID": "addAdditionalRespondent", "DisplayContext": "MANDATORY", "PageID": 19, "PageDisplayOrder": 19, "PageFieldDisplayOrder": 3, "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionTwo", "CaseFieldID": "et1ReppedRespondentCollection", "DisplayContext": "MANDATORY", "PageID": 20, "PageDisplayOrder": 20, "PageFieldDisplayOrder": 1, "PageShowCondition": "addAdditionalRespondent=\"Yes\"", "ShowSummaryChangeOption": "Y", "PageLabel": "Add respondents"}
 ]
