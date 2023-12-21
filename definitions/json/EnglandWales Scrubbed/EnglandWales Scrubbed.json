@@ -5036,25 +5036,25 @@
   {
     "ID": "msl_claimOutcomes",
     "ListElementCode": "compensation",
-    "ListElement": "Compensation only",
+    "ListElement": "Compensation",
     "DisplayOrder": 1
   },
   {
     "ID": "msl_claimOutcomes",
     "ListElementCode": "tribunal",
-    "ListElement": "If claiming discrimination, a tribunal recommendation",
+    "ListElement": "A tribunal recommendation",
     "DisplayOrder": 2
   },
   {
     "ID": "msl_claimOutcomes",
     "ListElementCode": "oldJob",
-    "ListElement": "If claiming unfair dismissal, to get your old job back and compensation",
+    "ListElement": "To get their old job back",
     "DisplayOrder": 3
   },
   {
     "ID": "msl_claimOutcomes",
     "ListElementCode": "anotherJob",
-    "ListElement": "If claiming unfair dismissal, to get another job with the same employer or associated employer and compensation(re-engagement)",
+    "ListElement": "If claiming unfair dismissal, to get another job with the same employer or associated employer (re-engagement)",
     "DisplayOrder": 4
   },
   {
@@ -5120,7 +5120,7 @@
   {
     "ID": "msl_payClaims",
     "ListElementCode": "Arrears",
-    "ListElement": "Arrears (pay you are owed)",
+    "ListElement": "Arrears",
     "DisplayOrder": 1
   },
   {

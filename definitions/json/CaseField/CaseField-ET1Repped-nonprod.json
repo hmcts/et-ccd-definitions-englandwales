@@ -101,6 +101,42 @@
   {"CaseTypeID": "ET_EnglandWales", "ID": "addAdditionalRespondentPreamble", "Label": " ", "FieldType": "Text", "SecurityClassification": "Public"},
   {"CaseTypeID": "ET_EnglandWales", "ID": "addAdditionalRespondentPreambleLabel", "Label": "${addAdditionalRespondentPreamble}", "FieldType": "Label", "SecurityClassification": "Public"},
   {"CaseTypeID": "ET_EnglandWales", "ID": "addAdditionalRespondent", "Label": "Do you want to add another respondent", "FieldType": "YesOrNo", "SecurityClassification": "Public"},
-  {"CaseTypeID": "ET_EnglandWales", "ID": "et1ReppedRespondentCollection", "Label": "Respondents", "FieldType": "Collection", "FieldTypeParameter": "CreateRespondent", "SecurityClassification": "Public"}
-
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1ReppedRespondentCollection", "Label": "Respondents", "FieldType": "Collection", "FieldTypeParameter": "CreateRespondent", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1SectionThreePreamble", "Label": "You’ll need to provide details of the claim. This can be uploaded in a document.", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1SectionThreeDetailsPreamble", "Label": "Upload the claim details in a document or use the text box.\r\nYou can use both if you need to.", "FieldType": "Label", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1SectionThreeClaimDetails", "Label": "Enter details of the claim", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1SectionThreeDocumentUpload", "Label": "Upload the details of the claim", "FieldType": "Document", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "et1SectionThreeTypeOfClaim", "Label": "Select all that apply.", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_et1TypesOfClaim", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "discriminationTypesOfClaim", "Label": "What type of discrimination are you claiming?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_et1DiscriminationClaims", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "payTypesOfClaim", "Label": "What type of pay claim are you making?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_payClaims", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "whistleblowingYesNo", "Label": "Do you want us to forward this claim to a relevant regulator or body?", "HintText": "Select all that apply", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_YesNo", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "whistleblowingRegulator", "Label": "Enter the name of the relevant regulator or body you want us to send this to", "HintText": "If you cannot find one, enter N/A", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "otherTypeOfClaimDetails", "Label": "Enter the type of claim", "FieldType": "Text", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "claimSuccessful", "Label": "Select all that apply.", "FieldType": "MultiSelectList", "FieldTypeParameter": "msl_claimOutcomes", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "compensationDetails", "Label": "What compensation is the claimant seeking?", "HintText": "Try to set out all compensation you’re claiming for, and provide a total if possible.", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "compensationAmount", "Label": "Enter the total compensation amount sought", "FieldType": "MoneyGBP", "SecurityClassification": "Public"},
+  {"CaseTypeID": "ET_EnglandWales", "ID": "tribunalRecommendationDetails", "Label": "What tribunal recommendation would you like to make?", "HintText": "Tell us what action you’d like the tribunal to recommend the respondent makes to reduce the impact of any discrimination which has occurred.", "FieldType": "TextArea", "SecurityClassification": "Public"},
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "linkedCasesPreamble",
+    "Label": "Tell us if there are any existing cases this claim could be linked to.\n\nThis could be: \n\n* a case or cases you have already brought\n* a case or cases brought by other people against the same employer with the same or similar circumstances\n\nThis will help the tribunal consider whether the cases should be linked in any way.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "linkedCasesYesNo",
+    "Label": "Are there any existing cases which may be linked to this new claim",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_YesNo",
+    "SecurityClassification": "Public"
+  },
+  {
+   "CaseTypeID": "ET_EnglandWales",
+    "ID": "linkedCasesDetails",
+    "Label": " ",
+    "HintText": "Enter the case numbers and names of the people in the existing case or cases.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  }
 ]

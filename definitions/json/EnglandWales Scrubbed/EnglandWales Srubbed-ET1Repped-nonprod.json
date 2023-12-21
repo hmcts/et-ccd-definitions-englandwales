@@ -22,5 +22,19 @@
   {"ID": "frl_noAcasReason", "ListElementCode": "Another person", "ListElement": "Another person making the claim has an Acas certificate number", "DisplayOrder": 1},
   {"ID": "frl_noAcasReason", "ListElementCode": "No Power", "ListElement": "Acas doesn’t have the power to conciliate on some or all of this claim", "DisplayOrder": 2},
   {"ID": "frl_noAcasReason", "ListElementCode": "Employer already in touch", "ListElement": "The respondent has already been in touch with Acas", "DisplayOrder": 3},
-  {"ID": "frl_noAcasReason", "ListElementCode": "Unfair Dismissal", "ListElement": "The claim consists only of a complaint of unfair dismissal which contains an application for interim relief", "DisplayOrder": 4}
+  {"ID": "frl_noAcasReason", "ListElementCode": "Unfair Dismissal", "ListElement": "The claim consists only of a complaint of unfair dismissal which contains an application for interim relief", "DisplayOrder": 4},
+  {"ID": "msl_et1TypesOfClaim", "ListElementCode": "discrimination", "ListElement": "Discrimination of any type", "DisplayOrder": 1},
+  {"ID": "msl_et1TypesOfClaim", "ListElementCode": "payRelated", "ListElement": "Pay related claim", "DisplayOrder": 2},
+  {"ID": "msl_et1TypesOfClaim", "ListElementCode": "unfairDismissal", "ListElement": "Unfair dismissal, including constructive dismissal", "DisplayOrder": 3},
+  {"ID": "msl_et1TypesOfClaim", "ListElementCode": "whistleBlowing", "ListElement": "Whistleblowing", "DisplayOrder": 4},
+  {"ID": "msl_et1TypesOfClaim", "ListElementCode": "otherTypesOfClaims", "ListElement": "Other type of claim", "DisplayOrder": 5},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Age", "ListElement": "Age", "DisplayOrder": 1},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Disability", "ListElement": "Disability", "DisplayOrder": 2},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Gender reassignment", "ListElement": "Gender reassignment", "DisplayOrder": 4},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Marriage or civil partnership", "ListElement": "Marriage or civil partnership", "DisplayOrder": 5},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Pregnancy or maternity", "ListElement": "Pregnancy or maternity", "DisplayOrder": 6},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Race", "ListElement": "Race (including colour, nationality, and ethnic or national origins", "DisplayOrder": 7},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Religion or belief", "ListElement": "Religion or belief", "DisplayOrder": 8},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Sex", "ListElement": "Sex (including equal pay)", "DisplayOrder": 9},
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Sexual orientation", "ListElement": "Sexual orientation", "DisplayOrder": 10}
 ]
