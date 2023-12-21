@@ -132,11 +132,32 @@
     "SecurityClassification": "Public"
   },
   {
-   "CaseTypeID": "ET_EnglandWales",
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "linkedCasesDetails",
     "Label": " ",
     "HintText": "Enter the case numbers and names of the people in the existing case or cases.",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SectionOneDateCompleted",
+    "Label": "Date completed",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SectionTwoDateCompleted",
+    "Label": "Date completed",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et1SectionThreeDateCompleted",
+    "Label": "Date completed",
+    "FieldType": "Date",
     "SecurityClassification": "Public"
   }
 ]

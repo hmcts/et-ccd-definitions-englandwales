@@ -89,6 +89,9 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "tribunalRecommendationDetails", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "linkedCasesPreamble", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "linkedCasesYesNo", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "linkedCasesDetails", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "linkedCasesDetails", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionOneDateCompleted", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionTwoDateCompleted", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionThreeDateCompleted", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
 
 ]
