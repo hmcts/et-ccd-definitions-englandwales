@@ -396,5 +396,21 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "WA_REVIEW_RULE21_REFERRAL",
+    "Name": "WA_REVIEW_RULE21_REFERRAL",
+    "Description": "",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "N"
   }
 ]
