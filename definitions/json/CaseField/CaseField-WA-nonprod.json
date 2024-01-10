@@ -205,5 +205,12 @@
     "Label": "To help you complete this, <a href=\"/cases/case-details/${[CASE_REFERENCE]}#Documents\" target=\"_blank\">open the ET1 vetting form or other documents in the Documents tab (opens in new tab).</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icListingPreliminaryHearing",
+    "Label": "Should the case be listed for a private preliminary hearing?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]
