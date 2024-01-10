@@ -1,6 +1,7 @@
-[  {"ID": "msl_HearingAttendence", "ListElementCode": "Phone hearings", "ListElement": "Phone hearings", "DisplayOrder": 1},
-  {"ID": "msl_HearingAttendence", "ListElementCode": "Video hearings", "ListElement": "Video hearings", "DisplayOrder": 2},
-  {"ID": "msl_HearingAttendence", "ListElementCode": "In person hearings", "ListElement": "In person hearings", "DisplayOrder": 3},
+[
+  {"ID": "msl_HearingAttendence", "ListElementCode": "Phone", "ListElement": "Phone hearings", "DisplayOrder": 1},
+  {"ID": "msl_HearingAttendence", "ListElementCode": "Video", "ListElement": "Video hearings", "DisplayOrder": 2},
+  {"ID": "msl_HearingAttendence", "ListElementCode": "In person", "ListElement": "In person hearings", "DisplayOrder": 3},
   {"ID": "msl_YesNo", "ListElementCode": "Yes", "ListElement": "Yes", "DisplayOrder": 1},
   {"ID": "msl_YesNo", "ListElementCode": "No", "ListElement": "No", "DisplayOrder": 2},
   {"ID": "msl_StillWorking", "ListElementCode": "Still working", "ListElement": "Yes, they are still working for the respondent ", "DisplayOrder": 1},
