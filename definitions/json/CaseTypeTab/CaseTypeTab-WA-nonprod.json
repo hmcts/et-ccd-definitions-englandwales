@@ -227,5 +227,12 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "icDateCompleted",
     "TabFieldDisplayOrder": 31
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icListingPreliminaryHearing",
+    "TabFieldDisplayOrder": 40
   }
 ]
