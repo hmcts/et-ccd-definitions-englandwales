@@ -942,5 +942,11 @@
     "CaseFieldID": "icListingPreliminaryHearing",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "waRule21ReferralSent",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
