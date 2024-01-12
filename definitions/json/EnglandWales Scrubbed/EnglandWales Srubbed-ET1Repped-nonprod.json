@@ -37,5 +37,6 @@
   {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Race", "ListElement": "Race (including colour, nationality, and ethnic or national origins)", "DisplayOrder": 7},
   {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Religion or belief", "ListElement": "Religion or belief", "DisplayOrder": 8},
   {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Sex", "ListElement": "Sex (including equal pay)", "DisplayOrder": 9},
-  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Sexual orientation", "ListElement": "Sexual orientation", "DisplayOrder": 10}
+  {"ID": "msl_et1DiscriminationClaims", "ListElementCode": "Sexual orientation", "ListElement": "Sexual orientation", "DisplayOrder": 10},
+  {"ID": "msl_submitEt1", "ListElementCode": "Yes", "ListElement": "Yes - I want to submit this ET1 claim", "DisplayOrder": 1}
 ]

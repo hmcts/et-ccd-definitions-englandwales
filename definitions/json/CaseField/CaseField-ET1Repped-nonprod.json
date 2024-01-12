@@ -158,5 +158,20 @@
     "Label": "Date completed",
     "FieldType": "Date",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "submitEt1Confirmation",
+    "Label": "Do you want to submit this ET1 claim?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_submitEt1",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "submitEt1Preamble",
+    "Label": "If you need to check your answers you can access individual sections from the claim overview. You can then edit your answers within the section.\n\nYou will not be able to make any further changes to this form once submitted.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

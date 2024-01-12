@@ -204,6 +204,8 @@
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "CaseFieldID": "tribunalRecommendationDetails", "DisplayContext": "OPTIONAL", "PageID": 4, "PageDisplayOrder": 4, "PageFieldDisplayOrder": 4, "FieldShowCondition": "claimSuccessful CONTAINS \"tribunal\"", "ShowSummaryChangeOption": "Y"},
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "CaseFieldID": "linkedCasesPreamble", "DisplayContext": "READONLY", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "CaseFieldID": "linkedCasesYesNo", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 2, "ShowSummaryChangeOption": "Y", "CallBackURLMidEvent": "${ET_COS_URL}/et1Repped/sectionThree/validateLinkedCases"},
-  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "CaseFieldID": "linkedCasesDetails", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "FieldShowCondition": "linkedCasesYesNo CONTAINS \"Yes\"", "ShowSummaryChangeOption": "Y"}
+  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "CaseFieldID": "linkedCasesDetails", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "FieldShowCondition": "linkedCasesYesNo CONTAINS \"Yes\"", "ShowSummaryChangeOption": "Y"},
+  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "submitEt1Draft", "CaseFieldID": "submitEt1Preamble", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 1},
+  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "submitEt1Draft", "CaseFieldID": "submitEt1Confirmation", "DisplayContext": "MANDATORY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2}
 
 ]

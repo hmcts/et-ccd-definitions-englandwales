@@ -44,16 +44,16 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "submitEt1Draft",
-    "Name": "Submit ET1 Draft",
-    "Description": "Submit ET1 Draft",
+    "Name": "Submit ET1 Claim",
+    "Description": "Submit ET1 Claim",
     "DisplayOrder": 57,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "Submitted",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/submitClaim",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addServiceId",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/submitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y"
+    "ShowSummary": "N"
   }
 ]
 
