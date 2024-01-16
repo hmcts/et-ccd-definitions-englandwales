@@ -669,8 +669,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "transferredCaseLink",
+    "Label": "Case Link:",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "linkedCaseCTLabel",
-    "Label": "Case Transfer: ${linkedCaseCT}",
+    "Label": "Case Transfer: ${linkedCaseCT} ${transferredCaseLink}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -4469,7 +4476,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationTitle",
     "Label": "Enter notification title",
-    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing",
+    "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing. Please note the text entered here will be displayed in the notification e-mail sent to the parties.",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },

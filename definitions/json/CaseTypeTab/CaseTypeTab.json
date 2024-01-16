@@ -206,6 +206,14 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "transferredCaseLink",
+    "TabFieldDisplayOrder": 25,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "ethosCaseReference",
     "TabFieldDisplayOrder": 26,
     "FieldShowCondition": "caseType=\"dummy\""
