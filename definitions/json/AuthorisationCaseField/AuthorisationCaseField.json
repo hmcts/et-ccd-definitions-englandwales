@@ -4653,7 +4653,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "servingDocumentCollection",
     "UserRole": "citizen",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
