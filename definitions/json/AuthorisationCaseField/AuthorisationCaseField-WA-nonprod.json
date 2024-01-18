@@ -13,6 +13,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "managingOffice",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et3Rule26",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
@@ -942,5 +948,11 @@
     "CaseFieldID": "icListingPreliminaryHearing",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "waRule21ReferralSent",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
