@@ -6,7 +6,8 @@
     "CaseFieldID": "caseLinks",
     "TabDisplayOrder": 71,
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "LinkedCasesComponentLauncher!=\"\""
+    "FieldShowCondition": "LinkedCasesComponentLauncher!=\"\"",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -34,7 +35,8 @@
     "TabDisplayOrder": 69,
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseFieldID": "respondentFlags",

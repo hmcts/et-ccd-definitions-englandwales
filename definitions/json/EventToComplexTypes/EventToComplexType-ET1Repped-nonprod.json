@@ -6,5 +6,13 @@
   {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "PostTown", "FieldDisplayOrder": 5, "DisplayContext": "OPTIONAL"},
   {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "County", "FieldDisplayOrder": 6, "DisplayContext": "OPTIONAL"},
   {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "Country", "FieldDisplayOrder": 7, "DisplayContext": "OPTIONAL"},
-  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "PostCode", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"}
+  {"ID": "Et1ReppedCreateDraft", "CaseEventID": "et1ReppedCreateCase", "CaseFieldID": "et1ReppedTriageAddress", "ListElementCode": "PostCode", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "claimantWorkAddress", "FieldDisplayOrder": 1, "DisplayContext": "MANDATORY"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "AddressLine1", "FieldDisplayOrder": 2, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "AddressLine2", "FieldDisplayOrder": 3, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "AddressLine3", "FieldDisplayOrder": 4, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "PostTown", "FieldDisplayOrder": 5, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "County", "FieldDisplayOrder": 6, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "Country", "FieldDisplayOrder": 7, "DisplayContext": "OPTIONAL"},
+  {"ID": "Et1ReppedSectionTwo", "CaseEventID": "et1ReppedSectionTwo", "CaseFieldID": "claimantWorkAddress", "ListElementCode": "PostCode", "FieldDisplayOrder": 8, "DisplayContext": "OPTIONAL"}
 ]

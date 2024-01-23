@@ -1,12 +1,5 @@
 [
-  {
-    "ID": "CreateRespondent",
-    "ListElementCode": "respondentPreamble",
-    "FieldType": "Label",
-    "ElementLabel": "<h2>Respondent Name</h2>\n\nEnter the name of the organisation. If there’s no organisation involved - for example, because the claimant was employed by an individual acting as a sole trader - enter the individual’s name.\n\nThis should be the same as the name of the respondent on the Acas certificate.\n\nYou will be able to add more respondents later.",
-    "SecurityClassification": "Public"
-  },
-  {"ID": "CreateRespondent", "ListElementCode": "respondentType", "FieldType": "FixedRadioList", "ElementLabel": " ", "FieldTypeParameter": "frl_respondentType", "SecurityClassification": "Public"},
+  {"ID": "CreateRespondent", "ListElementCode": "respondentType", "FieldType": "FixedRadioList", "ElementLabel": "Respondent name", "FieldTypeParameter": "frl_respondentType", "SecurityClassification": "Public"},
   {"ID": "CreateRespondent", "ListElementCode": "respondentFirstName", "FieldType": "Text", "ElementLabel": "Enter the first name of the individual", "FieldShowCondition": "respondentType=\"Individual\"", "RetainHiddenValue": "No", "SecurityClassification": "Public"},
   {"ID": "CreateRespondent", "ListElementCode": "respondentLastName", "FieldType": "Text", "ElementLabel": "Enter the last name of the individual", "FieldShowCondition": "respondentType=\"Individual\"", "RetainHiddenValue": "No", "SecurityClassification": "Public"},
   {"ID": "CreateRespondent", "ListElementCode": "respondentOrganisation", "FieldType": "Text", "ElementLabel": "Enter the name of the organisation", "FieldShowCondition": "respondentType=\"Organisation\"", "RetainHiddenValue": "No", "SecurityClassification": "Public"},

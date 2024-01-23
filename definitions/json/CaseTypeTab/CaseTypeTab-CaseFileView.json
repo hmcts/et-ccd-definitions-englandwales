@@ -6,6 +6,7 @@
     "CaseFieldID": "componentLauncher",
     "TabDisplayOrder": 19,
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   }
 ]

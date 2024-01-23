@@ -6,7 +6,8 @@
     "TabLabel": "Hearing Unavailability",
     "TabDisplayOrder": 70,
     "CaseFieldID": "unavailabilityTabTitle",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

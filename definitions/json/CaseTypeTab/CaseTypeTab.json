@@ -7,7 +7,8 @@
     "TabDisplayOrder": 1,
     "CaseFieldID": "flagsImageAltText",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "caseType=\"dummy\""
+    "FieldShowCondition": "caseType=\"dummy\"",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -232,7 +233,8 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "claimant_TypeOfClaimant",
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "claimant_TypeOfClaimant=\"dummy\""
+    "FieldShowCondition": "claimant_TypeOfClaimant=\"dummy\"",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -904,7 +906,8 @@
     "TabDisplayOrder": 5,
     "CaseFieldID": "respondentCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)"
+    "DisplayContextParameter": "#TABLE(respondent_name, responseReceived)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -929,7 +932,8 @@
     "TabLabel": "Respondent Representative",
     "TabDisplayOrder": 6,
     "CaseFieldID": "repCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -938,7 +942,8 @@
     "TabLabel": "Jurisdictions",
     "TabDisplayOrder": 8,
     "CaseFieldID": "jurCodesCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -948,7 +953,8 @@
     "TabDisplayOrder": 9,
     "CaseFieldID": "hearingCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue)"
+    "DisplayContextParameter": "#TABLE(Hearing_type, Hearing_venue)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -982,7 +988,8 @@
     "TabLabel": "Judgments",
     "TabDisplayOrder": 11,
     "CaseFieldID": "judgementCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -991,7 +998,8 @@
     "TabLabel": "Deposit Order",
     "TabDisplayOrder": 12,
     "CaseFieldID": "depositType",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1000,7 +1008,8 @@
     "TabLabel": "Restricted Reporting",
     "TabDisplayOrder": 13,
     "CaseFieldID": "restrictedReporting",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1010,7 +1019,8 @@
     "TabDisplayOrder": 14,
     "CaseFieldID": "bfActions",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(bfDate)"
+    "DisplayContextParameter": "#TABLE(bfDate)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1019,7 +1029,8 @@
     "TabLabel": "History",
     "TabDisplayOrder": 15,
     "CaseFieldID": "caseHistory",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1028,7 +1039,8 @@
     "TabLabel": "Documents",
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1037,7 +1049,8 @@
     "TabLabel": "Applications",
     "TabDisplayOrder": 17,
     "CaseFieldID": "applicationsTab",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1070,7 +1083,8 @@
     "TabDisplayOrder": 19,
     "TabID": "ADR",
     "TabLabel": "ADR",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseFieldID": "piiDocumentCollection",
@@ -1079,7 +1093,8 @@
     "TabDisplayOrder": 20,
     "TabID": "PII",
     "TabLabel": "PII",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseFieldID": "appealDocumentCollection",
@@ -1088,7 +1103,8 @@
     "TabDisplayOrder": 21,
     "TabID": "Appeals",
     "TabLabel": "Appeals",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -1507,7 +1523,8 @@
     "TabLabel": "Judgments, orders & notifications",
     "TabDisplayOrder": 18,
     "CaseFieldID": "jonsTab",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1523,7 +1540,8 @@
     "TabDisplayOrder": 18,
     "TabID": "notifications",
     "TabLabel": "Notifications",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseFieldID": "sendNotificationCollection",
@@ -1542,6 +1560,7 @@
     "TabLabel": "History",
     "TabDisplayOrder": 2,
     "CaseFieldID": "customHistoryViewer",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   }
 ]
