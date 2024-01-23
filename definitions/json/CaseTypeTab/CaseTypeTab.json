@@ -1413,14 +1413,6 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
-    "TabID": "Notes",
-    "TabLabel": "Notes",
-    "CaseFieldID": "multiplesNotes",
-    "TabDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
     "TabID": "CaseMultiple",
     "CaseFieldID": "multipleName",
     "TabFieldDisplayOrder": 1,
@@ -1542,14 +1534,5 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "EventHistory",
-    "TabLabel": "History",
-    "TabDisplayOrder": 3,
-    "CaseFieldID": "customHistoryViewer",
-    "TabFieldDisplayOrder": 1
   }
 ]
