@@ -256,7 +256,8 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#TABLE(uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
