@@ -22483,6 +22483,24 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "multiplesNotes",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "multiplesNotes",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "multiplesNotes",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "leadCase",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"

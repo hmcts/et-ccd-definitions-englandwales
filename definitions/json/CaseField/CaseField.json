@@ -5285,6 +5285,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multiplesNotes",
+    "Label": "Notes",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "leadCase",
     "Label": "Lead Case",
     "FieldType": "Text",
