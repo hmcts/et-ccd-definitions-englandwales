@@ -22491,13 +22491,13 @@
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "multiplesNotes",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "multiplesNotes",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
