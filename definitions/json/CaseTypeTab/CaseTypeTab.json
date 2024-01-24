@@ -33,6 +33,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "managingOffice",
     "TabFieldDisplayOrder": 5
@@ -255,7 +256,8 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#TABLE(uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1028,7 +1030,8 @@
     "TabLabel": "Documents",
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

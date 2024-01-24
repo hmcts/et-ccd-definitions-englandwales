@@ -118,5 +118,23 @@
     "CaseFieldID": "multiplesRespondentDocumentsTabTitle",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-englandwales",
+        "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
