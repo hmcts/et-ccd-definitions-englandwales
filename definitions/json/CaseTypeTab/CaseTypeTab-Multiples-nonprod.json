@@ -26,7 +26,7 @@
     "TabLabel": "Docs - Respondent",
     "TabFieldDisplayOrder": 1
   },
-    {
+  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
     "TabID": "CaseFileView",
