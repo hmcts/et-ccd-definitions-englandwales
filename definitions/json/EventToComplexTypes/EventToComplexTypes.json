@@ -2764,6 +2764,42 @@
   },
   {
     "ID": "AmendCase",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "preAcceptCase",
+    "ListElementCode": "dateAccepted",
+    "EventElementLabel": "Date Accepted",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "AmendCase",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "preAcceptCase",
+    "ListElementCode": "dateRejected",
+    "EventElementLabel": "Date Rejected",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "AmendCase",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_preferences",
+    "EventElementLabel": "What are the claimant's hearing preferences",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "AmendCase",
+    "CaseEventID": "migrateCaseLinkDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "hearing_assistance",
+    "EventElementLabel": "Why is the claimant unable to take part in video or phone hearings",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "AmendCase",
     "CaseEventID": "amendCaseDetailsClosed",
     "CaseFieldID": "preAcceptCase",
     "ListElementCode": "dateAccepted",
