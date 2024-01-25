@@ -3,14 +3,14 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReppedCreateCase",
     "Name": "Create draft claim",
-    "Description": "Create a new draft case",
+    "Description": "Create a new draft claim",
     "DisplayOrder": 54,
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et1Repped/createCase/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Create draft claim",
-    "ShowSummary": "Y"
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
