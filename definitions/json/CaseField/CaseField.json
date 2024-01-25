@@ -1427,6 +1427,7 @@
     "ID": "etInitialConsiderationDocument",
     "Label": "Initial Consideration Document",
     "FieldType": "Document",
+    "CategoryID": "C23",
     "SecurityClassification": "Public"
   },
   {
@@ -3276,7 +3277,7 @@
     "ID": "et1VettingDocument",
     "Label": "ET1 Vetting Document",
     "FieldType": "Document",
-    "CategoryID": "C11",
+    "CategoryID": "C71",
     "SecurityClassification": "Public"
   },
   {

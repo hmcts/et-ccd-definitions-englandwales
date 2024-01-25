@@ -34,6 +34,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
+    "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "managingOffice",
     "TabFieldDisplayOrder": 5
@@ -257,7 +258,8 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#TABLE(uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1040,6 +1042,7 @@
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)",
     "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
@@ -1552,15 +1555,5 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "EventHistory",
-    "TabLabel": "History",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "customHistoryViewer",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   }
 ]

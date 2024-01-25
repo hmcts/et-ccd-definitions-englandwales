@@ -212,5 +212,12 @@
     "Label": "Should the case be listed for a private preliminary hearing?",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "waRule21ReferralSent",
+    "Label": "text",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]
