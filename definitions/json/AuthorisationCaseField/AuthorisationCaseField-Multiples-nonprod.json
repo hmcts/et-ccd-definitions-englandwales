@@ -1,6 +1,30 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "notificationsTabLinks",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "multiplesNotes",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
