@@ -206,6 +206,14 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "transferredCaseLink",
+    "TabFieldDisplayOrder": 25,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "ethosCaseReference",
     "TabFieldDisplayOrder": 26,
     "FieldShowCondition": "caseType=\"dummy\""
@@ -248,7 +256,8 @@
     "Channel": "CaseWorker",
     "TabID": "CaseClaimant",
     "CaseFieldID": "claimantDocumentCollection",
-    "TabFieldDisplayOrder": 2
+    "TabFieldDisplayOrder": 2,
+    "DisplayContextParameter": "#TABLE(uploadedDocument, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1038,7 +1047,7 @@
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
     "TabFieldDisplayOrder": 3,
-    "DisplayContextParameter": "#TABLE(uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
+    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1544,14 +1553,5 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "EventHistory",
-    "TabLabel": "History",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "customHistoryViewer",
-    "TabFieldDisplayOrder": 1
   }
 ]
