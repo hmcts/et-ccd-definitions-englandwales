@@ -1,0 +1,27 @@
+[
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "bundleYesNo",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Configure case file",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createDcf",
+    "CaseFieldID": "caseBundles",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "PageLabel": "Configure case file",
+    "FieldShowCondition": "bundleYesNo=\"No\"",
+    "PageColumnNumber": 1
+  }
+]
