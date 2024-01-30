@@ -1,5 +1,31 @@
 [
   {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "TabLabel": "Notifications",
+    "TabDisplayOrder": 2,
+    "CaseFieldID": "notificationsTabLinks",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Notes",
+    "TabLabel": "Notes",
+    "CaseFieldID": "multiplesNotes",
+    "TabDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "EventHistory",
+    "TabLabel": "History",
+    "TabDisplayOrder": 4,
+    "CaseFieldID": "customHistoryViewer",
+    "TabFieldDisplayOrder": 1
+  },
+  {
     "CaseFieldID": "multiplesDocumentsTabTitle",
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
@@ -34,5 +60,21 @@
     "TabDisplayOrder": 104,
     "CaseFieldID": "caseFileView",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "TabLabel": "Applications",
+    "TabDisplayOrder": 105,
+    "CaseFieldID": "applicationsTab",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinks",
+    "TabFieldDisplayOrder": 2
   }
 ]

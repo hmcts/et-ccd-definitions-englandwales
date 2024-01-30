@@ -1537,14 +1537,5 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabID": "EventHistory",
-    "TabLabel": "History",
-    "TabDisplayOrder": 2,
-    "CaseFieldID": "customHistoryViewer",
-    "TabFieldDisplayOrder": 1
   }
 ]
