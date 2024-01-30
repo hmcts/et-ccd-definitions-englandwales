@@ -5482,5 +5482,13 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hmctsCaseCategory",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
   }
 ]
