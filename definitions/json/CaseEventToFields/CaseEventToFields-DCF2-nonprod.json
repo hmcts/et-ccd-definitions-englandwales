@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "createDcf",
-    "CaseFieldID": "bundleYesNo",
+    "CaseFieldID": "dcfYesNo",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,
@@ -21,7 +21,7 @@
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "N",
     "PageLabel": "Configure case file",
-    "FieldShowCondition": "bundleYesNo=\"No\"",
+    "FieldShowCondition": "dcfYesNo=\"No\"",
     "PageColumnNumber": 1
   }
 ]

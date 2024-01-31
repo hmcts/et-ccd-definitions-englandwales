@@ -6454,7 +6454,8 @@
     "ListElementCode": "Claim part rejected",
     "ListElement": "Claim part rejected",
     "DisplayOrder": 7
-  },  {
+  },
+  {
     "ID": "fl_StartingAClaim",
     "ListElementCode": "ET1 Vetting",
     "ListElement": "ET1 Vetting",

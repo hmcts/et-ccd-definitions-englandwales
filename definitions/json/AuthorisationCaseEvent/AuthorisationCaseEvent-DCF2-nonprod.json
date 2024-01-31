@@ -2,12 +2,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "createDcf",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "createDcf",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
@@ -28,12 +22,6 @@
     "CaseEventID": "createDcf",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "asyncStitchingComplete",
-    "UserRole": "caseworker-employment",
-    "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",

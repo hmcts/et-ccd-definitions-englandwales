@@ -98,7 +98,7 @@
     "TabID": "CaseDocuments",
     "TabDisplayOrder": 16,
     "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 3,
+    "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
   },
   {

@@ -7,11 +7,11 @@
     "DisplayOrder": 29,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundle/selectBundle",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundle/aboutToSubmit",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/dcf/selectDcf",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/dcf/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "EndButtonLabel": "Create Case File",
+    "EndButtonLabel": "Create Digital Case File",
     "ShowSummary": "N"
   },
   {
