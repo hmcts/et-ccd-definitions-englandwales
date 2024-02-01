@@ -387,9 +387,9 @@
     "CaseFieldID": "genericTseApplicationCollection",
     "FieldShowCondition": "tseRespondSelectApplication=\"dummy\"",
     "DisplayContext": "COMPLEX",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 1,
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },
