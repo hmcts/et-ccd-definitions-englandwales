@@ -147,7 +147,7 @@
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseFileView",
     "UserRole": "caseworker-employment-englandwales",
-        "CRUD": "CRU"
+    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
@@ -158,6 +158,30 @@
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "caseFileView",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "documentCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }

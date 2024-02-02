@@ -4,5 +4,17 @@
     "CaseEventID": "createLeadCase",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "uploadDocument",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "uploadDocument",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]

@@ -33,7 +33,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
-    "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "managingOffice",
     "TabFieldDisplayOrder": 5
