@@ -1,0 +1,21 @@
+[
+    {
+      "ID": "sendNotificationNotifyMultiple",
+      "ListElement": "Both parties from Lead Case",
+      "ListElementCode": "Both parties",
+      "DisplayOrder": 1
+    },
+    {
+      "ID": "sendNotificationNotifyMultiple",
+      "ListElement": "Claimant (Lead Case only)",
+      "ListElementCode": "Claimant only",
+      "DisplayOrder": 2
+    },
+    {
+      "ID": "sendNotificationNotifyMultiple",
+      "ListElement": "Respondent (Lead Case only)",
+      "ListElementCode": "Respondent only",
+      "DisplayOrder": 3
+    }
+  ]
+  
