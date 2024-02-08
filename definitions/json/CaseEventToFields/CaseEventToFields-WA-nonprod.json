@@ -294,7 +294,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
     "DisplayContext": "READONLY",
     "PageID": 5,
     "PageDisplayOrder": 4,
@@ -304,7 +304,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
     "PageID": 5,
     "PageDisplayOrder": 4,

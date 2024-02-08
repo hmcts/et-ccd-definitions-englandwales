@@ -1,10 +1,10 @@
 [
   {
     "ID": "etICHearingNotListedSeekComments",
-    "ListElementCode": "etICTypeOfVideoHearing",
+    "ListElementCode": "etICTypeOfCvpHearing",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Type of Video hearing",
-    "FieldTypeParameter": "msl_etICTypeOfVideoHearing",
+    "FieldTypeParameter": "msl_etICTypeOfCvpHearing",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -13,7 +13,7 @@
     "ListElementCode": "etICFinalHearingDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details of final hearing",
-    "FieldShowCondition": "etICTypeOfVideoHearing CONTAINS \"Final\"",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Final\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -22,7 +22,7 @@
     "ListElementCode": "etICPrelimHearingDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Give details of preliminary hearing",
-    "FieldShowCondition": "etICTypeOfVideoHearing CONTAINS \"Preliminary\"",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -31,7 +31,7 @@
     "ListElementCode": "etICPrelimHearingYesNo",
     "FieldType": "YesOrNo",
     "ElementLabel": "Should the case be listed for a private preliminary hearing?",
-    "FieldShowCondition": "etICTypeOfVideoHearing CONTAINS \"Preliminary\"",
+    "FieldShowCondition": "etICTypeOfCvpHearing CONTAINS \"Preliminary\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
@@ -202,10 +202,10 @@
   },
   {
     "ID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLVideoIssue",
+    "ListElementCode": "etICUDLCVPIssue",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Issue standard Video orders when listed",
-    "FieldTypeParameter": "msl_etICUDLVideoIssue",
+    "FieldTypeParameter": "msl_etICUDLCVPIssue",
     "FieldShowCondition": "etICUDLHearFormat = \"Video hearing\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"

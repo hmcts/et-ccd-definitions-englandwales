@@ -3,7 +3,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedSeekComments",
-    "ListElementCode": "etICTypeOfVideoHearing",
+    "ListElementCode": "etICTypeOfCvpHearing",
     "EventElementLabel": "Type of Video hearing",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
@@ -203,7 +203,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
-    "ListElementCode": "etICUDLVideoIssue",
+    "ListElementCode": "etICUDLCVPIssue",
     "EventElementLabel": "Issue standard Video orders when listed",
     "FieldDisplayOrder": 11,
     "DisplayContext": "MANDATORY"
