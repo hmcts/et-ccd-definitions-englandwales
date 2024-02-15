@@ -100,5 +100,14 @@
     "TabDisplayOrder": 2,
     "CaseFieldID": "customHistoryViewer",
     "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "TabLabel": "Judgments",
+    "TabDisplayOrder": 11,
+    "CaseFieldID": "judgementCollection",
+    "TabFieldDisplayOrder": 1
   }
 ]

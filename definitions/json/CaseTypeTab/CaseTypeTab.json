@@ -980,15 +980,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
-    "TabID": "CaseJudgments",
-    "TabLabel": "Judgments",
-    "TabDisplayOrder": 11,
-    "CaseFieldID": "judgementCollection",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
     "TabID": "CaseDeposit",
     "TabLabel": "Deposit Order",
     "TabDisplayOrder": 12,
