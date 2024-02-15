@@ -412,5 +412,21 @@
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "draftAndSignJudgement",
+    "Name": "Draft and Sign Judgement",
+    "Description": "Draft and Sign Judgement",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
   }
 ]
