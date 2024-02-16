@@ -370,5 +370,21 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/respondentTSE/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/respondentTSE/completeApplication"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseTransferSameCountry",
+    "Name": "Case Transfer (Eng/Wales)",
+    "Description": "Transfer cases to another office within England/Wales",
+    "DisplayOrder": 33,
+    "PreConditionState(s)": "Submitted;Vetted;Accepted",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType !=\"Multiple\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/caseTransfer/initTransferToEnglandWales",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseTransfer/transferSameCountry",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Transfer Case",
+    "ShowSummary": "Y"
   }
 ]
