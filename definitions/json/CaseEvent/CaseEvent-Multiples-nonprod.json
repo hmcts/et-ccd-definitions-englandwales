@@ -20,7 +20,7 @@
     "Name": "Upload Document",
     "Description": "Upload a Document",
     "DisplayOrder": 16,
-    "PreConditionState(s)": "Open",
+    "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
