@@ -27,7 +27,7 @@
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseEventID": "createReferral",
     "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
@@ -51,12 +51,6 @@
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseEventID": "uploadDocument",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseEventID": "uploadDocument",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {

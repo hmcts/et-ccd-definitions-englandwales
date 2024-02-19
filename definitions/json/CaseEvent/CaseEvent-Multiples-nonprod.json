@@ -36,14 +36,13 @@
     "ID": "uploadDocument",
     "Name": "Upload Document",
     "Description": "Upload a Document",
-    "DisplayOrder": 29,
+    "DisplayOrder": 16,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/uploadDocument/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/uploadDocument/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
     "ShowSummary": "N"
   }
 ]

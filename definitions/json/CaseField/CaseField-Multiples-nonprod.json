@@ -152,6 +152,14 @@
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentCollection",
+    "Label": "Case documentation",
+    "HintText": "Upload documentation for the case",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
   }
 ]
-
