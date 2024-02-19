@@ -66,13 +66,13 @@
     "DisplayOrder": 6
   },
   {
-    "ID": "msl_etICTypeOfVideoHearing",
+    "ID": "msl_etICTypeOfCvpHearing",
     "ListElementCode": "Final",
     "ListElement": "Final",
     "DisplayOrder": 1
   },
   {
-    "ID": "msl_etICTypeOfVideoHearing",
+    "ID": "msl_etICTypeOfCvpHearing",
     "ListElementCode": "Preliminary",
     "ListElement": "Preliminary",
     "DisplayOrder": 2
@@ -174,19 +174,19 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "msl_etICUDLVideoIssue",
+    "ID": "msl_etICUDLCVPIssue",
     "ListElementCode": "1 Disclosure and Productions",
     "ListElement": "1 Disclosure and Productions",
     "DisplayOrder": 1
   },
   {
-    "ID": "msl_etICUDLVideoIssue",
+    "ID": "msl_etICUDLCVPIssue",
     "ListElementCode": "2 Schedule of loss, mitigation & updated schedule of loss",
     "ListElement": "2 Schedule of loss, mitigation & updated schedule of loss",
     "DisplayOrder": 2
   },
   {
-    "ID": "msl_etICUDLVideoIssue",
+    "ID": "msl_etICUDLCVPIssue",
     "ListElementCode": "3 Witness statements",
     "ListElement": "3 Witness statements",
     "DisplayOrder": 3

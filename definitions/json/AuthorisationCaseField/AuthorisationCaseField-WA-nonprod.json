@@ -781,61 +781,61 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfoLabel",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
@@ -982,5 +982,23 @@
     "CaseFieldID": "waRule21ReferralSent",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "draftAndSignJudgementLink",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "R"
   }
 ]
