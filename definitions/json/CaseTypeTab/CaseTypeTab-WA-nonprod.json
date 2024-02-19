@@ -133,7 +133,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "otherDirectionsFurtherInfo",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
     "TabFieldDisplayOrder": 29
   },
   {
@@ -234,5 +234,28 @@
     "TabID": "initialConsideration",
     "CaseFieldID": "icListingPreliminaryHearing",
     "TabFieldDisplayOrder": 40
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "TabLabel": "Judgements",
+    "TabDisplayOrder": 11,
+    "CaseFieldID": "draftAndSignJudgementLink",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "CaseFieldID": "draftAndSignJudgement",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseJudgments",
+    "CaseFieldID": "judgementCollection",
+    "TabFieldDisplayOrder": 3
   }
 ]
