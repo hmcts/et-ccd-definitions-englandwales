@@ -106,13 +106,5 @@
     "Description": "Multiple Transferred",
     "DisplayOrder": 5,
     "TitleDisplay": "# Multiple Name: ${multipleName}\r\n# Multiple Number: ${multipleReference}"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "Accepted",
-    "Name": "Accepted",
-    "Description": "Multiple Accepted",
-    "DisplayOrder": 6,
-    "TitleDisplay": "# Multiple Name: ${multipleName}\n# Multiple Number: ${multipleReference}"
   }
 ]
