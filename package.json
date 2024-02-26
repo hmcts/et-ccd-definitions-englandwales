@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Utility to help creating Reform ET CCD definitions for England and Wales",
   "dependencies": {
-    "@hmcts/nodejs-healthcheck": "1.8.3",
+    "@hmcts/nodejs-healthcheck": "1.8.4",
     "@hmcts/properties-volume": "1.1.0",
     "codeceptjs": "^3.4.1",
     "config": "^3.3.9",
