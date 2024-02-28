@@ -1016,16 +1016,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
-    "TabID": "CaseDocuments",
-    "TabLabel": "Documents",
-    "TabDisplayOrder": 16,
-    "CaseFieldID": "documentCollection",
-    "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(docNumber, uploadedDocument, topLevelDocuments, documentType, dateOfCorrespondence)"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
     "TabID": "Applications",
     "TabLabel": "Applications",
     "TabDisplayOrder": 17,

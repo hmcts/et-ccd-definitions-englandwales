@@ -161,5 +161,12 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "leadCaseId",
+    "Label": "Lead CaseId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
