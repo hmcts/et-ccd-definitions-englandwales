@@ -686,7 +686,8 @@
     "ListElementCode": "isJudgement",
     "EventElementLabel": "Is this a Judgement?",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "MANDATORY",
+    "Publish": "Y"
   },
   {
     "ID": "DraftAndSignJudgement",
