@@ -15,6 +15,21 @@
     "CallBackURLSubmittedEvent": ""
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "sendNotificationMultiple",
+    "Name": "Notification from Multiple",
+    "Description": "Notification from Multiple",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "state=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multipleSendNotification/aboutToSubmitSingle",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "uploadDocument",
     "Name": "Upload Document",

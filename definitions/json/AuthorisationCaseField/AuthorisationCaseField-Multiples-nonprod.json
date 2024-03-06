@@ -1126,5 +1126,77 @@
     "CaseFieldID": "sendNotificationRequestMadeBy",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "leadEthosCaseRef",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "leadEthosCaseRef",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "leadEthosCaseRef",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "leadEthosCaseRef",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "leadEthosCaseRef",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "leadEthosCaseRef",
+    "UserRole": "citizen",
+    "CRUD": "CRU"
   }
 ]

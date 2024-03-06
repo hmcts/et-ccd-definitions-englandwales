@@ -122,13 +122,28 @@
     "ID": "sendNotificationNotify",
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "sendNotificationNotifyMultiple",
+    "FieldTypeParameter": "notifyMultiple",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "sendNotificationNotifyLeadCase",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifyLead",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "leadCaseId",
     "Label": "Lead CaseId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "  leadEthosCaseRef",
+    "Label": "Lead ethos case reference",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },

@@ -1,21 +1,35 @@
 [
     {
-      "ID": "sendNotificationNotifyMultiple",
+      "ID": "sendNotificationNotifyLead",
       "ListElement": "Both parties from Lead Case",
-      "ListElementCode": "Both parties",
+      "ListElementCode": "Both parties from Lead Case",
       "DisplayOrder": 1
     },
     {
-      "ID": "sendNotificationNotifyMultiple",
+      "ID": "sendNotificationNotifyLead",
       "ListElement": "Claimant (Lead Case only)",
-      "ListElementCode": "Claimant only",
+      "ListElementCode": "Lead Claimant only",
       "DisplayOrder": 2
     },
     {
-      "ID": "sendNotificationNotifyMultiple",
+      "ID": "sendNotificationNotifyLead",
       "ListElement": "Respondent (Lead Case only)",
-      "ListElementCode": "Respondent only",
+      "ListElementCode": "Lead Respondent only",
       "DisplayOrder": 3
+    },
+    {
+ 
+      "ID": "notifyMultiple",
+      "ListElement": "Parties from lead case",
+      "ListElementCode": "Lead case",
+      "DisplayOrder": 1
+    },
+    {
+ 
+      "ID": "notifyMultiple",
+      "ListElement": "Parties from lead case and sub cases",
+      "ListElementCode": "Lead and sub cases",
+      "DisplayOrder": 2
     }
   ]
   

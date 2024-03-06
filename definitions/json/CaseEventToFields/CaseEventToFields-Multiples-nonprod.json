@@ -195,6 +195,17 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseEventID": "sendNotification",
+    "CaseFieldID": "sendNotificationNotifyLeadCase",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 19,
+    "FieldShowCondition": "sendNotificationNotify=\"Lead case\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationAdditionalInfo",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
