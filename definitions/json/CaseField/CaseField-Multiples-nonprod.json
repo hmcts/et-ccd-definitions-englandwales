@@ -164,6 +164,34 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "leadCaseId",
+    "Label": "Lead CaseId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchCaseStayed",
+    "Label": "Case stayed?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "batchCaseStayed",
+    "Label": "Case stayed",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "  leadEthosCaseRef",
+    "Label": "Lead ethos case reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "sendNotificationInfo",
     "Label": "Use this service to send a notification to parties within this multiple. You can do this by uploading standard letter documents.\r\n\r\n You can send multiple letters in one notification\r\n\r\n",
     "FieldType": "Label",
@@ -215,34 +243,6 @@
     "Label": "Party Selection",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationNotifyLead",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "leadCaseId",
-    "Label": "Lead CaseId",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "batchCaseStayed",
-    "Label": "Case stayed?",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "batchCaseStayed",
-    "Label": "Case stayed",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "  leadEthosCaseRef",
-    "Label": "Lead ethos case reference",
-    "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {

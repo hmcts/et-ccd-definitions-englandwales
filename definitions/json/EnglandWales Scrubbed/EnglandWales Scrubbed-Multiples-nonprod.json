@@ -2,19 +2,19 @@
     {
       "ID": "sendNotificationNotifyLead",
       "ListElement": "Both parties from Lead Case",
-      "ListElementCode": "Both parties from Lead Case",
+      "ListElementCode": "Both parties",
       "DisplayOrder": 1
     },
     {
       "ID": "sendNotificationNotifyLead",
       "ListElement": "Claimant (Lead Case only)",
-      "ListElementCode": "Lead Claimant only",
+      "ListElementCode": "Claimant only",
       "DisplayOrder": 2
     },
     {
       "ID": "sendNotificationNotifyLead",
       "ListElement": "Respondent (Lead Case only)",
-      "ListElementCode": "Lead Respondent only",
+      "ListElementCode": "Respondent only",
       "DisplayOrder": 3
     },
     {

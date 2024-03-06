@@ -19,14 +19,14 @@
     "ID": "sendNotificationMultiple",
     "Name": "Notification from Multiple",
     "Description": "Notification from Multiple",
-    "PreConditionState(s)": "*",
+    "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "state=\"dummy\"",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multipleSendNotification/aboutToSubmitSingle",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   },
   {
