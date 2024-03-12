@@ -213,5 +213,89 @@
     "ReadOnly": "Y",
     "Disabled": "F",
     "CaseAccessCategories": ""
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "idam:caseworker-employment-legalrep-solicitor",
+    "ReadOnly": "N",
+    "AccessProfiles": "caseworker-employment-legalrep-solicitor"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[CREATOR]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[CREATOR]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORA]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORA]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORB]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORB]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORC]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORC]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORD]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORD]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORE]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORE]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORF]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORF]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORG]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORG]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORH]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORH]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORI]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORI]"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "RoleName": "[SOLICITORJ]",
+    "ReadOnly": "N",
+    "AccessProfiles": "[SOLICITORJ]"
   }
 ]

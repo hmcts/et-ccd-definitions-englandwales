@@ -150,8 +150,20 @@
     "CRUD": "CRUD"
   },
   {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Open",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRUD"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales",
     "CaseStateID": "Accepted",
+    "UserRole": "caseworker-approver",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Open",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
   },
@@ -315,6 +327,12 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseStateID": "Open",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseStateID": "Open",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
   },
   {

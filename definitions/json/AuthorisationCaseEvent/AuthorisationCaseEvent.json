@@ -1352,6 +1352,13 @@
   },
   {
     "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "nocRequest",
+    "UserRole": "caseworker-caa",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "nocRequest",
     "UserRole": "caseworker-employment-api",
@@ -1367,6 +1374,13 @@
   {
     "LiveFrom": "01/01/2017",
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "applyNocDecision",
+    "UserRole": "caseworker-approver",
+    "CRUD": "CRUD"
+  },
+  {
+    "LiveFrom": "01/01/2017",
+    "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseEventID": "applyNocDecision",
     "UserRole": "caseworker-approver",
     "CRUD": "CRUD"
