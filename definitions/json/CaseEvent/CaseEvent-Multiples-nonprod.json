@@ -15,6 +15,55 @@
     "CallBackURLSubmittedEvent": ""
   },
   {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "sendNotificationMultiple",
+    "Name": "Notification from Multiple",
+    "Description": "Notification from Multiple",
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "state=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/sendNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "createReferral",
+    "Name": "Referral",
+    "Description": "Referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 49,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/createReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/createReferral/completeCreateReferral",
+    "ShowEventNotes": "N",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "replyToReferral",
+    "Name": "Referral",
+    "Description": "Refer to admin, legal officer or judge",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 50,
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "multipleReference =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/replyReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/replyReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/replyReferral/completeReplyToReferral",
+    "Publish": "Y"
+  },
+  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "uploadDocument",
     "Name": "Upload Document",
@@ -27,5 +76,20 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "sendNotification",
+    "Name": "Send a notification",
+    "Description": "Send a notification",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "state=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multipleSendNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multipleSendNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multipleSendNotification/submitted"
   }
 ]
