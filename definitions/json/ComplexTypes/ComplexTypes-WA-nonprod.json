@@ -385,13 +385,15 @@
     "ListElementCode": "dateTime",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "dateTime = \"dummy\""
   },
   {
     "ID": "tseReply",
     "ListElementCode": "applicationType",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "applicationType = \"dummy\""
   }
 ]
