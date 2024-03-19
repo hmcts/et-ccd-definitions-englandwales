@@ -364,21 +364,24 @@
     "ListElementCode": "replyDateTime",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "replyDateTime = \"dummy\""
   },
   {
     "ID": "referralReply",
     "ListElementCode": "referralSubject",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "replyDateTime = \"dummy\""
   },
   {
     "ID": "referralReply",
     "ListElementCode": "referralNumber",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "replyDateTime = \"dummy\""
   },
   {
     "ID": "tseReply",
