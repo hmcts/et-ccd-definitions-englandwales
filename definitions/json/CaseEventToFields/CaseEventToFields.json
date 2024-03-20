@@ -1696,8 +1696,8 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "manageDocUpload",
-    "CaseFieldID": "uploadDocumentCollection",
+    "CaseEventID": "addDocument",
+    "CaseFieldID": "addDocumentCollection",
     "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,

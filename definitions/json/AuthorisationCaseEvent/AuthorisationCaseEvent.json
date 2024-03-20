@@ -649,31 +649,31 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageDocUpload",
+    "CaseEventID": "addDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageDocUpload",
+    "CaseEventID": "addDocument",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageDocUpload",
+    "CaseEventID": "addDocument",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageDocUpload",
+    "CaseEventID": "addDocument",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageDocUpload",
+    "CaseEventID": "addDocument",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
