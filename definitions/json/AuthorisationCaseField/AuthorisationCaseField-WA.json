@@ -970,5 +970,11 @@
     "CaseFieldID": "draftAndSignJudgement",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "nextListedDate",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
   }
 ]
