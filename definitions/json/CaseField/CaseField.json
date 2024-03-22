@@ -3956,6 +3956,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "tseApplicationStoredCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "genericTseDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseAllApplicationsLabel",
     "Label": "All applications <hr>",
     "FieldType": "Label",

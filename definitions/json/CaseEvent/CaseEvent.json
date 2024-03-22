@@ -720,6 +720,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "STORE_CLAIMANT_TSE",
+    "Name": "Store an application",
+    "Description": "Store an application",
+    "DisplayOrder": 9057,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "SUBMIT_STORED_CLAIMANT_TSE",
     "Name": "Submit stored application",
     "Description": "Submit a stored application",
