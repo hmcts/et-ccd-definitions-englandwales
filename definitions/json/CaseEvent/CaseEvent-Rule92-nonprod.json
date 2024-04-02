@@ -43,5 +43,20 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "STORE_NOTIFICATION_RESPONSE",
+    "Name": "Store notification response",
+    "Description": "Store notification response",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"Dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
