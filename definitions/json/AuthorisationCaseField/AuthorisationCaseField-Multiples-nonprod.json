@@ -1,5 +1,17 @@
 [
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "notificationSentFrom",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "notificationSentFrom",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "notificationsTabLinks",
     "UserRole": "et-acas-api",
