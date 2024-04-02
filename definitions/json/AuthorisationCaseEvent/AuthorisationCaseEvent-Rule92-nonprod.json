@@ -19,8 +19,14 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "STORE_NOTIFICATION_RESPONSE",
+    "CaseEventID": "STORE_PSE_RESPONSE",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_STORED_PSE_RESPONSE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
