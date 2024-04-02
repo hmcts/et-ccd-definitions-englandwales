@@ -22,5 +22,17 @@
     "CaseEventID": "STORE_CLAIMANT_TSE_RESPOND",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_STORED_CLAIMANT_TSE_RESPOND",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_STORED_CLAIMANT_TSE_RESPOND",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
   }
 ]
