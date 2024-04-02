@@ -1,29 +1,69 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
-    "TabID": "support",
-    "TabLabel": "Support",
-    "CaseFieldID": "claimantExternalFlags",
-    "TabDisplayOrder": 72,
+    "CaseFieldID": "flagLauncher",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 69,
     "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "DisplayContextParameter": "#ARGUMENT(READ)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "TabID": "support",
-    "TabLabel": "Support",
-    "CaseFieldID": "respondentExternalFlags",
-    "TabDisplayOrder": 72,
-    "TabFieldDisplayOrder": 1,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "CaseFieldID": "claimantFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "TabDisplayOrder": 69,
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "TabID": "support",
-    "TabLabel": "Support",
+    "CaseFieldID": "respondentFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "TabDisplayOrder": 1,
+    "TabFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "caseFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Flags",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncher = \"hidden\"",
+    "TabDisplayOrder": 69,
+    "TabFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "flagLauncherExternal",
+    "TabID": "support",
+    "TabLabel": "Support",
     "TabDisplayOrder": 72,
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(READ,EXTERNAL)"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "claimantExternalFlags",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabDisplayOrder": 72,
+    "TabFieldDisplayOrder": 2,
+    "FieldShowCondition": "flagLauncher=\"hidden\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "respondentExternalFlags",
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabDisplayOrder": 72,
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "flagLauncher=\"hidden\""
   }
 ]
