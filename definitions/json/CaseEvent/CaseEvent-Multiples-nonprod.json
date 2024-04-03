@@ -36,7 +36,7 @@
     "Description": "Referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "DisplayOrder": 49,
+    "DisplayOrder": 50,
     "SecurityClassification": "Public",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
@@ -53,7 +53,7 @@
     "Description": "Refer to admin, legal officer or judge",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "DisplayOrder": 50,
+    "DisplayOrder": 51,
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
@@ -91,5 +91,20 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/sendNotification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/sendNotification/submitted"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "updateReferral",
+    "Name": "Update Referral",
+    "Description": "Update Referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 49,
+    "SecurityClassification": "Public",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "multipleReference =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/updateReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updateReferral/aboutToSubmit",
+    "ShowEventNotes": "N"
   }
 ]
