@@ -12,6 +12,7 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "tseReply",
     "ElementLabel": "Responses",
+    "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
   }
 ]
