@@ -19,19 +19,19 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
+    "CaseFieldID": "claimantInternalFlags",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
+    "CaseFieldID": "claimantInternalFlags",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "claimantFlags",
+    "CaseFieldID": "claimantInternalFlags",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },

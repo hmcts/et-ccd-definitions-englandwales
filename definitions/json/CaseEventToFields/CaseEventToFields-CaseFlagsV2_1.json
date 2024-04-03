@@ -7,7 +7,7 @@
     "DisplayContextParameter": "#ARGUMENT(CREATE,VERSION2.1)",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1
+    "PageFieldDisplayOrder": 110
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -16,18 +16,29 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
+    "PageFieldDisplayOrder": 111,
     "FieldShowCondition": "flagLauncher=\"hidden\"",
     "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "createFlag",
-    "CaseFieldID": "claimantFlags",
+    "CaseFieldID": "claimantInternalFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3,
+    "PageFieldDisplayOrder": 112,
+    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "RetainHiddenValue": "Yes"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "createFlag",
+    "CaseFieldID": "claimantExternalFlags",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 113,
     "FieldShowCondition": "flagLauncher=\"hidden\"",
     "RetainHiddenValue": "Yes"
   },
@@ -38,7 +49,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 4,
+    "PageFieldDisplayOrder": 114,
     "FieldShowCondition": "flagLauncher=\"hidden\"",
     "RetainHiddenValue": "Yes"
   },
@@ -66,7 +77,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "manageFlags",
-    "CaseFieldID": "claimantFlags",
+    "CaseFieldID": "claimantInternalFlags",
     "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
