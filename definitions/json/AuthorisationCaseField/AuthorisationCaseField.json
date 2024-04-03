@@ -20961,7 +20961,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "sendNotificationCollection",
     "UserRole": "citizen",
-    "CRUD": "CRU"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
