@@ -4537,27 +4537,27 @@
   },
   {
     "ID": "fl_Part_15",
+    "ListElementCode": "15.3",
+    "ListElement": "15.3 - Notice of judicial mediation preliminary hearing",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Part_15",
     "ListElementCode": "15.4",
     "ListElement": "15.4 - DRA Notice of Hearing by CVP",
-    "DisplayOrder": 4
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_Part_15",
     "ListElementCode": "15.5",
     "ListElement": "15.5 - DRA appointments - Information Sheet",
-    "DisplayOrder": 5
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_Part_15",
     "ListElementCode": "15.6",
     "ListElement": "15.6 - DRA Suggested Directions",
-    "DisplayOrder": 6
-  },
-  {
-    "ID": "fl_Part_15",
-    "ListElementCode": "15.3",
-    "ListElement": "15.3 - Notice of judicial mediation preliminary hearing",
-    "DisplayOrder": 4
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_16",
