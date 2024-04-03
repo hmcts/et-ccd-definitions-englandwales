@@ -1,7 +1,7 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
+    "CaseFieldID": "flagLauncherInternal",
     "TabID": "caseFlags",
     "TabLabel": "Case Internal Flags",
     "Channel": "CaseWorker",
@@ -15,7 +15,7 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Internal Flags",
     "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 69,
     "TabFieldDisplayOrder": 2
   },
@@ -25,7 +25,7 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Internal Flags",
     "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 1,
     "TabFieldDisplayOrder": 3
   },
@@ -35,7 +35,7 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
     "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncher = \"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 69,
     "TabFieldDisplayOrder": 4
   },
@@ -55,7 +55,7 @@
     "TabLabel": "Support",
     "TabDisplayOrder": 72,
     "TabFieldDisplayOrder": 2,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "FieldShowCondition": "flagLauncherInternal=\"visible\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -64,6 +64,6 @@
     "TabLabel": "Support",
     "TabDisplayOrder": 72,
     "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "flagLauncher=\"hidden\""
+    "FieldShowCondition": "flagLauncherInternal=\"visible\""
   }
 ]

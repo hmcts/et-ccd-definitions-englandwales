@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "createFlag",
-    "CaseFieldID": "flagLauncher",
+    "CaseFieldID": "flagLauncherInternal",
     "DisplayContext": "OPTIONAL",
     "DisplayContextParameter": "#ARGUMENT(CREATE,VERSION2.1)",
     "PageID": 1,
@@ -17,7 +17,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 111,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -28,7 +28,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 112,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -39,7 +39,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 113,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -50,13 +50,13 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 114,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "manageFlags",
-    "CaseFieldID": "flagLauncher",
+    "CaseFieldID": "flagLauncherInternal",
     "DisplayContext": "OPTIONAL",
     "DisplayContextParameter": "#ARGUMENT(UPDATE,VERSION2.1)",
     "PageID": 1,
@@ -71,7 +71,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -82,7 +82,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 3,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {
@@ -93,7 +93,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "flagLauncher=\"hidden\"",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "RetainHiddenValue": "Yes"
   },
   {

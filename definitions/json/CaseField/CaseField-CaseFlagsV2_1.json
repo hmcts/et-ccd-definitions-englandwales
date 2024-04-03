@@ -8,7 +8,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "flagLauncher",
+    "ID": "flagLauncherInternal",
     "Label": "Flag Launcher",
     "FieldType": "FlagLauncher",
     "SecurityClassification": "Public"

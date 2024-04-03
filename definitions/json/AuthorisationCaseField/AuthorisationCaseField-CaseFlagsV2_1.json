@@ -37,19 +37,19 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
+    "CaseFieldID": "flagLauncherInternal",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
+    "CaseFieldID": "flagLauncherInternal",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "flagLauncher",
+    "CaseFieldID": "flagLauncherInternal",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
