@@ -5,9 +5,19 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Internal Flags",
     "Channel": "CaseWorker",
-    "TabDisplayOrder": 69,
+    "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(READ)"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "caseFlags",
+    "TabID": "caseFlags",
+    "TabLabel": "Case Internal Flags",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
+    "TabDisplayOrder": 110,
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -16,27 +26,17 @@
     "TabLabel": "Case Internal Flags",
     "Channel": "CaseWorker",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
-    "TabDisplayOrder": 69,
-    "TabFieldDisplayOrder": 2
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseFieldID": "respondentFlags",
-    "TabID": "caseFlags",
-    "TabLabel": "Case Internal Flags",
-    "Channel": "CaseWorker",
-    "FieldShowCondition": "flagLauncherInternal=\"visible\"",
-    "TabDisplayOrder": 1,
+    "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 3
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseFieldID": "caseFlags",
+    "CaseFieldID": "respondentInternalFlags",
     "TabID": "caseFlags",
-    "TabLabel": "Case Flags",
+    "TabLabel": "Case Internal Flags",
     "Channel": "CaseWorker",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
-    "TabDisplayOrder": 69,
+    "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 4
   },
   {
@@ -44,7 +44,7 @@
     "CaseFieldID": "flagLauncherExternal",
     "TabID": "support",
     "TabLabel": "Support",
-    "TabDisplayOrder": 72,
+    "TabDisplayOrder": 111,
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(READ,EXTERNAL)"
   },
@@ -53,7 +53,7 @@
     "CaseFieldID": "claimantExternalFlags",
     "TabID": "support",
     "TabLabel": "Support",
-    "TabDisplayOrder": 72,
+    "TabDisplayOrder": 111,
     "TabFieldDisplayOrder": 2,
     "FieldShowCondition": "flagLauncherInternal=\"visible\""
   },
@@ -62,7 +62,7 @@
     "CaseFieldID": "respondentExternalFlags",
     "TabID": "support",
     "TabLabel": "Support",
-    "TabDisplayOrder": 72,
+    "TabDisplayOrder": 111,
     "TabFieldDisplayOrder": 3,
     "FieldShowCondition": "flagLauncherInternal=\"visible\""
   }
