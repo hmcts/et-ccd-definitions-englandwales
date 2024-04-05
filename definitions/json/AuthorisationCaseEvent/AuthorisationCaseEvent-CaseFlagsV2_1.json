@@ -46,11 +46,5 @@
     "CaseEventID": "manageSupport",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "manageSupport",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
   }
 ]
