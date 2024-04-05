@@ -65,6 +65,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "closeReferral",
+    "Name": "Referral",
+    "Description": "Close referral",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "DisplayOrder": 51,
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "multipleReference =\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/closeReferral/completeCloseReferral",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "uploadDocument",
     "Name": "Upload Document",
     "Description": "Upload a Document",
