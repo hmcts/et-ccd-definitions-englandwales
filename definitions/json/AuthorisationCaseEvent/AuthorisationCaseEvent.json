@@ -1709,12 +1709,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "SUBMIT_STORED_CLAIMANT_TSE",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "retrieveAcasCertificate",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
