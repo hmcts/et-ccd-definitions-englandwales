@@ -4,7 +4,7 @@
     "CaseFieldID": "flagLauncherInternal",
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
-    "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-englandwales",
     "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 1,
     "DisplayContextParameter": "#ARGUMENT(READ)"
@@ -14,7 +14,7 @@
     "CaseFieldID": "caseFlags",
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
-    "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-englandwales",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 2
@@ -24,7 +24,7 @@
     "CaseFieldID": "claimantInternalFlags",
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
-    "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-englandwales",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 3
@@ -34,7 +34,7 @@
     "CaseFieldID": "respondentInternalFlags",
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
-    "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-englandwales",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 4
@@ -45,6 +45,7 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
     "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-englandwales",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 5
@@ -55,6 +56,7 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
     "Channel": "CaseWorker",
+    "UserRole": "caseworker-employment-englandwales",
     "FieldShowCondition": "flagLauncherInternal=\"visible\"",
     "TabDisplayOrder": 110,
     "TabFieldDisplayOrder": 6
