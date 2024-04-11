@@ -6337,14 +6337,14 @@
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferredBy",
     "FieldType": "Text",
-    "ElementLabel": "Referred by",
+    "ElementLabel": "Updated by",
     "SecurityClassification": "Public"
   },
   {
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferralDate",
     "FieldType": "Text",
-    "ElementLabel": "Referral date",
+    "ElementLabel": "Updated date",
     "SecurityClassification": "Public"
   },
   {
@@ -6448,18 +6448,18 @@
   },
   {
     "ID": "referralDetails",
-    "ListElementCode": "referralReplyCollection",
-    "FieldType": "Collection",
-    "ElementLabel": "Reply",
-    "FieldTypeParameter": "referralReply",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "referralDetails",
     "ListElementCode": "updateReferralCollection",
     "FieldType": "Collection",
     "ElementLabel": "Updates",
     "FieldTypeParameter": "updateReferralDetails",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "referralDetails",
+    "ListElementCode": "referralReplyCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Reply",
+    "FieldTypeParameter": "referralReply",
     "SecurityClassification": "Public"
   },
   {
