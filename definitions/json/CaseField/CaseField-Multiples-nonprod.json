@@ -262,6 +262,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "sendNotificationNotifySelected",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifySelected",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "sendNotificationSelectHearing",
     "Label": "Select the hearing",
     "FieldType": "DynamicList",
