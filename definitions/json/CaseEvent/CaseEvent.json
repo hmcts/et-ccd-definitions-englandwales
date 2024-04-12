@@ -89,7 +89,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
-    "EventEnablingCondition": "",
+    "EventEnablingCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/legalrepDocuments/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
@@ -561,7 +561,8 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_AAC_URL}/noc/check-noc-approval",
     "SecurityClassification": "Public",
     "ShowEventNotes": "Y",
-    "ShowSummary": "Y"
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

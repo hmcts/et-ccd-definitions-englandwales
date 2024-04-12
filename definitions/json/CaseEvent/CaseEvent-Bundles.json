@@ -10,7 +10,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "EventEnablingCondition": " ",
+    "EventEnablingCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/bundlesRespondent/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/submitted"
