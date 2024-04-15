@@ -554,5 +554,21 @@
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  }, 
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentSelect",
+    "Label": "Select a document",
+    "HintText": "Select a document or documents",
+    "FieldType": "DynamicMultiSelectList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentAccess",
+    "Label": "Select the roles",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "DocumentAccess",
+    "SecurityClassification": "Public"
   }
 ]
