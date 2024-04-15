@@ -114,14 +114,15 @@
     "ID": "updateReferral",
     "Name": "Update Referral",
     "Description": "Update Referral",
+    "DisplayOrder": 49,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "DisplayOrder": 49,
     "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "multipleReference =\"dummy\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/updateReferral/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/updateReferral/aboutToSubmit",
-    "ShowEventNotes": "N"
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
   }
 ]
