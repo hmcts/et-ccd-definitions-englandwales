@@ -3,7 +3,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "bundlesRespondentPrepareDoc",
     "Name": "Upload documents for hearing",
-    "Description": "Upload documents for hearing",
+    "Description": "Upload documents for a hearing",
     "DisplayOrder": 1,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
