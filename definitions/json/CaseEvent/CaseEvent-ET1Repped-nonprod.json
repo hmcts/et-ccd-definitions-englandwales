@@ -59,8 +59,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "createDraftEt1",
-    "Name": "Create Draft ET1 Form",
-    "Description": "Create draft ET1 form",
+    "Name": "Print Draft ET1 Form",
+    "Description": "Print draft ET1 form",
     "DisplayOrder": 58,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
     "PostConditionState": "AWAITING_SUBMISSION_TO_HMCTS",
