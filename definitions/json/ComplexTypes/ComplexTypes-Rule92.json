@@ -14,5 +14,14 @@
     "ElementLabel": "Responses",
     "FieldShowCondition": "date=\"dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
+    "ListElementCode": "respondStoredCollection",
+    "FieldType": "Collection",
+    "ElementLabel": "Responses",
+    "FieldTypeParameter": "pseRespondCollection",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
   }
 ]
