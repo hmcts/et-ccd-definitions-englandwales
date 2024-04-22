@@ -3843,31 +3843,31 @@
     "ID": "fl_Part_8",
     "ListElementCode": "8.7",
     "ListElement": "8.7 - Notice of adjournment (hearing not re-listed) - Rule 58",
-    "DisplayOrder": 14
+    "DisplayOrder": 15
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.8",
     "ListElement": "8.8 - Notice of postponement and re-listing of hearing - Rule 58",
-    "DisplayOrder": 15
+    "DisplayOrder": 16
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.8A",
     "ListElement": "8.8A - Order postponing telephone hearing and notice of new hearing date",
-    "DisplayOrder": 15
+    "DisplayOrder": 17
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.8B",
     "ListElement": "8.8B - Order postponing video hearing and notice of new hearing date",
-    "DisplayOrder": 15
+    "DisplayOrder": 18
   },
   {
     "ID": "fl_Part_8",
     "ListElementCode": "8.9",
     "ListElement": "8.9 - Information on CVP",
-    "DisplayOrder": 16
+    "DisplayOrder": 19
   },
   {
     "ID": "fl_Part_9",
