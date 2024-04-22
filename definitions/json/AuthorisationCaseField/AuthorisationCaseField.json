@@ -2229,7 +2229,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantWorkAddressQuestion",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
@@ -2277,7 +2277,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantWorkAddress",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "R"
+    "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
