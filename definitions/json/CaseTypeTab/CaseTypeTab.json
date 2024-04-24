@@ -890,7 +890,7 @@
     "CaseFieldID": "claimantRepresentedQuestion",
     "TabFieldDisplayOrder": 1,
     "FieldShowCondition": "caseType=\"dummy\"",
-    "TabShowCondition": "claimantRepresentedQuestion=\"Yes\""
+    "TabShowCondition": "claimantRepresentedQuestion=\"Yes\" AND [STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
