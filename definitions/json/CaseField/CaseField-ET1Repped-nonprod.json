@@ -184,5 +184,12 @@
     "Label": "Click submit to print a draft ET1 form. You can then download and review the form before submitting it using the 'Submit Claim' event.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "downloadDraftEt1Date",
+    "Label": " ",
+    "FieldType": "Date",
+    "SecurityClassification": "Public"
   }
 ]

@@ -195,6 +195,8 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1DoNotSubmitDraftMessage", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1DoNotSubmitDraftMessage", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionThreePreamble", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionThreePreamble", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionThreePreamble", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "downloadDraftEt1Date", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "downloadDraftEt1Date", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
 
 ]
