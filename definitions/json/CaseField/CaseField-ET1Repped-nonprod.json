@@ -181,7 +181,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1DoNotSubmitDraftMessage",
-    "Label": "Click submit to print a draft ET1 form. You can then download and review the form before submitting it using the 'Submit Claim' event.",
+    "Label": "Click submit to download a draft copy of the ET1 form completed so far",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
