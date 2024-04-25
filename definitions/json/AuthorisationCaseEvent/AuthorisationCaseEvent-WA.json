@@ -133,6 +133,18 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "UPDATE_NOTIFICATION_RESPONSE",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
