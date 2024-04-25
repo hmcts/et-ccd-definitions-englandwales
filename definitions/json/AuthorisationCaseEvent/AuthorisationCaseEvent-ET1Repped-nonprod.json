@@ -22,7 +22,6 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "pseRespondentRespondToTribunal", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "pseRespondentViewNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "viewAllNotifications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "tseRespond", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "bundlesRespondentPrepareDoc", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"}
 
 ]
