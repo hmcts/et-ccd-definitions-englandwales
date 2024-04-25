@@ -130,5 +130,17 @@
     "CaseEventID": "draftAndSignJudgement",
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "draftAndSignJudgement",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
