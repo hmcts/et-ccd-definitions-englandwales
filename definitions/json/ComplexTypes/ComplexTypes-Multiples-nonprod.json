@@ -17,6 +17,14 @@
   },
   {
     "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotifySelected",
+    "FieldType": "Text",
+    "ElementLabel": "To",
+    "FieldShowCondition": "sendNotificationNotify=\"Selected cases\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
     "ListElementCode": "notificationSentFrom",
     "FieldType": "Text",
     "ElementLabel": "Multiple ref",

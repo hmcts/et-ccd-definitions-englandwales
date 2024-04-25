@@ -232,7 +232,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseJudgments",
-    "TabLabel": "Judgements",
+    "TabLabel": "Judgments",
     "TabDisplayOrder": 11,
     "CaseFieldID": "draftAndSignJudgementLink",
     "TabFieldDisplayOrder": 1
