@@ -197,6 +197,8 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionThreePreamble", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "et1SectionThreePreamble", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "downloadDraftEt1Date", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "downloadDraftEt1Date", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
-
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "downloadDraftEt1Date", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "applicationsTab", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "applicationsLinks", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "genericTseApplicationCollection", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"}
 ]

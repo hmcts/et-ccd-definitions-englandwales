@@ -562,7 +562,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "Y",
     "ShowSummary": "Y",
-    "EventEnablingCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
+    "EventEnablingCondition": "caseType =\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",

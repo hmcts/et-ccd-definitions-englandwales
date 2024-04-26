@@ -2,7 +2,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "bundlesRespondentPrepareDoc",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {

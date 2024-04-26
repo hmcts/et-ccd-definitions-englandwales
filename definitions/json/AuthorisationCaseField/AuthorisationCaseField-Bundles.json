@@ -242,7 +242,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesRespondentCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
@@ -290,7 +290,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesClaimantCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
   {
@@ -320,7 +320,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesTabTitle",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   }
 ]
