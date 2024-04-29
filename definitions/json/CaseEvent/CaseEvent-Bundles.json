@@ -29,5 +29,20 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "removeHearingBundles",
+    "Name": "Remove hearing bundles",
+    "Description": "Remove hearing bundles",
+    "DisplayOrder": 2,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": " ",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/submitted"
   }
 ]

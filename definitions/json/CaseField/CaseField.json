@@ -5492,5 +5492,15 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "removeHearingBundleCollection",
+    "Label": "Remove Hearing Bundle",
+    "HintText": "Select the hearing bundles you wish to remove",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": 1
   }
 ]

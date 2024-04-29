@@ -6921,5 +6921,14 @@
     "ListElementCode": "creationDate",
     "FieldDisplayOrder": 3,
     "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Documents",
+    "CaseEventID": "removeHearingBundles",
+    "CaseFieldID": "removeHearingBundleCollection",
+    "ListElementCode": "topLevelDocuments",
+    "EventElementLabel": "Document Category",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
   }
 ]
