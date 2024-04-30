@@ -3667,93 +3667,81 @@
   },
   {
     "ID": "fl_Part_7",
-    "ListElementCode": "7.1",
-    "ListElement": "7.1 - Notice of preliminary hearing - Rules 39, 53 & 54 ",
-    "DisplayOrder": 1
-  },
-  {
-    "ID": "fl_Part_7",
-    "ListElementCode": "7.2",
-    "ListElement": "7.2 - Notice of preliminary hearing - by telephone - Rules 39, 53, 54 & 46 ",
-    "DisplayOrder": 2
-  },
-  {
-    "ID": "fl_Part_7",
     "ListElementCode": "7.3",
     "ListElement": "7.3 - Preliminary hearing - deposit order guidance note for parties - Rule 39",
-    "DisplayOrder": 3
+    "DisplayOrder": 1
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.4C",
     "ListElement": "7.4C - Deposit Order and payment guidance - claimant - Rule 39 ",
-    "DisplayOrder": 4
+    "DisplayOrder": 2
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.4R",
     "ListElement": "7.4R - Deposit Order and payment guidance - respondent - Rule 39 ",
-    "DisplayOrder": 5
+    "DisplayOrder": 3
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.5",
     "ListElement": "7.5 - Preliminary hearing - deposit order payment guidance for parties - Rule 39",
-    "DisplayOrder": 6
+    "DisplayOrder": 4
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.6C",
     "ListElement": "7.6C - Deposit not paid – Judgment – claimant - Rule 39(4)",
-    "DisplayOrder": 7
+    "DisplayOrder": 5
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.6R",
     "ListElement": "7.6R - Deposit not paid - Judgment – respondent - Rule 39(4)",
-    "DisplayOrder": 8
+    "DisplayOrder": 6
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.7",
     "ListElement": "7.7 - Preliminary hearing - notice of case management discussion - Rules 53 & 54",
-    "DisplayOrder": 9
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.8",
     "ListElement": "7.8 - Preliminary hearing – notice of case management discussion by telephone - Rules 53 & 54 ",
-    "DisplayOrder": 10
+    "DisplayOrder": 8
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.8A",
     "ListElement": "7.8A - Preliminary hearing – notice of case management hearing by video - Rules 53 & 54",
-    "DisplayOrder": 11
+    "DisplayOrder": 9
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.9",
     "ListElement": "7.9 - Preliminary hearing - notice of cmph not listed at service - both parties - Rule 53 & 54",
-    "DisplayOrder": 12
+    "DisplayOrder": 10
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.9A",
     "ListElement": "7.9A - Preliminary hearing - Notice of PH in public by video - both parties - Rule 53 & 54",
-    "DisplayOrder": 13
+    "DisplayOrder": 11
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.10",
     "ListElement": "7.10 - Preliminary hearing - by telephone - notice of cmph not listed at service -  both parties – Rule 53 & 54 ",
-    "DisplayOrder": 14
+    "DisplayOrder": 12
   },
   {
     "ID": "fl_Part_7",
     "ListElementCode": "7.11",
     "ListElement": "7.11 - Information on CVP",
-    "DisplayOrder": 15
+    "DisplayOrder": 13
   },
   {
     "ID": "fl_Part_8",
@@ -4552,6 +4540,24 @@
     "ListElementCode": "15.3",
     "ListElement": "15.3 - Notice of judicial mediation preliminary hearing",
     "DisplayOrder": 4
+  },
+  {
+    "ID": "fl_Part_15",
+    "ListElementCode": "15.4",
+    "ListElement": "15.4 - DRA Notice of Hearing by CVP",
+    "DisplayOrder": 5
+  },
+  {
+    "ID": "fl_Part_15",
+    "ListElementCode": "15.5",
+    "ListElement": "15.5 - DRA appointments - Information Sheet",
+    "DisplayOrder": 6
+  },
+  {
+    "ID": "fl_Part_15",
+    "ListElementCode": "15.6",
+    "ListElement": "15.6 - DRA Suggested Directions",
+    "DisplayOrder": 7
   },
   {
     "ID": "fl_Part_16",
