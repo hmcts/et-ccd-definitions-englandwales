@@ -18,7 +18,7 @@
   {"ID": "msl_PayFrequency", "ListElementCode": "Monthly", "ListElement": "Monthly", "DisplayOrder": 2},
   {"ID": "msl_PayFrequency", "ListElementCode": "Annual", "ListElement": "Annual", "DisplayOrder": 3},
   {"ID": "msl_PayFrequency", "ListElementCode": "Not sure", "ListElement": "Not sure", "DisplayOrder": 4},
-   {"ID": "frl_noAcasReason", "ListElementCode": "Another person", "ListElement": "Another person making the claim has an Acas certificate number", "DisplayOrder": 1},
+  {"ID": "frl_noAcasReason", "ListElementCode": "Another person", "ListElement": "Another person making the claim has an Acas certificate number", "DisplayOrder": 1},
   {"ID": "frl_noAcasReason", "ListElementCode": "No Power", "ListElement": "Acas doesn’t have the power to conciliate on some or all of this claim", "DisplayOrder": 2},
   {"ID": "frl_noAcasReason", "ListElementCode": "Employer already in touch", "ListElement": "The respondent has already been in touch with Acas", "DisplayOrder": 3},
   {"ID": "frl_noAcasReason", "ListElementCode": "Unfair Dismissal", "ListElement": "The claim consists only of a complaint of unfair dismissal which contains an application for interim relief", "DisplayOrder": 4},

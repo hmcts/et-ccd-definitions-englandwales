@@ -8,6 +8,60 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORB]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORC]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORD]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORE]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORF]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORG]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORH]",
+    "CRUD": "CRU"
+  },
+{
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORI]",
+    "CRUD": "CRU"
+  },
+{
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
+    "UserRole": "[SOLICITORJ]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "bundlesRespondentPrepareDoc",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
