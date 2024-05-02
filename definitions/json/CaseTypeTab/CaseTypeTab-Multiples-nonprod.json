@@ -11,6 +11,13 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "CaseFieldID": "notificationsExtract",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
     "TabID": "Notes",
     "TabLabel": "Notes",
     "CaseFieldID": "multiplesNotes",
