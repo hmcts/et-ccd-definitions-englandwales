@@ -708,8 +708,8 @@
     "CaseEventID": "documentSelect",
     "CaseFieldID": "documentSelect",
     "DisplayContext": "MANDATORY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
+    "PageID": 2,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
@@ -719,8 +719,8 @@
     "CaseEventID": "documentSelect",
     "CaseFieldID": "documentAccess",
     "DisplayContext": "MANDATORY",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
+    "PageID": 1,
+    "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
