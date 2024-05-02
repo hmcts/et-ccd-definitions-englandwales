@@ -73,6 +73,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "selectHearingBundlesCollection",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesRespondentAgreedDocWithBut",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"

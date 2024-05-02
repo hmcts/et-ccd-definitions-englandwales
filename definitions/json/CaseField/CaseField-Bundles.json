@@ -103,5 +103,13 @@
     "Label": "### Hearing Documents",
     "FieldType": "Label",
     "SecurityClassification": "PUBLIC"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "selectHearingBundlesCollection",
+    "Label": "Please specify the party whose hearing bundles are to be removed",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_selectHearingBundlesCollection",
+    "SecurityClassification": "Public"
   }
 ]
