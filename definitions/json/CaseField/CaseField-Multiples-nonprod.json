@@ -262,6 +262,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "sendNotificationNotifySelected",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifySelected",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "sendNotificationSelectHearing",
     "Label": "Select the hearing",
     "FieldType": "DynamicList",
@@ -523,6 +531,36 @@
     "ID": "updateReferralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "closeReferralHearingDetails",
+    "Label": "Hearing and Referral Details placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "closeReferralHearingDetailsLabel",
+    "Label": "${closeReferralHearingDetails}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "confirmCloseReferral",
+    "Label": "Do you want to close this referral?",
+    "HintText": "All directions must be completed before closing referrals.",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_confirmCloseReferral",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "closeReferralGeneralNotes",
+    "Label": "General notes",
+    "FieldType": "TextArea",
     "SecurityClassification": "Public"
   }
 ]
