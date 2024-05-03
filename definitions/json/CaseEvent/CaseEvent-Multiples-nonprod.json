@@ -133,8 +133,8 @@
     "DisplayOrder": 17,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/uploadDocument/aboutToStart",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/uploadDocument/aboutToSubmit",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
