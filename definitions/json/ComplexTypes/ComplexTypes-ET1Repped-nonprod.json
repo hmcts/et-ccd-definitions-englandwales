@@ -13,5 +13,21 @@
     "FieldType": "Organisation",
     "ElementLabel": "MyHMCTS Organisation",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "hearingContactLanguage",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_languages",
+    "ElementLabel": "Hearing Language",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "contactLanguageQuestion",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "fl_languages",
+    "ElementLabel": "Contact Language",
+    "SecurityClassification": "Public"
   }
 ]
