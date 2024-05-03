@@ -15,13 +15,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "caseManagementLocationCode",
-    "Label": "caseManagementLocationCode",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseInterpreterRequiredFlag",
     "Label": "text",
     "FieldType": "Text",

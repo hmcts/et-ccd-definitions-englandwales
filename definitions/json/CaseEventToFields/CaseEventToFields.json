@@ -6822,9 +6822,10 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 8,
-    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\"",
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" OR sendNotificationSubject CONTAINS \"Employer Contract Claim\"",
     "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "Y",
+    "Publish": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -6858,9 +6859,10 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 9,
-    "FieldShowCondition": "sendNotificationResponseTribunal=\"Yes - view document for details\" AND sendNotificationSubject CONTAINS \"Case management orders / requests\"",
+    "FieldShowCondition": "sendNotificationSubject CONTAINS \"Case management orders / requests\" OR sendNotificationSubject CONTAINS \"Employer Contract Claim\" AND sendNotificationResponseTribunal=\"Yes - view document for details\"",
     "RetainHiddenValue": "No",
-    "ShowSummaryChangeOption": "Y"
+    "ShowSummaryChangeOption": "Y",
+    "Publish": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
