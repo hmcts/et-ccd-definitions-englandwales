@@ -3610,14 +3610,6 @@
     "SecurityClassification": "Public"
   },
   {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "legalrepDocumentCollection",
-    "Label": "Documents",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
-  },
-  {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "listedDateInPastWarning",
     "Label": " ",
