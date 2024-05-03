@@ -157,24 +157,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseFieldID": "caseFileView",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseFieldID": "caseFileView",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseFieldID": "caseFileView",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseFieldID": "applicationsTab",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
@@ -2716,5 +2698,29 @@
     "CaseFieldID": "closeReferralGeneralNotes",
     "UserRole": "et-acas-api",
     "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseFieldID": "componentLauncher",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
