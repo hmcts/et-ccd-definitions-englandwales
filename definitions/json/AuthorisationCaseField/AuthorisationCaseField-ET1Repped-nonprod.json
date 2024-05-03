@@ -202,6 +202,7 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "hearingLanguageQuestion", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "contactLanguageQuestion", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "hearingLanguageQuestion", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "contactLanguageQuestion", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
-
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "contactLanguageQuestion", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantHearingLanguageQuestion", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantHearingLanguageQuestion", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
 ]
