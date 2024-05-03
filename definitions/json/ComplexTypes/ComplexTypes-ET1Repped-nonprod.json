@@ -29,5 +29,13 @@
     "FieldTypeParameter": "fl_languages",
     "ElementLabel": "Contact Language",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representativeAttendHearing",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_HearingAttendence",
+    "ElementLabel": "Hearing Attendence",
+    "SecurityClassification": "Public"
   }
 ]
