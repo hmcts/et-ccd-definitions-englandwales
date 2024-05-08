@@ -40,9 +40,9 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y",
+    "ShowSummary": "N",
     "EventEnablingCondition": " ",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/submitted"
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle"
   }
 ]

@@ -73,7 +73,19 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "selectHearingBundlesCollection",
+    "CaseFieldID": "removeBundleDropDownSelectedParty",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "removeHearingBundleSelect",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "hearingBundleRemoveReason",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },

@@ -106,10 +106,26 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "selectHearingBundlesCollection",
+    "ID": "removeBundleDropDownSelectedParty",
     "Label": "Please specify the party whose hearing bundles are to be removed",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_selectHearingBundlesCollection",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "removeHearingBundleSelect",
+    "Label": "Please select the hearing bundle to be removed",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingBundleRemoveReason",
+    "Label": "Reason for removing the hearing bundle",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
+
+
