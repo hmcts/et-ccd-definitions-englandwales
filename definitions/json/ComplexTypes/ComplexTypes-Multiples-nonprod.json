@@ -17,10 +17,32 @@
   },
   {
     "ID": "sendNotificationCollection",
+    "ListElementCode": "sendNotificationNotifySelected",
+    "FieldType": "Text",
+    "ElementLabel": "To",
+    "FieldShowCondition": "sendNotificationNotify=\"Selected cases\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "sendNotificationCollection",
     "ListElementCode": "notificationSentFrom",
     "FieldType": "Text",
     "ElementLabel": "Multiple ref",
     "FieldShowCondition": "sendNotificationNotify=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "notificationsExtract",
+    "ListElementCode": "notificationsExtractFile",
+    "ElementLabel": "Extract File",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "notificationsExtract",
+    "ListElementCode": "extractDateTime",
+    "ElementLabel": "Date generated",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]

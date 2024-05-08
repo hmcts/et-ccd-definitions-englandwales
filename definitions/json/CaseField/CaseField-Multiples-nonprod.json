@@ -9,7 +9,21 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "notificationsTabLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/extractNotifications/extractNotifications1\">Extract notifications</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "notificationsExtract",
+    "Label": "Notifications extract",
+    "FieldType": "notificationsExtract",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "extractEventText",
+    "Label": "Submit the notification extract request below. <br><br> Once completed, the generated extract will be available to download on the notifications tab of the multiple.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -38,13 +52,6 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "multiplesRespondentDocumentsTabTitle",
     "Label": "### Respondent Documents",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "caseFileView",
-    "Label": "Case File View",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -258,6 +265,14 @@
     "Label": "Party Selection",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationNotifyAll",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "sendNotificationNotifySelected",
+    "Label": "Party Selection",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "sendNotificationNotifySelected",
     "SecurityClassification": "Public"
   },
   {
@@ -556,6 +571,12 @@
     "SecurityClassification": "Public"
   }, 
   {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "componentLauncher",
+    "Label": "Component Launcher (for displaying Case View categories)",
+    "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "documentSelect",
     "Label": "Select a document",

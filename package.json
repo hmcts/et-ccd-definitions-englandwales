@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Utility to help creating Reform ET CCD definitions for England and Wales",
   "dependencies": {
-    "@hmcts/nodejs-healthcheck": "1.8.4",
+    "@hmcts/nodejs-healthcheck": "1.8.5",
     "@hmcts/properties-volume": "1.1.0",
     "codeceptjs": "^3.4.1",
     "config": "^3.3.9",
@@ -22,7 +22,7 @@
     "xlsx-populate": "^1.21.0"
   },
   "devDependencies": {
-    "eslint": "^8.32.0",
+    "eslint": "^9.0.0",
     "eslint-plugin-mocha": "^10.1.0",
     "html_codesniffer": "^2.5.1",
     "mocha": "^10.2.0",
@@ -55,5 +55,5 @@
     "generate-excel": "yarn json2xlsx -D ./definitions/json -o ./definitions/xlsx/et-englandwales-ccd-config-${ET_ENV:-base}.xlsx",
     "generate-excel-all": "yarn generate-excel-local && yarn generate-excel-demo && yarn generate-excel-aat && yarn generate-excel-prod"
   },
-  "packageManager": "yarn@3.8.1"
+  "packageManager": "yarn@3.8.2"
 }
