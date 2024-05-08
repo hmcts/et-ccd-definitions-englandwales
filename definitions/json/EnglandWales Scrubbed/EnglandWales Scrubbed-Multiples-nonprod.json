@@ -65,6 +65,7 @@
     "ListElementCode": "Lead and sub cases",
     "DisplayOrder": 2
   },
+  {
     "ID": "notifyMultiple",
     "ListElement": "Parties from selected cases (batch processing)",
     "ListElementCode": "Selected cases",

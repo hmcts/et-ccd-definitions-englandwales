@@ -569,7 +569,7 @@
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
-  }, 
+  },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "componentLauncher",
@@ -577,6 +577,7 @@
     "FieldType": "ComponentLauncher",
     "SecurityClassification": "Public"
   },
+  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "documentSelect",
     "Label": "Select a document",
