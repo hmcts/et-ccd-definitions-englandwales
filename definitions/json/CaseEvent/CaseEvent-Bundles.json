@@ -43,6 +43,6 @@
     "ShowSummary": "N",
     "EventEnablingCondition": " ",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/bundlesRespondent/removeHearingBundle"
   }
 ]

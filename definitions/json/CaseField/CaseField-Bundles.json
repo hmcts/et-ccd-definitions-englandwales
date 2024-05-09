@@ -125,6 +125,14 @@
     "Label": "Reason for removing the hearing bundle",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "removedHearingBundlesCollection",
+    "Label": "Removed Hearing Documents",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "RemovedHearingBundle",
+    "SecurityClassification": "Public"
   }
 ]
 

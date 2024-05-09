@@ -64,5 +64,33 @@
     "FieldType": "Text",
     "ElementLabel": "Uploaded date",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "id",
+    "FieldType": "Text",
+    "ElementLabel": "Document Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "bundleName",
+    "FieldType": "Text",
+    "ElementLabel": "Document Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "removedDateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Removed Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "removedReason",
+    "FieldType": "Text",
+    "ElementLabel": "Reason for removal",
+    "SecurityClassification": "Public"
   }
 ]
