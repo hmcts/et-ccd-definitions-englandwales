@@ -67,13 +67,6 @@
   },
   {
     "ID": "RemovedHearingBundle",
-    "ListElementCode": "id",
-    "FieldType": "Text",
-    "ElementLabel": "Document Name",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "RemovedHearingBundle",
     "ListElementCode": "bundleName",
     "FieldType": "Text",
     "ElementLabel": "Document Name",
