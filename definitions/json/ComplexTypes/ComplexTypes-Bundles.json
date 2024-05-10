@@ -32,7 +32,7 @@
     "ID": "HearingBundle",
     "ListElementCode": "formattedSelectedHearing",
     "FieldType": "Text",
-    "ElementLabel": "Hearing these documents are for",
+    "ElementLabel": "Hearing",
     "SecurityClassification": "Public"
   },
   {
