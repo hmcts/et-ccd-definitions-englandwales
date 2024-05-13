@@ -34,7 +34,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "removeHearingBundles",
     "Name": "Remove hearing bundles",
-    "Description": "Remove hearing bundles",
+    "Description": "Remove Hearing Bundles",
     "DisplayOrder": 2,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
