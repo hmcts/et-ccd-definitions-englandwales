@@ -74,19 +74,37 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "removeBundleDropDownSelectedParty",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "removeHearingBundleSelect",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "hearingBundleRemoveReason",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "removeBundleDropDownSelectedParty",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "removeHearingBundleSelect",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "hearingBundleRemoveReason",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
@@ -314,7 +332,13 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "removedHearingBundlesCollection",
-    "UserRole": "caseworker-employment-api",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "removedHearingBundlesCollection",
+    "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
