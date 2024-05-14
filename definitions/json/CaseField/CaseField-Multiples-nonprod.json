@@ -562,5 +562,13 @@
     "Label": "General notes",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "legalRepCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "RespondentRepresentative",
+    "SecurityClassification": "Public"
   }
 ]
