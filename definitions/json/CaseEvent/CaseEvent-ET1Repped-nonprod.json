@@ -73,6 +73,7 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "EndButtonLabel": "Submit ET1",
+    "Publish": "Y",
     "EventEnablingCondition": "et1ReppedSectionOne = \"Yes\" AND et1ReppedSectionTwo = \"Yes\" AND et1ReppedSectionThree = \"Yes\""
   },
   {

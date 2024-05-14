@@ -22,6 +22,11 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "pseRespondentRespondToTribunal", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "pseRespondentViewNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "viewAllNotifications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "bundlesRespondentPrepareDoc", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"}
-
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "bundlesRespondentPrepareDoc", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "submitEt1Draft",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
+  }
 ]
