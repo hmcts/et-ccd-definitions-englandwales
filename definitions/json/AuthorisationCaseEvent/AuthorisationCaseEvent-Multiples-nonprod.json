@@ -250,5 +250,23 @@
     "CaseEventID": "addCaseNote",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "documentSelect",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "documentSelect",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "documentSelect",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
   }
 ]
