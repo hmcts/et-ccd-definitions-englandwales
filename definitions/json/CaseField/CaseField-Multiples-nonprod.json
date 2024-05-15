@@ -590,7 +590,7 @@
     "ID": "legalRepCollection",
     "Label": " ",
     "FieldType": "Collection",
-    "FieldTypeParameter": "RespondentRepresentative",
+    "FieldTypeParameter": "SubCaseLegalRepDetails",
     "SecurityClassification": "Public"
   }
 ]
