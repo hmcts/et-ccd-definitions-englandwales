@@ -31,6 +31,21 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "extractNotifications",
+    "Name": "Extract notifications",
+    "Description": "Extract notifications from sub cases",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "state=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/extractNotifications/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/extractNotifications/submitted"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "createReferral",
     "Name": "Referral",
     "Description": "Referral",
@@ -123,6 +138,21 @@
     "EventEnablingCondition": "multipleReference =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "addCaseNote",
+    "Name": "Case: Add note",
+    "Description": "Case: Add note",
+    "DisplayOrder": 50,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/caseNotes/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
   }
 ]
