@@ -35,7 +35,6 @@
     "ID": "removeHearingBundles",
     "Name": "Remove hearing bundles",
     "Description": "Remove Hearing Bundles",
-    "DisplayOrder": 2,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
