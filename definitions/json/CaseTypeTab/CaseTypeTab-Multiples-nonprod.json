@@ -11,10 +11,18 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "CaseFieldID": "notificationsExtract",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
     "TabID": "Notes",
     "TabLabel": "Notes",
-    "CaseFieldID": "multiplesNotes",
-    "TabDisplayOrder": 3
+    "TabDisplayOrder": 3,
+    "CaseFieldID": "multipleCaseNotesCollection",
+    "TabFieldDisplayOrder": 1
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -45,6 +53,15 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseFieldID": "claimantDocumentCollection",
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 102,
+    "TabID": "MultiplesClaimantDocumentsTab",
+    "TabLabel": "Docs - Claimant",
+    "TabFieldDisplayOrder": 2
+  },
+  {
     "CaseFieldID": "multiplesRespondentDocumentsTabTitle",
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
@@ -54,13 +71,13 @@
     "TabFieldDisplayOrder": 1
   },
   {
+    "CaseFieldID": "legalrepDocumentCollection",
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
-    "TabID": "CaseFileView",
-    "TabLabel": "Case File View",
-    "TabDisplayOrder": 104,
-    "CaseFieldID": "caseFileView",
-    "TabFieldDisplayOrder": 1
+    "TabDisplayOrder": 103,
+    "TabID": "MultiplesRespondentDocumentsTab",
+    "TabLabel": "Docs - Respondent",
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -117,5 +134,14 @@
     "TabID": "CaseOverview",
     "CaseFieldID": "nextListedDate",
     "TabFieldDisplayOrder": 27
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "TabID": "caseFileView",
+    "TabLabel": "Case File View",
+    "CaseFieldID": "componentLauncher",
+    "TabDisplayOrder": 107,
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#ARGUMENT(CaseFileView)"
   }
 ]
