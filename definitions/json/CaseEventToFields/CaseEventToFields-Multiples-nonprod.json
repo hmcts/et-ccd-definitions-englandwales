@@ -441,6 +441,17 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "extractNotifications",
+    "CaseFieldID": "extractEventText",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1,
+    "PageLabel": "Notification Extract"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseEventID": "replyToReferral",
     "CaseFieldID": "nextListedDate",
     "DisplayContext": "OPTIONAL",
@@ -768,6 +779,39 @@
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 4,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "addCaseNote",
+    "CaseFieldID": "caseNote",
+    "DisplayContext": "COMPLEX",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "documentSelect",
+    "CaseFieldID": "documentAccess",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "documentSelect",
+    "CaseFieldID": "documentSelect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
   }
 ]
