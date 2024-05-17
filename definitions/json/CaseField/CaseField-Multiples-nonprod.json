@@ -618,5 +618,13 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "legalRepCollection",
+    "Label": " ",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "SubCaseLegalRepDetails",
+    "SecurityClassification": "Public"
   }
 ]
