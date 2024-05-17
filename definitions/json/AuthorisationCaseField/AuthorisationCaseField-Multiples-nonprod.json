@@ -2881,19 +2881,19 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseEventID": "legalRepCollection",
+    "CaseFieldID": "legalRepCollection",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseEventID": "legalRepCollection",
+    "CaseFieldID": "legalRepCollection",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseEventID": "legalRepCollection",
+    "CaseFieldID": "legalRepCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }
