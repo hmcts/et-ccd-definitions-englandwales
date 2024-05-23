@@ -12,7 +12,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "multipleReferenceLinkLabel",
-    "TabFieldDisplayOrder": 2,
+    "TabFieldDisplayOrder": 3,
     "FieldShowCondition": "caseType=\"Multiple\" AND multipleReferenceLinkMarkUp !=\"\""
   },
   {
@@ -20,7 +20,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "multipleReference",
-    "TabFieldDisplayOrder": 2,
+    "TabFieldDisplayOrder": 4,
     "FieldShowCondition": "caseType=\"Multiple\" AND multipleReferenceLinkMarkUp !=\"*\""
   },
   {
@@ -28,28 +28,28 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "claimant",
-    "TabFieldDisplayOrder": 3
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "respondent",
-    "TabFieldDisplayOrder": 4
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "caseStateDesc",
     "TabFieldDisplayOrder": 5
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "managingOffice",
+    "CaseFieldID": "respondent",
     "TabFieldDisplayOrder": 6
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "caseStateDesc",
+    "TabFieldDisplayOrder": 7
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "managingOffice",
+    "TabFieldDisplayOrder": 8
   },
   {
     "CaseFieldID": "suggestedHearingVenues",
@@ -57,49 +57,49 @@
     "Channel": "CaseWorker",
     "TabDisplayOrder": 1,
     "TabID": "CaseOverview",
-    "TabFieldDisplayOrder": 7
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "positionType",
-    "TabFieldDisplayOrder": 8
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "fileLocation",
     "TabFieldDisplayOrder": 9
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "clerkResponsible",
+    "CaseFieldID": "positionType",
     "TabFieldDisplayOrder": 10
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "caseNotes",
+    "CaseFieldID": "fileLocation",
     "TabFieldDisplayOrder": 11
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "caseType",
+    "CaseFieldID": "clerkResponsible",
     "TabFieldDisplayOrder": 12
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "caseNotes",
+    "TabFieldDisplayOrder": 13
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "caseType",
+    "TabFieldDisplayOrder": 14
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "subMultipleName",
-    "TabFieldDisplayOrder": 13,
+    "TabFieldDisplayOrder": 15,
     "FieldShowCondition": "caseType=\"Multiple\""
   },
   {
@@ -107,7 +107,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "leadClaimant",
-    "TabFieldDisplayOrder": 14,
+    "TabFieldDisplayOrder": 16,
     "FieldShowCondition": "caseType=\"Multiple\""
   },
   {
@@ -115,21 +115,21 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "feeGroupReference",
-    "TabFieldDisplayOrder": 15
+    "TabFieldDisplayOrder": 17
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "receiptDate",
-    "TabFieldDisplayOrder": 16
+    "TabFieldDisplayOrder": 18
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "[STATE]",
-    "TabFieldDisplayOrder": 17,
+    "TabFieldDisplayOrder": 19,
     "FieldShowCondition": "caseType=\"dummy\""
   },
   {
@@ -137,7 +137,7 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "preAcceptCase",
-    "TabFieldDisplayOrder": 18,
+    "TabFieldDisplayOrder": 20,
     "FieldShowCondition": "[STATE] != \"Submitted\""
   },
   {
@@ -145,65 +145,41 @@
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
     "CaseFieldID": "targetHearingDate",
-    "TabFieldDisplayOrder": 19
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "claimServedDate",
-    "TabFieldDisplayOrder": 20
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "et3DueDate",
     "TabFieldDisplayOrder": 21
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "conciliationTrack",
+    "CaseFieldID": "claimServedDate",
     "TabFieldDisplayOrder": 22
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
-    "CaseFieldID": "reasonForCT",
+    "CaseFieldID": "et3DueDate",
     "TabFieldDisplayOrder": 23
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "conciliationTrack",
+    "TabFieldDisplayOrder": 24
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "reasonForCT",
+    "TabFieldDisplayOrder": 25
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "linkedCaseCT",
-    "TabFieldDisplayOrder": 24,
-    "FieldShowCondition": "caseType=\"dummy\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "linkedCaseCTLabel",
-    "TabFieldDisplayOrder": 25,
-    "FieldShowCondition": "linkedCaseCT=\"*\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "transferredCaseLink",
-    "TabFieldDisplayOrder": 25,
-    "FieldShowCondition": "caseType=\"dummy\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
-    "CaseFieldID": "ethosCaseReference",
     "TabFieldDisplayOrder": 26,
     "FieldShowCondition": "caseType=\"dummy\""
   },
@@ -211,7 +187,31 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "linkedCaseCTLabel",
+    "TabFieldDisplayOrder": 27,
+    "FieldShowCondition": "linkedCaseCT=\"*\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "transferredCaseLink",
+    "TabFieldDisplayOrder": 28,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
+    "CaseFieldID": "ethosCaseReference",
+    "TabFieldDisplayOrder": 29,
+    "FieldShowCondition": "caseType=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "nextListedDate",
-    "TabFieldDisplayOrder": 27
+    "TabFieldDisplayOrder": 30
   }
 ]
