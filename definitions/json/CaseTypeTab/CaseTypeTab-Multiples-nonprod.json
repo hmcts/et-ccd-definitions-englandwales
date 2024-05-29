@@ -145,7 +145,7 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
+    "TabID": "CaseMultiple",
     "CaseFieldID": "nextListedDate",
     "TabFieldDisplayOrder": 27
   },
