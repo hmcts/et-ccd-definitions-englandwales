@@ -134,15 +134,6 @@
     "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
   },
   {
-    "CaseFieldID": "batchCaseStayed",
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabDisplayOrder": 1,
-    "TabID": "CaseOverview",
-    "TabLabel": "Case Details",
-    "TabFieldDisplayOrder": 1
-  },
-  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
