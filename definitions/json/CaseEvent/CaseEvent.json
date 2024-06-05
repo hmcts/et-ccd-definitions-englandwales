@@ -589,8 +589,7 @@
     "CallBackURLSubmittedEvent": "${CCD_DEF_AAC_URL}/noc/check-noc-approval",
     "SecurityClassification": "Public",
     "ShowEventNotes": "Y",
-    "ShowSummary": "Y",
-    "EventEnablingCondition": "caseType =\"dummy\""
+    "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
