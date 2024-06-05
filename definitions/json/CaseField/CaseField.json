@@ -5485,5 +5485,12 @@
     "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantId",
+    "Label": "claimantId",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]
