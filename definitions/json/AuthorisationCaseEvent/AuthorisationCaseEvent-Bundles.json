@@ -76,5 +76,17 @@
     "CaseEventID": "SUBMIT_CLAIMANT_BUNDLES",
     "UserRole": "citizen",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "removeHearingBundles",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "removeHearingBundles",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
