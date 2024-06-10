@@ -3687,6 +3687,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "applicationsLinksClaimantRep",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsAdminLinks",
     "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdminCloseAnApplication/tseAdminCloseAnApplication1\">Close application</a>",
     "FieldType": "Label",
