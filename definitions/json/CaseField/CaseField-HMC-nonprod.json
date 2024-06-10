@@ -1,13 +1,6 @@
 [
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "claimantId",
-    "Label": "claimantId",
-    "FieldType": "Text",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "publicCaseName",
     "Label": "Public case name",
     "FieldType": "Text",

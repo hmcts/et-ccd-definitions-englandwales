@@ -5,6 +5,7 @@
     "TabID": "Bundles",
     "TabLabel": "Hearing Documents",
     "TabDisplayOrder": 71,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
     "CaseFieldID": "bundlesTabTitle",
     "TabFieldDisplayOrder": 1
   },

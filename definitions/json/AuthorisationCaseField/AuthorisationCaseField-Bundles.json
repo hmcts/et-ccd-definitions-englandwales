@@ -296,7 +296,61 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesRespondentCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORB]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORC]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORD]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORE]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORF]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORG]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORH]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORI]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesRespondentCollection",
+    "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
   },
   {
@@ -344,7 +398,61 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesClaimantCollection",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORB]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORC]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORD]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORE]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORF]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORG]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORH]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORI]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesClaimantCollection",
+    "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
   },
   {
@@ -392,7 +500,61 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bundlesTabTitle",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[SOLICITORA]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORB]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORC]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORD]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORE]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORF]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORG]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORH]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORI]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "bundlesTabTitle",
+    "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
   }
 ]
