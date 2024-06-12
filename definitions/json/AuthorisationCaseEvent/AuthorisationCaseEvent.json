@@ -1237,6 +1237,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "respondentTseAllApplications",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"

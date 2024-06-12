@@ -3688,7 +3688,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsLinksClaimantRep",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/respondentTSE/respondentTSE1\">Make an application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
