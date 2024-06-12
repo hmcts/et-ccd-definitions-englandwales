@@ -2,7 +2,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReppedTriageLabel",
-    "Label": "If the claimant works or worked at home occasionally or full time, enter the postcode of where they travel into work or where they would have travelled to.\r\n\r\nIf they're claiming against a respondent that they've not worked for - as best as you can, enter the postcode of where the respondent is based\r\n\r\nIf the respondent's work location is outside the UK, complete this <a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">ET1 claim form</a>.\n\nIf the respondent's work location is within Scotland, complete this <a href=\"cases/case-create/EMPLOYMENT/ET_Scotland/et1ReppedCreateCase/et1ReppedCreateCase1\" target=\"_blank\">ET1 claim form</a>.\n\n<div class=\"govuk-inset-text\">\r\n  This service is only available to professional users presenting a single claim within our early adopter sites; Leeds, Bristol, Nottingham and the 3 London offices.\r\n</div>",
+    "Label": "If the claimant works or worked at home occasionally or full time, enter the postcode of where they travel into work or where they would have travelled to.\r\n\r\nIf they're claiming against a respondent that they've not worked for - as best as you can, enter the postcode of where the respondent is based\r\n\r\nIf the respondent's work location is outside the UK, complete this <a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">ET1 claim form</a>.\n\nIf the respondent's work location is within Scotland, complete this <a href=\"cases/case-create/EMPLOYMENT/ET_Scotland/et1ReppedCreateCase/et1ReppedCreateCase1\" target=\"_blank\">ET1 claim form</a>.\n\n<div class=\"govuk-inset-text\">\r\n  This service is only available to professional users presenting a single claim within our early adopter sites\r\n</div>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -11,7 +11,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReppedTriageError",
-    "Label": "The postcode you entered is not included under the early adopter sites yet.\r\n\r\nUntil your submitted location is supported, complete this <a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">ET1 claim form</a>.\r\n\r\n<div class=\"govuk-inset-text\">\r\n  This service is only available to solicitors representing single claimants, for a limited number of claims within our early adopter sites; Leeds, Glasgow, Bristol, Nottingham and the 3 London offices who meet the current reform criteria.\r\n</div>",
+    "Label": "The postcode you entered is not included under the early adopter sites yet.\r\n\r\nUntil your submitted location is supported, complete this <a href=\"https://www.claim-employment-tribunals.service.gov.uk\" target=\"_blank\">ET1 claim form</a>.\r\n\r\n<div class=\"govuk-inset-text\">\r\n  This service is only available to solicitors representing single claimants, for a limited number of claims within our early adopter sites who meet the current reform criteria.\r\n</div>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -192,6 +192,13 @@
     "ID": "downloadDraftEt1Date",
     "Label": " ",
     "FieldType": "Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "requiresSubmissionDocuments",
+    "Label": " ",
+    "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   }
 ]

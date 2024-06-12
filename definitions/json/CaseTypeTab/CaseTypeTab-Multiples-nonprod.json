@@ -76,24 +76,6 @@
     "TabFieldDisplayOrder": 2
   },
   {
-    "CaseFieldID": "multiplesRespondentDocumentsTabTitle",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabDisplayOrder": 103,
-    "TabID": "MultiplesRespondentDocumentsTab",
-    "TabLabel": "Docs - Respondent",
-    "TabFieldDisplayOrder": 1
-  },
-  {
-    "CaseFieldID": "legalrepDocumentCollection",
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "Channel": "CaseWorker",
-    "TabDisplayOrder": 103,
-    "TabID": "MultiplesRespondentDocumentsTab",
-    "TabLabel": "Docs - Respondent",
-    "TabFieldDisplayOrder": 2
-  },
-  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
     "TabID": "Applications",
@@ -134,18 +116,9 @@
     "DisplayContextParameter": "#TABLE(referralNumber, referralSubject, referredBy, referCaseTo, isUrgent, referralDate, referralHearingDate, referralStatus)"
   },
   {
-    "CaseFieldID": "batchCaseStayed",
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabDisplayOrder": 1,
-    "TabID": "CaseOverview",
-    "TabLabel": "Case Details",
-    "TabFieldDisplayOrder": 1
-  },
-  {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "Channel": "CaseWorker",
-    "TabID": "CaseOverview",
+    "TabID": "CaseMultiple",
     "CaseFieldID": "nextListedDate",
     "TabFieldDisplayOrder": 27
   },

@@ -17467,6 +17467,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "adrDocumentCollection",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
