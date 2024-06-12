@@ -1051,7 +1051,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTSE",
-    "Name": "Contact the tribunal",
+    "Name": "Make an Application",
     "Description": "Claimant Tell Something Else",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",

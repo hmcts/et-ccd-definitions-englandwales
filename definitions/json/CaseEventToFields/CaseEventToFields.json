@@ -8345,7 +8345,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "claimantTSE",
-    "CaseFieldID": "resTseSelectApplication",
+    "CaseFieldID": "claimantTseSelectApplication",
     "DisplayContext": "MANDATORY",
     "PageID": 1,
     "PageDisplayOrder": 1,

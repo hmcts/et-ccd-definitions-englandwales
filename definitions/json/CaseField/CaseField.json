@@ -3694,6 +3694,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseSelectApplication",
+    "Label": "Select an application",
+    "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_claimantTseSelectApp",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsAdminLinks",
     "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmin/tseAdmin1\">Record a decision</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdmReply/tseAdmReply1\">Respond to an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseAdminCloseAnApplication/tseAdminCloseAnApplication1\">Close application</a>",
     "FieldType": "Label",
