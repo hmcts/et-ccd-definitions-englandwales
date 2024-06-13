@@ -1058,7 +1058,6 @@
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "caseType=\"dummy\"",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/claimantTSE/completeApplication",
     "Publish": "Y"
