@@ -2991,7 +2991,7 @@
     "ListElementCode": "jurisdictionCodeFPI",
     "FieldType": "Label",
     "ElementLabel": "Failure of a transferor to provide employee liability information to a transferee",
-    "FieldShowCondition": "juridictionCodesList = \"FTI\"",
+    "FieldShowCondition": "juridictionCodesList = \"FPI\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
   },
