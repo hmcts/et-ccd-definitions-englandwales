@@ -838,5 +838,18 @@
     "PageLabel": "Configure case file",
     "FieldShowCondition": "dcfYesNo=\"No\"",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "amendMultipleDetails",
+    "CaseFieldID": "multipleNote",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "typeOfAmendment CONTAINS \"Amend multiple note\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
   }
 ]
