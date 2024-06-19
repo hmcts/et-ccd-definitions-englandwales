@@ -664,5 +664,12 @@
     "FieldType": "CaseLocation",
     "SecurityClassification": "Public",
     "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multipleNote",
+    "Label": "Multiple Note",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
   }
 ]
