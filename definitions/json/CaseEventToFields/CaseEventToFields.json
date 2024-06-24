@@ -8363,7 +8363,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Withdraw all or part of claim\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim11"
+    "PageLabel": "Withdraw all or part of claim"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8384,5 +8384,64 @@
     "PageDisplayOrder": 14,
     "PageFieldDisplayOrder": 3,
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseRule92TextArea",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "N",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseRespNotAvailable",
+    "FieldShowCondition": "claimantTseSelectApplication=\"dummy\"",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseRule92TextWhenRespOffline",
+    "DisplayContext": "READONLY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "N",
+    "FieldShowCondition": "claimantTseRespNotAvailable=\"Yes\"",
+    "RetainHiddenValue": "No",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseRule92",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 15,
+    "PageDisplayOrder": 15,
+    "PageFieldDisplayOrder": 4,
+    "FieldShowCondition": "claimantTseRule92=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
   }
+
 ]
