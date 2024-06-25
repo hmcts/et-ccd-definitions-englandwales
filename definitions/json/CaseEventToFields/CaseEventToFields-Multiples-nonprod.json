@@ -136,6 +136,16 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "CaseEventID": "batchUpdateJurisdiction",
+    "CaseFieldID": "jurCodesCollection",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "CaseEventID": "sendNotification",
     "CaseFieldID": "sendNotificationInfo",
     "DisplayContext": "READONLY",

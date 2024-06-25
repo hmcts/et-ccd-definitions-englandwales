@@ -200,5 +200,19 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateJurisdiction",
+    "Name": "Jurisdiction",
+    "Description": "Add or Amend a Jurisdiction",
+    "DisplayOrder": 18,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "Publish": "Y"
   }
 ]

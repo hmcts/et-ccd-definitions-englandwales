@@ -5185,8 +5185,8 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "batchUpdateJurisdiction",
     "Label": "Jurisdiction",
-    "FieldType": "DynamicList",
-    "FieldTypeParameter": "Text",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Jurisdiction",
     "SecurityClassification": "Public"
   },
   {
