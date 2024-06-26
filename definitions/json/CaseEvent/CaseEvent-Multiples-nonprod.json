@@ -31,6 +31,21 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "extractNotifications",
+    "Name": "Extract notifications",
+    "Description": "Extract notifications from sub cases",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "state=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/extractNotifications/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/extractNotifications/submitted"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "createReferral",
     "Name": "Referral",
     "Description": "Referral",
@@ -38,12 +53,13 @@
     "PostConditionState": "*",
     "DisplayOrder": 50,
     "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/createReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/createReferral/completeCreateReferral",
-    "ShowEventNotes": "N",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab",
     "Publish": "Y"
   },
   {
@@ -61,6 +77,7 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/replyReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/replyReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/replyReferral/completeReplyToReferral",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab",
     "Publish": "Y"
   },
   {
@@ -78,6 +95,7 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/closeReferral/completeCloseReferral",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab",
     "Publish": "Y"
   },
   {
@@ -123,6 +141,64 @@
     "EventEnablingCondition": "multipleReference =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "addCaseNote",
+    "Name": "Add note",
+    "Description": "Add note",
+    "DisplayOrder": 50,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/caseNotes/aboutToSubmit",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentSelect",
+    "Name": "Document Access",
+    "Description": "Document Access",
+    "DisplayOrder": 17,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/documentAccess/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "createDcf",
+    "Name": "Create Digital Case File",
+    "Description": "Create Digital Case File",
+    "DisplayOrder": 29,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/dcf/selectDcf",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/dcf/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EndButtonLabel": "Create Digital Case File",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "asyncStitchingComplete",
+    "Name": "Stitching bundle complete",
+    "Description": "Stitching bundle complete",
+    "DisplayOrder": 9000,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "multipleReference=\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   }
 ]

@@ -9,14 +9,21 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "notificationsTabLinks",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/sendNotification/sendNotification1\">Send a notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/extractNotifications/extractNotifications1\">Extract notifications</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "multiplesNotes",
-    "Label": "Notes",
+    "ID": "notificationsExtract",
+    "Label": "Notifications extract",
+    "FieldType": "notificationsExtract",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "extractEventText",
+    "Label": "Submit the notification extract request below. <br><br> Once completed, the generated extract will be available to download on the notifications tab of the multiple.",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -38,13 +45,6 @@
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "ID": "multiplesRespondentDocumentsTabTitle",
     "Label": "### Respondent Documents",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales_Multiple",
-    "ID": "caseFileView",
-    "Label": "Case File View",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -561,6 +561,131 @@
     "ID": "closeReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "componentLauncher",
+    "Label": "Component Launcher (for displaying Case View categories)",
+    "FieldType": "ComponentLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multipleCaseNotesCollection",
+    "Label": "Multiple notes",
+    "FieldTypeParameter": "caseNote",
+    "FieldType": "Collection",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseNote",
+    "Label": "Note",
+    "FieldType": "caseNote",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentSelect",
+    "Label": "Select a document",
+    "HintText": "Select a document or documents",
+    "FieldType": "DynamicMultiSelectList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "documentAccess",
+    "Label": "Select the roles",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "DocumentAccess",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "claimantDocumentCollection",
+    "Label": "Documents available to Claimants",
+    "HintText": "These are documents that claimants have access to",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "legalrepDocumentCollection",
+    "Label": "Documents available to legal reps",
+    "HintText": "These are documents that legal reps have access to",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "bundleConfiguration",
+    "Label": "Digital Case File configuration",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "configurationFiles",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseBundles",
+    "Label": "DCF",
+    "HintText": "DCF Collection",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "Bundle",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "digitalCaseFile",
+    "Label": "Digital Case File",
+    "FieldType": "DigitalCaseFile",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "dcfYesNo",
+    "Label": "Do you want to automatically generate the DCF?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "createDigitalCaseFileLink",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/createDcf/createDcf1\">Create DCF</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "caseManagementLocation",
+    "Label": " ",
+    "FieldType": "CaseLocation",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "multipleNote",
+    "Label": "Multiple Note",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "altCaseIdCollection",
+    "Label": "Case Numbers",
+    "HintText": "The lead case cannot be removed",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "CaseNumber",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "removeCasesLabel",
+    "Label": "**Press Continue to remove cases from this Multiple**",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]

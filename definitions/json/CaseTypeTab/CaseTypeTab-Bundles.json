@@ -5,6 +5,7 @@
     "TabID": "Bundles",
     "TabLabel": "Hearing Documents",
     "TabDisplayOrder": 71,
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
     "CaseFieldID": "bundlesTabTitle",
     "TabFieldDisplayOrder": 1
   },
@@ -23,5 +24,13 @@
     "CaseFieldID": "bundlesClaimantCollection",
     "TabFieldDisplayOrder": 3,
     "DisplayContextParameter": "#TABLE(formattedSelectedHearing,uploadDateTime,uploadFile)"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Bundles",
+    "CaseFieldID": "removedHearingBundlesCollection",
+    "TabFieldDisplayOrder": 4,
+    "DisplayContextParameter": "#TABLE(bundleName,removedDateTime,removedReason)"
   }
 ]

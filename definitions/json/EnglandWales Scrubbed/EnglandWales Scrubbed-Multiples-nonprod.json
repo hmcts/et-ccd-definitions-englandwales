@@ -70,5 +70,41 @@
     "ListElement": "Parties from selected cases (batch processing)",
     "ListElementCode": "Selected cases",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "Citizens",
+    "ListElement": "Citizens",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "Legal rep/respondents",
+    "ListElement": "Legal rep/respondents",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "Both Citizens and Legal rep/respondents",
+    "ListElement": "Both Citizens and Legal rep/respondents",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "DocumentAccess",
+    "ListElementCode": "None (clear access)",
+    "ListElement": "None (clear access)",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Remove cases from multiple",
+    "ListElement": "Remove cases from multiple",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "multiplesAmendment",
+    "ListElementCode": "Amend multiple note",
+    "ListElement": "Amend multiple note",
+    "DisplayOrder": 5
   }
 ]
