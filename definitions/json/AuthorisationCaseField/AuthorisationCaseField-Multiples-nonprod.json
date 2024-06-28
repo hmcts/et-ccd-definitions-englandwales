@@ -3022,11 +3022,5 @@
     "CaseFieldID": "batchUpdateJurisdictionList",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales_Multiple",
-    "CaseFieldID": "batchUpdateJurisdictionList",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
   }
 ]
