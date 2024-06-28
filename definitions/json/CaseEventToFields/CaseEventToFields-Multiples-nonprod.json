@@ -884,7 +884,7 @@
     "CaseFieldID": "batchUpdateJurisdictionList",
     "DisplayContext": "MANDATORY",
     "PageID": 5,
-    "PageDisplayOrder": 5,
+    "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 5,
     "ShowSummaryChangeOption": "Y",
     "Publish": "N"
