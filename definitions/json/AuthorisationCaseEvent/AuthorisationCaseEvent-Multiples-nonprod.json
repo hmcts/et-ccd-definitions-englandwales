@@ -37,6 +37,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales_Multiple",
+    "CaseEventID": "createReferral",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales_Multiple",
     "CaseEventID": "uploadDocument",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
