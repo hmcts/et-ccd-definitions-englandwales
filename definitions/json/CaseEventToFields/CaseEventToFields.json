@@ -7982,7 +7982,7 @@
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1,
-    "FieldShowCondition": "caseType=\"dummy\""
+    "FieldShowCondition": "batchUpdateType=\"dummy\""
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
