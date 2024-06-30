@@ -8434,7 +8434,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "claimantTSE",
-    "CaseFieldID": "pseRespondentOrdReqCopyNoGiveDetails",
+    "CaseFieldID": "claimantTseRule92AnsNoGiveDetails",
     "DisplayContext": "MANDATORY",
     "PageID": 15,
     "PageDisplayOrder": 15,

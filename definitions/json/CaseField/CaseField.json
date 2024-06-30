@@ -5550,7 +5550,7 @@
     "ID": "claimantTseRule92",
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "FieldTypeParameter": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
     "SecurityClassification": "Public"
   },
   {
