@@ -687,5 +687,13 @@
     "Label": "**Press Continue to remove cases from this Multiple**",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "batchUpdateJurisdictionList",
+    "Label": "Jurisdictions",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DynamicList",
+    "SecurityClassification": "Public"
   }
 ]
