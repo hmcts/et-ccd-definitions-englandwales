@@ -5420,6 +5420,34 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "replyToReferral",
+    "CaseFieldID": "digitalCaseFile",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyToReferralDcfLink",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "replyToReferralDcfLinkLabel=\"dummy\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "replyToReferral",
+    "CaseFieldID": "replyToReferralDcfLinkLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "replyToReferral",
     "CaseFieldID": "isJudge",
     "DisplayContext": "READONLY",
     "FieldShowCondition": "selectReferral=\"dummy\"",
