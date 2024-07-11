@@ -8713,7 +8713,7 @@
     "PageID": 13,
     "PageDisplayOrder": 13,
     "PageFieldDisplayOrder": 1,
-    "PageShowCondition": "claimantTseSelectApplication=\"Strike out all or part of the response\"",
+    "PageShowCondition": "claimantTseSelectApplication=\"Vary or revoke an order\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
     "PageLabel": "Withdraw all or part of claim"
   },
