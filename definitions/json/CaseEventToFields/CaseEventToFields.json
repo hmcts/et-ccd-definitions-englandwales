@@ -8420,6 +8420,38 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseGuidanceLabel3",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "claimantTseSelectApplication=\"Consider decision afresh\"",
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
+    "PageLabel": "Withdraw all or part of claim"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseDocument3",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "CaseFieldID": "claimantTseTextBox3",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
     "CaseFieldID": "claimantTseGuidanceLabel13",
     "DisplayContext": "READONLY",
     "PageID": 14,
