@@ -24782,6 +24782,24 @@
     "CRUD": "CRU"
   },
   {
+  "CaseTypeId": "ET_EnglandWales",
+  "CaseFieldID": "claimantTseGuidanceLabel1",
+  "UserRole": "caseworker-employment-legalrep-solicitor",
+  "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantTseDocument1",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimantTseTextBox1",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantTseGuidanceLabel13",
     "UserRole": "caseworker-employment-legalrep-solicitor",
