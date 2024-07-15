@@ -8363,7 +8363,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Amend claim\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Amend claim"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8395,7 +8395,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Change personal details\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Change personal details"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8427,7 +8427,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Consider decision afresh\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Consider decision afresh"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8459,7 +8459,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Contact the tribunal\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Contact the tribunal"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8491,7 +8491,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Order a witness to attend to give evidence\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Order a witness to attend to give evidence"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8523,7 +8523,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Order other party\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Order other party"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8555,7 +8555,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Postpone a hearing\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Postpone a hearing"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8587,7 +8587,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Reconsider judgment\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Reconsider judgment"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8619,7 +8619,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Respondent not complied\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Respondent not complied"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8651,7 +8651,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Restrict publicity\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Restrict publicity"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8683,7 +8683,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Strike out all or part of the response\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Strike out all or part of the response"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8715,7 +8715,7 @@
     "PageFieldDisplayOrder": 1,
     "PageShowCondition": "claimantTseSelectApplication=\"Vary or revoke an order\"",
     "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/validateGiveDetails",
-    "PageLabel": "Withdraw all or part of claim"
+    "PageLabel": "Vary or revoke an order"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -8779,7 +8779,8 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1,
-    "PageLabel": "Copy this correspondence to the other party"
+    "PageLabel": "Copy this correspondence to the other party",
+    "PageShowCondition": "claimantTseSelectApplication != \"Order a witness to attend to give evidence\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
