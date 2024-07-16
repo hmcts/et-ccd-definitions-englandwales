@@ -5488,6 +5488,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "replyToReferralDcfLink",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "replyToReferralDcfLinkLabel",
+    "Label": "${replyToReferralDcfLink}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTse",
     "Label": " ",
     "FieldType": "claimantTse",
