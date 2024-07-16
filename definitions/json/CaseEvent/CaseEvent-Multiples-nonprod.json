@@ -53,12 +53,13 @@
     "PostConditionState": "*",
     "DisplayOrder": 50,
     "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
     "ShowSummary": "Y",
     "EventEnablingCondition": "",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/createReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/createReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/createReferral/completeCreateReferral",
-    "ShowEventNotes": "N",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab",
     "Publish": "Y"
   },
   {
@@ -76,6 +77,7 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/replyReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/replyReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/replyReferral/completeReplyToReferral",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab",
     "Publish": "Y"
   },
   {
@@ -93,6 +95,7 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/closeReferral/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/multiples/closeReferral/completeCloseReferral",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab",
     "Publish": "Y"
   },
   {
@@ -138,7 +141,8 @@
     "EventEnablingCondition": "multipleReference =\"dummy\"",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/multiples/updateReferral/aboutToSubmit",
-    "CallBackURLSubmittedEvent": ""
+    "CallBackURLSubmittedEvent": "",
+    "EndButtonLabel": "Close and Return to Multiple Cases tab"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
@@ -196,5 +200,20 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales_Multiple",
+    "ID": "close",
+    "Name": "Close",
+    "Description": "Close Multiple",
+    "DisplayOrder": 10,
+    "PreConditionState(s)": "Open",
+    "PostConditionState": "Closed",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/initialiseCloseMultiple",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/closeMultiple",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "Publish": "Y"
   }
 ]

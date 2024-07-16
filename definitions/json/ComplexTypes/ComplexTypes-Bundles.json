@@ -32,7 +32,7 @@
     "ID": "HearingBundle",
     "ListElementCode": "formattedSelectedHearing",
     "FieldType": "Text",
-    "ElementLabel": "Hearing these documents are for",
+    "ElementLabel": "Hearing",
     "SecurityClassification": "Public"
   },
   {
@@ -63,6 +63,27 @@
     "ListElementCode": "uploadDateTime",
     "FieldType": "Text",
     "ElementLabel": "Uploaded date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "bundleName",
+    "FieldType": "Text",
+    "ElementLabel": "Document Name",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "removedDateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Removed Date",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "RemovedHearingBundle",
+    "ListElementCode": "removedReason",
+    "FieldType": "Text",
+    "ElementLabel": "Reason for removal",
     "SecurityClassification": "Public"
   }
 ]

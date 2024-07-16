@@ -4,7 +4,7 @@
     "ID": "Submitted",
     "Name": "Submitted",
     "DisplayOrder": 1,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -20,7 +20,7 @@
     "Name": "Vetted",
     "Description": "Case Vetted",
     "DisplayOrder": 3,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -28,7 +28,7 @@
     "Name": "Accepted",
     "Description": "Case Accepted",
     "DisplayOrder": 4,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -36,7 +36,7 @@
     "Name": "Closed",
     "Description": "Case Closed",
     "DisplayOrder": 5,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -44,7 +44,7 @@
     "Name": "Rejected",
     "Description": "Case Rejected",
     "DisplayOrder": 6,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -52,7 +52,7 @@
     "Name": "Transferred",
     "Description": "Case Transferred",
     "DisplayOrder": 7,
-    "TitleDisplay": "# Case Number: ${ethosCaseReference} </br> <h4>${flagsImageAltText}</h4>"
+    "TitleDisplay": "# Case Number:${ethosCaseReference}</br><h1>${claimant} v ${respondent}<br>${flagsImageAltText}</h1>"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
