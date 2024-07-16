@@ -3404,13 +3404,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "claimantTse",
-    "Label": " ",
-    "FieldType": "claimantTse",
-    "SecurityClassification": "Public"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseRejectedEmailSent",
     "Label": " ",
     "FieldType": "YesOrNo",
@@ -5505,6 +5498,87 @@
     "ID": "replyToReferralDcfLinkLabel",
     "Label": "${replyToReferralDcfLink}",
     "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTse",
+    "Label": " ",
+    "FieldType": "claimantTse",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "applicationsLinksClaimantRep",
+    "Label": "<a href=\"\">All applications</a> <br> <a href=\"\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a> <br> <a href=\"\">Respond to an application</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseSelectApplication",
+    "Label": "Select an application",
+    "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_claimantTseSelectApp",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseGuidanceLabel13",
+    "Label": "<p>Use this form when you’ve reached a settlement or do not want to continue with all or part of the claim.</p> <p>You can withdraw the whole claim or tell us which parts you want to withdraw.</p> <p>This brings the claim or part of it to an end.</p> <p>You can withdraw at any point before or during a hearing.</p> <p>If you’re withdrawing because of a settlement, make sure you have the settlement in writing.</p> <h3>Withdrawal and dismissal</h3> <p>Once you have told the tribunal you want to withdraw the claim, the tribunal will usually issue a judgment dismissing the claim or part of the claim.</p> <p>A dismissal judgment stops you from making that claim against the same respondents in the future.</p> <p>The tribunal will use Rule 52 of the Employment Tribunal Rules of Procedure to decide whether a dismissal judgment is issued following a withdrawal.</p> <p>Withdrawal and dismissal through this service will be final unless:</p> <ul><li>The tribunal contacts you needing more information</li><li>You have given an acceptable reason why dismissal should not happen</li></ul> <h3>Details to include in your application:</h3> <ul><li>Which parts of the claim you want withdrawn and dismissed</li><li>If you do not want the claim (or part of it) dismissed, you must explain why</li></ul> <h3>Consider when providing material that</h3> <ul><li>You can upload letters, photos or documents if they are relevant to what you want to tell or ask the tribunal. Please do not upload any other material at this stage. If the tribunal needs to see documents before making a decision then you may be asked to provide them at a later stage.</li><li>If you are taking a picture of a letter, place it on a flat surface and take the picture from above.</li><li>If you are uploading written documents with tracked changes, make sure that tracked changes are turned on.</li></ul> <h3>Give details of your application in the text box or upload a file</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseDocument13",
+    "Label": "Document",
+    "FieldType": "Document",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseTextBox13",
+    "Label": "Use this box for any accompanying information",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseRule92TextArea",
+    "Label": "The tribunal must operate in a way fair to both sides. This means that each party must see or hear what the other party tells the tribunal. The rules therefore require all communications with the tribunal to be copied to the other party, apart from in exceptional circumstances.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseRule92TextWhenRespOffline",
+    "Label": "<h3>To copy this correspondence to the other party, you must send it to them by post or email. They cannot view it in this service.</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseRule92",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseRule92AnsNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseRespNotAvailable",
+    "Label": " ",
+    "FieldType": "Text",
     "SecurityClassification": "Public"
   }
 ]
