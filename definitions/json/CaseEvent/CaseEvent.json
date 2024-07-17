@@ -1038,7 +1038,7 @@
     "ID": "claimantTSE",
     "Name": "Make an Application",
     "Description": "Claimant Tell Something Else",
-    "PreConditionState(s)": "*",
+    "PreConditionState(s)": "Submitted;Vetted;Rejected;Accepted",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",

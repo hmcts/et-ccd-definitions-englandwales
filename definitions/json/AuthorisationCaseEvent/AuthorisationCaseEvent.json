@@ -1238,7 +1238,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "claimantTSE",
-    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "UserRole": "[CLAIMANTSOLICITOR]",
     "CRUD": "CRU"
   },
   {
