@@ -24858,5 +24858,17 @@
     "CaseFieldID": "claimantId",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "downloadDraftEt3Label",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "downloadDraftEt3Label",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
   }
 ]

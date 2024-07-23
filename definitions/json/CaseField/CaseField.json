@@ -3088,6 +3088,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "downloadDraftEt3Label",
+    "Label": "Click submit to download a draft copy of the ET3 form completed so far for the respondent selected.\r\n\r\nThis will not submit the ET3 to the tribunal. If you wish to submit the ET3, please use the Submit ET3 event",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "confirmEt3Submit",
     "Label": "Do you want to submit this ET3?",
     "HintText": "If you wish to submit the ET3 to the tribunal, please select the option below and continue. You will not be able to make any further changes once submitted.",
