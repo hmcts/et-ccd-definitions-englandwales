@@ -4772,6 +4772,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "hearingClaimantViewState",
+    "Label": "Hearing Claimant Notification Viewed State",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
