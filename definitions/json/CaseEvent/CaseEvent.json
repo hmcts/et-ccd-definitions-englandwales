@@ -1048,5 +1048,32 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantTSE/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/claimantTSE/completeApplication",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseAllApplications",
+    "Name": "All applications",
+    "Description": " ",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/displayTable",
+    "EndButtonLabel": "Close and return to case details",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "viewClaimantTSEApplications",
+    "Name": "View application",
+    "Description": " ",
+    "DisplayOrder": 56,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "EndButtonLabel": "Close and return to case details",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantTSE/viewApplicationsAboutToStart"
   }
 ]

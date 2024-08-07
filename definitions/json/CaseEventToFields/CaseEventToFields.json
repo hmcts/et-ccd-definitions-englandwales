@@ -8850,6 +8850,78 @@
     "FieldShowCondition": "claimantTseRule92=\"No\"",
     "RetainHiddenValue": "Yes",
     "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTseAllApplications",
+    "CaseFieldID": "claimantTseAllApplicationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": " "
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTseAllApplications",
+    "CaseFieldID": "claimantTseTableMarkUp",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y",
+    "FieldShowCondition": "claimantTseAllApplicationsLabel=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantTseAllApplications",
+    "CaseFieldID": "claimantTseTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewClaimantTSEApplications",
+    "CaseFieldID": "tseViewApplicationOpenOrClosed",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "",
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/midPopulateChooseApplication"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewClaimantTSEApplications",
+    "CaseFieldID": "tseViewApplicationSelect",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageLabel": "",
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantTSE/midPopulateSelectedApplicationData"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewClaimantTSEApplications",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkup",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "tseApplicationSummaryAndResponsesMarkupLabel=\"dummy\"",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "viewClaimantTSEApplications",
+    "CaseFieldID": "tseApplicationSummaryAndResponsesMarkupLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
   }
-
 ]

@@ -821,16 +821,17 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Applications",
-    "CaseFieldID": "applicationsLinksClaimantRep",
-    "TabFieldDisplayOrder": 3
+    "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 2
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Applications",
-    "CaseFieldID": "applicationsAdminLinks",
+    "CaseFieldID": "applicationsLinksClaimantRep",
     "TabFieldDisplayOrder": 4
   },
+
   {
     "CaseFieldID": "genericTseApplicationCollection",
     "CaseTypeID": "ET_EnglandWales",

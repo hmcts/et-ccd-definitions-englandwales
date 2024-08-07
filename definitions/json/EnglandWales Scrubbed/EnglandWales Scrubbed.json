@@ -6975,7 +6975,7 @@
   {"ID": "frl_respondentType", "ListElementCode": "Individual", "ListElement": "Individual", "DisplayOrder": 2},
   {
     "ID": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
-    "ListElement": "Yes, I confirm I will copy this correspondence to the other party to satisfy the Employment Tribunal Rules of Procedure. You should also notify the other party that any objections to your application should be sent to the tribunal as soon as possible and in any event by [application date plus 7 days].",
+    "ListElement": "Yes I confirm I will copy this correspondence to the other party to satisfy the Employment Tribunal Rules of Procedure. I will also notify the other party that any objections to the application should be sent to the tribunal as soon as possible and in any event within 7 days.",
     "ListElementCode": "Yes",
     "DisplayOrder": 1
   },

@@ -5510,7 +5510,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsLinksClaimantRep",
-    "Label": "<a href=\"\">All applications</a> <br> <a href=\"\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a> <br> <a href=\"\">Respond to an application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTseAllApplications/claimantTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewClaimantTSEApplications/viewClaimantTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\"> Respond to an application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -5843,6 +5843,27 @@
     "ID": "claimantTseRespNotAvailable",
     "Label": " ",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseAllApplicationsLabel",
+    "Label": "All applications <hr>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseTableMarkUp",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantTseTableLabel",
+    "Label": "${claimantTseTableMarkUp}",
+    "FieldType": "Label",
     "SecurityClassification": "Public"
   }
 ]
