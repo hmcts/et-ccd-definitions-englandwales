@@ -664,7 +664,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "pseRespondentViewNotification",
-    "Name": "Judgement, Order, Notification",
+    "Name": "Judgment, Order, Notification",
     "Description": "View a judgment, order or notification",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -680,8 +680,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "viewAllNotifications",
-    "Name": "Judgement, Order, Notification",
-    "Description": "View all judgement, orders and notifications",
+    "Name": "Judgment, Order, Notification",
+    "Description": "View all judgment, orders and notifications",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
