@@ -103,5 +103,29 @@
       "FieldType": "Text",
       "ElementLabel": " ",
       "SecurityClassification": "Public"
+    },
+    {
+      "ID": "Respondent",
+      "ListElementCode": "idamId",
+      "FieldType": "Text",
+      "ElementLabel": "Respondent idam id",
+      "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "Respondent",
+      "ListElementCode": "et3CaseDetailsLinksStatuses",
+      "FieldType": "et3CaseDetailsLinksStatuses",
+      "ElementLabel": "ET3 case details links statuses",
+      "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+      "SecurityClassification": "Public"
+    },
+    {
+      "ID": "Respondent",
+      "ListElementCode": "et3HubLinksStatuses",
+      "FieldType": "et3HubLinksStatuses",
+      "ElementLabel": "ET3 hub links statuses",
+      "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
+      "SecurityClassification": "Public"
     }
 ]
