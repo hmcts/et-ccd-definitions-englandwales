@@ -5513,5 +5513,19 @@
     "Label": "${replyToReferralDcfLink}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "legalRepDocumentsMarkdown",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "legalRepDocumentsMarkdownLabel",
+    "Label": "${legalRepDocumentsMarkdown}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
