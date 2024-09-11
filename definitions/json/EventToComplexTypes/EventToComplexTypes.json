@@ -5418,6 +5418,14 @@
     "ID": "Jurisdiction",
     "CaseEventID": "addAmendJurisdiction",
     "CaseFieldID": "jurCodesCollection",
+    "ListElementCode": "jurisdictionCodeTIP",
+    "EventElementLabel": "Suffer a failure by an employer to comply with provisions about distribution of or information about tips",
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Jurisdiction",
+    "CaseEventID": "addAmendJurisdiction",
+    "CaseFieldID": "jurCodesCollection",
     "ListElementCode": "jurisdictionCodeTPE",
     "EventElementLabel": "Suffer less favourable treatment and/or dismissal as a temp. employee than a full-time employee",
     "FieldDisplayOrder": 60,
