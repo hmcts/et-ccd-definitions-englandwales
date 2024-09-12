@@ -518,5 +518,16 @@
     "PageFieldDisplayOrder": 1,
     "ShowSummaryChangeOption": "Y",
     "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "draftAndSignJudgement",
+    "CaseFieldID": "DraftAndSignJudgementDocuments",
+    "DisplayContext": "COMPLEX",
+    "ShowSummaryChangeOption": "Y",
+    "PageID": 1,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2,
+    "PageColumnNumber": 1
   }
 ]

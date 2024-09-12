@@ -244,6 +244,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "DraftAndSignJudgementDocuments",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseManagementLocationCode",
     "Label": "caseManagementLocationCode",
     "FieldType": "Text",
