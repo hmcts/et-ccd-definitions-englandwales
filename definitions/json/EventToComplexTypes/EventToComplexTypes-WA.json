@@ -713,7 +713,7 @@
   {
     "ID": "DraftAndSignJudgement",
     "CaseEventID": "draftAndSignJudgement",
-    "CaseFieldID": "draftAndSignJudgment",
+    "CaseFieldID": "draftAndSignJudgement",
     "ListElementCode": "draftAndSignJudgementDocuments",
     "EventElementLabel": "Document",
     "FieldDisplayOrder": 2,
