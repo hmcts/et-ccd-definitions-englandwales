@@ -3865,7 +3865,7 @@
   },
   {
     "ID": "DraftAndSignJudgement",
-    "ListElementCode": "DraftAndSignJudgementDocuments",
+    "ListElementCode": "draftAndSignJudgementDocuments",
     "FieldType": "Collection",
     "ElementLabel": "Documents",
     "FieldTypeParameter": "DocumentUpload",
