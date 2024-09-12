@@ -24878,6 +24878,42 @@
     "CRUD": "CRU"
   },
   {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "legalRepDocumentsMarkdown",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "legalRepDocumentsMarkdown",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "legalRepDocumentsMarkdown",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "legalRepDocumentsMarkdownLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "legalRepDocumentsMarkdownLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "legalRepDocumentsMarkdownLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
   "CaseTypeId": "ET_EnglandWales",
   "CaseFieldID": "claimantTseGuidanceLabel1",
   "UserRole": "[CLAIMANTSOLICITOR]",

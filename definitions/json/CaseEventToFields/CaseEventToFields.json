@@ -5632,11 +5632,22 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "legalrepDocuments",
-    "CaseFieldID": "legalrepDocumentCollection",
-    "DisplayContext": "READONLY",
+    "CaseFieldID": "legalRepDocumentsMarkdown",
+    "FieldShowCondition": "legalRepDocumentsMarkdownLabel=\"dummy\"",
+    "DisplayContext": "OPTIONAL",
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "PageLabel": "Case Documents"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "legalrepDocuments",
+    "CaseFieldID": "legalRepDocumentsMarkdownLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
     "PageLabel": "Case Documents"
   },
   {
