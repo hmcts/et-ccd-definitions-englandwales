@@ -3865,11 +3865,10 @@
   },
   {
     "ID": "DraftAndSignJudgement",
-    "ListElementCode": "draftAndSignJudgementDocument",
-    "FieldType": "Document",
-    "ElementLabel": "Document upload",
+    "ListElementCode": "DraftAndSignJudgementDocuments",
+    "FieldType": "Collection",
+    "ElementLabel": "Documents",
     "FieldTypeParameter": "DocumentUpload",
-    "CategoryID": "C60",
     "SecurityClassification": "Public"
   },
   {
@@ -3877,14 +3876,6 @@
     "ListElementCode": "furtherDirections",
     "FieldType": "TextArea",
     "ElementLabel": "Any further directions",
-    "SecurityClassification": "Public"
-  },
-  {
-    "ID": "DraftAndSignJudgement",
-    "ListElementCode": "DraftAndSignJudgementDocuments",
-    "FieldType": "Collection",
-    "ElementLabel": "Documents",
-    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   },
   {
