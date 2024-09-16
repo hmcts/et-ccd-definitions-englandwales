@@ -206,5 +206,14 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantHearingContactLanguage", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantHearingContactLanguage", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "requiresSubmissionDocuments", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "requiresSubmissionDocuments", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "requiresSubmissionDocuments", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationTableMarkdownLabel", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationTableMarkdownLabel", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationTableMarkdown", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationTableMarkdown", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantSelectNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantSelectNotification", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantJonsLinks", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantJonsLinks", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+
 ]

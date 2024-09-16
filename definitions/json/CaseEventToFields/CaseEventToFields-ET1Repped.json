@@ -208,6 +208,57 @@
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "et1SectionThree", "CaseFieldID": "linkedCasesDetails", "DisplayContext": "OPTIONAL", "PageID": 5, "PageDisplayOrder": 5, "PageFieldDisplayOrder": 3, "FieldShowCondition": "linkedCasesYesNo CONTAINS \"Yes\"", "ShowSummaryChangeOption": "Y"},
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "submitEt1Draft", "CaseFieldID": "submitEt1Preamble", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 1},
   {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "submitEt1Draft", "CaseFieldID": "submitEt1Confirmation", "DisplayContext": "MANDATORY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2},
-  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "createDraftEt1", "CaseFieldID": "et1DoNotSubmitDraftMessage", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2}
-
+  {"CaseTypeID": "ET_EnglandWales", "CaseEventID": "createDraftEt1", "CaseFieldID": "et1DoNotSubmitDraftMessage", "DisplayContext": "READONLY", "PageID": 1, "PageDisplayOrder": 1, "PageFieldDisplayOrder": 2},
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantViewNotification",
+    "CaseFieldID": "claimantSelectNotification",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantViewNotification/midDetailsTable",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantViewNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdown",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "claimantNotificationTableMarkdownLabel=\"dummy\"",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantViewNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdownLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantViewAllNotifications",
+    "CaseFieldID": "pseViewNotifications",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "pseViewNotificationsLabel=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "PageLabel": "All judgments, orders and notifications"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantViewAllNotifications",
+    "CaseFieldID": "pseViewNotificationsLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  }
 ]

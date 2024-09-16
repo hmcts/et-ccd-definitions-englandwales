@@ -200,5 +200,33 @@
     "Label": " ",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantSelectNotification",
+    "Label": "Select a judgment, order or notification",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantNotificationTableMarkdown",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantNotificationTableMarkdownLabel",
+    "Label": "${claimantNotificationTableMarkdown}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantJonsLinks",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantViewAllNotifications/claimantViewAllNotifications1\">All judgments, orders and notifications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantViewNotification/claimantViewNotification1\">View a judgment, order or notification</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/pseRespondentRespondToTribunal/pseRespondentRespondToTribunal1\">Respond to an order or request from the tribunal</a>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]
