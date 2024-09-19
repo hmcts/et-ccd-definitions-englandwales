@@ -829,7 +829,7 @@
     "Channel": "CaseWorker",
     "TabID": "Applications",
     "CaseFieldID": "applicationsLinksClaimantRep",
-    "TabFieldDisplayOrder": 4
+    "TabFieldDisplayOrder": 3
   },
 
   {
@@ -841,7 +841,7 @@
     "TabDisplayOrder": 18,
     "TabID": "Applications",
     "TabLabel": "Applications",
-    "TabFieldDisplayOrder": 3
+    "TabFieldDisplayOrder": 4
   },
   {
     "CaseFieldID": "adrDocumentCollection",
