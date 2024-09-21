@@ -872,5 +872,14 @@
     "FieldType": "et3HubLinksStatuses",
     "ElementLabel": "ET3 hub links statuses",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseReceivedCount",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
   }
 ]

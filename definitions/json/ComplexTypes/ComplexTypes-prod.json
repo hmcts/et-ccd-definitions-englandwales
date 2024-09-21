@@ -739,5 +739,14 @@
     "ElementLabel": "Section complete",
     "FieldShowCondition": "response_referred_to_judge=\"Dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Respondent",
+    "ListElementCode": "responseReceivedCount",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "responseReceived=\"dummy\"",
+    "RetainHiddenValue": "Yes",
+    "SecurityClassification": "Public"
   }
 ]
