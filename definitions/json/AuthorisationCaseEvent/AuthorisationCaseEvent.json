@@ -2138,5 +2138,17 @@
     "CaseEventID": "downloadDraftEt3",
     "UserRole": "[SOLICITORJ]",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "claimantTransferredCaseAccess",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "claimantTransferredCaseAccess",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
