@@ -398,14 +398,5 @@
     "ElementLabel": " ",
     "SecurityClassification": "Public",
     "FieldShowCondition": "applicationType = \"dummy\""
-  },
-  {
-    "ID": "Respondent",
-    "ListElementCode": "responseReceivedCount",
-    "FieldType": "Text",
-    "ElementLabel": " ",
-    "FieldShowCondition": "responseReceived=\"dummy\"",
-    "RetainHiddenValue": "Yes",
-    "SecurityClassification": "Public"
   }
 ]
