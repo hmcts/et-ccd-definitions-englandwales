@@ -1233,5 +1233,14 @@
     "TabID": "notifications",
     "TabLabel": "Notifications",
     "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseFieldID": "caseSource",
+    "Channel": "CaseWorker",
+    "TabID": "notifications",
+    "TabFieldDisplayOrder": 3,
+    "FieldShowCondition": "caseSource=\"dummy\"",
+    "TabShowCondition": "caseSource!=\"MyHMCTS\""
   }
 ]
