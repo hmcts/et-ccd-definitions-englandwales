@@ -214,6 +214,22 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantSelectNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantSelectNotification", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantJonsLinks", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantJonsLinks", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantJonsLinks", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationResponseText", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationResponseText", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationSupportingMaterial", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationSupportingMaterial", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationSupportingMaterialLabel", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationSupportingMaterialLabel", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationDocuments", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationDocuments", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationCopyToOtherParty", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationCopyToOtherParty", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationsCopyNoDetails", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantNotificationsCopyNoDetails", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "isRespondentSystemUser", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "isRespondentSystemUser", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantRule92TextWhenRespOffline", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "claimantRule92TextWhenRespOffline", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
 
 ]

@@ -260,5 +260,129 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantSelectNotification",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantRespondNotification/midDetailsTable",
+    "PageLabel": "Select an Order or Request",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdown",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "claimantNotificationTableMarkdownLabel=\"dummy\"",
+    "PageLabel": "View a judgment, order or notification"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationTableMarkdownLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationResponseText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationSupportingMaterial",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationSupportingMaterialLabel",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "claimantNotificationSupportingMaterial=\"Yes\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationDocuments",
+    "DisplayContext": "COMPLEX",
+    "FieldShowCondition": "claimantNotificationSupportingMaterial=\"Yes\"",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 6,
+    "CallBackURLMidEvent": "${ET_COS_URL}/claimantRespondNotification/midValidateInput",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "pseRespondentOrdReqCopyPartyIntro",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "isRespondentSystemUser",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "claimantNotificationCopyToOtherParty=\"dummy\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantRule92TextWhenRespOffline",
+    "DisplayContext": "READONLY",
+    "FieldShowCondition": "isRespondentSystemUser=\"No\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationCopyToOtherParty",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "claimantRespondToNotification",
+    "CaseFieldID": "claimantNotificationsCopyNoDetails",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "claimantNotificationCopyToOtherParty=\"No\"",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
   }
 ]

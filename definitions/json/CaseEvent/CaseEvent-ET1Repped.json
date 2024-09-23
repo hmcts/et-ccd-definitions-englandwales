@@ -131,6 +131,22 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRespondToNotification",
+    "Name": "Respond to an Order or Request",
+    "Description": "Claimant - Respond to an Order or Request",
+    "DisplayOrder": 61,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/claimantRespondNotification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/claimantRespondNotification/aboutToSubmit",
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/claimantRespondNotification/submitted"
   }
 ]
 
