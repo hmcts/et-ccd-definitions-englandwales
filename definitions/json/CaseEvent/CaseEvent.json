@@ -681,7 +681,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "viewAllNotifications",
     "Name": "Judgment, Order, Notification",
-    "Description": "View all judgment, orders and notifications",
+    "Description": "View all judgments, orders and notifications",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
