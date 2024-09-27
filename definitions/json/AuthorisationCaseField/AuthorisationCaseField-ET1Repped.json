@@ -199,7 +199,6 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "applicationsTab", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "applicationsLinks", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "applicationsLinksClaimantRep", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "genericTseApplicationCollection", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "D"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "hearingContactLanguage", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "contactLanguageQuestion", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseFieldID": "hearingContactLanguage", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},

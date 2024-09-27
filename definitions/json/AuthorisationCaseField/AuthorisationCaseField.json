@@ -17553,7 +17553,7 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "genericTseApplicationCollection",
     "UserRole": "caseworker-employment-legalrep-solicitor",
-    "CRUD": "CU"
+    "CRUD": "CUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
