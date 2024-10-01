@@ -134,6 +134,18 @@
     "FieldShowCondition": "etICHearingNotListedList CONTAINS \"UDL hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
+
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 9,
+    "FieldShowCondition": "etICHearingNotListedList CONTAINS \"Do not list\"",
+    "ShowSummaryChangeOption": "Y"
+  },
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
@@ -141,7 +153,7 @@
     "DisplayContext": "READONLY",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 9,
+    "PageFieldDisplayOrder": 10,
     "ShowSummaryChangeOption": "N"
   },
   {
@@ -151,7 +163,7 @@
     "DisplayContext": "OPTIONAL",
     "PageID": 3,
     "PageDisplayOrder": 3,
-    "PageFieldDisplayOrder": 10,
+    "PageFieldDisplayOrder": 11,
     "ShowSummaryChangeOption": "Y"
   },
   {

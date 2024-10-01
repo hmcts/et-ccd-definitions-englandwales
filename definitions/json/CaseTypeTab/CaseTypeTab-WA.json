@@ -82,8 +82,16 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
     "TabFieldDisplayOrder": 22,
+    "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Do not list\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedAnyOtherDirectionsLabel",
+    "TabFieldDisplayOrder": 23,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedAnyOtherDirections!=\"\""
   },
   {
@@ -91,7 +99,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
-    "TabFieldDisplayOrder": 23,
+    "TabFieldDisplayOrder": 24,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\""
   },
   {
@@ -99,42 +107,42 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
-    "TabFieldDisplayOrder": 24
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "initialConsideration",
-    "CaseFieldID": "etICFurtherInformation",
     "TabFieldDisplayOrder": 25
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICFurtherInfoAnswers",
+    "CaseFieldID": "etICFurtherInformation",
     "TabFieldDisplayOrder": 26
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRule27",
+    "CaseFieldID": "etICFurtherInfoAnswers",
     "TabFieldDisplayOrder": 27
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRule28",
+    "CaseFieldID": "etInitialConsiderationRule27",
     "TabFieldDisplayOrder": 28
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
+    "CaseFieldID": "etInitialConsiderationRule28",
     "TabFieldDisplayOrder": 29
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "etICFurtherInformationHearingAnyOtherDirections",
+    "TabFieldDisplayOrder": 30
   },
   {
     "CaseTypeID": "ET_EnglandWales",
