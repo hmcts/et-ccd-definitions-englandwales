@@ -1243,6 +1243,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "claimantTSE",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "claimantTseAllApplications",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "CRU"
