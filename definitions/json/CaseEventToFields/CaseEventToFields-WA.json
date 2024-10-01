@@ -134,7 +134,6 @@
     "FieldShowCondition": "etICHearingNotListedList CONTAINS \"UDL hearing\"",
     "ShowSummaryChangeOption": "Y"
   },
-
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
