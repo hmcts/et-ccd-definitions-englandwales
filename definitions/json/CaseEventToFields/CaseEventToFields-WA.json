@@ -137,7 +137,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 3,

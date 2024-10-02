@@ -87,7 +87,7 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "etICHearingNotListedDoNotListHearing",
+    "ID": "etICHearingNotListedDoNotListHearingDirections",
     "Label": "Add further directions",
     "FieldType": "TextArea",
     "SecurityClassification": "Public"

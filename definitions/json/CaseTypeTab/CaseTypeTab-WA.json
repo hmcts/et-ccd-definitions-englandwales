@@ -82,7 +82,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "etICHearingNotListedDoNotListHearing",
+    "CaseFieldID": "etICHearingNotListedDoNotListHearingDirections",
     "TabFieldDisplayOrder": 22,
     "FieldShowCondition": "etICCanProceed=\"Yes\" AND etICHearingAlreadyListed=\"No\" AND etICHearingNotListedList CONTAINS \"Do not list\""
   },
