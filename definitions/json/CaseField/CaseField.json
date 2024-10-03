@@ -5531,7 +5531,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "applicationsLinksClaimantRep",
-    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTseAllApplications/claimantTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewClaimantTSEApplications/viewClaimantTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseRespond/tseRespond1\"> Respond to an application</a>",
+    "Label": "<a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTseAllApplications/claimantTseAllApplications1\">All applications</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/viewClaimantTSEApplications/viewClaimantTSEApplications1\">View an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/claimantTSE/claimantTSE1\">Make an application</a> <br> <a href=\"/cases/case-details/${[CASE_REFERENCE]}/trigger/tseClaimantRepResponse/tseClaimantRepResponse1\"> Respond to an application</a>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -5886,5 +5886,97 @@
     "Label": "${claimantTseTableMarkUp}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepRespondSelectApplication",
+    "Label": "Select an application",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseIntro",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepTseRespIntroLabel",
+    "Label": "${claimantRepResponseIntro}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseTable",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseTableLabel",
+    "Label": "${claimantRepResponseTable}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseText",
+    "Label": "What's your response to the application?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseHasSupportingMaterial",
+    "Label": "Supporting material",
+    "HintText": "Do you have any supporting material you want to provide?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResSupportingMaterial",
+    "Label": "Upload a document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "DocumentUpload",
+    "SecurityClassification": "Public",
+    "Min": "1"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseCopyToOtherParty",
+    "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResponseCopyNoGiveDetails",
+    "Label": "Give details",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResToTribunal",
+    "Label": "Claimant Representative is responding to Tribunal request/order",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantRepResToTribunalText",
+    "Label": "What's your response to the tribunal?",
+    "HintText": "Use this box to provide your answer or you can upload material at the next step.",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Max": 2500
   }
 ]

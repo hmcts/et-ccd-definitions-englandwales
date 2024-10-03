@@ -8888,5 +8888,187 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 2
+  },{
+  "CaseTypeID": "ET_EnglandWales",
+  "CaseEventID": "tseClaimantRepResponse",
+  "CaseFieldID": "claimantTseRespNotAvailable",
+  "FieldShowCondition": "claimantRepRespondSelectApplication=\"dummy\"",
+  "DisplayContext": "READONLY",
+  "PageID": 1,
+  "PageDisplayOrder": 1,
+  "PageFieldDisplayOrder": 1,
+  "CallBackURLMidEvent": "${ET_COS_URL}/tseClaimantRepResponse/showError",
+  "PageColumnNumber": 1
+},
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "tseRespondNotAvailableWarningLabel",
+    "FieldShowCondition": "claimantTseRespNotAvailable=\"Yes\"",
+    "PageShowCondition": "claimantTseRespNotAvailable=\"Yes\"",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepRespondSelectApplication",
+    "DisplayContext": "MANDATORY",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseClaimantRepResponse/midPopulateReply",
+    "PageLabel": "Select an application"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseIntro",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 1,
+    "FieldShowCondition": "claimantRepTseRespIntroLabel=\"dummy\"",
+    "RetainHiddenValue": "No",
+    "ShowSummaryChangeOption": "Y",
+    "CallBackURLMidEvent": "${ET_COS_URL}/tseClaimantRepResponse/midValidateInput",
+    "PageLabel": "Your response"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepTseRespIntroLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseTable",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "claimantRepResponseTableLabel=\"dummy\"",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseTableLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 4
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "tseResponseConsider",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 5
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResToTribunal",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 6,
+    "FieldShowCondition": "claimantRepResponseTable=\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "claimantRepResToTribunal!=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResToTribunalText",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 8,
+    "FieldShowCondition": "claimantRepResToTribunal=\"Yes\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseHasSupportingMaterial",
+    "DisplayContext": "MANDATORY",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 9,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "tseResponseConsiderMaterial",
+    "DisplayContext": "READONLY",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "claimantRepResponseHasSupportingMaterial=\"Yes\"",
+    "PageLabel": "Provide supporting material"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResSupportingMaterial",
+    "DisplayContext": "COMPLEX",
+    "PageID": 4,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "tseRespondCopyPartyIntro",
+    "DisplayContext": "READONLY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 1,
+    "PageLabel": "Copy this correspondence to the other party"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseCopyToOtherParty",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "CaseFieldID": "claimantRepResponseCopyNoGiveDetails",
+    "DisplayContext": "MANDATORY",
+    "PageID": 5,
+    "PageDisplayOrder": 5,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "claimantRepResponseCopyToOtherParty=\"No\"",
+    "RetainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
   }
 ]
