@@ -2181,5 +2181,11 @@
     "CaseEventID": "claimantTransferredCaseAccess",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "tseClaimantRepResponse",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
   }
 ]
