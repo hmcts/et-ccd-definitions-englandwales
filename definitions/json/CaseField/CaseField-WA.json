@@ -88,7 +88,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedAnyOtherDirectionsLabel",
-    "Label": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+    "Label": "<h3>1Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -181,7 +181,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICFurtherInformationHearingAnyOtherDirectionsLabel",
-    "Label": "<h3>Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
+    "Label": "<h3>2Any other directions (Optional)</h3><p>Are there any other issues or instructions to consider, or further orders to give?</p><p>This could include:</p><ul><li>Rule 50</li><li>Interpreters</li><li>Adjustments required for hearings</li><li>Further information required</li><li>Employer’s Contract Claim</li><li>Respondent’s identity</li><li>Time limits: claim or response</li></ul>",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },
@@ -247,6 +247,14 @@
     "ID": "caseManagementLocationCode",
     "Label": "caseManagementLocationCode",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icUploadDocument",
+    "Label": "Upload document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   }
 ]

@@ -147,6 +147,16 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icUploadDocument",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 4,
+    "PageFieldDisplayOrder": 10,
+    "ShowSummaryChangeOption": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedAnyOtherDirections",
     "DisplayContext": "OPTIONAL",
     "PageID": 3,

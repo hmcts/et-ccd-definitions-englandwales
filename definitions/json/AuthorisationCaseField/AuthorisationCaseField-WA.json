@@ -1018,5 +1018,12 @@
     "CaseFieldID": "caseManagementLocationCode",
     "UserRole": "citizen",
     "CRUD": "CRU"
+  },
+
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icUploadDocument",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRU"
   }
 ]
