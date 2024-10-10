@@ -822,8 +822,16 @@
     "Channel": "CaseWorker",
     "TabID": "Applications",
     "CaseFieldID": "applicationsAdminLinks",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "Applications",
+    "CaseFieldID": "applicationsLinksClaimantRep",
     "TabFieldDisplayOrder": 3
   },
+
   {
     "CaseFieldID": "genericTseApplicationCollection",
     "CaseTypeID": "ET_EnglandWales",
@@ -833,7 +841,7 @@
     "TabDisplayOrder": 18,
     "TabID": "Applications",
     "TabLabel": "Applications",
-    "TabFieldDisplayOrder": 3
+    "TabFieldDisplayOrder": 4
   },
   {
     "CaseFieldID": "adrDocumentCollection",
@@ -1240,7 +1248,6 @@
     "Channel": "CaseWorker",
     "TabID": "notifications",
     "TabFieldDisplayOrder": 3,
-    "FieldShowCondition": "caseSource=\"dummy\"",
-    "TabShowCondition": "caseSource!=\"MyHMCTS\""
+    "FieldShowCondition": "caseSource=\"dummy\""
   }
 ]
