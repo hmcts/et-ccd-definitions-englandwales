@@ -148,7 +148,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "icUploadDocument",
-    "DisplayContext": "READONLY",
+    "DisplayContext": "MANDATORY",
     "PageID": 3,
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 10,

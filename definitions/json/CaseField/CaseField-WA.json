@@ -254,7 +254,6 @@
     "ID": "icUploadDocument",
     "Label": "Upload document",
     "FieldType": "Document",
-    "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public"
   }
 ]
