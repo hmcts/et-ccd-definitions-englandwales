@@ -248,5 +248,13 @@
     "Label": "caseManagementLocationCode",
     "FieldType": "Text",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection",
+    "Label": "Upload document PDF",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
   }
 ]
