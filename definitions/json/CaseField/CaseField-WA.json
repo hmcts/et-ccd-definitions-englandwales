@@ -251,8 +251,32 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "icDocumentCollection",
-    "Label": "Upload document PDF",
+    "ID": "icAllDocumentCollection",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection1",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection2",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection3",
+    "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
     "SecurityClassification": "Public"

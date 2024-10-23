@@ -218,15 +218,22 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icCompletedBy",
+    "CaseFieldID": "icAllDocumentCollection",
     "TabFieldDisplayOrder": 30
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
-    "CaseFieldID": "icDateCompleted",
+    "CaseFieldID": "icCompletedBy",
     "TabFieldDisplayOrder": 31
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "initialConsideration",
+    "CaseFieldID": "icDateCompleted",
+    "TabFieldDisplayOrder": 32
   },
   {
     "CaseTypeID": "ET_EnglandWales",

@@ -839,7 +839,7 @@
   {
     "ID": "icDocumentUpload",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icDocumentCollection",
+    "CaseFieldID": "icAllDocumentCollection",
     "ListElementCode": "uploadedDocument",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
@@ -847,7 +847,55 @@
   {
     "ID": "icDocumentUpload",
     "CaseEventID": "initialConsideration",
-    "CaseFieldID": "icDocumentCollection",
+    "CaseFieldID": "icAllDocumentCollection",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection1",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection1",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection2",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection2",
+    "ListElementCode": "shortDescription",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection3",
+    "ListElementCode": "uploadedDocument",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "icDocumentCollection3",
     "ListElementCode": "shortDescription",
     "FieldDisplayOrder": 1,
     "DisplayContext": "OPTIONAL"
