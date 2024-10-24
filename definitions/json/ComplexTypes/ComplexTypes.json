@@ -6689,5 +6689,19 @@
     "ElementLabel": "Sent to",
     "SecurityClassification": "Public",
     "DisplayOrder": 10
+  },
+  {
+    "ID": "icDocumentUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]
