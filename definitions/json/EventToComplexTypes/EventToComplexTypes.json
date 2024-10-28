@@ -685,7 +685,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_preferences",
-    "EventElementLabel": "What are the claimant's hearing preferences",
+    "EventElementLabel": "What are the claimant's hearing preferences1",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
@@ -2749,7 +2749,7 @@
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_preferences",
-    "EventElementLabel": "What are the claimant's hearing preferences",
+    "EventElementLabel": "What are the claimant's hearing preferences2",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
@@ -3283,9 +3283,27 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "claimant_hearing_panel_preference",
+    "EventElementLabel": "Hearing panel preference",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "claimant_hearing_panel_preference_why",
+    "EventElementLabel": "Reason for hearing panel preference",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "reasonable_adjustments",
     "EventElementLabel": "Is there a physical, mental or learning disability or long term health condition which means support during the case is needed?",
-    "FieldDisplayOrder": 3,
+    "FieldDisplayOrder": 5,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3294,7 +3312,7 @@
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "reasonable_adjustments_detail",
     "EventElementLabel": "Support requested",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3303,7 +3321,7 @@
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "contact_language",
     "EventElementLabel": "Contact Language",
-    "FieldDisplayOrder": 5,
+    "FieldDisplayOrder": 7,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3312,7 +3330,7 @@
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_language",
     "EventElementLabel": "Hearing Language",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "MANDATORY"
   },
   {
