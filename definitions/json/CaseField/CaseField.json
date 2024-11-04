@@ -5978,5 +5978,27 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
     "Max": 2500
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "uploadHearingNotesDocument",
+    "Label": "Upload hearing notes",
+    "FieldType": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "removeHearingNotesDocument",
+    "Label": "Do you want to remove the uploaded hearing notes document?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_removeDocument",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "doesHearingNotesDocExist",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public"
   }
 ]
