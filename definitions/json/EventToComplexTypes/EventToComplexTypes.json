@@ -2749,7 +2749,7 @@
     "CaseEventID": "amendCaseDetails",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_preferences",
-    "EventElementLabel": "What are the claimant's hearing preferences2",
+    "EventElementLabel": "What are the claimant's hearing preferences",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
