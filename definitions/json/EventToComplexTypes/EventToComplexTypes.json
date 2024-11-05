@@ -685,7 +685,7 @@
     "CaseEventID": "initiateCase",
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_preferences",
-    "EventElementLabel": "What are the claimant's hearing preferences1",
+    "EventElementLabel": "What are the claimant's hearing preferences",
     "FieldDisplayOrder": 1,
     "DisplayContext": "MANDATORY"
   },
