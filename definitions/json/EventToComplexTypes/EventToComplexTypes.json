@@ -3268,7 +3268,7 @@
     "ListElementCode": "hearing_preferences",
     "EventElementLabel": "What are the claimant's hearing preferences",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Claimant",
@@ -3283,10 +3283,28 @@
     "ID": "Claimant",
     "CaseEventID": "amendClaimantDetails",
     "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "claimant_hearing_panel_preference",
+    "EventElementLabel": "Hearing panel preference",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "OPTIONAL"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
+    "ListElementCode": "claimant_hearing_panel_preference_why",
+    "EventElementLabel": "Reason for hearing panel preference",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "Claimant",
+    "CaseEventID": "amendClaimantDetails",
+    "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "reasonable_adjustments",
     "EventElementLabel": "Is there a physical, mental or learning disability or long term health condition which means support during the case is needed?",
-    "FieldDisplayOrder": 3,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Claimant",
@@ -3294,7 +3312,7 @@
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "reasonable_adjustments_detail",
     "EventElementLabel": "Support requested",
-    "FieldDisplayOrder": 4,
+    "FieldDisplayOrder": 6,
     "DisplayContext": "MANDATORY"
   },
   {
@@ -3303,8 +3321,8 @@
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "contact_language",
     "EventElementLabel": "Contact Language",
-    "FieldDisplayOrder": 5,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "Claimant",
@@ -3312,8 +3330,8 @@
     "CaseFieldID": "claimantHearingPreference",
     "ListElementCode": "hearing_language",
     "EventElementLabel": "Hearing Language",
-    "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY"
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "ClaimantRepresentative",
