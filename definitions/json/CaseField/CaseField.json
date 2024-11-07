@@ -1325,15 +1325,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "icHearingPanelPreference",
-    "Label": "icHearingPanelPreference",
+    "ID": "icRespondentHearingPanelPreference",
+    "Label": "icRespondentHearingPanelPreference",
     "FieldType": "Text",
     "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "icHearingPanelPreferenceLabel",
-    "Label": "${icHearingPanelPreference}",
+    "ID": "icRespondentHearingPanelPreferenceLabel",
+    "Label": "${icRespondentHearingPanelPreference}",
     "FieldType": "Label",
     "SecurityClassification": "Public"
   },

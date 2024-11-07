@@ -13225,79 +13225,79 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreference",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "D"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "icHearingPanelPreferenceLabel",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
