@@ -433,6 +433,18 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etICHearingNotListedListV2",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etICHearingNotListedListV2",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etICHearingNotListedList",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"

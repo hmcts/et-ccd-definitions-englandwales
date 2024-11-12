@@ -59,6 +59,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingNotListedListV2",
+    "Label": "Hearing not listed",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICHearingNotListed_v2",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedSeekComments",
     "Label": "Seek comments on the video hearing",
     "FieldType": "etICHearingNotListedSeekComments",

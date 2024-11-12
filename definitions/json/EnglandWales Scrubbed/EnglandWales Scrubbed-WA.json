@@ -268,5 +268,35 @@
     "ListElementCode": "Other",
     "ListElement": "Other",
     "DisplayOrder": 22
+  },
+  {
+    "ID": "msl_etICHearingNotListed_v2",
+    "ListElementCode": "List for preliminary hearing",
+    "ListElement": "List for preliminary hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingNotListed_v2",
+    "ListElementCode": "List for final hearing",
+    "ListElement": "List for final hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingNotListed_v2",
+    "ListElementCode": "Do not list at present ( give other directions below)",
+    "ListElement": "Do not list at present ( give other directions below)",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICTypeOfHearing_v2",
+    "ListElementCode": "Video",
+    "ListElement": "Video",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfHearing_v2",
+    "ListElementCode": "F2F",
+    "ListElement": "F2F",
+    "DisplayOrder": 2
   }
 ]
