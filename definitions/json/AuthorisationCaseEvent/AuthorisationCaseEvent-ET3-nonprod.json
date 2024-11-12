@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "submitET3Form",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "submitET3Form",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  }
+]
