@@ -13225,6 +13225,84 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreference",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "icRespondentHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etInitialConsiderationJurisdictionCodes",
     "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "D"
@@ -25331,6 +25409,84 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "doesHearingNotesDocExist",
     "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreference",
+    "UserRole": "et-acas-api",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "D"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-etjudge-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etIcHearingPanelPreferenceLabel",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   }
 ]
