@@ -186,6 +186,34 @@
     "RetainHiddenValue": "No"
   },
   {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingListedJudgeOrMembers",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Listed judge or members",
+    "FieldTypeParameter": "frl_finalHearingListedJudgeOrMembers",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingListedJudgeOrMembersReason",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Listed judge or members Reason",
+    "FieldTypeParameter": "msl_finalHearingListedJudgeOrMembersReason",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No",
+    "FieldShowCondition": "finalHearingListedJudgeOrMembers != \"\""
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingListedJudgeOrMembersReasonText",
+    "FieldType": "TextArea",
+    "ElementLabel": "finalHearingListedJudgeOrMembersReasonTextBox",
+    "FieldShowCondition": "finalHearingListedJudgeOrMembers != \"\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICEJSitAlone",
     "FieldType": "YesOrNo",

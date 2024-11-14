@@ -186,6 +186,36 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingListedJudgeOrMembers",
+    "EventElementLabel": "Do you consider this final hearing should be listed judge alone or with members?",
+    "FieldDisplayOrder": 4,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingListedJudgeOrMembersReason",
+    "EventElementLabel": "Reasons",
+    "FieldDisplayOrder": 5,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingListedJudgeOrMembersReasonText",
+    "EventElementLabel": "Further details",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "OPTIONAL",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICEJSitAlone",
     "EventElementLabel": "EJ sit alone?",
