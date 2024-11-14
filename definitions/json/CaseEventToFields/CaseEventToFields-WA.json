@@ -149,6 +149,17 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "DisplayContext": "COMPLEX",
+    "PageID": 3,
+    "PageDisplayOrder": 3,
+    "PageFieldDisplayOrder": 7,
+    "FieldShowCondition": "etICHearingNotListedListUpdated CONTAINS \"List for final hearing\"",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "DisplayContext": "COMPLEX",
     "PageID": 3,

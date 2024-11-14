@@ -159,6 +159,33 @@
     "RetainHiddenValue": "No"
   },
   {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICTypeOfFinalHearingV2",
+    "FieldType": "MultiSelectList",
+    "ElementLabel": "Type of final hearing",
+    "FieldTypeParameter": "msl_etICTypeOfHearing_v2",
+    "RetainHiddenValue": "No",
+    "HintText": "Select all that apply",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICLengthOfFinalHearingV2",
+    "FieldType": "Number",
+    "ElementLabel": "Length of hearing",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingLengthNumTypeV2",
+    "FieldType": "FixedList",
+    "ElementLabel": "Days, Hours or Minutes",
+    "FieldTypeParameter": "fl_HearingLength",
+    "SecurityClassification": "Public",
+    "RetainHiddenValue": "No"
+  },
+  {
     "ID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICEJSitAlone",
     "FieldType": "YesOrNo",

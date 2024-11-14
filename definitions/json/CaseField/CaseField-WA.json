@@ -96,6 +96,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "Label": "List for final hearing",
+    "FieldType": "etICHearingNotListedListForFinalHearingUpdated",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedUDLHearing",
     "Label": "UDL hearing",
     "FieldType": "etICHearingNotListedUDLHearing",

@@ -157,6 +157,35 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICTypeOfFinalHearingV2",
+    "EventElementLabel": "Type of final hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICLengthOfFinalHearingV2",
+    "EventElementLabel": "Length of hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "finalHearingLengthNumTypeV2",
+    "EventElementLabel": "Days, Hours or Minutes",
+    "FieldDisplayOrder": 3,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedUDLHearing",
     "ListElementCode": "etICEJSitAlone",
     "EventElementLabel": "EJ sit alone?",
