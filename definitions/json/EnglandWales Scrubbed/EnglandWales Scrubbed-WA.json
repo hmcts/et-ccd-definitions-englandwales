@@ -298,5 +298,29 @@
     "ListElementCode": "F2F",
     "ListElement": "F2F",
     "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Case management",
+    "ListElement": "Case management",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Preliminary issue",
+    "ListElement": "Preliminary issue",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Strike out",
+    "ListElement": "Strike out",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Deposit",
+    "ListElement": "Deposit",
+    "DisplayOrder": 4
   }
 ]

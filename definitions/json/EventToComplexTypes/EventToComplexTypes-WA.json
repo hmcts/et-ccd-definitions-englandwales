@@ -47,8 +47,26 @@
   {
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICTypeOfPreliminaryHearingV2",
+    "EventElementLabel": "Type of preliminary hearing",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForPrelimHearing",
     "ListElementCode": "etICPurposeOfPreliminaryHearing",
+    "EventElementLabel": "Purpose of preliminary hearing",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICPurposeOfPreliminaryHearingV2",
     "EventElementLabel": "Purpose of preliminary hearing",
     "FieldDisplayOrder": 2,
     "DisplayContext": "MANDATORY"
