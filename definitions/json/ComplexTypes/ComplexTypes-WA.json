@@ -198,7 +198,7 @@
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneReason",
     "FieldType": "MultiSelectList",
-    "ElementLabel": "Listed judge or members Reason",
+    "ElementLabel": "Listed judge or members reason",
     "FieldTypeParameter": "msl_finalHearingListedJudgeOrMembersReason",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No",
@@ -208,7 +208,7 @@
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "FieldType": "TextArea",
-    "ElementLabel": "finalHearingListedJudgeOrMembersReasonTextBox",
+    "ElementLabel": "Further details",
     "FieldShowCondition": "etICFinalHearingIsEJSitAlone != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
