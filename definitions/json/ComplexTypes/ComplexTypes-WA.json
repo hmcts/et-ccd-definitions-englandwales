@@ -187,7 +187,7 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "finalHearingListedJudgeOrMembers",
+    "ListElementCode": "etICFinalHearingIsEJSitAlone",
     "FieldType": "FixedRadioList",
     "ElementLabel": "Listed judge or members",
     "FieldTypeParameter": "frl_finalHearingListedJudgeOrMembers",
@@ -196,20 +196,20 @@
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "finalHearingListedJudgeOrMembersReason",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Listed judge or members Reason",
     "FieldTypeParameter": "msl_finalHearingListedJudgeOrMembersReason",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No",
-    "FieldShowCondition": "finalHearingListedJudgeOrMembers != \"\""
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone != \"\""
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
-    "ListElementCode": "finalHearingListedJudgeOrMembersReasonText",
+    "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "FieldType": "TextArea",
     "ElementLabel": "finalHearingListedJudgeOrMembersReasonTextBox",
-    "FieldShowCondition": "finalHearingListedJudgeOrMembers != \"\"",
+    "FieldShowCondition": "etICFinalHearingIsEJSitAlone != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
