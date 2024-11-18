@@ -197,9 +197,9 @@
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneReason",
-    "FieldType": "MultiSelectList",
+    "FieldType": "FixedRadioList",
     "ElementLabel": "Listed judge or members reason",
-    "FieldTypeParameter": "msl_finalHearingListedJudgeOrMembersReason",
+    "FieldTypeParameter": "frl_finalHearingListedJudgeOrMembersReason",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No",
     "FieldShowCondition": "etICFinalHearingIsEJSitAlone != \"\""
