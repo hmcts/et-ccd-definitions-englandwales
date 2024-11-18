@@ -132,6 +132,23 @@
     "FieldShowCondition": "etICPurposeOfPreliminaryHearingV2 != \"\""
   },
   {
+    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersV2",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Do you consider this preliminary hearing should be listed with members?",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "ListElementCode": "etICIsPreliminaryHearingWithMembersReasonV2",
+    "FieldType": "TextArea",
+    "ElementLabel": "Give reasons for requiring members",
+    "FieldShowCondition": "etICIsPreliminaryHearingWithMembersV2=\"Yes\"",
+    "RetainHiddenValue": "No",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "etICHearingNotListedListForFinalHearing",
     "ListElementCode": "etICTypeOfFinalHearing",
     "FieldType": "MultiSelectList",
