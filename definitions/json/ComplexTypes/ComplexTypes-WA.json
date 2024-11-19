@@ -280,7 +280,6 @@
     "ListElementCode": "etICIsHearingWithJudgeOrMembersFurtherDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Further details",
-    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
