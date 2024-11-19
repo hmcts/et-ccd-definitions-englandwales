@@ -262,7 +262,7 @@
     "ListElementCode": "etICIsHearingWithJudgeOrMembers",
     "FieldType": "FixedRadioList",
     "ElementLabel": "Is this hearing judge alone or with members?",
-    "FieldTypeParameter": "msl_etICHearingAlreadyListed",
+    "FieldTypeParameter": "fl_hearingJudgeAloneOrWithMembers",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
