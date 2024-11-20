@@ -334,7 +334,7 @@
     "ID": "frl_finalHearingListedJudgeOrMembers",
     "ListElement": "With members",
     "ListElementCode": "With members",
-    "DisplayOrder": 1
+    "DisplayOrder": 2
   },
   {
     "ID": "frl_finalHearingListedJudgeOrMembersReason",

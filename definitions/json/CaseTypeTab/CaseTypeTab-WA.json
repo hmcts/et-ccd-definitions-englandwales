@@ -43,8 +43,7 @@
     "Channel": "CaseWorker",
     "TabID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedList",
-    "TabFieldDisplayOrder": 17,
-    "FieldShowCondition": "etICCanProceed=\"dummy\""
+    "TabFieldDisplayOrder": 17
   },
   {
     "CaseTypeID": "ET_EnglandWales",
