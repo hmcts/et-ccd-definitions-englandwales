@@ -44,13 +44,6 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseFieldID": "hearingCollection",
-    "ListElementCode": "hearingNotesDocument",
-    "UserRole": "citizen",
-    "CRUD": "D"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingFormat",
     "UserRole": "caseworker-employment",
     "CRUD": "CRU"
