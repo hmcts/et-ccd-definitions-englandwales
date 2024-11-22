@@ -325,8 +325,8 @@
   },
   {
     "ID": "msl_etICHearingNotListed_v2",
-    "ListElementCode": "Do not list at present ( give other directions below)",
-    "ListElement": "Do not list at present ( give other directions below)",
+    "ListElementCode": "Do not list at present (give other directions below)",
+    "ListElement": "Do not list at present (give other directions below)",
     "DisplayOrder": 3
   },
   {
