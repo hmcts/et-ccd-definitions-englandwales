@@ -387,7 +387,6 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "Reasons",
     "FieldTypeParameter": "msl_hearingWithJudgeOrMembersReasons",
-    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
