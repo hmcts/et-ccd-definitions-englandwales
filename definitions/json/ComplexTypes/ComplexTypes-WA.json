@@ -204,7 +204,6 @@
     "ElementLabel": "Listed judge or members",
     "FieldTypeParameter": "frl_finalHearingListedJudgeOrMembers",
     "SecurityClassification": "Public",
-    "RetainHiddenValue": "No"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
