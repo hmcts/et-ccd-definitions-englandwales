@@ -136,7 +136,6 @@
     "ListElementCode": "etICIsPreliminaryHearingWithMembersV2",
     "FieldType": "YesOrNo",
     "ElementLabel": "Do you consider this preliminary hearing should be listed with members?",
-    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
