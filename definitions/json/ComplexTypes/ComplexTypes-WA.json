@@ -71,7 +71,6 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "Purpose of preliminary hearing",
     "FieldTypeParameter": "msl_etICPurposeOfPrelimHearing_v2",
-    "RetainHiddenValue": "No",
     "HintText": "Select all that apply",
     "SecurityClassification": "Public"
   },
