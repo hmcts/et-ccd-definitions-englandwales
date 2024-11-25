@@ -194,7 +194,7 @@
     "FieldType": "FixedList",
     "ElementLabel": "Days, Hours or Minutes",
     "FieldTypeParameter": "fl_HearingLength",
-    "SecurityClassification": "Public",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
@@ -202,7 +202,7 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Listed judge or members",
     "FieldTypeParameter": "frl_finalHearingListedJudgeOrMembers",
-    "SecurityClassification": "Public",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
@@ -491,7 +491,7 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28NumberOfDays",
-    "ElementLabel": "Number of days for claimant to provide written representations",
+    "ElementLabel": "Number of days for respondent to provide written representations",
     "FieldType": "Number",
     "SecurityClassification": "Public"
   },
