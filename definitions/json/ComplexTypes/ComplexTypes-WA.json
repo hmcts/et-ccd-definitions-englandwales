@@ -195,7 +195,6 @@
     "ElementLabel": "Days, Hours or Minutes",
     "FieldTypeParameter": "fl_HearingLength",
     "SecurityClassification": "Public",
-    "RetainHiddenValue": "No"
   },
   {
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
