@@ -466,7 +466,7 @@
   {
     "ID": "etInitialConsiderationRule28",
     "ListElementCode": "etICRule28ClaimToBe",
-    "ElementLabel": "Claim to be",
+    "ElementLabel": "Response to be",
     "FieldTypeParameter": "fl_rule2728ClaimToBe",
     "FieldType": "FixedRadioList",
     "RetainHiddenValue": "No",
