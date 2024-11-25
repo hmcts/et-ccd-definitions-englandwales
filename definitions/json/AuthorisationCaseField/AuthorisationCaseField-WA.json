@@ -602,6 +602,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "UserRole": "caseworker-employment-etjudge",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRUD"
   },
