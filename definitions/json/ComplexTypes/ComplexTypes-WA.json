@@ -186,7 +186,6 @@
     "ListElementCode": "etICLengthOfFinalHearingV2",
     "FieldType": "Number",
     "ElementLabel": "Length of hearing",
-    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
