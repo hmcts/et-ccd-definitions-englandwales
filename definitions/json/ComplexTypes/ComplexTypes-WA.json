@@ -378,7 +378,6 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Is this hearing judge alone or with members?",
     "FieldTypeParameter": "fl_hearingJudgeAloneOrWithMembers",
-    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
