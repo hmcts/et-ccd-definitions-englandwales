@@ -383,6 +383,7 @@
     "ListElementCode": "etICIsHearingWithJudgeOrMembersReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Reasons",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\"",
     "FieldTypeParameter": "msl_hearingWithJudgeOrMembersReasons",
     "SecurityClassification": "Public"
   },
