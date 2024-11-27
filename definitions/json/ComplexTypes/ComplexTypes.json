@@ -6713,5 +6713,19 @@
     "FieldShowCondition": "claimant_hearing_panel_preference=\"Judge\" OR claimant_hearing_panel_preference=\"Panel\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "ListElementCode": "uploadedDocument",
+    "FieldType": "Document",
+    "ElementLabel": "Document",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "icDocumentUpload",
+    "ListElementCode": "shortDescription",
+    "FieldType": "Text",
+    "ElementLabel": "Short Description",
+    "SecurityClassification": "Public"
   }
 ]
