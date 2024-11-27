@@ -394,7 +394,7 @@
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithJudgeOrMembersFurtherDetails",
     "FieldDisplayOrder": 6,
-    "DisplayContext": "MANDATORY"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "InitialConsideration",
