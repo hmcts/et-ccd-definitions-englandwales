@@ -59,6 +59,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingNotListedListUpdated",
+    "Label": "Hearing not listed",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_etICHearingNotListed_v2",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedSeekComments",
     "Label": "Seek comments on the video hearing",
     "FieldType": "etICHearingNotListedSeekComments",
@@ -73,9 +82,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingNotListedListForPrelimHearingUpdated",
+    "Label": "List for preliminary hearing",
+    "FieldType": "etICHearingNotListedListForPrelimHearingUpdated",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedListForFinalHearing",
     "Label": "List for final hearing",
     "FieldType": "etICHearingNotListedListForFinalHearing",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etICHearingNotListedListForFinalHearingUpdated",
+    "Label": "List for final hearing",
+    "FieldType": "etICHearingNotListedListForFinalHearingUpdated",
     "SecurityClassification": "Public"
   },
   {
@@ -247,6 +270,38 @@
     "ID": "caseManagementLocationCode",
     "Label": "caseManagementLocationCode",
     "FieldType": "Text",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icAllDocumentCollection",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection1",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection2",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icDocumentCollection3",
+    "Label": "Upload document",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "icDocumentUpload",
     "SecurityClassification": "Public"
   }
 ]
