@@ -16424,6 +16424,12 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "submitEt3Respondent",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "submitEt3Respondent",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
