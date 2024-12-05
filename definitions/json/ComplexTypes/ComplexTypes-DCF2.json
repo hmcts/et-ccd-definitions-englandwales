@@ -5,42 +5,48 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "Exclude from Digital Case File",
     "FieldTypeParameter": "msl_Yes",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleDocument",
     "ListElementCode": "name",
     "FieldType": "Text",
     "ElementLabel": "Document Name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleDocument",
     "ListElementCode": "sortIndex",
     "FieldType": "Number",
     "ElementLabel": "Sort Index",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleDocument",
     "ListElementCode": "description",
     "FieldType": "Text",
     "ElementLabel": "Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleDocument",
     "ListElementCode": "sourceDocument",
     "FieldType": "Document",
     "ElementLabel": "Source Document",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder2",
     "ListElementCode": "name",
     "FieldType": "Text",
     "ElementLabel": "Subfolder Name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder2",
@@ -48,21 +54,24 @@
     "FieldType": "Collection",
     "ElementLabel": "Folder Documents",
     "FieldTypeParameter": "BundleDocument",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder2",
     "ListElementCode": "sortIndex",
     "FieldType": "Number",
     "ElementLabel": "Sort Index",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder",
     "ListElementCode": "name",
     "FieldType": "Text",
     "ElementLabel": "Subfolder Name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder",
@@ -70,7 +79,8 @@
     "FieldType": "Collection",
     "ElementLabel": "Folder Documents",
     "FieldTypeParameter": "BundleDocument",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder",
@@ -78,21 +88,24 @@
     "FieldType": "Collection",
     "ElementLabel": "Subfolders",
     "FieldTypeParameter": "BundleSubfolder2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleSubfolder",
     "ListElementCode": "sortIndex",
     "FieldType": "Number",
     "ElementLabel": "Sort Index",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleFolder",
     "ListElementCode": "name",
     "FieldType": "Text",
     "ElementLabel": "Folder Name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleFolder",
@@ -100,7 +113,8 @@
     "FieldType": "Collection",
     "ElementLabel": "Folder Documents",
     "FieldTypeParameter": "BundleDocument",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleFolder",
@@ -108,14 +122,16 @@
     "FieldType": "Collection",
     "ElementLabel": "Subfolders",
     "FieldTypeParameter": "BundleSubfolder",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "BundleFolder",
     "ListElementCode": "sortIndex",
     "FieldType": "Number",
     "ElementLabel": "Sort Index",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentImage",
@@ -123,7 +139,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "How would you like to have the image rendered?",
     "FieldTypeParameter": "imageRendering",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentImage",
@@ -131,63 +148,72 @@
     "FieldType": "FixedList",
     "ElementLabel": "Where would you like to embed the image in the stitched document?",
     "FieldTypeParameter": "imageRenderingLocation",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentImage",
     "ListElementCode": "docmosisAssetId",
     "FieldType": "Text",
     "ElementLabel": "The filename of the image you wish to embed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentImage",
     "ListElementCode": "coordinateX",
     "FieldType": "Number",
     "ElementLabel": "X position of the image",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentImage",
     "ListElementCode": "coordinateY",
     "FieldType": "Number",
     "ElementLabel": "Y position of the image",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "id",
     "FieldType": "Text",
     "ElementLabel": "Bundle ID",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "title",
     "FieldType": "Text",
     "ElementLabel": "Name of bundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "description",
     "FieldType": "TextArea",
     "ElementLabel": "Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "eligibleForStitching",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is this the bundle you want to stitch?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "eligibleForCloning",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is this the bundle you want to clone?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
@@ -195,7 +221,8 @@
     "FieldType": "Collection",
     "ElementLabel": "Bundle document",
     "FieldTypeParameter": "BundleDocument",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
@@ -203,63 +230,72 @@
     "FieldType": "Collection",
     "ElementLabel": "Bundle folder",
     "FieldTypeParameter": "BundleFolder",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "stitchStatus",
     "FieldType": "Text",
     "ElementLabel": "Stitch Status",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "stitchedDocument",
     "FieldType": "Document",
     "ElementLabel": "Stitched Document",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "hasCoversheets",
     "FieldType": "YesOrNo",
     "ElementLabel": "Should this bundle have coversheets separating each document?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "hasTableOfContents",
     "FieldType": "YesOrNo",
     "ElementLabel": "Should this bundle have a title page with a table of contents?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "hasFolderCoversheets",
     "FieldType": "YesOrNo",
     "ElementLabel": "Should this bundle’s folders have a coversheet?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "stitchingFailureMessage",
     "FieldType": "Text",
     "ElementLabel": "Error from Stitching service",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "fileName",
     "FieldType": "Text",
     "ElementLabel": "Name of the PDF",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "fileNameIdentifier",
     "FieldType": "Text",
     "ElementLabel": "Unique filename identifier",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
@@ -267,14 +303,16 @@
     "FieldType": "FixedList",
     "ElementLabel": "Pagination Style",
     "FieldTypeParameter": "paginationStyle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "coverpageTemplate",
     "FieldType": "Text",
     "ElementLabel": "Cover page template",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
@@ -282,14 +320,16 @@
     "FieldType": "FixedList",
     "ElementLabel": "Page Number Format",
     "FieldTypeParameter": "pageNumberFormat",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
     "ListElementCode": "enableEmailNotification",
     "FieldType": "YesOrNo",
     "ElementLabel": "Enable Email Notification?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Bundle",
@@ -297,7 +337,8 @@
     "FieldType": "DocumentImage",
     "ElementLabel": "Configure image for stitched PDF?",
     "FieldTypeParameter": "DocumentImage",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DigitalCaseFile",
@@ -305,13 +346,15 @@
     "FieldType": "Document",
     "ElementLabel": "Digital Case File",
     "SecurityClassification": "Public",
-    "CategoryID": "C69"
+    "CategoryID": "C69",
+    "Searchable": "N"
   },
   {
     "ID": "DigitalCaseFile",
     "ListElementCode": "dateGenerated",
     "FieldType": "Date",
     "ElementLabel": "Date Generated",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

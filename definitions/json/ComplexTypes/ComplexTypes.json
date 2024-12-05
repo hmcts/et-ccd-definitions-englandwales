@@ -5,7 +5,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Document Category",
     "FieldTypeParameter": "fl_DocumentCategories",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -14,7 +15,8 @@
     "ElementLabel": "Starting a Claim",
     "FieldTypeParameter": "fl_StartingAClaim",
     "FieldShowCondition": "topLevelDocuments=\"Starting a Claim\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -23,7 +25,8 @@
     "ElementLabel": "Response to a Claim",
     "FieldTypeParameter": "fl_ResponseToAClaim",
     "FieldShowCondition": "topLevelDocuments=\"Response to a Claim\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -32,7 +35,8 @@
     "ElementLabel": "Initial Consideration",
     "FieldTypeParameter": "fl_InitialConsideration",
     "FieldShowCondition": "topLevelDocuments=\"Initial Consideration\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -41,7 +45,8 @@
     "ElementLabel": "Case Management",
     "FieldTypeParameter": "fl_CaseManagement",
     "FieldShowCondition": "topLevelDocuments=\"Case Management\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -50,7 +55,8 @@
     "ElementLabel": "Withdrawal/Settled",
     "FieldTypeParameter": "fl_WithdrawalSettled",
     "FieldShowCondition": "topLevelDocuments=\"Withdrawal/Settled\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -59,7 +65,8 @@
     "ElementLabel": "Hearings",
     "FieldTypeParameter": "fl_Hearings",
     "FieldShowCondition": "topLevelDocuments=\"Hearings\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -68,7 +75,8 @@
     "ElementLabel": "Judgment and Reasons",
     "FieldTypeParameter": "fl_JudgmentAndReasons",
     "FieldShowCondition": "topLevelDocuments=\"Judgment and Reasons\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -77,7 +85,8 @@
     "ElementLabel": "Reconsideration",
     "FieldTypeParameter": "fl_Reconsideration",
     "FieldShowCondition": "topLevelDocuments=\"Reconsideration\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -86,7 +95,8 @@
     "ElementLabel": "Misc",
     "FieldTypeParameter": "fl_Misc",
     "FieldShowCondition": "topLevelDocuments=\"Misc\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -95,7 +105,8 @@
     "ElementLabel": "Type of Document",
     "FieldTypeParameter": "fl_DocumentType",
     "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -109,7 +120,8 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
@@ -130,14 +142,16 @@
     "ListElementCode": "docNumber",
     "FieldType": "Number",
     "ElementLabel": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DocumentUpload",
     "ListElementCode": "documentIndex",
     "FieldType": "Number",
     "ElementLabel": "Document Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "AdrDocumentUploadDetails",
@@ -151,7 +165,8 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "AdrDocumentUploadDetails",
@@ -172,7 +187,8 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "PiiDocumentUploadDetails",
@@ -193,7 +209,8 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "AppealDocumentUploadDetails",
@@ -208,7 +225,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Title",
     "FieldTypeParameter": "fl_PreferredTitle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -216,7 +234,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Deprecated",
     "FieldTypeParameter": "fl_Title",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -225,7 +244,8 @@
     "ElementLabel": "Other title",
     "FieldShowCondition": "claimant_preferred_title=\"Other\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -246,7 +266,8 @@
     "ListElementCode": "claimant_date_of_birth",
     "FieldType": "Date",
     "ElementLabel": "Date of birth",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -254,7 +275,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Gender",
     "FieldTypeParameter": "fl_Gender",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -262,7 +284,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Sex",
     "FieldTypeParameter": "fl_Sex",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -270,14 +293,16 @@
     "FieldType": "FixedList",
     "ElementLabel": "Is the claimant's identity and sex registered at birth the same?",
     "FieldTypeParameter": "fl_YesOrNoOrPreferNot",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
     "ListElementCode": "claimant_gender_identity",
     "FieldType": "Text",
     "ElementLabel": "Gender Identity description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantCorrespondence",
@@ -291,21 +316,24 @@
     "ListElementCode": "claimant_phone_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Phone number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantCorrespondence",
     "ListElementCode": "claimant_mobile_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Alternative number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantCorrespondence",
     "ListElementCode": "claimant_email_address",
     "FieldType": "Email",
     "ElementLabel": "Email address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantCorrespondence",
@@ -313,7 +341,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Contact preference",
     "FieldTypeParameter": "fl_ContactPreference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantCorrespondence",
@@ -321,7 +350,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Contact language",
     "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantCorrespondence",
@@ -329,35 +359,40 @@
     "FieldType": "FixedList",
     "ElementLabel": "Hearing language",
     "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimantEmploymentDetails",
     "FieldType": "Label",
     "ElementLabel": "Employment Details",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_occupation",
     "FieldType": "Text",
     "ElementLabel": "Occupation",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_employed_from",
     "FieldType": "Date",
     "ElementLabel": "Employed from",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_employed_currently",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the employment continuing?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -366,7 +401,8 @@
     "ElementLabel": "Employed to",
     "FieldShowCondition": "claimant_employed_currently=\"No\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -375,14 +411,16 @@
     "ElementLabel": "Notice Period End Date",
     "FieldShowCondition": "claimant_employed_currently=\"Yes\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_disabled",
     "FieldType": "YesOrNo",
     "ElementLabel": "Are there any disabilities or special requirements?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -391,14 +429,16 @@
     "ElementLabel": "Please provide details",
     "FieldShowCondition": "claimant_disabled=\"Yes\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_notice_period",
     "FieldType": "YesOrNo",
     "ElementLabel": "Notice Period",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -406,35 +446,40 @@
     "FieldType": "FixedList",
     "ElementLabel": "Notice Weeks or Months",
     "FieldTypeParameter": "fl_notice_period_unit",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_notice_period_duration",
     "FieldType": "Number",
     "ElementLabel": "Notice Period Duration",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_average_weekly_hours",
     "FieldType": "Number",
     "ElementLabel": "Average weekly hours",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pay_before_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay before tax",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pay_after_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay after tax",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -442,7 +487,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Weekly, monthly or annual pay",
     "FieldTypeParameter": "fl_pay_cycle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -450,35 +496,40 @@
     "FieldType": "FixedList",
     "ElementLabel": "Pension Scheme",
     "FieldTypeParameter": "fl_pension_contribution",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_pension_weekly_contribution",
     "FieldType": "Number",
     "ElementLabel": "Pension Contribution",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_benefits",
     "FieldType": "YesOrNo",
     "ElementLabel": "Employee Benefits",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "claimant_benefits_detail",
     "FieldType": "Text",
     "ElementLabel": "Employee Benefits Details",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
     "ListElementCode": "pastEmployer",
     "FieldType": "YesOrNo",
     "ElementLabel": "Did you work for the organisation or person",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "EmploymentDetails",
@@ -486,28 +537,32 @@
     "FieldType": "FixedList",
     "ElementLabel": "Are you still working for the organisation or person",
     "FieldTypeParameter": "fl_StillWorking",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "NewEmploymentDetails",
     "ListElementCode": "new_job",
     "FieldType": "YesOrNo",
     "ElementLabel": "Have you got a new job",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "NewEmploymentDetails",
     "ListElementCode": "newly_employed_from",
     "FieldType": "Date",
     "ElementLabel": "Employed from",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "NewEmploymentDetails",
     "ListElementCode": "new_pay_before_tax",
     "FieldType": "Number",
     "ElementLabel": "Pay before tax",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "NewEmploymentDetails",
@@ -515,21 +570,24 @@
     "FieldType": "FixedList",
     "ElementLabel": "Is this your weekly, monthly or annual pay",
     "FieldTypeParameter": "fl_pay_cycle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "WorkAddressDetails",
     "ListElementCode": "claimant_work_address",
     "FieldType": "AddressUK",
     "ElementLabel": "Claimant Work Address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "WorkAddressDetails",
     "ListElementCode": "claimant_work_phone_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Work phone number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TaskListCheck",
@@ -564,7 +622,8 @@
     "ListElementCode": "address",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
@@ -585,7 +644,8 @@
     "ListElementCode": "representative_reference",
     "FieldType": "Text",
     "ElementLabel": "Reference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
@@ -593,7 +653,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Occupation",
     "FieldTypeParameter": "fl_RepresentativeOccupation",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
@@ -602,35 +663,40 @@
     "ElementLabel": "What is the Representative's occupation?",
     "FieldShowCondition": "representative_occupation=\"Other\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
     "ListElementCode": "representative_address",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
     "ListElementCode": "representative_phone_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Phone number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
     "ListElementCode": "representative_mobile_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Alternative number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
     "ListElementCode": "representative_email_address",
     "FieldType": "Email",
     "ElementLabel": "Email address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRepresentative",
@@ -638,7 +704,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Contact preference",
     "FieldTypeParameter": "fl_RepresentativeContact",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -646,7 +713,8 @@
     "FieldType": "Document",
     "ElementLabel": "ET3 Processing Document",
     "CategoryID": "C72",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -654,7 +722,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an ET3 response?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnEt3Response!=\"\""
+    "FieldShowCondition": "et3IsThereAnEt3Response!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -662,7 +731,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3NoEt3Response!=\"\""
+    "FieldShowCondition": "et3NoEt3Response!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -670,7 +740,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General Notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotes!=\"\""
+    "FieldShowCondition": "et3GeneralNotes!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -678,7 +749,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there a Companies House search document?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument!=\"\""
+    "FieldShowCondition": "et3IsThereACompaniesHouseSearchDocument!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -687,7 +759,8 @@
     "ElementLabel": "Upload the Companies House search document",
     "SecurityClassification": "Public",
     "CategoryID": "C18",
-    "FieldShowCondition": "et3CompanyHouseDocument!=\"\""
+    "FieldShowCondition": "et3CompanyHouseDocument!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -695,7 +768,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General Notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesCompanyHouse!=\"\""
+    "FieldShowCondition": "et3GeneralNotesCompanyHouse!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -703,7 +777,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an individual insolvency search document?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument!=\"\""
+    "FieldShowCondition": "et3IsThereAnIndividualSearchDocument!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -712,7 +787,8 @@
     "ElementLabel": "Upload the individual insolvency search document",
     "SecurityClassification": "Public",
     "CategoryID": "C18",
-    "FieldShowCondition": "et3IndividualInsolvencyDocument!=\"\""
+    "FieldShowCondition": "et3IndividualInsolvencyDocument!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -720,7 +796,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General Notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesIndividualInsolvency!=\"\""
+    "FieldShowCondition": "et3GeneralNotesIndividualInsolvency!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -729,7 +806,8 @@
     "ElementLabel": "Is there an issue with whether the respondent is a legal entity?",
     "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_respondent_legal_entity",
-    "FieldShowCondition": "et3LegalIssue!=\"\""
+    "FieldShowCondition": "et3LegalIssue!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -737,7 +815,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3LegalIssueGiveDetails!=\"\""
+    "FieldShowCondition": "et3LegalIssueGiveDetails!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -745,7 +824,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesLegalEntity!=\"\""
+    "FieldShowCondition": "et3GeneralNotesLegalEntity!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -753,7 +833,8 @@
     "FieldType": "DynamicList",
     "ElementLabel": "Select the respondent you are processing",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ChooseRespondent!=\"\""
+    "FieldShowCondition": "et3ChooseRespondent!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -761,7 +842,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Did we receive the ET3 response in time?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ResponseInTime!=\"\""
+    "FieldShowCondition": "et3ResponseInTime!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -769,7 +851,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ResponseInTimeDetails!=\"\""
+    "FieldShowCondition": "et3ResponseInTimeDetails!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -777,7 +860,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Do we have the respondent's name?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3DoWeHaveRespondentsName!=\"\""
+    "FieldShowCondition": "et3DoWeHaveRespondentsName!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -785,7 +869,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesRespondentName!=\"\""
+    "FieldShowCondition": "et3GeneralNotesRespondentName!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -793,7 +878,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the respondent's name match?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3DoesRespondentsNameMatch!=\"\""
+    "FieldShowCondition": "et3DoesRespondentsNameMatch!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -801,7 +887,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3RespondentNameMismatchDetails!=\"\""
+    "FieldShowCondition": "et3RespondentNameMismatchDetails!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -809,7 +896,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesRespondentNameMatch!=\"\""
+    "FieldShowCondition": "et3GeneralNotesRespondentNameMatch!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -817,7 +905,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Do we have the respondent's address?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3DoWeHaveRespondentsAddress!=\"\""
+    "FieldShowCondition": "et3DoWeHaveRespondentsAddress!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -825,7 +914,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\""
+    "FieldShowCondition": "et3GeneralNotesRespondentAddress!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -833,7 +923,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the respondent's address match?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3DoesRespondentsAddressMatch!=\"\""
+    "FieldShowCondition": "et3DoesRespondentsAddressMatch!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -841,7 +932,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3RespondentAddressMismatchDetails!=\"\""
+    "FieldShowCondition": "et3RespondentAddressMismatchDetails!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -849,7 +941,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesAddressMatch!=\"\""
+    "FieldShowCondition": "et3GeneralNotesAddressMatch!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -857,7 +950,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Is the case listed for hearing?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsCaseListedForHearing!=\"\""
+    "FieldShowCondition": "et3IsCaseListedForHearing!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -865,7 +959,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3IsCaseListedForHearingDetails!=\"\""
+    "FieldShowCondition": "et3IsCaseListedForHearingDetails!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -873,7 +968,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesCaseListed!=\"\""
+    "FieldShowCondition": "et3GeneralNotesCaseListed!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -882,7 +978,8 @@
     "ElementLabel": "Is this location correct?",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3IsThisLocationCorrect!=\"\"",
-    "FieldTypeParameter": "fl_et3_tribunal_location_change"
+    "FieldTypeParameter": "fl_et3_tribunal_location_change",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -891,7 +988,8 @@
     "ElementLabel": "England & Wales regional office",
     "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_TribunalOffice",
-    "FieldShowCondition": "et3RegionalOffice!=\"\""
+    "FieldShowCondition": "et3RegionalOffice!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -899,7 +997,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Why should we change the office?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3WhyWeShouldChangeTheOffice!=\"\""
+    "FieldShowCondition": "et3WhyWeShouldChangeTheOffice!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -907,7 +1006,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesTransferApplication!=\"\""
+    "FieldShowCondition": "et3GeneralNotesTransferApplication!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -916,7 +1016,8 @@
     "ElementLabel": "Does the respondent wish to contest any part of the claim?",
     "FieldTypeParameter": "fl_contest_claim_status",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ContestClaim!=\"\""
+    "FieldShowCondition": "et3ContestClaim!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -924,7 +1025,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ContestClaimGiveDetails!=\"\""
+    "FieldShowCondition": "et3ContestClaimGiveDetails!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -932,7 +1034,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesContestClaim!=\"\""
+    "FieldShowCondition": "et3GeneralNotesContestClaim!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -940,7 +1043,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Is there an Employer's Contract Claim in section 7 of the ET3 response?",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ContractClaimSection7!=\"\""
+    "FieldShowCondition": "et3ContractClaimSection7!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -948,7 +1052,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3ContractClaimSection7Details!=\"\""
+    "FieldShowCondition": "et3ContractClaimSection7Details!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -956,7 +1061,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesContractClaimSection7!=\"\""
+    "FieldShowCondition": "et3GeneralNotesContractClaimSection7!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -964,7 +1070,8 @@
     "FieldType": "YesOrNo",
     "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3Rule26!=\"\""
+    "FieldShowCondition": "et3Rule26!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -972,7 +1079,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Give details",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3Rule26Details!=\"\""
+    "FieldShowCondition": "et3Rule26Details!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -980,7 +1088,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Applications for strike out or deposit",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3SuggestedIssuesStrikeOut!=\"\""
+    "FieldShowCondition": "et3SuggestedIssuesStrikeOut!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -988,7 +1097,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Interpreters",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3SuggestedIssueInterpreters!=\"\""
+    "FieldShowCondition": "et3SuggestedIssueInterpreters!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -996,7 +1106,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Jurisdictional issues",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3SuggestedIssueJurisdictional!=\"\""
+    "FieldShowCondition": "et3SuggestedIssueJurisdictional!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -1004,7 +1115,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Request for adjustments",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3SuggestedIssueAdjustments!=\"\""
+    "FieldShowCondition": "et3SuggestedIssueAdjustments!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -1012,7 +1124,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Rule 50",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3SuggestedIssueRule50!=\"\""
+    "FieldShowCondition": "et3SuggestedIssueRule50!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -1020,7 +1133,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Time points",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3SuggestedIssueTimePoints!=\"\""
+    "FieldShowCondition": "et3SuggestedIssueTimePoints!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -1028,7 +1142,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3GeneralNotesRule26!=\"\""
+    "FieldShowCondition": "et3GeneralNotesRule26!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -1036,7 +1151,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Additional information",
     "SecurityClassification": "Public",
-    "FieldShowCondition": "et3AdditionalInformation!=\"\""
+    "FieldShowCondition": "et3AdditionalInformation!=\"\"",
+    "Searchable": "N"
   },
   {
     "ID": "ET3Vetting",
@@ -1045,7 +1161,8 @@
     "ElementLabel": "Are there any other suggested orders, directions or issues?",
     "SecurityClassification": "Public",
     "FieldTypeParameter": "fl_et3_suggested_issues",
-    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\""
+    "FieldShowCondition": "et3IsThereAnEt3Response=\"dummy\"",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
@@ -1107,7 +1224,8 @@
     "FieldType": "Text",
     "ElementLabel": "Reference",
     "FieldShowCondition": "myHmctsYesNo=\"No\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
@@ -1116,7 +1234,8 @@
     "ElementLabel": "Occupation",
     "FieldShowCondition": "myHmctsYesNo=\"No\"",
     "FieldTypeParameter": "fl_RepresentativeOccupation",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
@@ -1125,35 +1244,40 @@
     "ElementLabel": "What is the Representative's occupation?",
     "FieldShowCondition": "representative_occupation=\"Other\"",
     "RetainHiddenValue": "Yes",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_address",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_phone_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Phone number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_mobile_number",
     "FieldType": "PhoneUK",
     "ElementLabel": "Alternative number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
     "ListElementCode": "representative_email_address",
     "FieldType": "Email",
     "ElementLabel": "Email address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
@@ -1161,49 +1285,56 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_claimOutcomes",
     "ElementLabel": "What do you want if your claim is successful?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "claimant_compensation_text",
     "FieldType": "TextArea",
     "ElementLabel": "What compensation are you seeking?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "claimant_compensation_amount",
     "FieldType": "Number",
     "ElementLabel": "Compensation amount requested",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "claimant_tribunal_recommendation",
     "FieldType": "Text",
     "ElementLabel": "Tribunal recommendation request",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "whistleblowing",
     "FieldType": "YesOrNo",
     "ElementLabel": "Whistleblowing claim",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "whistleblowing_authority",
     "FieldType": "Text",
     "ElementLabel": "Whistleblowing authority",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "claim_description",
     "FieldType": "TextArea",
     "ElementLabel": "Describe what happened to you",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
@@ -1211,7 +1342,8 @@
     "FieldType": "Document",
     "ElementLabel": "Describe what happened to you",
     "CategoryID": "C12",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
@@ -1219,7 +1351,8 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_discriminationClaims",
     "ElementLabel": "What type of discrimination are you claiming?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
@@ -1227,49 +1360,56 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_payClaims",
     "ElementLabel": "What type of pay claim are you making?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "linked_cases",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "linked_cases_detail",
     "FieldType": "TextArea",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantRequest",
     "ListElementCode": "other_claim",
     "FieldType": "TextArea",
     "ElementLabel": "Please describe what type of claim you want to make",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
     "ListElementCode": "postcode",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
     "ListElementCode": "claimJurisdiction",
     "FieldType": "Text",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
     "ListElementCode": "claimantRepresentedQuestion",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
@@ -1277,21 +1417,24 @@
     "FieldType": "FixedList",
     "ElementLabel": " ",
     "FieldTypeParameter": "fl_CaseType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
     "ListElementCode": "acasMultiple",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
     "ListElementCode": "validNoAcasReason",
     "FieldType": "YesOrNo",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "TriageQuestions",
@@ -1299,7 +1442,8 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_typeOfClaim",
     "ElementLabel": " ",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
@@ -1307,7 +1451,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Contact preference",
     "FieldTypeParameter": "fl_RepresentativeContact",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "acceptOrRejectCase",
@@ -1716,112 +1861,128 @@
     "ListElementCode": "claimantAddressLabel",
     "FieldType": "YesOrNo",
     "ElementLabel": "Print claimant address label?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsSelection",
     "ListElementCode": "claimantRepAddressLabel",
     "FieldType": "YesOrNo",
     "ElementLabel": "Print claimant representative address label?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsSelection",
     "ListElementCode": "respondentsAddressLabel",
     "FieldType": "YesOrNo",
     "ElementLabel": "Print respondents address label?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsSelection",
     "ListElementCode": "respondentsRepsAddressLabel",
     "FieldType": "YesOrNo",
     "ElementLabel": "Print respondents representatives address label?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "printLabel",
     "FieldType": "YesOrNo",
     "ElementLabel": "Print label?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "fullName",
     "FieldType": "Text",
     "ElementLabel": "Full name",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "fullAddress",
     "FieldType": "Text",
     "ElementLabel": "Full address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelEntityName01",
     "FieldType": "Text",
     "ElementLabel": "Entity name 1",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelEntityName02",
     "FieldType": "Text",
     "ElementLabel": "Entity name 2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelEntityAddress",
     "FieldType": "AddressUK",
     "ElementLabel": "Address",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelEntityTelephone",
     "FieldType": "Text",
     "ElementLabel": "Telephone",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelEntityFax",
     "FieldType": "Text",
     "ElementLabel": "Fax",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelEntityReference",
     "FieldType": "Text",
     "ElementLabel": "Entity Reference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabel",
     "ListElementCode": "labelCaseReference",
     "FieldType": "Text",
     "ElementLabel": "Case Reference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsAttributes",
     "ListElementCode": "numberOfSelectedLabels",
     "FieldType": "Text",
     "ElementLabel": "Number of selected labels to print in this run",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsAttributes",
     "ListElementCode": "numberOfCopies",
     "FieldType": "Number",
     "ElementLabel": "Number of copies of each label",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsAttributes",
@@ -1829,14 +1990,16 @@
     "FieldType": "FixedList",
     "ElementLabel": "Select the label to start printing from",
     "FieldTypeParameter": "fl_AddressLabelNumber",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "addressLabelsAttributes",
     "ListElementCode": "showTelFax",
     "FieldType": "YesOrNo",
     "ElementLabel": "Show Tel / Fax Numbers?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "CounterClaim",
@@ -3119,7 +3282,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Top Level",
     "FieldTypeParameter": "fl_TopLevel",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3129,14 +3293,16 @@
     "FieldTypeParameter": "fl_Part_0",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-LET-ENG-00544\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DraftAndSignJudgement",
     "ListElementCode": "isJudgement",
     "FieldType": "YesOrNo",
     "ElementLabel": "Is this a Judgment",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DraftAndSignJudgement",
@@ -3146,7 +3312,8 @@
     "FieldTypeParameter": "DocumentUpload",
     "FieldShowCondition": "isJudgement=\"dummy\"",
     "CategoryID": "C60",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DraftAndSignJudgement",
@@ -3154,14 +3321,16 @@
     "FieldType": "Collection",
     "ElementLabel": "Documents",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "DraftAndSignJudgement",
     "ListElementCode": "furtherDirections",
     "FieldType": "TextArea",
     "ElementLabel": "Any further directions",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3171,7 +3340,8 @@
     "FieldTypeParameter": "fl_Part_1",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00026\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3181,7 +3351,8 @@
     "FieldTypeParameter": "fl_Part_2",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00027\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3191,7 +3362,8 @@
     "FieldTypeParameter": "fl_Part_3",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00028\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3201,7 +3373,8 @@
     "FieldTypeParameter": "fl_Part_4",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00029\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3211,7 +3384,8 @@
     "FieldTypeParameter": "fl_Part_5",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00030\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3221,7 +3395,8 @@
     "FieldTypeParameter": "fl_Part_6",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00031\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3231,7 +3406,8 @@
     "FieldTypeParameter": "fl_Part_7",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3241,7 +3417,8 @@
     "FieldTypeParameter": "fl_Part_8",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00065\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3251,7 +3428,8 @@
     "FieldTypeParameter": "fl_Part_9",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00033\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3261,7 +3439,8 @@
     "FieldTypeParameter": "fl_Part_10",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00034\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3271,7 +3450,8 @@
     "FieldTypeParameter": "fl_Part_11",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00035\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3281,7 +3461,8 @@
     "FieldTypeParameter": "fl_Part_12",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00036\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3291,7 +3472,8 @@
     "FieldTypeParameter": "fl_Part_13",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00037\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3301,7 +3483,8 @@
     "FieldTypeParameter": "fl_Part_14",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00038\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3311,7 +3494,8 @@
     "FieldTypeParameter": "fl_Part_15",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00039\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3321,7 +3505,8 @@
     "FieldTypeParameter": "fl_Part_16",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00040\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3331,7 +3516,8 @@
     "FieldTypeParameter": "fl_Part_17",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00041\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3341,7 +3527,8 @@
     "FieldTypeParameter": "fl_Part_18",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00066\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3350,7 +3537,8 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Documents=\"dummy\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3359,7 +3547,8 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\" OR topLevel_Documents=\"EM-TRB-EGW-ENG-00065\" OR part_2_Documents = \"2.5\" OR part_2_Documents = \"2.7\" OR part_2_Documents = \"2.7 Reform\" OR part_2_Documents = \"2.8\" OR part_2_Documents = \"2.8 Reform\" OR part_4_Documents = \"4.5\" OR part_4_Documents = \"4.8A\"  OR part_5_Documents=\"5.18\" OR part_5_Documents=\"5.18A\" OR Part_7_Documents=\"7.8A\" OR Part_7_Documents=\"7.9A\" OR Part_8_Documents=\"8.1A\" OR Part_11_Documents = \"11.8\" OR Part_11_Documents = \"11.9\" OR Part_15_Documents = \"15.2\" OR Part_15_Documents = \"15.2A\" OR Part_15_Documents = \"15.3\" OR Part_15_Documents = \"15.4\" OR Part_15_Documents = \"15.6\" OR Part_16_Documents = \"16.1\" OR Part_16_Documents = \"16.2\" OR Part_17_Documents = \"17.3\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Letters",
@@ -3369,7 +3558,8 @@
     "FieldTypeParameter": "fl_Part_20",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00043\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3377,7 +3567,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Top Level",
     "FieldTypeParameter": "fl_TopLevel",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3387,7 +3578,8 @@
     "FieldTypeParameter": "fl_Part_1",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00026\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3397,7 +3589,8 @@
     "FieldTypeParameter": "fl_Part_2",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00027\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3407,7 +3600,8 @@
     "FieldTypeParameter": "fl_Part_3",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00028\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3417,7 +3611,8 @@
     "FieldTypeParameter": "fl_Part_4",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00029\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3427,7 +3622,8 @@
     "FieldTypeParameter": "fl_Part_5",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00030\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3437,7 +3633,8 @@
     "FieldTypeParameter": "fl_Part_6",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00031\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3447,7 +3644,8 @@
     "FieldTypeParameter": "fl_Part_7",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3457,7 +3655,8 @@
     "FieldTypeParameter": "fl_Part_8",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00065\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3467,7 +3666,8 @@
     "FieldTypeParameter": "fl_Part_9",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00033\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3477,7 +3677,8 @@
     "FieldTypeParameter": "fl_Part_10",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00034\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3487,7 +3688,8 @@
     "FieldTypeParameter": "fl_Part_11",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00035\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3497,7 +3699,8 @@
     "FieldTypeParameter": "fl_Part_12",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00036\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3507,7 +3710,8 @@
     "FieldTypeParameter": "fl_Part_13",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00037\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3517,7 +3721,8 @@
     "FieldTypeParameter": "fl_Part_14",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00038\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3527,7 +3732,8 @@
     "FieldTypeParameter": "fl_Part_15",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00039\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3537,7 +3743,8 @@
     "FieldTypeParameter": "fl_Part_16",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00040\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3547,7 +3754,8 @@
     "FieldTypeParameter": "fl_Part_17",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00041\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3557,7 +3765,8 @@
     "FieldTypeParameter": "fl_Part_18",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00066\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3567,7 +3776,8 @@
     "FieldTypeParameter": "fl_Part_20",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00043\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3576,7 +3786,8 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Documents=\"dummy\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "LettersMultiples",
@@ -3585,7 +3796,8 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\" OR topLevel_Documents=\"EM-TRB-EGW-ENG-00065\" OR part_2_Documents = \"2.5\" OR part_2_Documents = \"2.7\" OR part_2_Documents = \"2.7 Reform\" OR part_2_Documents = \"2.8\" OR part_2_Documents = \"2.8 Reform\" OR part_4_Documents = \"4.5\" OR part_4_Documents = \"4.8A\"  OR part_5_Documents=\"5.18\" OR part_5_Documents=\"5.18A\" OR Part_7_Documents=\"7.8A\" OR Part_7_Documents=\"7.9A\" OR Part_8_Documents=\"8.1A\" OR Part_11_Documents = \"11.8\" OR Part_11_Documents = \"11.9\" OR Part_15_Documents = \"15.2\" OR Part_15_Documents = \"15.2A\" OR Part_15_Documents = \"15.3\" OR Part_16_Documents = \"16.1\" OR Part_16_Documents = \"16.2\" OR Part_17_Documents = \"17.3\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "reportRespondent",
@@ -5436,7 +5648,8 @@
     "FieldType": "MultiSelectList",
     "ElementLabel": "What are the claimant's hearing preferences",
     "FieldTypeParameter": "msl_HearingPreferences",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingPreference",
@@ -5445,14 +5658,16 @@
     "ElementLabel": "Why is the claimant unable to take part in video or phone hearings",
     "FieldShowCondition": "hearing_preferences CONTAINS \"Neither\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingPreference",
     "ListElementCode": "reasonable_adjustments",
     "FieldType": "YesOrNo",
     "ElementLabel": "Do you have a physical, mental or learning disability or long term health condition that means you need support during your case?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingPreference",
@@ -5460,7 +5675,8 @@
     "FieldType": "TextArea",
     "ElementLabel": "Tell us what support you need to request",
     "FieldShowCondition": "reasonable_adjustments=\"Yes\"",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingPreference",
@@ -5468,7 +5684,8 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Contact language",
     "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingPreference",
@@ -5476,7 +5693,8 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "If a hearing is required, what language do you want to speak at a hearing?",
     "FieldTypeParameter": "fl_languages",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ServingDocumentUpload",
@@ -5484,7 +5702,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Type of Document",
     "FieldTypeParameter": "fl_ServingDocumentType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ServingDocumentUpload",
@@ -5492,14 +5711,16 @@
     "FieldType": "Document",
     "ElementLabel": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ServingDocumentUpload",
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "JurisdictionCode",
@@ -5515,7 +5736,8 @@
     "FieldType": "FixedList",
     "ElementLabel": "Type of Document",
     "FieldTypeParameter": "fl_Et3NotificationDocType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Et3NotificationDocUpload",
@@ -5523,14 +5745,16 @@
     "FieldType": "Document",
     "ElementLabel": "Document",
     "CategoryID": "C18",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "Et3NotificationDocUpload",
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "referralReply",
@@ -6703,7 +6927,8 @@
     "FieldType": "FixedRadioList",
     "ElementLabel": "Hearing panel preference",
     "FieldTypeParameter": "claimant_hearingPanelPreference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "HearingPreference",
@@ -6712,20 +6937,23 @@
     "ElementLabel": "Panel preference reason",
     "FieldShowCondition": "claimant_hearing_panel_preference=\"Judge\" OR claimant_hearing_panel_preference=\"Panel\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "icDocumentUpload",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "icDocumentUpload",
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
