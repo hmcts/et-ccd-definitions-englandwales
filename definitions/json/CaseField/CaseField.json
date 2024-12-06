@@ -515,8 +515,7 @@
     "ID": "addressLabelsAttributesType",
     "Label": "Address labels attributes",
     "FieldType": "addressLabelsAttributes",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5910,8 +5909,7 @@
     "ID": "isFixCase",
     "Label": "Fix Case",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

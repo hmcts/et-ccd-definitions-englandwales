@@ -5,8 +5,7 @@
     "FieldType": "FixedList",
     "ElementLabel": "Document Category",
     "FieldTypeParameter": "fl_DocumentCategories",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -15,8 +14,7 @@
     "ElementLabel": "Starting a Claim",
     "FieldTypeParameter": "fl_StartingAClaim",
     "FieldShowCondition": "topLevelDocuments=\"Starting a Claim\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -25,8 +23,7 @@
     "ElementLabel": "Response to a Claim",
     "FieldTypeParameter": "fl_ResponseToAClaim",
     "FieldShowCondition": "topLevelDocuments=\"Response to a Claim\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -35,8 +32,7 @@
     "ElementLabel": "Initial Consideration",
     "FieldTypeParameter": "fl_InitialConsideration",
     "FieldShowCondition": "topLevelDocuments=\"Initial Consideration\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -45,8 +41,7 @@
     "ElementLabel": "Case Management",
     "FieldTypeParameter": "fl_CaseManagement",
     "FieldShowCondition": "topLevelDocuments=\"Case Management\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -55,8 +50,7 @@
     "ElementLabel": "Withdrawal/Settled",
     "FieldTypeParameter": "fl_WithdrawalSettled",
     "FieldShowCondition": "topLevelDocuments=\"Withdrawal/Settled\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -65,8 +59,7 @@
     "ElementLabel": "Hearings",
     "FieldTypeParameter": "fl_Hearings",
     "FieldShowCondition": "topLevelDocuments=\"Hearings\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -75,8 +68,7 @@
     "ElementLabel": "Judgment and Reasons",
     "FieldTypeParameter": "fl_JudgmentAndReasons",
     "FieldShowCondition": "topLevelDocuments=\"Judgment and Reasons\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -85,8 +77,7 @@
     "ElementLabel": "Reconsideration",
     "FieldTypeParameter": "fl_Reconsideration",
     "FieldShowCondition": "topLevelDocuments=\"Reconsideration\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -95,8 +86,7 @@
     "ElementLabel": "Misc",
     "FieldTypeParameter": "fl_Misc",
     "FieldShowCondition": "topLevelDocuments=\"Misc\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -105,8 +95,7 @@
     "ElementLabel": "Type of Document",
     "FieldTypeParameter": "fl_DocumentType",
     "FieldShowCondition": "topLevelDocuments=\"Legacy Document Names\"",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -120,8 +109,7 @@
     "ListElementCode": "shortDescription",
     "FieldType": "Text",
     "ElementLabel": "Short Description",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
@@ -142,16 +130,14 @@
     "ListElementCode": "docNumber",
     "FieldType": "Number",
     "ElementLabel": "Number",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "DocumentUpload",
     "ListElementCode": "documentIndex",
     "FieldType": "Number",
     "ElementLabel": "Document Number",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "AdrDocumentUploadDetails",
@@ -1973,16 +1959,14 @@
     "ListElementCode": "numberOfSelectedLabels",
     "FieldType": "Text",
     "ElementLabel": "Number of selected labels to print in this run",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "addressLabelsAttributes",
     "ListElementCode": "numberOfCopies",
     "FieldType": "Number",
     "ElementLabel": "Number of copies of each label",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "addressLabelsAttributes",
@@ -1990,16 +1974,14 @@
     "FieldType": "FixedList",
     "ElementLabel": "Select the label to start printing from",
     "FieldTypeParameter": "fl_AddressLabelNumber",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "addressLabelsAttributes",
     "ListElementCode": "showTelFax",
     "FieldType": "YesOrNo",
     "ElementLabel": "Show Tel / Fax Numbers?",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "CounterClaim",
