@@ -95,7 +95,8 @@
     "Label": "Respondent Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -103,7 +104,8 @@
     "Label": "Claimant Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingBundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -143,7 +145,8 @@
     "Label": "Removed Hearing Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "RemovedHearingBundle",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
 

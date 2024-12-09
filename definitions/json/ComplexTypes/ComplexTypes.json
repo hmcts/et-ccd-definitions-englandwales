@@ -159,14 +159,16 @@
     "ListElementCode": "creationDate",
     "FieldType": "Date",
     "ElementLabel": "Date Uploaded",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "PiiDocumentUploadDetails",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document Link",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "PiiDocumentUploadDetails",
@@ -181,14 +183,16 @@
     "ListElementCode": "creationDate",
     "FieldType": "Date",
     "ElementLabel": "Date Uploaded",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "AppealDocumentUploadDetails",
     "ListElementCode": "uploadedDocument",
     "FieldType": "Document",
     "ElementLabel": "Document Link",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "AppealDocumentUploadDetails",
@@ -203,7 +207,8 @@
     "ListElementCode": "creationDate",
     "FieldType": "Date",
     "ElementLabel": "Date Uploaded",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "ClaimantIndividual",
@@ -1194,7 +1199,8 @@
     "ListElementCode": "myHmctsYesNo",
     "FieldType": "YesOrNo",
     "ElementLabel": "Does the representative have a MyHMCTS account?",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "ID": "RespondentRepresentative",
