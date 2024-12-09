@@ -3555,8 +3555,7 @@
     "FieldType": "FixedList",
     "ElementLabel": "Top Level",
     "FieldTypeParameter": "fl_TopLevel",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3566,8 +3565,7 @@
     "FieldTypeParameter": "fl_Part_1",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00026\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3577,8 +3575,7 @@
     "FieldTypeParameter": "fl_Part_2",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00027\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3588,8 +3585,7 @@
     "FieldTypeParameter": "fl_Part_3",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00028\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3599,8 +3595,7 @@
     "FieldTypeParameter": "fl_Part_4",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00029\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3610,8 +3605,7 @@
     "FieldTypeParameter": "fl_Part_5",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00030\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3621,8 +3615,7 @@
     "FieldTypeParameter": "fl_Part_6",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00031\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3632,8 +3625,7 @@
     "FieldTypeParameter": "fl_Part_7",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3643,8 +3635,7 @@
     "FieldTypeParameter": "fl_Part_8",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00065\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3654,8 +3645,7 @@
     "FieldTypeParameter": "fl_Part_9",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00033\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3665,8 +3655,7 @@
     "FieldTypeParameter": "fl_Part_10",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00034\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3676,8 +3665,7 @@
     "FieldTypeParameter": "fl_Part_11",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00035\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3687,8 +3675,7 @@
     "FieldTypeParameter": "fl_Part_12",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00036\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3698,8 +3685,7 @@
     "FieldTypeParameter": "fl_Part_13",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00037\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3709,8 +3695,7 @@
     "FieldTypeParameter": "fl_Part_14",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00038\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3720,8 +3705,7 @@
     "FieldTypeParameter": "fl_Part_15",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00039\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3731,8 +3715,7 @@
     "FieldTypeParameter": "fl_Part_16",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00040\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3742,8 +3725,7 @@
     "FieldTypeParameter": "fl_Part_17",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00041\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3753,8 +3735,7 @@
     "FieldTypeParameter": "fl_Part_18",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00066\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3764,8 +3745,7 @@
     "FieldTypeParameter": "fl_Part_20",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00043\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3774,8 +3754,7 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Documents=\"dummy\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "LettersMultiples",
@@ -3784,8 +3763,7 @@
     "ElementLabel": "Hearing Number",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\" OR topLevel_Documents=\"EM-TRB-EGW-ENG-00065\" OR part_2_Documents = \"2.5\" OR part_2_Documents = \"2.7\" OR part_2_Documents = \"2.7 Reform\" OR part_2_Documents = \"2.8\" OR part_2_Documents = \"2.8 Reform\" OR part_4_Documents = \"4.5\" OR part_4_Documents = \"4.8A\"  OR part_5_Documents=\"5.18\" OR part_5_Documents=\"5.18A\" OR Part_7_Documents=\"7.8A\" OR Part_7_Documents=\"7.9A\" OR Part_8_Documents=\"8.1A\" OR Part_11_Documents = \"11.8\" OR Part_11_Documents = \"11.9\" OR Part_15_Documents = \"15.2\" OR Part_15_Documents = \"15.2A\" OR Part_15_Documents = \"15.3\" OR Part_16_Documents = \"16.1\" OR Part_16_Documents = \"16.2\" OR Part_17_Documents = \"17.3\"",
     "RetainHiddenValue": "No",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "ID": "reportRespondent",
