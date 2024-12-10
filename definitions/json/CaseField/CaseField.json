@@ -273,8 +273,7 @@
     "HintText": "Is the claimant an individual or a company?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ClaimantType",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
