@@ -351,8 +351,7 @@
     "ID": "claimantRepresentedQuestion",
     "Label": "Is the Claimant Represented?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -718,8 +717,7 @@
     "ID": "linkedCaseCT",
     "Label": "Link to related case",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
+    "SecurityClassification": "Public"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
