@@ -939,7 +939,7 @@
     "ListElementCode": "et3ResponseEmployerClaimDetails",
     "FieldType": "TextArea",
     "ElementLabel": "Provide the background and details of your Employer's Contract Claim",
-    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -950,7 +950,7 @@
     "ElementLabel": "Add a document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C19",
-    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\"",
+    "FieldShowCondition": "et3ResponseEmployerClaim=\"Yes\" AND responseReceived=\"Yes\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
