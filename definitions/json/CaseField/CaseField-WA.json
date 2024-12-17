@@ -4,28 +4,32 @@
     "ID": "etICJuridictionCodesInvalid",
     "Label": "Are there any issues or instructions regarding the jurisdiction codes?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICInvalidDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICCanProceed",
     "Label": "Can the claim proceed due to an arguable claim and/or response?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingAlreadyListed",
     "Label": "Is the hearing already listed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -55,7 +59,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICHearingNotListed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -64,49 +69,56 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_etICHearingNotListed_v2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedSeekComments",
     "Label": "Seek comments on the video hearing",
     "FieldType": "etICHearingNotListedSeekComments",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedListForPrelimHearing",
     "Label": "List for preliminary hearing",
     "FieldType": "etICHearingNotListedListForPrelimHearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedListForPrelimHearingUpdated",
     "Label": "List for preliminary hearing",
     "FieldType": "etICHearingNotListedListForPrelimHearingUpdated",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedListForFinalHearing",
     "Label": "List for final hearing",
     "FieldType": "etICHearingNotListedListForFinalHearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedListForFinalHearingUpdated",
     "Label": "List for final hearing",
     "FieldType": "etICHearingNotListedListForFinalHearingUpdated",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICHearingNotListedUDLHearing",
     "Label": "UDL hearing",
     "FieldType": "etICHearingNotListedUDLHearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -120,7 +132,8 @@
     "ID": "etICHearingNotListedAnyOtherDirections",
     "Label": " ",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -169,7 +182,8 @@
     "ID": "etICHearingListedAnswers",
     "Label": "Hearing already listed",
     "FieldType": "etICHearingListedAnswers",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -178,28 +192,32 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_furtherInformation",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICFurtherInfoAnswers",
     "Label": "Further information required",
     "FieldType": "etICFurtherInfoAnswers",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationRule27",
     "Label": "Issue Rule 27 Notice and order",
     "FieldType": "etInitialConsiderationRule27",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationRule28",
     "Label": "Issue Rule 28 Notice and order",
     "FieldType": "etInitialConsiderationRule28",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -213,7 +231,8 @@
     "ID": "etICFurtherInformationHearingAnyOtherDirections",
     "Label": " ",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -234,7 +253,8 @@
     "ID": "icListingPreliminaryHearing",
     "Label": "Should the case be listed for a private preliminary hearing?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -263,7 +283,8 @@
     "ID": "draftAndSignJudgement",
     "Label": "Draft and Sign Judgment",
     "FieldType": "DraftAndSignJudgement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -278,7 +299,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -286,7 +308,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -294,7 +317,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -302,6 +326,7 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "icDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

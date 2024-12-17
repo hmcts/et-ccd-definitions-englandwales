@@ -4,9 +4,9 @@ class Substitutor {
   static injectEnvironmentVariables (value) {
     Object.keys(process.env)
       .filter(environmentVariableName => ENV_VARS.find(element => {
-          if (environmentVariableName.startsWith(element)) {
-            return true;
-          }
+        if (environmentVariableName.startsWith(element)) {
+          return true;
+        }
       }))
       .forEach(environmentVariableName => {
         const environmentVariableValue = process.env[environmentVariableName];
