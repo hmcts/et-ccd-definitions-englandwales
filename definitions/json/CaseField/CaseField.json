@@ -4,7 +4,8 @@
     "ID": "typeOfClaim",
     "Label": "Deprecated",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -19,14 +20,16 @@
     "ID": "pcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "ClaimantPcqId",
     "Label": "PCQ ID",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -61,35 +64,40 @@
     "ID": "tribunalCorrespondenceAddress",
     "Label": "Correspondence Address",
     "FieldType": "AddressUK",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceTelephone",
     "Label": "Correspondence Telephone",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceFax",
     "Label": "Correspondence Fax",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceDX",
     "Label": "Correspondence DX",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalCorrespondenceEmail",
     "Label": "Correspondence Email",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -111,7 +119,8 @@
     "ID": "multipleFlag",
     "Label": "check multiple",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -125,7 +134,8 @@
     "ID": "multipleReferenceLinkMarkUp",
     "Label": "Go to:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -153,21 +163,24 @@
     "ID": "nextListedDate",
     "Label": "Next Listed Date",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantRequests",
     "Label": "Claimant Requests",
     "FieldType": "ClaimantRequest",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "triageQuestions",
     "Label": " ",
     "FieldType": "TriageQuestions",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -198,7 +211,8 @@
     "ID": "caseNotes",
     "Label": "Case Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -229,7 +243,8 @@
     "HintText": "Upload documentation for the case",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -239,7 +254,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": 1
+    "Min": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -247,7 +263,8 @@
     "Label": "Additional information",
     "HintText": "Additional case information",
     "FieldType": "AdditionalCaseDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -268,7 +285,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantIndType",
-    "Label": "Claimant  Details",
+    "Label": "Claimant Details",
     "FieldType": "ClaimantIndividual",
     "SecurityClassification": "Public"
   },
@@ -284,21 +301,24 @@
     "ID": "claimantOtherType",
     "Label": "Other details",
     "FieldType": "EmploymentDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "newEmploymentType",
     "Label": "New employment details",
     "FieldType": "NewEmploymentDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantWorkAddressQuestion",
     "Label": "Is this the same as the claimant's work address?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -306,7 +326,8 @@
     "Label": "Please select the Respondent whose address should be used",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -314,7 +335,8 @@
     "Label": " ",
     "HintText": "If the claimant has worked at a different address to the Respondent Address, please give the full address",
     "FieldType": "WorkAddressDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -343,7 +365,8 @@
     "Label": "Claimant Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -385,7 +408,8 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "HearingDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -401,7 +425,8 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "Deposit",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -416,21 +441,24 @@
     "ID": "correspondenceType",
     "Label": "List of correspondence items",
     "FieldType": "Letters",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "restrictedReporting",
     "Label": "Restricted Case",
     "FieldType": "RestrictedCase",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "caseHistory",
     "Label": "History",
     "FieldType": "CaseHistoryViewer",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -445,7 +473,8 @@
     "ID": "targetHearingDate",
     "Label": "Target Hearing Date",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -459,28 +488,32 @@
     "ID": "printHearingDetails",
     "Label": "Hearing List",
     "FieldType": "ListingType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "printHearingCollection",
     "Label": "Hearing List",
     "FieldType": "ListingType",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "docMarkUp",
     "Label": "Doc MarkUp",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "addressLabelsSelectionType",
     "Label": "Address labels selection",
     "FieldType": "addressLabelsSelection",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -488,7 +521,8 @@
     "Label": "Address labels",
     "FieldType": "Collection",
     "FieldTypeParameter": "addressLabel",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -517,7 +551,8 @@
     "ID": "caseRefECC",
     "Label": "Enter the Case Number that this ECC relates to",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -525,7 +560,8 @@
     "Label": "Which respondent is raising the Employer Contract Claim?",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -539,21 +575,24 @@
     "ID": "caseRefNumberCount",
     "Label": "Case Ref Number Count",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "startCaseRefNumber",
     "Label": "Start Case Ref Number",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "multipleRefNumber",
     "Label": "Multiple Ref Number",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -574,14 +613,16 @@
     "ID": "flagsImageFileName",
     "Label": "Flags Image File Name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "flagsImageAltText",
     "Label": "Flags Image Alt Text",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -602,14 +643,16 @@
     "ID": "state",
     "Label": "state",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "stateAPI",
     "Label": "state",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -631,7 +674,8 @@
     "Label": "Select the office you want to assign the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -639,21 +683,24 @@
     "Label": "Select the office you want to transfer the case to",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "reasonForCT",
     "Label": "Reason for Case Transfer",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "relatedCaseCT",
     "Label": "Link to related case",
     "FieldType": "CaseLink",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -661,7 +708,8 @@
     "Label": "Current Position",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_PositionCT",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -698,7 +746,8 @@
     "Label": "Select Hearing",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -706,7 +755,8 @@
     "Label": "Select Hearing Venue",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -714,7 +764,8 @@
     "Label": "Select Room",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -722,7 +773,8 @@
     "Label": "Select Clerk",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -730,7 +782,8 @@
     "Label": "Sit Alone or Full Panel",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_SitAlone",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -738,7 +791,8 @@
     "Label": "Employment Judge",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -746,7 +800,8 @@
     "Label": "Employer Member",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -754,7 +809,8 @@
     "Label": "EmployeeMember",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -762,7 +818,8 @@
     "Label": "Postponed by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_PostponedBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -770,7 +827,8 @@
     "Label": "Hearing Status",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_HearingStatus",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -778,7 +836,8 @@
     "Label": "Hearing Status",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_HearingStatus",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -786,28 +845,32 @@
     "Label": "Postponed by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_PostponedBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsCaseDisposed",
     "Label": "Has the case or part of the case been disposed?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsPartHeard",
     "Label": "Has the hearing been part heard?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsReservedJudgment",
     "Label": "Is there a reserved Judgment?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -815,77 +878,88 @@
     "Label": "Attendees (Claimant)",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_Attendee",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsAttendeeNonAttendees",
     "Label": "Number of Non Attendees (Respondent) ",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsAttendeeRespNoRep",
     "Label": "Respondent Attended - No Representative",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsAttendeeRespAndRep",
     "Label": "Respondent and Representative Attended",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsAttendeeRepOnly",
     "Label": "Respondent representative only attended",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsTimingStart",
     "Label": "Start Time",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsTimingBreak",
     "Label": "Break",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsTimingResume",
     "Label": "Resume",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsTimingFinish",
     "Label": "Finish",
     "FieldType": "DateTime",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsTimingDuration",
     "Label": "Duration",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "hearingDetailsHearingNotes2",
     "Label": "Hearing Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -893,7 +967,8 @@
     "Label": "Select Hearing",
     "FieldType": "DynamicList",
     "FieldTypeParameter": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -907,7 +982,8 @@
     "ID": "et1VettingBeforeYouStart",
     "Label": "Before You Start placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -928,7 +1004,8 @@
     "ID": "et1VettingClaimantDetailsMarkUp",
     "Label": "Claimant Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -942,7 +1019,8 @@
     "ID": "et1VettingRespondentDetailsMarkUp",
     "Label": "Respondent Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -956,21 +1034,24 @@
     "ID": "et1VettingCanServeClaimYesOrNo",
     "Label": "Can we serve the claim with these contact details?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingCanServeClaimNoReason",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingCanServeClaimGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -986,7 +1067,8 @@
     "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_REJOrVP",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -994,7 +1076,8 @@
     "Label": "A claimant covered by vexatious litigant order",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1002,7 +1085,8 @@
     "Label": "A national security issue",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1010,7 +1094,8 @@
     "Label": "A part of national multiple / covered by Presidential case management order",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1018,7 +1103,8 @@
     "Label": "A request for transfer to another ET region",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1026,7 +1112,8 @@
     "Label": "A request for service abroad",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1034,7 +1121,8 @@
     "Label": "A sensitive issue which may attract publicity or need early allocation to a specific judge",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1042,7 +1130,8 @@
     "Label": "Any potential conflict involving judge, non-legal member or HMCTS staff member",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1050,7 +1139,8 @@
     "Label": "Another reason for Regional Employment Judge / Vice-President referral",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1064,7 +1154,8 @@
     "ID": "et1REJOrVPReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1072,7 +1163,8 @@
     "Label": "Select office to transfer case to",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_TribunalOffice",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1080,7 +1172,8 @@
     "Label": "Upload document PDF",
     "FieldType": "Collection",
     "FieldTypeParameter": "ServingDocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1095,14 +1188,16 @@
     "Label": " ",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_ServingDocumentRecipient",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "otherTypeDocumentName",
     "Label": "Serving document other type name placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1116,7 +1211,8 @@
     "ID": "claimantTaskListChecks",
     "Label": "Task list check",
     "FieldType": "TaskListCheck",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1137,7 +1233,8 @@
     "ID": "claimantAndRespondentAddresses",
     "Label": "claimantAndRespondentAddresses",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1165,7 +1262,8 @@
     "ID": "emailLinkToAcas",
     "Label": "Email link to Acas placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1188,7 +1286,8 @@
     "HintText": "Select all that apply. Does the claim, or part of it, appear to be a claim which:",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_Defects",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1196,7 +1295,8 @@
     "Label": "The tribunal has no jurisdiction to consider",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1204,7 +1304,8 @@
     "Label": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1212,7 +1313,8 @@
     "Label": "Has neither an EC number nor claims one of the EC exemptions",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1220,7 +1322,8 @@
     "Label": "States that one of the EC exceptions applies but it might not",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1228,7 +1331,8 @@
     "Label": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1236,7 +1340,8 @@
     "Label": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1244,63 +1349,72 @@
     "Label": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1SubstantiveDefectsGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1GovOrMajorQuestion",
     "Label": "Is the respondent a government agency or a major employer?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReasonableAdjustmentsQuestion",
     "Label": "Are reasonable adjustments required?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1ReasonableAdjustmentsTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VideoHearingQuestion",
     "Label": "Can the claimant attend a video hearing?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VideoHearingTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1FurtherQuestionsGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationRespondent",
     "Label": "etInitialConsiderationRespondent",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1314,7 +1428,8 @@
     "ID": "etInitialConsiderationHearing",
     "Label": "etInitialConsiderationHearing",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1325,10 +1440,41 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "icRespondentHearingPanelPreference",
+    "Label": "icRespondentHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "icRespondentHearingPanelPreferenceLabel",
+    "Label": "${icRespondentHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcHearingPanelPreference",
+    "Label": "etIcHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcHearingPanelPreferenceLabel",
+    "Label": "${etIcHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationJurisdictionCodes",
     "Label": "etInitialConsiderationJurisdictionCodes",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1343,42 +1489,48 @@
     "Label": "Are there any issues or instructions regarding the receipt of the ET3 form?",
     "FieldType": "TextArea",
     "HintText": "For example the date it was due, the date it was received or any application for extension of time (Rule 18 and 20)",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icRespondentsNameIdentityIssues",
     "Label": "Are there any issues or instructions regarding the respondent's name or identity?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icJurisdictionCodeIssues",
     "Label": "Are there any issues or instructions regarding the jurisdiction codes?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icApplicationIssues",
     "Label": "Are there any issues or instructions regarding the applications?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icEmployersContractClaimIssues",
     "Label": "Are there any issues or instructions regarding an Employer’s Contract Claim?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icClaimProspectIssues",
     "Label": "Are there any issues or instructions regarding the prospects of the claim or response?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1386,7 +1538,8 @@
     "Label": "Are there any issues or instructions regarding the listing?",
     "FieldType": "TextArea",
     "HintText": "For example list for PH, if public or private and set out the issues to be determined with directions, in person or video",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1394,14 +1547,16 @@
     "Label": "Are there any issues or instructions where DDA or disability is disputed?",
     "FieldType": "TextArea",
     "HintText": "The claimant is to provide a statement - limited to 750 words, explaining the length of the disability, the nature of its effects upon daily activities and any existing medical evidence relied upon - the the respondent by [date]. The respondent should state their position on disability, giving reasons for any denial, by [date]",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icOrderForFurtherInformation",
     "Label": "Should either side be ordered to provide any further information?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1409,7 +1564,8 @@
     "Label": "Are there any issues or instructions to consider or final orders to be given?",
     "FieldType": "TextArea",
     "HintText": "For example, Rule 50, transfer to another region, interpreters, adjustments required for hearing",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1447,7 +1603,8 @@
     "HintText": "Does the claim include any of the following?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_judgeOrLO",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1455,7 +1612,8 @@
     "Label": "A claim of interim relief",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1463,7 +1621,8 @@
     "Label": "A statutory appeal",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1471,7 +1630,8 @@
     "Label": "An allegation of commission of sexual offence",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1479,7 +1639,8 @@
     "Label": "Insolvency",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1487,7 +1648,8 @@
     "Label": "Jurisdictions unclear",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1495,7 +1657,8 @@
     "Label": "Length of service",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1503,7 +1666,8 @@
     "Label": "Potentially linked cases in the ECM",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1511,7 +1675,8 @@
     "Label": "Rule 50 issues",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1519,7 +1684,8 @@
     "Label": "Another reason for judicial referral",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1533,7 +1699,8 @@
     "ID": "et1JudgeReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1549,7 +1716,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_otherFactors",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1557,7 +1725,8 @@
     "Label": "The whole or any part of the claim is out of time",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1565,7 +1734,8 @@
     "Label": "The claim is part of a multiple claim",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1573,7 +1743,8 @@
     "Label": "The claim has a potential issue about employment status",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1581,7 +1752,8 @@
     "Label": "The claim has PID jurisdiction and claimant wants it forwarded to relevant regulator - Box 10.1",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1589,7 +1761,8 @@
     "Label": "The claimant prefers a video hearing",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1597,7 +1770,8 @@
     "Label": "The claim has Rule 50 issues",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1605,7 +1779,8 @@
     "Label": "The claim has other relevant factors for judicial referral",
     "HintText": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1619,21 +1794,24 @@
     "ID": "et1OtherReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAdditionalInformationTextArea",
     "Label": "Additional Information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "existingJurisdictionCodes",
     "Label": "existingJurisdictionCodes",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1647,14 +1825,16 @@
     "ID": "areTheseCodesCorrect",
     "Label": "Are these codes correct?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "codesCorrectGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1662,7 +1842,8 @@
     "Label": " ",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_jurisdictionCodes",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1670,21 +1851,24 @@
     "Label": "Jurisdiction code",
     "FieldType": "Collection",
     "FieldTypeParameter": "JurisdictionCode",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1JurisdictionCodeGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "trackAllocation",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1699,14 +1883,16 @@
     "Label": "Is the track allocation correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isTrackAllocationCorrect",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "trackAllocationGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1714,21 +1900,24 @@
     "Label": "Track allocation",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_suggestAnotherTrack",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "whyChangeTrackAllocation",
     "Label": "Why should we change the track allocation?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tribunalAndOfficeLocation",
     "Label": "tribunalAndOfficeLocation",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1742,7 +1931,8 @@
     "ID": "regionalOffice",
     "Label": "regionalOffice",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1756,7 +1946,8 @@
     "ID": "regionalOfficeList",
     "Label": "Local or regional office",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1764,21 +1955,24 @@
     "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_isLocationCorrect",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "whyChangeOffice",
     "Label": "Why should we change the office?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1AddressDetails",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1792,14 +1986,16 @@
     "ID": "et1SuggestHearingVenue",
     "Label": "Do you want to suggest a hearing venue?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1TribunalRegion",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1813,28 +2009,32 @@
     "ID": "et1HearingVenues",
     "Label": "Hearing venue selected",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1HearingVenueGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingCompletedBy",
     "Label": "Vetting completed by:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1DateCompleted",
     "Label": "Date completed:",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1848,14 +2048,16 @@
     "ID": "et3ChooseRespondent",
     "Label": "Select the respondent you are processing",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Date",
     "Label": "et3Date",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1876,21 +2078,24 @@
     "ID": "et3IsThereAnEt3Response",
     "Label": "Is there an ET3 response?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3NoEt3Response",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotes",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1904,7 +2109,8 @@
     "ID": "et3IsThereACompaniesHouseSearchDocument",
     "Label": "Is there a Companies House search document?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1913,14 +2119,16 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C18",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesCompanyHouse",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1934,14 +2142,16 @@
     "ID": "et3ResponseInTime",
     "Label": "Did we receive the ET3 response in time?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseInTimeDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1955,7 +2165,8 @@
     "ID": "et3IsThereAnIndividualSearchDocument",
     "Label": "Is there an individual insolvency search document?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1964,14 +2175,16 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C18",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesIndividualInsolvency",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -1980,21 +2193,24 @@
     "HintText": "Check all respondents. If any appear to have an issue with their legal status, select Yes.",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_respondent_legal_entity",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesLegalEntity",
     "Label": "General Notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3LegalIssueGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2008,7 +2224,8 @@
     "ID": "et3NameAddressRespondent",
     "Label": "et3NameAddressRespondent",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2022,14 +2239,16 @@
     "ID": "et3DoWeHaveRespondentsName",
     "Label": "Do we have the respondent's name?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesRespondentName",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2051,21 +2270,24 @@
     "Label": "Does the respondent's name match?",
     "FieldType": "YesOrNo",
     "HintText": "Check the ET1 name.",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3RespondentNameMismatchDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesRespondentNameMatch",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2086,14 +2308,16 @@
     "ID": "et3DoWeHaveRespondentsAddress",
     "Label": "Do we have the respondent's address?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesRespondentAddress",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2115,21 +2339,24 @@
     "Label": "Does the respondent's address match?",
     "FieldType": "YesOrNo",
     "HintText": "Check the ET1 address.",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3RespondentAddressMismatchDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesAddressMatch",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2137,49 +2364,56 @@
     "Label": "Does the respondent wish to contest any part of the claim?",
     "FieldType": "FixedRadioList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_contest_claim_status"
+    "FieldTypeParameter": "fl_contest_claim_status",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ContestClaimGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesContestClaim",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ContractClaimSection7",
     "Label": "Is there an Employer's Contract Claim in section 7 of the ET3 response?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ContractClaimSection7Details",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesContractClaimSection7",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3HearingDetails",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2193,28 +2427,32 @@
     "ID": "et3IsCaseListedForHearing",
     "Label": "Is the case listed for hearing?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3IsCaseListedForHearingDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesCaseListed",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3TribunalLocation",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2229,7 +2467,8 @@
     "Label": "Is this location correct?",
     "FieldType": "FixedRadioList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_et3_tribunal_location_change"
+    "FieldTypeParameter": "fl_et3_tribunal_location_change",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2237,35 +2476,40 @@
     "Label": "England & Wales regional office",
     "FieldType": "FixedList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_TribunalOffice"
+    "FieldTypeParameter": "fl_TribunalOffice",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3WhyWeShouldChangeTheOffice",
     "Label": "Why should we change the office?",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesTransferApplication",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Rule26",
     "Label": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3Rule26Details",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2274,56 +2518,64 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "SecurityClassification": "Public",
-    "FieldTypeParameter": "fl_et3_suggested_issues"
+    "FieldTypeParameter": "fl_et3_suggested_issues",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3SuggestedIssuesStrikeOut",
     "Label": "Applications for strike out or deposit",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3SuggestedIssueInterpreters",
     "Label": "Interpreters",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3SuggestedIssueJurisdictional",
     "Label": "Jurisdictional issues",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3SuggestedIssueAdjustments",
     "Label": "Request for adjustments",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3SuggestedIssueRule50",
     "Label": "Rule 50",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3SuggestedIssueTimePoints",
     "Label": "Time points",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3GeneralNotesRule26",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2331,14 +2583,16 @@
     "Label": "Additional information",
     "HintText": "Enter any additional information which may be useful for a judge or legal officer to consider.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1LocationGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2352,42 +2606,48 @@
     "ID": "et1VettingRespondentAcasDetails1",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingRespondentAcasDetails2",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingRespondentAcasDetails3",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingRespondentAcasDetails4",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingRespondentAcasDetails5",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingRespondentAcasDetails6",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2436,91 +2696,104 @@
     "ID": "et1VettingAcasCertIsYesOrNo1",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertIsYesOrNo2",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertIsYesOrNo3",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertIsYesOrNo4",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertIsYesOrNo5",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertIsYesOrNo6",
     "Label": "Is there an Acas certificate?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertExemptYesOrNo1",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertExemptYesOrNo2",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertExemptYesOrNo3",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertExemptYesOrNo4",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertExemptYesOrNo5",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertExemptYesOrNo6",
     "Label": "Has the claimant ticked one of the exemptions?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et1VettingAcasCertGeneralNote",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2543,14 +2816,16 @@
     "Label": " ",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_ServingDocumentRecipient",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3OtherTypeDocumentName",
     "Label": "Serving document other type name placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2571,7 +2846,8 @@
     "ID": "et3ClaimantAndRespondentAddresses",
     "Label": "Deprecated",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2585,7 +2861,8 @@
     "ID": "et3EmailLinkToAcas",
     "Label": "Email link to Acas placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2608,14 +2885,16 @@
     "HintText": "If you wish to select multiple respondents, please click the Add New button",
     "FieldType": "Collection",
     "FieldTypeParameter": "DynamicListCollection",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseShowInset",
     "Label": "Placeholder",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2643,7 +2922,8 @@
     "ID": "et3ResponseClaimantName",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2657,14 +2937,16 @@
     "ID": "et3ResponseIsClaimantNameCorrect",
     "Label": "Is this the correct claimant for the claim you're responding to?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseClaimantNameCorrection",
     "Label": "What is the correct name of the claimant?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2685,14 +2967,16 @@
     "ID": "et3ResponseRespondentLegalName",
     "Label": "Enter the respondent's registered or legal name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseRespondentCompanyNumber",
     "Label": "Enter the company number if applicable",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2700,42 +2984,48 @@
     "Label": "What type of employer is the respondent?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_employer_type",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseRespondentPreferredTitle",
     "Label": "If individual, what is their preferred title?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseRespondentContactName",
     "Label": "Name of contact at respondent's address if not you as the representative",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseNameShowInset",
     "Label": "hidden",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3RespondentAddress",
     "Label": "Enter a UK postcode",
     "FieldType": "AddressUK",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseDXAddress",
     "Label": "DX address (if known)",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2743,14 +3033,16 @@
     "Label": "What is your contact phone number?",
     "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseReference",
     "Label": "What is your reference number?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2759,14 +3051,16 @@
     "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_et3_contact_preference",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseContactReason",
     "Label": "Provide a reason why you have selected post",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2782,7 +3076,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_et3_hearing_type",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2791,7 +3086,8 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_et3_hearing_type",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2799,14 +3095,16 @@
     "Label": "How many people does the respondent employ in Great Britain?",
     "HintText": "It can help the tribunal to have an indication of the employer's size.\r\n\r\nEnter a rough amount in digits or leave blank if you're not sure",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseMultipleSites",
     "Label": "Does the respondent have more than one site in Great Britain?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2814,14 +3112,16 @@
     "Label": "How many people are employed at the place where the claimant worked?",
     "HintText": "Enter a rough amount in digits or leave blank if you're not sure",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "et3ResponseAcasAgree",
     "Label": "Do you agree with the details given by the claimant about early conciliation with Acas?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2830,7 +3130,8 @@
     "HintText": "For example, you may consider that the claimant gave an incorrect Acas early conciliation number of that they were wrong to say they were exempt from early conciliation.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2838,7 +3139,8 @@
     "Label": "Are the dates of employment given by the claimant correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2846,7 +3148,8 @@
     "Label": "Enter the employment start date",
     "HintText": "For example, 12 11 2020",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2854,7 +3157,8 @@
     "Label": "Enter employment end date",
     "HintText": "For example, 12 11 2020",
     "FieldType": "Date",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2862,7 +3166,8 @@
     "Label": "Do you want to provide any further information about the claimant's employment dates?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2870,7 +3175,8 @@
     "Label": "Is the claimant's employment with the respondent continuing?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2878,7 +3184,8 @@
     "Label": "Is the claimant's description of their job or job title correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2886,7 +3193,8 @@
     "Label": "What is or was the claimant's correct job title?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2894,7 +3202,8 @@
     "Label": "Are the claimant's total weekly work hours correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2902,7 +3211,8 @@
     "Label": "What are the claimant's correct total weekly work hours?",
     "HintText": "Enter their hours work per week",
     "FieldType": "Number",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2910,7 +3220,8 @@
     "Label": "Are the earnings details given by the claimant correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2925,7 +3236,8 @@
     "Label": "How often was the claimant paid?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_et3_pay_frequency",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2933,7 +3245,8 @@
     "Label": "Enter the claimant's pay BEFORE tax",
     "HintText": "Include overtime, commission and bonuses.",
     "FieldType": "MoneyGBP",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2941,7 +3254,8 @@
     "Label": "Enter the claimant's normal take-home pay",
     "HintText": "Take-home pay is the pay after tax and insurance deductions\r\n\r\nInclude overtime, commission and bonuses.",
     "FieldType": "MoneyGBP",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2949,7 +3263,8 @@
     "Label": "Is the information given by the claimant correct about their notice?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2958,7 +3273,8 @@
     "HintText": "For example, you may wish to clarify that the claimant was dismissed without notice or paid them a sum in lieu of notice.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2966,7 +3282,8 @@
     "Label": "Are the details about pension and other benefits correct?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_yes_no_not_applicable",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2974,7 +3291,8 @@
     "Label": "What are the correct pension and benefit details?",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2982,7 +3300,8 @@
     "Label": "Does the respondent contest the claim?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_et3_contest_claim",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -2998,7 +3317,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Max": 1
+    "Max": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3006,7 +3326,8 @@
     "Label": "Use this text box for any accompanying information",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3014,7 +3335,8 @@
     "Label": "Does the respondent wish to make an Employer's Contract Claim?",
     "HintText": "A respondent can make this claim against the claimant if the claimant breached their employment terms which resulted in financial loss. This typically happens when a claimant has made a notice pay claim.",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3029,7 +3351,8 @@
     "Label": "Provide the background and details of your Employer's Contract Claim",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3039,7 +3362,8 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3054,7 +3378,8 @@
     "Label": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3068,7 +3393,8 @@
     "ID": "et3ResponseRespondentSupportDetails",
     "Label": "Use this text box or upload the requirements in a document",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3077,14 +3403,16 @@
     "FieldType": "Document",
     "FieldTypeParameter": "DocumentUpload",
     "CategoryID": "C2",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "submitEt3Respondent",
     "Label": "Select which respondent this ET3 is for",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3100,7 +3428,8 @@
     "HintText": "If you wish to submit the ET3 to the tribunal, please select the option below and continue. You will not be able to make any further changes once submitted.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_confirmSubmitEt3",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3108,7 +3437,8 @@
     "Label": "Referrals",
     "FieldType": "Collection",
     "FieldTypeParameter": "referralDetails",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3129,7 +3459,8 @@
     "ID": "referralHearingDetails",
     "Label": "Referral Hearing Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3144,21 +3475,24 @@
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "referentEmail",
     "Label": "What is their email address?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "isUrgent",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3166,14 +3500,16 @@
     "Label": "What is the referral subject?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_ReferralSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "referralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3181,7 +3517,8 @@
     "Label": "Give details of the referral",
     "HintText": "Explain what you're referring and why, include answers or directions you need.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3189,7 +3526,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3197,7 +3535,8 @@
     "Label": "Which instructions do you recommend?",
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3205,21 +3544,24 @@
     "Label": "Who are you referring this case to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "updateReferentEmail",
     "Label": "What is their email address?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "updateIsUrgent",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3227,7 +3569,8 @@
     "Label": "What is the referral subject?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_ReferralSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3235,14 +3578,16 @@
     "Label": "Give details of the referral",
     "HintText": "Explain what you're referring and why, include answers or directions you need.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "updateReferralSubjectSpecify",
     "Label": "Please specify",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3250,7 +3595,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3258,7 +3604,8 @@
     "Label": "Which instructions do you recommend?",
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3266,21 +3613,24 @@
     "Label": "Which instructions do you recommend?",
     "HintText": "Give details of directions, letter or decisions to issue.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "trackType",
     "Label": "Track Type",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "selectReferral",
     "Label": "Select a referral",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3295,7 +3645,8 @@
     "ID": "hearingAndReferralDetails",
     "Label": "Hearing and Referral Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3310,21 +3661,24 @@
     "Label": "Who are you sending these directions to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "replyToEmailAddress",
     "Label": "What is their email address?",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "isUrgentReply",
     "Label": "Is this urgent?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3332,7 +3686,8 @@
     "Label": "What are your directions?",
     "HintText": "Give details of your reply to the referral and any issues you've identified",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3340,7 +3695,8 @@
     "Label": "Upload document",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3348,7 +3704,8 @@
     "Label": "General notes",
     "HintText": "Give details.",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3356,28 +3713,32 @@
     "Label": "Who are you referring or replying to?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ReferCaseTo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "replyDetails",
     "Label": "Give details of your reply or referral",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "isJudge",
     "Label": "For checking if user is a judge",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "closeReferralHearingDetails",
     "Label": "Hearing and Referral Details placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3393,14 +3754,16 @@
     "HintText": "All directions must be completed before closing referrals.",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_confirmCloseReferral",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "closeReferralGeneralNotes",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3421,7 +3784,8 @@
     "ID": "suggestedHearingVenues",
     "Label": "Suggested hearing venue",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3586,7 +3950,8 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "AdrDocumentUploadDetails",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "PUBLIC",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3594,7 +3959,8 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "PiiDocumentUploadDetails",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "PUBLIC",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3602,7 +3968,8 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "AppealDocumentUploadDetails",
-    "SecurityClassification": "PUBLIC"
+    "SecurityClassification": "PUBLIC",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3610,14 +3977,16 @@
     "Label": "Documents",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "listedDateInPastWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3633,7 +4002,8 @@
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_resTseSelectApp",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3655,14 +4025,16 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseCopyToOtherPartyTextArea",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3698,14 +4070,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox1",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3720,14 +4094,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox2",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3742,14 +4118,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox3",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3764,14 +4142,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox4",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3786,14 +4166,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox5",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3808,14 +4190,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox6",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3830,14 +4214,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox7",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3852,14 +4238,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox8",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3874,14 +4262,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox9",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3896,14 +4286,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox10",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3918,14 +4310,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox11",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3940,14 +4334,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseTextBox12",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3969,7 +4365,8 @@
     "ID": "resTseTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -3983,21 +4380,24 @@
     "ID": "tseRespondSelectApplication",
     "Label": "Select an application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminSelectApplication",
     "Label": "Select an application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4012,7 +4412,8 @@
     "Label": "Enter notification title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4020,14 +4421,16 @@
     "Label": "Decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminDecision",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminDecisionDetails",
     "Label": "Decision details",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4035,7 +4438,8 @@
     "Label": "Type of decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminTypeOfDecision",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4043,7 +4447,8 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4051,14 +4456,16 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminAdditionalInformation",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4068,7 +4475,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": "1"
+    "Min": "1",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4077,7 +4485,8 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4085,14 +4494,16 @@
     "Label": "Decision was made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminDecisionMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminDecisionMadeByFullName",
     "Label": "Full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4100,14 +4511,16 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseResponseIntro",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4121,7 +4534,8 @@
     "ID": "tseResponseTable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4144,7 +4558,8 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4153,14 +4568,16 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseRespondingToTribunal",
     "Label": "Respondent is responding to Tribunal request/order",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4168,7 +4585,8 @@
     "Label": "Supporting material",
     "HintText": "Do you have any supporting material you want to provide?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4184,7 +4602,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": "1"
+    "Min": "1",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4199,21 +4618,24 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseResponseCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdmReplyTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4228,14 +4650,16 @@
     "Label": "Enter response title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdmReplyAdditionalInformation",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4244,7 +4668,8 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4252,7 +4677,8 @@
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdmReplyIsCmoOrRequest",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4260,7 +4686,8 @@
     "Label": "Case management order made by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdmReplyCmoMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4268,14 +4695,16 @@
     "Label": "Request made by",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdmReplyRequestMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdmReplyCmoEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4283,14 +4712,16 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdmReplyRequestEnterFullName",
     "Label": "Enter their full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4298,7 +4729,8 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedList",
     "FieldTypeParameter": "frl_tseAdminIsResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4306,7 +4738,8 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4314,7 +4747,8 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_tseAdminSelectPartyRespond",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4322,14 +4756,16 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseAdminSelectPartyNotify",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminCloseApplicationTable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4344,14 +4780,16 @@
     "Label": "Do you want to close this application?",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_closeApplicationYes",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseAdminCloseApplicationText",
     "Label": "General notes",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4359,21 +4797,24 @@
     "Label": "What application do you wish to view?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_tseApplicationsOpenOrClosed",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseViewApplicationSelect",
     "Label": "Select Application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "tseApplicationSummaryAndResponsesMarkup",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4394,7 +4835,8 @@
     "ID": "sendNotificationLetter",
     "Label": "Is there a letter to send out?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4403,7 +4845,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": 1
+    "Min": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4412,14 +4855,16 @@
     "HintText": "Select all that apply",
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "fl_sendNotificationSubject",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationAdditionalInfo",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4427,14 +4872,16 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationNotify",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationSelectHearing",
     "Label": "Select the hearing",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4442,7 +4889,8 @@
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationCaseManagement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4450,7 +4898,8 @@
     "Label": "Is a response to the tribunal required?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationResponseTribunal",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4458,14 +4907,16 @@
     "Label": "Who made the case management order?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationWhoCaseOrder",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationFullName",
     "Label": "Full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4473,7 +4924,8 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_sendNotificationParties",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4481,7 +4933,8 @@
     "Label": "Enter notification title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing. Please note the text entered here will be displayed in the notification e-mail sent to the parties.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4489,7 +4942,8 @@
     "Label": "Who made the judgment?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationWhoMadeJudgement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4497,14 +4951,16 @@
     "Label": "Decision",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationDecision",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationFullName2",
     "Label": "Full name",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4512,7 +4968,8 @@
     "Label": "What is the ECC notification?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "sendNotificationEccQuestion",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4520,14 +4977,16 @@
     "Label": " ",
     "FieldType": "Collection",
     "FieldTypeParameter": "sendNotificationCollection",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "sendNotificationDetails",
     "Label": "Details",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4535,14 +4994,16 @@
     "Label": "Request was made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_sendNotificationRequestMadeBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "pseRespondentOrdReqCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4557,7 +5018,8 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4565,7 +5027,8 @@
     "Label": "Supporting material",
     "HintText": "Do you have any supporting material you want to provide?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4581,14 +5044,16 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": "2500"
+    "Max": "2500",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "pseRespondentOrdReqTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4597,7 +5062,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": 1
+    "Min": 1,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4611,7 +5077,8 @@
     "ID": "pseRespondentSelectOrderOrRequest",
     "Label": "Select an order or request from the tribunal",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4625,7 +5092,8 @@
     "ID": "pseRespondentSelectJudgmentOrderNotification",
     "Label": "Select a judgment, order or notification",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4639,7 +5107,8 @@
     "ID": "pseViewNotifications",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4654,14 +5123,16 @@
     "Label": "Enter response title",
     "HintText": "Start with a verb if you need the parties to do something. For example: submit hearing agenda, view notice of hearing.",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "respondNotificationAdditionalInfo",
     "Label": "Additional information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4670,7 +5141,8 @@
     "HintText": "Upload a document to the system",
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4678,7 +5150,8 @@
     "Label": "Is a response to the tribunal required",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": " fl_respondNotificationResponseRequired",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4686,14 +5159,16 @@
     "Label": "Select the party or parties who must respond",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_sendNotificationParties",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "notificationMarkdown",
     "Label": "Placeholder",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4708,7 +5183,8 @@
     "Label": "Select the party or parties to notify",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationParties",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4716,7 +5192,8 @@
     "Label": "Case management order made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_respondNotificationCmoRequestBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4724,7 +5201,8 @@
     "Label": "Full name",
     "HintText": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4739,7 +5217,8 @@
     "Label": "Is this a case management order or request?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "fl_sendNotificationCaseManagement",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4747,28 +5226,32 @@
     "Label": "Request made by",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_respondNotificationRequestBy",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "respondNotificationDate",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "selectNotificationDropdown",
     "Label": "Select a notification",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "resTseNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4782,7 +5265,8 @@
     "ID": "tseRespondNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4796,7 +5280,8 @@
     "ID": "respondToTribunalNotAvailableWarning",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -4819,7 +5304,8 @@
     "HintText": "For example R123456/12/34, MU123456/12/34",
     "FieldType": "Text",
     "SecurityClassification": "Public",
-    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}"
+    "RegularExpression": "[a-zA-Z]{1,2}\\d{6}\\/\\d{2}\\/\\d{2}",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales_Listings",
@@ -5491,14 +5977,16 @@
     "ID": "claimantId",
     "Label": "claimantId",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "replyToReferralDcfLink",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5512,7 +6000,8 @@
     "ID": "legalRepDocumentsMarkdown",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5526,7 +6015,8 @@
     "ID": "claimantTse",
     "Label": " ",
     "FieldType": "claimantTse",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5542,7 +6032,8 @@
     "HintText": "For multiple actions you can complete each one separately and explain in the text box that they are linked. Or use Contact the tribunal.",
     "FieldType": "FixedList",
     "FieldTypeParameter": "fl_claimantTseSelectApp",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5557,14 +6048,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox1",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5579,14 +6072,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox2",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5601,14 +6096,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox3",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5623,14 +6120,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox4",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5645,14 +6144,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox5",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5667,14 +6168,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox6",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5689,14 +6192,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox7",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5711,14 +6216,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox8",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5733,14 +6240,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox9",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5755,14 +6264,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox10",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5777,14 +6288,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox11",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5799,14 +6312,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox12",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5821,14 +6336,16 @@
     "Label": "Document",
     "FieldType": "Document",
     "CategoryID": "C4",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseTextBox13",
     "Label": "Use this box for any accompanying information",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5850,21 +6367,24 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_ClaimantTseCopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseRule92AnsNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantTseRespNotAvailable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5878,7 +6398,8 @@
     "ID": "claimantTseTableMarkUp",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5892,14 +6413,16 @@
     "ID": "claimantRepRespondSelectApplication",
     "Label": "Select an application",
     "FieldType": "DynamicList",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantRepResponseIntro",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5913,7 +6436,8 @@
     "ID": "claimantRepResponseTable",
     "Label": " ",
     "FieldType": "Text",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5929,7 +6453,8 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5937,7 +6462,8 @@
     "Label": "Supporting material",
     "HintText": "Do you have any supporting material you want to provide?",
     "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5946,7 +6472,8 @@
     "FieldType": "Collection",
     "FieldTypeParameter": "DocumentUpload",
     "SecurityClassification": "Public",
-    "Min": "1"
+    "Min": "1",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5954,21 +6481,24 @@
     "Label": "Do you want to copy this correspondence to the other party to satisfy the Rules of Procedure?",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_CopyToOtherPartyYesOrNo",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantRepResponseCopyNoGiveDetails",
     "Label": "Give details",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "claimantRepResToTribunal",
     "Label": "Claimant Representative is responding to Tribunal request/order",
     "FieldType": "TextArea",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -5977,6 +6507,32 @@
     "HintText": "Use this box to provide your answer or you can upload material at the next step.",
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
-    "Max": 2500
+    "Max": 2500,
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "uploadHearingNotesDocument",
+    "Label": "Upload hearing notes",
+    "FieldType": "Document",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "removeHearingNotesDocument",
+    "Label": "Do you want to remove the uploaded hearing notes document?",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_removeDocument",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "doesHearingNotesDocExist",
+    "Label": " ",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]

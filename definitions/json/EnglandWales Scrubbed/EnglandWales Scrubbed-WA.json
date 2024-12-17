@@ -72,6 +72,48 @@
     "DisplayOrder": 6
   },
   {
+    "ID": "fl_hearingJudgeAloneOrWithMembers",
+    "ListElementCode": "JSA",
+    "ListElement": "JSA",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_hearingJudgeAloneOrWithMembers",
+    "ListElementCode": "With members",
+    "ListElement": "With members",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Already decided",
+    "ListElement": "Already decided",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Members' experience is likely to add significant value to the process of adjudication",
+    "ListElement": "Members' experience is likely to add significant value to the process of adjudication",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "msl_hearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 5
+  },
+  {
     "ID": "msl_etICTypeOfCvpHearing",
     "ListElementCode": "Final",
     "ListElement": "Final",
@@ -274,5 +316,96 @@
     "ListElementCode": "Other",
     "ListElement": "Other",
     "DisplayOrder": 22
+  },
+  {
+    "ID": "msl_etICHearingNotListed_v2",
+    "ListElementCode": "List for preliminary hearing",
+    "ListElement": "List for preliminary hearing",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICHearingNotListed_v2",
+    "ListElementCode": "List for final hearing",
+    "ListElement": "List for final hearing",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICHearingNotListed_v2",
+    "ListElementCode": "Do not list at present (give other directions below)",
+    "ListElement": "Do not list at present (give other directions below)",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICTypeOfHearing_v2",
+    "ListElementCode": "Video",
+    "ListElement": "Video",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICTypeOfHearing_v2",
+    "ListElementCode": "F2F",
+    "ListElement": "F2F",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Case management",
+    "ListElement": "Case management",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Preliminary issue",
+    "ListElement": "Preliminary issue",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Strike out",
+    "ListElement": "Strike out",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_etICPurposeOfPrelimHearing_v2",
+    "ListElementCode": "Deposit",
+    "ListElement": "Deposit",
+    "DisplayOrder": 4
+  },
+  {
+    "ID": "frl_finalHearingListedJudgeOrMembers",
+    "ListElement": "JSA",
+    "ListElementCode": "JSA",
+    "DisplayOrder": 1
+  },
+
+  {
+    "ID": "frl_finalHearingListedJudgeOrMembers",
+    "ListElement": "With members",
+    "ListElementCode": "With members",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_finalHearingListedJudgeOrMembersReason",
+    "ListElementCode": "Members experience is likely to add significant value to the process of adjudication",
+    "ListElement": "Members experience is likely to add significant value to the process of adjudication",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "frl_finalHearingListedJudgeOrMembersReason",
+    "ListElementCode": "Members experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "frl_finalHearingListedJudgeOrMembersReason",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "frl_finalHearingListedJudgeOrMembersReason",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 4
   }
 ]
