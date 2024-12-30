@@ -2492,7 +2492,7 @@
   {
     "ID": "fl_TopLevel",
     "ListElementCode": "EM-TRB-EGW-ENG-00036",
-    "ListElement": "PART 12 – Costs & Preparation Time Orders: Rules 72 – 84 ",
+    "ListElement": "PART 12 – Costs & Preparation Time Orders: Rules 72 – 82",
     "DisplayOrder": 13
   },
   {
@@ -3998,13 +3998,13 @@
   {
     "ID": "fl_Part_9",
     "ListElementCode": "9.8A",
-    "ListElement": "9.8A - RRO – other cases – interests of justice - Rule 49(3)(e)",
+    "ListElement": "9.8A - RRO – other cases – interests of justice - Rule 49",
     "DisplayOrder": 13
   },
   {
     "ID": "fl_Part_9",
     "ListElementCode": "9.8B",
-    "ListElement": "9.8B - RRO – other cases - other specified provision - Rule 49(3)(e) ",
+    "ListElement": "9.8B - RRO – other cases - other specified provision - Rule 49",
     "DisplayOrder": 14
   },
   {
