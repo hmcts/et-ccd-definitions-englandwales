@@ -1352,7 +1352,7 @@
   {
     "ID": "fl_JudgmentOutcome",
     "ListElementCode": "Dismissed under Rule 27",
-    "ListElement": "Dismissed under Rule 27",
+    "ListElement": "Dismissed under Rule 28",
     "DisplayOrder": 11
   },
   {
@@ -1406,7 +1406,7 @@
   {
     "ID": "fl_JudgementType",
     "ListElementCode": "Rule21",
-    "ListElement": "Rule 21",
+    "ListElement": "Rule 22",
     "DisplayOrder": 6
   },
   {
@@ -5276,43 +5276,43 @@
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121a",
-    "ListElement": "The tribunal has no jurisdiction to consider - Rule 12(1)(a)",
+    "ListElement": "The tribunal has no jurisdiction to consider - Rule 13(1)(a)",
     "DisplayOrder": 1
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121b",
-    "ListElement": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process - Rule 12 (1)(b)",
+    "ListElement": "Is in a form which cannot sensibly be responded to or otherwise an abuse of process - Rule 13(1)(b)",
     "DisplayOrder": 2
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121c",
-    "ListElement": "Has neither an EC number nor claims one of the EC exemptions - Rule 12 (1)(c)",
+    "ListElement": "Has neither an EC number nor claims one of the EC exemptions - Rule 13(1)(c)",
     "DisplayOrder": 3
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121d",
-    "ListElement": "States that one of the EC exceptions applies but it might not - Rule 12 (1)(d)",
+    "ListElement": "States that one of the EC exceptions applies but it might not - Rule 13(1)(d)",
     "DisplayOrder": 4
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121 da",
-    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 12 (1)(da)",
+    "ListElement": "Institutes relevant proceedings and the EC number on the claim form does not match the EC number on the Acas certificate - Rule 13(1)(da)",
     "DisplayOrder": 5
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121e",
-    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 12 (1)(e)",
+    "ListElement": "Has a different claimant name on the ET1 to the claimant name on the Acas certificate - Rule 13(1)(e)",
     "DisplayOrder": 6
   },
   {
     "ID": "msl_Defects",
     "ListElementCode": "rule121f",
-    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 12 (1)(f)",
+    "ListElement": "Has a different respondent name on the ET1 to the respondent name on the Acas certificate - Rule 13(1)(f)",
     "DisplayOrder": 7
   },
   {
@@ -5360,7 +5360,7 @@
   {
     "ID": "msl_judgeOrLO",
     "ListElementCode": "rule50Issues",
-    "ListElement": "Rule 50 issues",
+    "ListElement": "Rule 49 issues",
     "DisplayOrder": 8
   },
   {
@@ -5738,19 +5738,19 @@
   {
     "ID": "fl_Et3NotificationDocType",
     "ListElementCode": "2.12",
-    "ListElement": "2.12 Response rejection - prescribed form - Rule 17(1)(a)",
+    "ListElement": "2.12 Response rejection - prescribed form - Rule 18(1)(a)",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_Et3NotificationDocType",
     "ListElementCode": "2.13",
-    "ListElement": "2.13 Response rejection - minimum information - Rule 17(1)(b)",
+    "ListElement": "2.13 Response rejection - minimum information - Rule 18(1)(b)",
     "DisplayOrder": 3
   },
   {
     "ID": "fl_Et3NotificationDocType",
     "ListElementCode": "2.14",
-    "ListElement": "2.14 Response rejection - out of time - Rule 18",
+    "ListElement": "2.14 Response rejection - out of time - Rule 19",
     "DisplayOrder": 4
   },
   {
@@ -5840,13 +5840,13 @@
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Rule 21",
-    "ListElement": "Rule 21",
+    "ListElement": "Rule 22",
     "DisplayOrder": 11
   },
   {
     "ID": "fl_ReferralSubject",
     "ListElementCode": "Rule 50 application",
-    "ListElement": "Rule 50 application",
+    "ListElement": "Rule 49 application",
     "DisplayOrder": 12
   },
   {
@@ -6674,13 +6674,13 @@
   {
     "ID": "fl_InitialConsideration",
     "ListElementCode": "Rule 27 Notice",
-    "ListElement": "Rule 27 Notice",
+    "ListElement": "Rule 28 Notice",
     "DisplayOrder": 2
   },
   {
     "ID": "fl_InitialConsideration",
     "ListElementCode": "Rule 28 Notice",
-    "ListElement": "Rule 28 Notice",
+    "ListElement": "Rule 29 Notice",
     "DisplayOrder": 3
   },
   {

@@ -170,14 +170,14 @@
     {
         "CaseTypeID": "ET_EnglandWales",
         "CategoryID": "C24",
-        "CategoryLabel": "Rule 27 Notice",
+        "CategoryLabel": "Rule 28 Notice",
         "DisplayOrder": 2,
         "ParentCategoryID": "C3"
     },
     {
         "CaseTypeID": "ET_EnglandWales",
         "CategoryID": "C25",
-        "CategoryLabel": "Rule 28 Notice",
+        "CategoryLabel": "Rule 29 Notice",
         "DisplayOrder": 3,
         "ParentCategoryID": "C3"
     },
@@ -709,14 +709,14 @@
     {
         "CaseTypeID": "ET_EnglandWales_Multiple",
         "CategoryID": "C24",
-        "CategoryLabel": "Rule 27 Notice",
+        "CategoryLabel": "Rule 28 Notice",
         "DisplayOrder": 2,
         "ParentCategoryID": "C3"
     },
     {
         "CaseTypeID": "ET_EnglandWales_Multiple",
         "CategoryID": "C25",
-        "CategoryLabel": "Rule 28 Notice",
+        "CategoryLabel": "Rule 29 Notice",
         "DisplayOrder": 3,
         "ParentCategoryID": "C3"
     },

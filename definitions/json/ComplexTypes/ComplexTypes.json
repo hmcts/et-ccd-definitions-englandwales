@@ -1059,7 +1059,7 @@
     "ID": "ET3Vetting",
     "ListElementCode": "et3Rule26",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
+    "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 27)",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3Rule26!=\"\"",
     "Searchable": "N"
@@ -1113,7 +1113,7 @@
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueRule50",
     "FieldType": "TextArea",
-    "ElementLabel": "Rule 50",
+    "ElementLabel": "Rule 49",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3SuggestedIssueRule50!=\"\"",
     "Searchable": "N"
@@ -1809,14 +1809,14 @@
     "ID": "RestrictedCase",
     "ListElementCode": "imposed",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Rule 50(3)(d) Applies",
+    "ElementLabel": "Rule 49(3)(d) Applies",
     "SecurityClassification": "Public"
   },
   {
     "ID": "RestrictedCase",
     "ListElementCode": "rule503b",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Rule 50(3)(b) Applies",
+    "ElementLabel": "Rule 49(3)(b) Applies",
     "SecurityClassification": "Public"
   },
   {
