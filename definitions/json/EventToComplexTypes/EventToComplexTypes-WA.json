@@ -647,6 +647,26 @@
   },
   {
     "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "type",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 1,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "CaseFieldID": "genericTseApplicationCollection",
+    "ListElementCode": "number",
+    "EventElementLabel": " ",
+    "FieldDisplayOrder": 2,
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
+  },
+  {
+    "ID": "genericTseDetails",
     "CaseEventID": "respondentTSE",
     "CaseFieldID": "genericTseApplicationCollection",
     "ListElementCode": "type",
