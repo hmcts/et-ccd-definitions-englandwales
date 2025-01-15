@@ -580,5 +580,11 @@
     "CaseFieldID": "TTL",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "TTL",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
+    "CRUD": "CRU"
   }
 ]

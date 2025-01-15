@@ -89,8 +89,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "Publish": "Y"
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -102,8 +101,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "N",
-    "Publish": "Y"
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",

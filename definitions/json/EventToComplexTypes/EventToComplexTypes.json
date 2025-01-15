@@ -699,7 +699,7 @@
     "DisplayContext": "MANDATORY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "ManageCaseTTL",
     "CaseEventID": "manageCaseTTL",
     "CaseFieldID": "TTL",
     "ListElementCode": "SystemTTL",
@@ -708,7 +708,7 @@
     "DisplayContext": "READONLY"
   },
   {
-    "ID": "CreateCase",
+    "ID": "ManageCaseTTL",
     "CaseEventID": "manageCaseTTL",
     "CaseFieldID": "TTL",
     "ListElementCode": "OverrideTTL",
@@ -717,7 +717,7 @@
     "DisplayContext": "OPTIONAL"
   },
   {
-    "ID": "CreateCase",
+    "ID": "ManageCaseTTL",
     "CaseEventID": "manageCaseTTL",
     "CaseFieldID": "TTL",
     "ListElementCode": "Suspended",
