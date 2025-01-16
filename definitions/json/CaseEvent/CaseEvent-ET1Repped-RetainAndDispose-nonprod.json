@@ -12,7 +12,8 @@
     "ShowEventNotes": "N",
     "EndButtonLabel": "Create draft claim",
     "ShowSummary": "N",
-    "Publish": "Y"
+    "SignificantEvent": "Yes",
+    "TTLIncrement": "365"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
