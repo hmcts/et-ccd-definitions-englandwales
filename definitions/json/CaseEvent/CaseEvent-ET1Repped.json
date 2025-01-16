@@ -74,9 +74,7 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "EndButtonLabel": "Submit ET1",
-    "ShowSummary": "N",
-    "SignificantEvent": "Yes",
-    "TTLIncrement": "365",
+    "ShowSummary": "N"
     "Publish": "Y",
     "EventEnablingCondition": "et1ReppedSectionOne = \"Yes\" AND et1ReppedSectionTwo = \"Yes\" AND et1ReppedSectionThree = \"Yes\""
   },
