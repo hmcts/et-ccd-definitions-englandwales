@@ -147,14 +147,6 @@
     "FieldTypeParameter": "RemovedHearingBundle",
     "SecurityClassification": "Public",
     "Searchable": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "TTL",
-    "Label": "Set up TTL",
-    "FieldType": "TTL",
-    "SecurityClassification": "Public",
-    "Searchable": "Y"
   }
 ]
 
