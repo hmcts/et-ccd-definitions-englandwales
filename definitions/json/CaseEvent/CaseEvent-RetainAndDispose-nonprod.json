@@ -26,8 +26,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "rollbackMigrateCaseTTLDetails",
-    "Name": "Rollback Migrate Case TTL Details",
-    "Description": "Rollback Migrate Case TTL Details",
+    "Name": "Rollback Migrate Case TTL",
+    "Description": "Rollback Migrate Case TTL",
     "DisplayOrder": 201,
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
