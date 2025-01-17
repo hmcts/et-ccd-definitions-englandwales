@@ -90,15 +90,21 @@
     "DisplayOrder": 2
   },
   {
-    "ID": "uploadOrRemove",
-    "ListElementCode": "Upload",
-    "ListElement": "Upload",
+    "ID": "createUploadOrRemove",
+    "ListElementCode": "Create",
+    "ListElement": "Create",
     "DisplayOrder": 1
   },
   {
-    "ID": "uploadOrRemove",
+    "ID": "createUploadOrRemove",
+    "ListElementCode": "Upload",
+    "ListElement": "Upload",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "createUploadOrRemove",
     "ListElementCode": "Remove",
     "ListElement": "Remove",
-    "DisplayOrder": 2
+    "DisplayOrder": 3
   }
 ]
