@@ -91,6 +91,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"

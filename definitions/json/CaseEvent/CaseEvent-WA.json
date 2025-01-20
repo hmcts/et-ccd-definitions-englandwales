@@ -67,6 +67,23 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "RESPONDENT_TSE_RESPOND",
+    "Name": "Respond to an application",
+    "Description": "Respond to an application",
+    "DisplayOrder": 58,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "tseRespond",
     "Name": "Respond to an application",
     "Description": "Respond to an application",
