@@ -43,16 +43,7 @@
     "EventElementLabel": "Document",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
-  },
-  {
-    "ID": "DigitalCaseFile",
-    "CaseEventID": "createDcf",
-    "CaseFieldID": "caseBundles",
-    "ListElementCode": "documents.sourceDocument.fileName",
-    "EventElementLabel": "Document file name",
-    "FieldDisplayOrder": 4,
-    "DisplayContext": "MANDATORY"
-  },
+  }
   {
     "ID": "CreateDCF",
     "CaseEventID": "createDcf",
