@@ -43,7 +43,7 @@
     "EventElementLabel": "Document",
     "FieldDisplayOrder": 3,
     "DisplayContext": "MANDATORY"
-  }
+  },
   {
     "ID": "CreateDCF",
     "CaseEventID": "createDcf",
