@@ -45,6 +45,7 @@
     "Label": "Create, Upload or Remove DCF",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "createUploadOrRemove",
-    "SecurityClassification": "Public"
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
