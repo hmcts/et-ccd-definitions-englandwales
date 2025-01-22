@@ -325,12 +325,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "etICHearingAlreadyListed",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etICHearingNotListedRespondentLabel",
     "UserRole": "caseworker-employment",
     "CRUD": "R"

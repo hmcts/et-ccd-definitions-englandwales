@@ -3116,12 +3116,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "bfActions",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bfActions",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
@@ -4017,12 +4011,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "caseHistory",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseHistory",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -14595,12 +14583,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "referralCollection",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "referralCollection",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
