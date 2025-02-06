@@ -6,6 +6,7 @@
     "Description": "Manage Case TTL",
     "DisplayOrder": 100,
     "PreConditionState(s)": "*",
+    "EventEnablingCondition": "caseType=\"dummy\"",
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
