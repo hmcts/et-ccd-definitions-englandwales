@@ -19,5 +19,12 @@
     "Label": "Migrated from ECM",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "ecmFeeGroupReference",
+    "Label": "ECM Submission Reference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public"
   }
 ]

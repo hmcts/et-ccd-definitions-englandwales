@@ -3,6 +3,13 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "CaseOverview",
+    "CaseFieldID": "ecmFeeGroupReference",
+    "TabFieldDisplayOrder": 17
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabID": "CaseOverview",
     "CaseFieldID": "ecmCaseLink",
     "TabFieldDisplayOrder": 29,
     "FieldShowCondition": "caseType=\"dummy\""
