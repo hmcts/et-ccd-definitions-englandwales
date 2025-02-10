@@ -6094,6 +6094,42 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationFile",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
     "FieldType": "Text",
