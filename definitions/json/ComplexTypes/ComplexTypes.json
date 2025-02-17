@@ -6373,6 +6373,13 @@
   },
   {
     "ID": "genericTseDetails",
+    "ListElementCode": "applicantId",
+    "FieldType": "Text",
+    "ElementLabel": "Applicant id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
     "ListElementCode": "date",
     "FieldType": "Text",
     "ElementLabel": "Application date",
