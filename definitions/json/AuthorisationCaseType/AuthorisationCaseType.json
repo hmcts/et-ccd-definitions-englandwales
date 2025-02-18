@@ -51,6 +51,11 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "UserRole": "TTL_profile",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "UserRole": "[SOLICITORA]",
     "CRUD": "CRU"
   },
