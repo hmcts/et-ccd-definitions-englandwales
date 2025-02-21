@@ -1,0 +1,252 @@
+[
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseShowInset",
+    "Label": "Placeholder",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3StartPagePreamble",
+    "Label": "To help you complete this, open the ET1 form, ACAS certificate and other documents in the <strong>Case Documents</strong> event in the next steps menu.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3StartPageInset",
+    "Label": "This response must be completed and submitted within 28 days of the date of the claim form being sent by the tribunal.\r\n\r\nYou must provide your response to the claim even if you believe that another respondent is liable.\r\n\r\nIf you do not provide a response, a judgment may be issued against you without a hearing. If you consider another person or company maybe liable, you should still submit a response. You will have a chance in this response to explain why you think someone else may be liable.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3StartPageMainBody",
+    "Label": "It will help the tribunal and you as the representative if you have: \r\n\r\n* the claimant's employment start and end dates, hours of work and notice period\r\n* details of claimant's pay and benefits, before and after tax\r\n* your response to the claim, which you can upload in document format with a text field for accompanying information\r\n\r\n### How to fill in this form\r\n\r\n* read the questions carefully to make sure you're providing your details (as the representative) or the respondent's details\r\n* optional questions will be marked as such\r\n* you can review and edit your answers before you submit the form",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "submitEt3Respondent",
+    "Label": "Select which respondent this ET3 is for",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseClaimantName",
+    "Label": "Placeholder",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseClaimantNameLabel",
+    "Label": "${et3ResponseClaimantName}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseIsClaimantNameCorrect",
+    "Label": "Is this the correct claimant for the claim you're responding to?",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseClaimantNameCorrection",
+    "Label": "What is the correct name of the claimant?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseNamePreamble",
+    "Label": "This will be the respondent recorded in ET1 that you're representing.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseNameInset",
+    "Label": "If you consider another person or company may be liable, you should still submit a response.\r\n\r\nYou will have a chance in this form to explain why you think someone else may be liable.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentLegalName",
+    "Label": "Enter the respondent's registered or legal name",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentCompanyNumber",
+    "Label": "Enter the company number if applicable",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentEmployerType",
+    "Label": "What type of employer is the respondent?",
+    "FieldType": "FixedList",
+    "FieldTypeParameter": "fl_employer_type",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentPreferredTitle",
+    "Label": "If individual, what is their preferred title?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentContactName",
+    "Label": "Name of contact at respondent's address if not you as the representative",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseNameShowInset",
+    "Label": "hidden",
+    "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3RespondentAddress",
+    "Label": "Enter a UK postcode",
+    "FieldType": "AddressUK",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseDXAddress",
+    "Label": "DX address (if known)",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponsePhone",
+    "Label": "What is your contact phone number?",
+    "HintText": "Where we can contact you (as the representative) during the day. For international numbers include the country code.",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseReference",
+    "Label": "What is your reference number?",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseContactPreference",
+    "Label": "How would you prefer to be contacted?",
+    "HintText": "In most circumstances the tribunal will communicate by email. If you need communication by post, please tell us why.",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_contact_preference",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseContactReason",
+    "Label": "Provide a reason why you have selected post",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseHearingPreamble",
+    "Label": "The parties can express their preference of in-person, video or phone hearings.\r\n\r\nRequests have to be agreed by a judge and it can depend on the type of hearing. If the case goes to a final hearing, this will normally be in-person but parties will be informed in advance.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseHearingRepresentative",
+    "Label": "Which types of hearing can you, as the representative, attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_et3_hearing_type",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseHearingRespondent",
+    "Label": "Which types of hearing can the respondent attend?",
+    "HintText": "Select all that apply",
+    "FieldType": "MultiSelectList",
+    "FieldTypeParameter": "msl_et3_hearing_type",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseHealthInsetPreamble",
+    "Label": "<details class=\"govuk-details\"> <summary class=\"govuk-details__summary\"><span class=\"govuk-details__summary-text\"> What support is available? </span></summary> <div class=\"govuk-details__text\"> We know people with disabilities sometimes need support to access information and use our services. We call this a reasonable adjustment. Some reasonable adjustments need to be agreed by a judge, and you can discuss with the tribunal if your needs change.<br><br>Reasonable adjustments can include:<br><br>\r\n\r\n* documents in alternative formats, colours and fonts\r\n* help with communicating, sight, hearing, speaking and interpretation\r\n* access and mobility support if a hearing takes place in person </div> </details>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentSupportNeeded",
+    "Label": "In the respondent party - are you aware of any physical, mental or learning disability or health conditions which requires support?",
+    "FieldType": "FixedRadioList",
+    "FieldTypeParameter": "frl_et3_yes_no_not_sure_yet",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseHealthDetailsPreamble",
+    "Label": "<h3>Consider in your answer:</h3>\r\n\r\nTell us what this disability or condition is and what support that anyone in the respondent party, including representative and witnesses would need as the claim progresses through the system. Consider any hearings that may take place at tribunal buildings.",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentSupportDetails",
+    "Label": "Use this text box or upload the requirements in a document",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "et3ResponseRespondentSupportDocument",
+    "Label": "Add document",
+    "FieldType": "Document",
+    "FieldTypeParameter": "DocumentUpload",
+    "CategoryID": "C2",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  }
+]
