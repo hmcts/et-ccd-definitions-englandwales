@@ -10,5 +10,19 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "rollbackMigrateCase",
+    "Name": "Rollback Migrate Case",
+    "Description": "Rollback Migrate Case",
+    "DisplayOrder": 37,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "Delete",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/migrate/rollback/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "SignificantEvent": "Yes"
   }
 ]

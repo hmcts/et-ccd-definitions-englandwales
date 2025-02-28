@@ -4,5 +4,11 @@
     "CaseEventID": "createEcmCase",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "rollbackMigrateCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
