@@ -2972,7 +2972,13 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "documentCollection",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {
