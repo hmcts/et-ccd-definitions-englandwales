@@ -1632,7 +1632,19 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_RESPONDENT_TSE",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "CLAIMANT_TSE_RESPOND",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "RESPONDENT_TSE_RESPOND",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },
