@@ -2972,7 +2972,13 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "documentCollection",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "documentCollection",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {
@@ -9080,6 +9086,18 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "claimantTse",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "respondentTse",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "respondentTse",
     "UserRole": "citizen",
     "CRUD": "CRUD"
   },

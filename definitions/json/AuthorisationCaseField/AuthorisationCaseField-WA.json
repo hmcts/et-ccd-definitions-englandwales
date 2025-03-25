@@ -11,6 +11,18 @@
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
   },
+    {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimant",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "respondent",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "managingOffice",
