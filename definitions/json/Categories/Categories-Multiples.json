@@ -30,7 +30,7 @@
   {
     "CaseTypeID": "ET_EnglandWales_Multiple",
     "CategoryID": "C5",
-    "CategoryLabel": "Withdrawal /Settled",
+    "CategoryLabel": "Withdrawal/Settled",
     "DisplayOrder": 5,
     "ParentCategoryID": ""
   },
