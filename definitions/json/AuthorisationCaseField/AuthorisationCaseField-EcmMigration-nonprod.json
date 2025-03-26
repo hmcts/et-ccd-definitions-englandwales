@@ -1,145 +1,97 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "dcfYesNo",
+    "CaseFieldID": "ecmCaseLink",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "dcfYesNo",
+    "CaseFieldID": "ecmCaseLink",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "dcfYesNo",
+    "CaseFieldID": "ecmCaseLink",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "dcfYesNo",
+    "CaseFieldID": "ecmCaseLink",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "ecmCaseLinkLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "ecmCaseLinkLabel",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "ecmCaseLinkLabel",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "bundleConfiguration",
+    "CaseFieldID": "ecmCaseLinkLabel",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseBundles",
+    "CaseFieldID": "migratedFromEcm",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseBundles",
+    "CaseFieldID": "migratedFromEcm",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseBundles",
+    "CaseFieldID": "migratedFromEcm",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "caseBundles",
+    "CaseFieldID": "migratedFromEcm",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "digitalCaseFile",
+    "CaseFieldID": "ecmFeeGroupReference",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "digitalCaseFile",
+    "CaseFieldID": "ecmFeeGroupReference",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "digitalCaseFile",
+    "CaseFieldID": "ecmFeeGroupReference",
     "UserRole": "caseworker-employment-englandwales",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "digitalCaseFile",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "createDigitalCaseFileLink",
-    "UserRole": "caseworker-employment-etjudge",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "uploadOrRemoveDcf",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "uploadOrRemoveDcf",
-    "UserRole": "caseworker-employment-etjudge-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "uploadOrRemoveDcf",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "uploadOrRemoveDcf",
+    "CaseFieldID": "ecmFeeGroupReference",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
   }

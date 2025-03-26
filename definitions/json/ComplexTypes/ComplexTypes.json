@@ -1059,7 +1059,7 @@
     "ID": "ET3Vetting",
     "ListElementCode": "et3Rule26",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 26)",
+    "ElementLabel": "Are there any issues identified for the judge's initial consideration - prospects of claim / response arguable? (Rule 27)",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3Rule26!=\"\"",
     "Searchable": "N"
@@ -1113,7 +1113,7 @@
     "ID": "ET3Vetting",
     "ListElementCode": "et3SuggestedIssueRule50",
     "FieldType": "TextArea",
-    "ElementLabel": "Rule 50",
+    "ElementLabel": "Rule 49",
     "SecurityClassification": "Public",
     "FieldShowCondition": "et3SuggestedIssueRule50!=\"\"",
     "Searchable": "N"
@@ -1809,14 +1809,14 @@
     "ID": "RestrictedCase",
     "ListElementCode": "imposed",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Rule 50(3)(d) Applies",
+    "ElementLabel": "Rule 49(3)(d) Applies",
     "SecurityClassification": "Public"
   },
   {
     "ID": "RestrictedCase",
     "ListElementCode": "rule503b",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Rule 50(3)(b) Applies",
+    "ElementLabel": "Rule 49(3)(b) Applies",
     "SecurityClassification": "Public"
   },
   {
@@ -3533,7 +3533,7 @@
     "ListElementCode": "dynamicHearingNumber",
     "FieldType": "DynamicList",
     "ElementLabel": "Hearing Number",
-    "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\" OR topLevel_Documents=\"EM-TRB-EGW-ENG-00065\" OR part_2_Documents = \"2.5\" OR part_2_Documents = \"2.7\" OR part_2_Documents = \"2.7 Reform\" OR part_2_Documents = \"2.8\" OR part_2_Documents = \"2.8 Reform\" OR part_4_Documents = \"4.5\" OR part_4_Documents = \"4.8A\"  OR part_5_Documents=\"5.18\" OR part_5_Documents=\"5.18A\" OR Part_7_Documents=\"7.8A\" OR Part_7_Documents=\"7.9A\" OR Part_8_Documents=\"8.1A\" OR Part_11_Documents = \"11.8\" OR Part_11_Documents = \"11.9\" OR Part_15_Documents = \"15.2\" OR Part_15_Documents = \"15.2A\" OR Part_15_Documents = \"15.3\" OR Part_15_Documents = \"15.4\" OR Part_15_Documents = \"15.6\" OR Part_16_Documents = \"16.1\" OR Part_16_Documents = \"16.2\" OR Part_17_Documents = \"17.3\"",
+    "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00032\" OR topLevel_Documents=\"EM-TRB-EGW-ENG-00065\" OR part_2_Documents = \"2.5\" OR part_2_Documents = \"2.7\" OR part_2_Documents = \"2.7 Reform\" OR part_2_Documents = \"2.7A\" OR part_2_Documents = \"2.7A Reform\" OR part_2_Documents = \"2.8\" OR part_2_Documents = \"2.8 Reform\" OR part_2_Documents = \"2.8A\" OR part_2_Documents = \"2.8A Reform\" OR part_4_Documents = \"4.5\" OR part_4_Documents = \"4.8A\"  OR part_5_Documents=\"5.18\" OR part_5_Documents=\"5.18A\" OR Part_7_Documents=\"7.8A\" OR Part_7_Documents=\"7.9A\" OR Part_8_Documents=\"8.1A\" OR Part_11_Documents = \"11.8\" OR Part_11_Documents = \"11.9\" OR Part_15_Documents = \"15.2\" OR Part_15_Documents = \"15.2A\" OR Part_15_Documents = \"15.3\" OR Part_15_Documents = \"15.4\" OR Part_15_Documents = \"15.6\" OR Part_16_Documents = \"16.1\" OR Part_16_Documents = \"16.2\" OR Part_17_Documents = \"17.3\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -5776,7 +5776,7 @@
   {
     "ID": "referralReply",
     "ListElementCode": "directionDetails",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Directions",
     "SecurityClassification": "Public"
   },
@@ -5791,7 +5791,7 @@
   {
     "ID": "referralReply",
     "ListElementCode": "replyGeneralNotes",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "General notes",
     "SecurityClassification": "Public"
   },
@@ -5826,7 +5826,7 @@
   {
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferralDetails",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Details of the referral",
     "SecurityClassification": "Public"
   },
@@ -5862,7 +5862,7 @@
   {
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferralInstruction",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Recommended instructions",
     "SecurityClassification": "Public"
   },
@@ -5932,7 +5932,7 @@
   {
     "ID": "referralDetails",
     "ListElementCode": "referralDetails",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Details of the referral",
     "SecurityClassification": "Public"
   },
@@ -5947,7 +5947,7 @@
   {
     "ID": "referralDetails",
     "ListElementCode": "referralInstruction",
-    "FieldType": "Text",
+    "FieldType": "TextArea",
     "ElementLabel": "Recommended instructions",
     "SecurityClassification": "Public"
   },
@@ -6110,6 +6110,49 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationType",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "contactApplicationFile",
+    "FieldType": "Document",
+    "ElementLabel": " ",
+    "CategoryID": "C4",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyYesOrNo",
+    "FieldType": "YesOrNo",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "copyToOtherPartyText",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondentTse",
+    "ListElementCode": "respondentIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Respondent id",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "NoticeOfChangeAnswers",
     "ListElementCode": "respondentName",
     "FieldType": "Text",
@@ -6242,6 +6285,13 @@
   },
   {
     "ID": "tseReply",
+    "ListElementCode": "fromIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Response from Idam id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseReply",
     "ListElementCode": "response",
     "FieldType": "Text",
     "ElementLabel": "What's your response to the claimant's application",
@@ -6367,6 +6417,20 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "tseStatus",
+    "ListElementCode": "userIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "User Idam Id",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "tseStatus",
+    "ListElementCode": "applicationState",
+    "FieldType": "Text",
+    "ElementLabel": "Application state",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "genericTseDetails",
     "ListElementCode": "number",
     "FieldType": "Text",
@@ -6386,6 +6450,14 @@
     "FieldType": "Text",
     "ElementLabel": "Applicant",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "applicantIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Applicant id",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "applicant=\"dummy\""
   },
   {
     "ID": "genericTseDetails",
@@ -6466,6 +6538,15 @@
     "ListElementCode": "applicationState",
     "FieldType": "Text",
     "ElementLabel": "Application State",
+    "FieldShowCondition": "status=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "genericTseDetails",
+    "ListElementCode": "respondentState",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "tseStatus",
+    "ElementLabel": "Respondent application State",
     "FieldShowCondition": "status=\"dummy\"",
     "SecurityClassification": "Public"
   },

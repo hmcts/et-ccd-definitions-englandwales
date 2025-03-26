@@ -11,6 +11,18 @@
     "UserRole": "caseworker-wa-task-configuration",
     "CRUD": "R"
   },
+    {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "claimant",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "respondent",
+    "UserRole": "caseworker-wa-task-configuration",
+    "CRUD": "R"
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "managingOffice",
@@ -322,12 +334,6 @@
     "CaseFieldID": "etICHearingAlreadyListed",
     "UserRole": "et-acas-api",
     "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "etICHearingAlreadyListed",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",

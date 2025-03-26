@@ -3692,7 +3692,7 @@
     "PageDisplayOrder": 4,
     "PageFieldDisplayOrder": 1,
     "PageColumnNumber": 1,
-    "PageLabel": "Rule 21 referral",
+    "PageLabel": "Rule 22 referral",
     "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
@@ -3733,7 +3733,7 @@
     "PageID": 5,
     "PageDisplayOrder": 5,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "Rule 21 referral",
+    "PageLabel": "Rule 22 referral",
     "PageShowCondition": "et3IsThereAnEt3Response=\"No\""
   },
   {
@@ -3774,7 +3774,7 @@
     "PageID": 6,
     "PageDisplayOrder": 6,
     "PageFieldDisplayOrder": 1,
-    "PageLabel": "Rule 21 referral",
+    "PageLabel": "Rule 22 referral",
     "PageShowCondition": "et3IsThereAnEt3Response=\"No\"",
     "ShowSummaryChangeOption": "Y"
   },
