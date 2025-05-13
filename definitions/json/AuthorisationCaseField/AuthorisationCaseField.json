@@ -25566,5 +25566,23 @@
     "CaseFieldID": "etIcHearingPanelPreferenceLabel",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "acasCertificateRequired",
+    "UserRole": "[CREATOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "acasCertificateRequired",
+    "UserRole": "[CLAIMANTSOLICITOR]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "acasCertificateRequired",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
