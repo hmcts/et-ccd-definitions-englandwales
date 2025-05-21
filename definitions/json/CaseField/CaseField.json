@@ -779,7 +779,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "allocateHearingSitAlone",
-    "Label": "Sit Alone or Full Panel",
+    "Label": "Panel Type",
     "FieldType": "FixedRadioList",
     "FieldTypeParameter": "frl_SitAlone",
     "SecurityClassification": "Public",
