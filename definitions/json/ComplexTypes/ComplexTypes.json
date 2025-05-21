@@ -4377,7 +4377,7 @@
     "ID": "adhocReport",
     "ListElementCode": "hearingSitAlone",
     "FieldType": "Text",
-    "ElementLabel": "Sit Alone or Full Panel",
+    "ElementLabel": "Panel Type",
     "SecurityClassification": "Public"
   },
   {
@@ -5418,7 +5418,7 @@
     "ID": "Hearing",
     "ListElementCode": "hearingSitAlone",
     "FieldType": "FixedRadioList",
-    "ElementLabel": "Sit Alone or Full Panel",
+    "ElementLabel": "Panel Type",
     "FieldTypeParameter": "frl_SitAlone",
     "SecurityClassification": "Public"
   },

@@ -4354,7 +4354,7 @@
     "CaseEventID": "addAmendHearing",
     "CaseFieldID": "hearingCollection",
     "ListElementCode": "hearingSitAlone",
-    "EventElementLabel": "Sit Alone or Full Panel",
+    "EventElementLabel": "Panel Type",
     "FieldDisplayOrder": 9,
     "DisplayContext": "MANDATORY"
   },
