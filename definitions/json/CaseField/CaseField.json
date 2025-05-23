@@ -6545,6 +6545,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "allocateHearingAdditionalJudge",
+    "Label": "Employment Judge",
+    "FieldType": "DynamicList",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "acasCertificateRequired",
     "Label": " ",
     "FieldType": "YesOrNo",
