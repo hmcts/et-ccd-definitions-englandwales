@@ -38,7 +38,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "UPDATE_HUBLINK_STATUS",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   }
 ]
