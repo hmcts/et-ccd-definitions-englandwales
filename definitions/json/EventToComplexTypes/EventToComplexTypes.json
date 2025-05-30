@@ -5874,9 +5874,18 @@
     "ID": "Scheduling",
     "CaseEventID": "printHearing",
     "CaseFieldID": "printHearingCollection",
+    "ListElementCode": "listingCollection.additionalJudge",
+    "EventElementLabel": "Employment Judge",
+    "FieldDisplayOrder": 10,
+    "DisplayContext": "READONLY"
+  },
+  {
+    "ID": "Scheduling",
+    "CaseEventID": "printHearing",
+    "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.hearingEEMember",
     "EventElementLabel": "Employee Member",
-    "FieldDisplayOrder": 10,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "READONLY"
   },
   {
@@ -5885,7 +5894,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.hearingERMember",
     "EventElementLabel": "Employer Member",
-    "FieldDisplayOrder": 11,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "READONLY"
   },
   {
@@ -5894,7 +5903,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.hearingClerk",
     "EventElementLabel": "Hearing Clerk",
-    "FieldDisplayOrder": 12,
+    "FieldDisplayOrder": 13,
     "DisplayContext": "READONLY"
   },
   {
@@ -5903,7 +5912,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.hearingDay",
     "EventElementLabel": "Hearing Day",
-    "FieldDisplayOrder": 13,
+    "FieldDisplayOrder": 14,
     "DisplayContext": "READONLY"
   },
   {
@@ -5912,7 +5921,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.claimantName",
     "EventElementLabel": "Claimant",
-    "FieldDisplayOrder": 14,
+    "FieldDisplayOrder": 15,
     "DisplayContext": "READONLY"
   },
   {
@@ -5921,7 +5930,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.claimantTown",
     "EventElementLabel": "Claimant Town",
-    "FieldDisplayOrder": 15,
+    "FieldDisplayOrder": 16,
     "DisplayContext": "READONLY"
   },
   {
@@ -5930,7 +5939,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.claimantRepresentative",
     "EventElementLabel": "Representative",
-    "FieldDisplayOrder": 16,
+    "FieldDisplayOrder": 17,
     "DisplayContext": "READONLY"
   },
   {
@@ -5939,7 +5948,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.respondent",
     "EventElementLabel": "Respondent",
-    "FieldDisplayOrder": 17,
+    "FieldDisplayOrder": 18,
     "DisplayContext": "READONLY"
   },
   {
@@ -5948,7 +5957,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.respondentTown",
     "EventElementLabel": "Respondent Town",
-    "FieldDisplayOrder": 18,
+    "FieldDisplayOrder": 19,
     "DisplayContext": "READONLY"
   },
   {
@@ -5957,7 +5966,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.respondentRepresentative",
     "EventElementLabel": "Representative",
-    "FieldDisplayOrder": 19,
+    "FieldDisplayOrder": 20,
     "DisplayContext": "READONLY"
   },
   {
@@ -5966,7 +5975,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.estHearingLength",
     "EventElementLabel": "Estimated Duration",
-    "FieldDisplayOrder": 20,
+    "FieldDisplayOrder": 21,
     "DisplayContext": "READONLY"
   },
   {
@@ -5975,7 +5984,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.Hearing_panel",
     "EventElementLabel": "Hearing Panel",
-    "FieldDisplayOrder": 21,
+    "FieldDisplayOrder": 22,
     "DisplayContext": "READONLY"
   },
   {
@@ -5984,7 +5993,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.Hearing_room",
     "EventElementLabel": "Room",
-    "FieldDisplayOrder": 22,
+    "FieldDisplayOrder": 23,
     "DisplayContext": "READONLY"
   },
   {
@@ -5993,7 +6002,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.Hearing_notes",
     "EventElementLabel": "Hearing Notes",
-    "FieldDisplayOrder": 23,
+    "FieldDisplayOrder": 24,
     "DisplayContext": "READONLY"
   },
   {
@@ -6002,7 +6011,7 @@
     "CaseFieldID": "printHearingCollection",
     "ListElementCode": "listingCollection.resp_others",
     "EventElementLabel": "Respondent Others",
-    "FieldDisplayOrder": 24,
+    "FieldDisplayOrder": 25,
     "DisplayContext": "READONLY"
   },
   {
