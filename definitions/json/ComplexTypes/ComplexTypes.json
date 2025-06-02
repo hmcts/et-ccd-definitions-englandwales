@@ -1516,6 +1516,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "AdditionalCaseDetails",
+    "ListElementCode": "interventionRequired",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Speak to REJ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "Deposit",
     "ListElementCode": "Deposit_amount",
     "FieldType": "MoneyGBP",
