@@ -1568,6 +1568,18 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "allocateHearing",
+    "CaseFieldID": "allocateHearingAdditionalJudge",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 2,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 3,
+    "FieldShowCondition": "allocateHearingSitAlone=\"Two Judges\"",
+    "ShowSummaryChangeOption": "Y",
+    "PageColumnNumber": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "allocateHearing",
     "CaseFieldID": "allocateHearingEmployerMember",
     "DisplayContext": "OPTIONAL",
     "PageID": 2,
