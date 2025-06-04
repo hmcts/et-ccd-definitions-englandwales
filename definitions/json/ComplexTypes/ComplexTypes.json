@@ -1516,6 +1516,13 @@
     "SecurityClassification": "Public"
   },
   {
+    "ID": "AdditionalCaseDetails",
+    "ListElementCode": "interventionRequired",
+    "FieldType": "YesOrNo",
+    "ElementLabel": "Speak to REJ",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "Deposit",
     "ListElementCode": "Deposit_amount",
     "FieldType": "MoneyGBP",
@@ -4904,6 +4911,13 @@
   },
   {
     "ID": "ListingItemType",
+    "ListElementCode": "additionalJudge",
+    "FieldType": "Text",
+    "ElementLabel": "Employment Judge",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ListingItemType",
     "ListElementCode": "hearingEEMember",
     "FieldType": "Text",
     "ElementLabel": "Employee Member",
@@ -5427,6 +5441,15 @@
     "ListElementCode": "judge",
     "FieldType": "DynamicList",
     "ElementLabel": "Employment Judge",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "Hearing",
+    "ListElementCode": "additionalJudge",
+    "FieldType": "DynamicList",
+    "ElementLabel": "Employment Judge",
+    "FieldShowCondition": "hearingSitAlone = \"Two Judges\"",
+    "RetainHiddenValue": "No",
     "SecurityClassification": "Public"
   },
   {
