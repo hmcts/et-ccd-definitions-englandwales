@@ -19105,12 +19105,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "applicationsAdminLinks",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "et3ResponseShowInset",
     "UserRole": "caseworker-employment",
     "CRUD": "R"
@@ -24265,12 +24259,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "pseViewNotificationsLabel",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondNotificationTitle",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -24517,12 +24505,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "notificationMarkdown",
-    "UserRole": "citizen",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "notificationMarkdownLabel",
     "UserRole": "et-acas-api",
     "CRUD": "R"
@@ -24555,12 +24537,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "notificationMarkdownLabel",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "notificationMarkdownLabel",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -24692,12 +24668,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "notificationsTabLinks",
-    "UserRole": "et-acas-api",
-    "CRUD": "R"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "notificationsTabLinks",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
@@ -24717,12 +24687,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "notificationsTabLinks",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "notificationsTabLinks",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
@@ -24843,12 +24807,6 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "respondNotificationDate",
     "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "respondNotificationDate",
-    "UserRole": "citizen",
     "CRUD": "CRU"
   },
   {
