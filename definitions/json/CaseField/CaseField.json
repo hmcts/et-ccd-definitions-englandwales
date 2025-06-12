@@ -5347,7 +5347,7 @@
     "CaseTypeID": "ET_EnglandWales_Listings",
     "ID": "showAll",
     "Label": "Show all cases?",
-    "HintText": "Includes Settled, Withdrawn and Postponed",
+    "HintText": "Includes Settled, Withdrawn, Postponed and Vacated",
     "FieldType": "YesOrNo",
     "SecurityClassification": "Public"
   },
@@ -6540,6 +6540,14 @@
     "ID": "doesHearingNotesDocExist",
     "Label": " ",
     "FieldType": "YesOrNo",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "allocateHearingAdditionalJudge",
+    "Label": "Employment Judge",
+    "FieldType": "DynamicList",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
