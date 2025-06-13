@@ -6160,7 +6160,7 @@
   },
   {
     "ID": "NoticeOfChangeAnswers",
-    "ListElementCode": "partyName",
+    "ListElementCode": "respondentName",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public",
@@ -6168,7 +6168,15 @@
   },
   {
     "ID": "NoticeOfChangeAnswers",
-    "ListElementCode": "caseReference",
+    "ListElementCode": "claimantFirstName",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "SecurityClassification": "Public",
+    "Searchable": "Y"
+  },
+  {
+    "ID": "NoticeOfChangeAnswers",
+    "ListElementCode": "claimantLastName",
     "FieldType": "Text",
     "ElementLabel": " ",
     "SecurityClassification": "Public",
