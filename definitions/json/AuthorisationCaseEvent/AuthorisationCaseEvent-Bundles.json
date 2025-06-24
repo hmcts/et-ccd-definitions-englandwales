@@ -74,7 +74,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "SUBMIT_CLAIMANT_BUNDLES",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   },
   {
