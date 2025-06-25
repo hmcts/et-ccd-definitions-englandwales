@@ -574,6 +574,8 @@
     "DisplayOrder": 19,
     "PreConditionState(s)": "Accepted",
     "PostConditionState": "*",
+    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Notification/aboutToStart",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Notification/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Notification/submitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
