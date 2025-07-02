@@ -1271,6 +1271,23 @@
     "Searchable": "N"
   },
   {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representativeContactLanguage",
+    "FieldType": "FixedList",
+    "ElementLabel": "Representative contact language",
+    "FieldTypeParameter": "fl_languages",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_preference_reason",
+    "FieldType": "Text",
+    "ElementLabel": "Representative preference reason",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
     "ID": "ClaimantRequest",
     "ListElementCode": "claim_outcome",
     "FieldType": "MultiSelectList",
