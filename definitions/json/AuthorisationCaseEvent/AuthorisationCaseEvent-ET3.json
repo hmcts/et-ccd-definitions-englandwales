@@ -16,5 +16,24 @@
     "CaseEventID": "UPDATE_ET3_FORM",
     "UserRole": "citizen",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "et3RespondentRepresentativeDetails",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-legalrep-solicitor",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "[CLAIMANTSOLICITOR]"
+        ],
+        "CRUD": "D"
+      }
+    ]
   }
 ]
