@@ -8,7 +8,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "SUBMIT_ET3_FORM",
-    "UserRole": "citizen",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {
