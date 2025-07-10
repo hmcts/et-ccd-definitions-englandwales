@@ -187,7 +187,6 @@
     "PostConditionState": "*",
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/et3Response/aboutToStartRepresentativeInfo",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitRepresentativeInfo",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/et3Response/representativeInfoSubmitted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y"
