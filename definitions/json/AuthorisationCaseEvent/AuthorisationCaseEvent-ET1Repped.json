@@ -40,6 +40,6 @@
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "claimantViewAllNotifications", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRU"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "claimantViewAllNotifications", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
   {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "claimantRespondToNotification", "UserRole": "[CLAIMANTSOLICITOR]", "CRUD": "CRU"},
-  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "claimantRespondToNotification", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"}
-
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "claimantRespondToNotification", "UserRole": "caseworker-employment-api", "CRUD": "CRUD"},
+  {"CaseTypeId": "ET_EnglandWales", "CaseEventID": "claimantRepresentativeDetails", "AccessControl": [{"UserRoles": ["[CLAIMANTSOLICITOR]", "caseworker-employment-api"], "CRUD": "CRUD"}]}
 ]
