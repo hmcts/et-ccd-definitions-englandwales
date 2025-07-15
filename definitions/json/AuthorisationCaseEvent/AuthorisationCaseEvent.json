@@ -1433,12 +1433,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "respondentTseAllApplications",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "respondentTseAllApplications",
     "UserRole": "et-acas-api",
     "CRUD": "R"
   },
