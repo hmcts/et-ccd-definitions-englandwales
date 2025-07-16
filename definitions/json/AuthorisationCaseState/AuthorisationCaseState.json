@@ -85,13 +85,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseStateId": "Vetted",
+    "CaseStateID": "Vetted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRUD"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseStateId": "Submitted",
+    "CaseStateID": "Submitted",
     "UserRole": "caseworker-caa",
     "CRUD": "CRUD"
   },
