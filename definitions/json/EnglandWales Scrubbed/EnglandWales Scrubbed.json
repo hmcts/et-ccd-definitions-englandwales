@@ -3061,27 +3061,33 @@
   },
   {
     "ID": "fl_Part_2",
+    "ListElementCode": "2.24A",
+    "ListElement": "2.24A - Response late by email - extension of time - granted",
+    "DisplayOrder": 38
+  },
+  {
+    "ID": "fl_Part_2",
     "ListElementCode": "2.25",
     "ListElement": "2.25 - Response – extension of time - hearing required – Rule 21",
-    "DisplayOrder": 38
+    "DisplayOrder": 39
   },
   {
     "ID": "fl_Part_2",
     "ListElementCode": "2.26",
     "ListElement": "2.26 - No response received - Rule 22",
-    "DisplayOrder": 39
+    "DisplayOrder": 40
   },
   {
     "ID": "fl_Part_2",
     "ListElementCode": "2.26A",
     "ListElement": "2.26A - Case not contested – Rule 22",
-    "DisplayOrder": 40
+    "DisplayOrder": 41
   },
   {
     "ID": "fl_Part_2",
     "ListElementCode": "2.27",
     "ListElement": "2.27 - Response – amendment granted",
-    "DisplayOrder": 41
+    "DisplayOrder": 42
   },
   {
     "ID": "fl_Part_3",
