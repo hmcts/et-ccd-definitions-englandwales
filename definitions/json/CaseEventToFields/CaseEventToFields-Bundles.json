@@ -150,5 +150,90 @@
     "PageFieldDisplayOrder": 2,
     "ShowSummaryChangeOption": "Y",
     "PageLabel": "Remove Hearing Bundle"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsSelectPastOrFutureHearing",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1,
+    "ShowSummaryChangeOption": "Y",
+    "PageLabel": "Upload Hearing Documents"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsSelectPastHearing",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "uploadHearingDocumentsSelectPastOrFutureHearing=\"Past\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsSelectFutureHearing",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "uploadHearingDocumentsSelectPastOrFutureHearing=\"Future\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsUploadFile",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsWhatAreDocuments",
+    "DisplayContext": "OPTIONAL",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 4,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsWhatAreDocumentsOther",
+    "DisplayContext": "MANDATORY",
+    "FieldShowCondition": "uploadHearingDocumentsWhatAreDocuments=\"Other\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 5,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsWhoseDocuments",
+    "DisplayContext": "OPTIONAL",
+    "FieldShowCondition": "uploadHearingDocumentsWhatAreDocuments=\"*\"",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 6,
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "uploadHearingDocuments",
+    "CaseFieldID": "uploadHearingDocumentsDateSubmitted",
+    "DisplayContext": "MANDATORY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 7,
+    "ShowSummaryChangeOption": "Y"
   }
 ]

@@ -4,10 +4,11 @@
     "Channel": "CaseWorker",
     "TabID": "Bundles",
     "TabLabel": "Hearing Documents",
-    "TabDisplayOrder": 71,
+    "TabDisplayOrder": 17,
     "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\"",
-    "CaseFieldID": "bundlesTabTitle",
-    "TabFieldDisplayOrder": 1
+    "CaseFieldID": "hearingDocumentCollection",
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(formattedSelectedHearing,submittedDate,uploadFile,whatDocuments,uploadedBy)"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
