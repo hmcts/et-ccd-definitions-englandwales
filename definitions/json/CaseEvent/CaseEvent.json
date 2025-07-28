@@ -576,7 +576,7 @@
     "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
     "PostConditionState": "*",
     "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
-    "CallBackURLAboutToSubmitEvent": "http://localhost:8081/refreshSharedUsers/aboutToSubmit",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/refreshSharedUsers/aboutToSubmit",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
