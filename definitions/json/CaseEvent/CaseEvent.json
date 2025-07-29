@@ -569,6 +569,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "refreshSharedUsers",
+    "Name": "Refresh Shared Users",
+    "Description": "Refresh Shared Users",
+    "DisplayOrder": 72,
+    "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/refreshSharedUsers/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseTransferECM",
     "Name": "Case Transfer to ECM",
     "Description": "Transfer case to ECM system",
