@@ -1333,6 +1333,14 @@
     "Searchable": "N"
   },
   {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "organisationUsers",
+    "FieldType": "Collection",
+    "ElementLabel": "Organisation users",
+    "FieldTypeParameter": "OrganisationUsersIdamUser",
+    "SecurityClassification": "Public"
+  },
+  {
     "ID": "ClaimantRequest",
     "ListElementCode": "claim_outcome",
     "FieldType": "MultiSelectList",
