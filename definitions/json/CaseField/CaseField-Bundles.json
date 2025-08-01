@@ -211,7 +211,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "uploadHearingDocumentsDateSubmitted",
-    "Label": "What date was the hearing documents submitted?",
+    "Label": "What date was these documents submitted?",
     "FieldType": "Date",
     "SecurityClassification": "Public",
     "Searchable": "N"
