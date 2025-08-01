@@ -60,24 +60,6 @@
     "DisplayOrder": 3
   },
   {
-    "ID": "frl_bundlesAgreedWith",
-    "ListElement": "Yes",
-    "ListElementCode": "Yes",
-    "DisplayOrder": 1
-  },
-  {
-    "ID": "frl_bundlesAgreedWith",
-    "ListElement": "No",
-    "ListElementCode": "No",
-    "DisplayOrder": 2
-  },
-  {
-    "ID": "frl_bundlesAgreedWith",
-    "ListElement": "Disputed",
-    "ListElementCode": "Disputed",
-    "DisplayOrder": 3
-  },
-  {
     "ID": "frl_futureOrPastHearing",
     "ListElement": "Past",
     "ListElementCode": "Past",
