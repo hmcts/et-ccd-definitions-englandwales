@@ -121,5 +121,33 @@
     "ElementLabel": "Reason for removal",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "ID": "HearingDocumentUpload",
+    "ListElementCode": "document",
+    "FieldType": "Document",
+    "ElementLabel": "Upload Hearing Documents",
+    "FieldTypeParameter": "DocumentUpload",
+    "RegularExpression": ".pdf",
+    "CategoryID": "C57",
+    "HintText": "Upload a single PDF file containing the hearing documents",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDocumentUpload",
+    "ListElementCode": "type",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "What are these hearing documents?",
+    "FieldTypeParameter": "frl_bundleType",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "HearingDocumentUpload",
+    "ListElementCode": "typeOther",
+    "FieldType": "Text",
+    "ElementLabel": "Please specify",
+    "FieldShowCondition": "type=\"Other\"",
+    "SecurityClassification": "Public"
   }
+
 ]

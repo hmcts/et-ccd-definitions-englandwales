@@ -103,8 +103,8 @@
   },
   {
     "ID": "frl_bundleType",
-    "ListElement": "Hearing Bundle and Witness Statements",
-    "ListElementCode": "Hearing Bundle and Witness Statements",
+    "ListElement": "Case Management",
+    "ListElementCode": "Case Management",
     "DisplayOrder": 3
   },
   {

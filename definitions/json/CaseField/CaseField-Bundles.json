@@ -175,13 +175,10 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "uploadHearingDocumentsUploadFile",
+    "ID": "uploadHearingDocumentType",
     "Label": "Upload Hearing Documents",
-    "HintText": "Upload a single PDF file containing all the hearing documents",
-    "FieldType": "Document",
-    "FieldTypeParameter": "DocumentUpload",
-    "RegularExpression": ".pdf",
-    "CategoryID": "C57",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "HearingDocumentUpload",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -205,9 +202,9 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "uploadHearingDocumentsWhoseDocuments",
-    "Label": "Whose hearing documents are you uploading?",
+    "Label": "Who submitted the hearing documents?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_ClaimantRespondentBothParties",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
@@ -216,15 +213,6 @@
     "ID": "uploadHearingDocumentsDateSubmitted",
     "Label": "What date was the hearing documents submitted?",
     "FieldType": "Date",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "hearingDocumentCollection",
-    "Label": "Hearing Documents",
-    "FieldType": "Collection",
-    "FieldTypeParameter": "HearingBundle",
     "SecurityClassification": "Public",
     "Searchable": "N"
   }
