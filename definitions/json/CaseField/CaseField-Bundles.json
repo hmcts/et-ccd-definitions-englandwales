@@ -202,9 +202,9 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "uploadHearingDocumentsWhoseDocuments",
-    "Label": "Who submitted the hearing documents?",
+    "Label": "Which party has submitted these documents?",
     "FieldType": "FixedRadioList",
-    "FieldTypeParameter": "fl_ClaimantOrRespondent",
+    "FieldTypeParameter": "frl_ClaimantOrRespondents",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },

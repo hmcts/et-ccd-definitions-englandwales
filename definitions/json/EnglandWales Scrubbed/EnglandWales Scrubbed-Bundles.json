@@ -103,8 +103,8 @@
   },
   {
     "ID": "frl_bundleType",
-    "ListElement": "Case Management",
-    "ListElementCode": "Case Management",
+    "ListElement": "Case management agenda",
+    "ListElementCode": "Case management agenda",
     "DisplayOrder": 3
   },
   {
