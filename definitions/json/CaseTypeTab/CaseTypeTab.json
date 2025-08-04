@@ -5,17 +5,10 @@
     "TabID": "CaseNotes",
     "TabLabel": "Case Notes",
     "TabDisplayOrder": 1,
-    "CaseFieldID": "caseNotes",
-    "TabFieldDisplayOrder": 1,
-    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "Channel": "CaseWorker",
-    "TabID": "CaseNotes",
     "CaseFieldID": "caseNotesCollection",
-    "TabFieldDisplayOrder": 2,
-    "DisplayContextParameter": "#TABLE(title ,author, date)"
+    "TabFieldDisplayOrder": 1,
+    "DisplayContextParameter": "#TABLE(title ,note ,author, date)",
+    "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
