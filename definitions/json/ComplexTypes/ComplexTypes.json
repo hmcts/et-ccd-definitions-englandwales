@@ -699,6 +699,26 @@
     "Searchable": "N"
   },
   {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representative_contact_preference_post_reason",
+    "FieldType": "Text",
+    "ElementLabel": "Contact preference reason",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "representative_preference=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "Searchable": "N"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representative_dx_address",
+    "FieldType": "Text",
+    "ElementLabel": "Representative DX address",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "representative_preference=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "Searchable": "N"
+  },
+  {
     "ID": "ET3Vetting",
     "ListElementCode": "et3VettingDocument",
     "FieldType": "Document",
@@ -1271,6 +1291,35 @@
     "Searchable": "N"
   },
   {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_preference",
+    "FieldType": "FixedList",
+    "ElementLabel": "Contact preference",
+    "FieldTypeParameter": "fl_RepresentativeContact",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_contact_preference_post_reason",
+    "FieldType": "Text",
+    "ElementLabel": "Contact preference reason",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "representative_preference=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "Searchable": "N"
+  },
+  {
+    "ID": "RespondentRepresentative",
+    "ListElementCode": "representative_dx_address",
+    "FieldType": "Text",
+    "ElementLabel": "Representative DX address",
+    "SecurityClassification": "Public",
+    "FieldShowCondition": "representative_preference=\"Dummy\"",
+    "RetainHiddenValue": "No",
+    "Searchable": "N"
+  },
+  {
     "ID": "ClaimantRequest",
     "ListElementCode": "claim_outcome",
     "FieldType": "MultiSelectList",
@@ -1433,15 +1482,6 @@
     "FieldType": "MultiSelectList",
     "FieldTypeParameter": "msl_typeOfClaim",
     "ElementLabel": " ",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
-  },
-  {
-    "ID": "RespondentRepresentative",
-    "ListElementCode": "representative_preference",
-    "FieldType": "FixedList",
-    "ElementLabel": "Contact preference",
-    "FieldTypeParameter": "fl_RepresentativeContact",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
