@@ -9126,7 +9126,6 @@
     "DisplayContext": "COMPLEX",
     "PageID": 1,
     "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 1,
-    "ShowSummaryChangeOption": "Y"
+    "PageFieldDisplayOrder": 1
   }
 ]

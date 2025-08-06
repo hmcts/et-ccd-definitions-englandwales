@@ -1116,7 +1116,7 @@
     "PostConditionState": "*",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
-    "ShowSummary": "Y",
+    "ShowSummary": "N",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/caseNotes/singles/aboutToSubmit"
   }
 ]

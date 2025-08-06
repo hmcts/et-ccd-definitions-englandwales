@@ -7,7 +7,7 @@
     "TabDisplayOrder": 1,
     "CaseFieldID": "caseNotesCollection",
     "TabFieldDisplayOrder": 1,
-    "DisplayContextParameter": "#TABLE(title ,note ,author, date)",
+    "DisplayContextParameter": "#TABLE(title ,author, date)",
     "TabShowCondition": "[STATE]!=\"AWAITING_SUBMISSION_TO_HMCTS\""
   },
   {
