@@ -816,6 +816,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "Channel": "CaseWorker",
     "TabID": "Applications",
+    "TabDisplayOrder": 18,
     "TabLabel": "Applications",
     "CaseFieldID": "applicationsTab",
     "TabFieldDisplayOrder": 1
