@@ -817,7 +817,6 @@
     "Channel": "CaseWorker",
     "TabID": "Applications",
     "TabLabel": "Applications",
-    "TabDisplayOrder": 17,
     "CaseFieldID": "applicationsTab",
     "TabFieldDisplayOrder": 1
   },
