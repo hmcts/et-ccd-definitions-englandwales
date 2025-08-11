@@ -19,7 +19,7 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "et3RespondentRepresentativeDetails",
+    "CaseEventID": "amendRespondentRepresentativeContact",
     "AccessControl": [
       {
         "UserRoles": [
