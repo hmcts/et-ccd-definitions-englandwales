@@ -2380,5 +2380,27 @@
     "CaseEventID": "refreshSharedUsers",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "amendRespondentRepresentativeContact",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "[SOLICITORA]",
+          "[SOLICITORB]",
+          "[SOLICITORC]",
+          "[SOLICITORD]",
+          "[SOLICITORE]",
+          "[SOLICITORF]",
+          "[SOLICITORG]",
+          "[SOLICITORH]",
+          "[SOLICITORI]",
+          "[SOLICITORJ]",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      }
+    ]
   }
 ]
