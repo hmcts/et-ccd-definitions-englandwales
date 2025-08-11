@@ -6598,12 +6598,5 @@
     "FieldTypeParameter": "fl_representativeContactChangeOptions",
     "SecurityClassification": "Public",
     "Searchable": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "et3ResponseAddressText",
-    "Label": "TEST!!!!",
-    "FieldType": "Label",
-    "SecurityClassification": "Public"
   }
 ]
