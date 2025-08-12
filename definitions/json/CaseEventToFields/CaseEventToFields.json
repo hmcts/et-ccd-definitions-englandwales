@@ -4993,6 +4993,7 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1,
+    "CallBackURLMidEvent": "${ET_COS_URL}/et3Response/midEventAmendRepresentativeContact",
     "ShowSummaryChangeOption": "N"
   },
   {
@@ -5016,6 +5017,17 @@
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
     "retainHiddenValue": "Yes",
+    "ShowSummaryChangeOption": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "amendRespondentRepresentativeContact",
+    "CaseFieldID": "myHmctsAddressText",
+    "DisplayContext": "READONLY",
+    "PageID": 3,
+    "PageDisplayOrder": 2,
+    "PageFieldDisplayOrder": 1,
+    "PageShowCondition": "representativeContactChangeOption=\"Use MyHMCTS details\"",
     "ShowSummaryChangeOption": "Y"
   },
   {

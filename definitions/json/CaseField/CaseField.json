@@ -6598,5 +6598,13 @@
     "FieldTypeParameter": "fl_representativeContactChangeOptions",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "myHmctsAddressText",
+    "Label": "Chosen address",
+    "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
