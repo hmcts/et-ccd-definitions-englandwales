@@ -7140,8 +7140,7 @@
     "PageID": 3,
     "PageDisplayOrder": 3,
     "PageFieldDisplayOrder": 5,
-    "FieldShowCondition": "pseRespondentOrdReqHasSupportingMaterial=\"Yes\"",
-    "PageLabel": "Provide supporting material"
+    "FieldShowCondition": "pseRespondentOrdReqHasSupportingMaterial=\"Yes\""
   },
   {
     "CaseTypeID": "ET_EnglandWales",
