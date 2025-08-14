@@ -7087,11 +7087,22 @@
     "ListElement": "Judge",
     "DisplayOrder": 2
   },
-
   {
     "ID": "claimant_hearingPanelPreference",
     "ListElementCode": "Panel",
     "ListElement": "Panel",
     "DisplayOrder": 3
+  },
+  {
+    "ID": "fl_representativeContactChangeOptions",
+    "ListElementCode": "Amend contact details",
+    "ListElement": "Amend contact details",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "fl_representativeContactChangeOptions",
+    "ListElementCode": "Use MyHMCTS details",
+    "ListElement": "Use MyHMCTS details",
+    "DisplayOrder": 2
   }
 ]
