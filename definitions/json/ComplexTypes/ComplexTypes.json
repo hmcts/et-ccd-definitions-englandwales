@@ -1614,7 +1614,7 @@
     "ListElementCode": "depositOrderAgainst",
     "FieldType": "FixedList",
     "ElementLabel": "Deposit ordered against",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "deposit_covers=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -1727,7 +1727,7 @@
     "ListElementCode": "depositRefundedTo",
     "FieldType": "FixedList",
     "ElementLabel": "Deposit refunded to",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "deposit_covers=\"dummy\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -2967,7 +2967,7 @@
     "ListElementCode": "reconsiderationPartyInitiative",
     "FieldType": "FixedList",
     "ElementLabel": "Who applied for reconsideration?",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "reconsiderationOwnInitiative=\"No\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3135,7 +3135,7 @@
     "ListElementCode": "costs_expenses_awarded_to",
     "FieldType": "FixedList",
     "ElementLabel": "Costs/Expenses awarded to",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3145,7 +3145,7 @@
     "ListElementCode": "costs_expenses_awarded_against",
     "FieldType": "FixedList",
     "ElementLabel": "Costs/Expenses awarded against",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3164,7 +3164,7 @@
     "ListElementCode": "preparation_of_time_awarded_to",
     "FieldType": "FixedList",
     "ElementLabel": "Preparation of time awarded to",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3174,7 +3174,7 @@
     "ListElementCode": "preparation_of_time_awarded_against",
     "FieldType": "FixedList",
     "ElementLabel": "Preparation of time awarded against",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3193,7 +3193,7 @@
     "ListElementCode": "wasted_cost_awarded_to",
     "FieldType": "FixedList",
     "ElementLabel": "Wasted cost awarded to",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
@@ -3203,7 +3203,7 @@
     "ListElementCode": "wasted_cost_awarded_against",
     "FieldType": "FixedList",
     "ElementLabel": "Wasted cost awarded against",
-    "FieldTypeParameter": "fl_Costs",
+    "FieldTypeParameter": "fl_ClaimantOrRespondent",
     "FieldShowCondition": "costs_question=\"Yes\"",
     "RetainHiddenValue": "Yes",
     "SecurityClassification": "Public"
