@@ -932,8 +932,7 @@
     "ListElementCode": "cwActions",
     "EventElementLabel": "Description",
     "FieldDisplayOrder": 1,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "BFActions",
@@ -942,8 +941,7 @@
     "ListElementCode": "allActions",
     "EventElementLabel": "Action",
     "FieldDisplayOrder": 2,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "BFActions",
@@ -952,8 +950,7 @@
     "ListElementCode": "bfDate",
     "EventElementLabel": "B/F Date",
     "FieldDisplayOrder": 3,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "BFActions",
@@ -962,8 +959,7 @@
     "ListElementCode": "cleared",
     "EventElementLabel": "Date Cleared",
     "FieldDisplayOrder": 4,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "BFActions",
@@ -972,8 +968,7 @@
     "ListElementCode": "notes",
     "EventElementLabel": "Comments",
     "FieldDisplayOrder": 5,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "BFActions",
@@ -982,8 +977,7 @@
     "ListElementCode": "isWaTaskCreated",
     "EventElementLabel": "Is wa task created?",
     "FieldDisplayOrder": 6,
-    "DisplayContext": "OPTIONAL",
-    "Publish": "Y"
+    "DisplayContext": "OPTIONAL"
   },
   {
     "ID": "DraftAndSignJudgement",
