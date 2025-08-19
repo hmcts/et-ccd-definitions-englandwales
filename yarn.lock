@@ -3950,11 +3950,11 @@ __metadata:
   linkType: hard
 
 "config@npm:^4.0.0":
-  version: 4.1.0
-  resolution: "config@npm:4.1.0"
+  version: 4.1.1
+  resolution: "config@npm:4.1.1"
   dependencies:
     json5: ^2.2.3
-  checksum: 5dd4273aed0ea636d68dd873388775c705de2416e615ab994c561f7770e3483713b41909e1c1b2361f5a7e6ff9ad12b7dd5499d26b2f8a12e5cd6134bc688fe2
+  checksum: 304e4e551886c78dfc9413cb3e7c44e3ac1a0219a5787c15343f5347623bea6452a5221ff5625dc361418f7add22a29a906da508b5a37dd7ef7924f844dfa641
   languageName: node
   linkType: hard
 
@@ -9041,9 +9041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:24.16.1":
-  version: 24.16.1
-  resolution: "puppeteer-core@npm:24.16.1"
+"puppeteer-core@npm:24.16.2":
+  version: 24.16.2
+  resolution: "puppeteer-core@npm:24.16.2"
   dependencies:
     "@puppeteer/browsers": 2.10.6
     chromium-bidi: 7.3.1
@@ -9051,23 +9051,23 @@ __metadata:
     devtools-protocol: 0.0.1475386
     typed-query-selector: ^2.12.0
     ws: ^8.18.3
-  checksum: 78597efb4b29ab53ae6cc49e0a6e8a8a00bdabdc26ed4ad7b7cab551445165146514dc7a420283fb4cf6f5a3d35879c819a10686ac750f8e9e6149a5b826e9e8
+  checksum: 68b5e1d6e6163fd2e3249780b67a70c47da8d2bedb1df4e45b8c6e817216e9d2e935cc3673afc5108dfa3185907aa7364999537493e4be368674aaa35190313f
   languageName: node
   linkType: hard
 
 "puppeteer@npm:^24.0.0":
-  version: 24.16.1
-  resolution: "puppeteer@npm:24.16.1"
+  version: 24.16.2
+  resolution: "puppeteer@npm:24.16.2"
   dependencies:
     "@puppeteer/browsers": 2.10.6
     chromium-bidi: 7.3.1
     cosmiconfig: ^9.0.0
     devtools-protocol: 0.0.1475386
-    puppeteer-core: 24.16.1
+    puppeteer-core: 24.16.2
     typed-query-selector: ^2.12.0
   bin:
     puppeteer: lib/cjs/puppeteer/node/cli.js
-  checksum: a31334bb416f0b570ee8e880c81bdb85b021d1215159564b4a2ce06d8527ee631b3fbce23f29e7d12c7a36c45c311bfe18a0e81855b8da6ad31cf1937a18ee9b
+  checksum: 1142d8e662db29eb1ae0a361fdd2fc6ce9aadb962bac8b512323a4d8f0684a912ce244be94f88e8ab32d81ef9cb33ccaebbb25fe3dddc3b71c912a1e619bda55
   languageName: node
   linkType: hard
 
