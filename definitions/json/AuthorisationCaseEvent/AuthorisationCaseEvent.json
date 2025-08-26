@@ -1654,6 +1654,21 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "generateNotificationSummary",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-api",
+          "caseworker-employment-etjudge",
+          "caseworker-employment-etjudge-englandwales",
+          "caseworker-employment-englandwales"
+        ],
+        "CRUD": "CRUD"
+      }
+    ]
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "pseRespondentRespondToTribunal",
     "AccessControl": [
       {
