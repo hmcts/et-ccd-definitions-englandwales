@@ -541,6 +541,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentsWithEcc",
+    "Label": "Respondents with an ECC",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "counterClaim",
     "Label": "Employer Contract Claim case",
     "FieldType": "Text",
