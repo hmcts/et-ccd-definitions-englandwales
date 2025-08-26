@@ -6592,6 +6592,15 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "caseNotesCollection",
+    "Label": "Case Notes",
+    "FieldType": "Collection",
+    "FieldTypeParameter": "caseNote",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "representativeContactChangeOption",
     "Label": " ",
     "FieldType": "FixedRadioList",
@@ -6604,6 +6613,14 @@
     "ID": "myHmctsAddressText",
     "Label": "Chosen address",
     "FieldType": "TextArea",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "addCaseNote",
+    "Label": "Add a case note",
+    "FieldType": "caseNote",
     "SecurityClassification": "Public",
     "Searchable": "N"
   }
