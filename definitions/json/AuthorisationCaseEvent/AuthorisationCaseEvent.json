@@ -2404,7 +2404,9 @@
           "caseworker-employment-api"
         ],
         "CRUD": "CRUD"
-  }
+      }
+    ]
+  },
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "addCaseNote",
