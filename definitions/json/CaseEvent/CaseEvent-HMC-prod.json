@@ -13,6 +13,6 @@
     "ShowSummary": "N",
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendRespondentRepSubmitted"
+    "CallBackURLSubmittedEvent": "${ET_COS_URL}/amendClaimantRepSubmitted"
   }
 ]
