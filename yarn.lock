@@ -1762,9 +1762,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@puppeteer/browsers@npm:2.10.7":
-  version: 2.10.7
-  resolution: "@puppeteer/browsers@npm:2.10.7"
+"@puppeteer/browsers@npm:2.10.8":
+  version: 2.10.8
+  resolution: "@puppeteer/browsers@npm:2.10.8"
   dependencies:
     debug: ^4.4.1
     extract-zip: ^2.0.1
@@ -1775,7 +1775,7 @@ __metadata:
     yargs: ^17.7.2
   bin:
     browsers: lib/cjs/main-cli.js
-  checksum: 92314c740802fa368b39e1a0902dda79db064b13f3b0f43d796bd494a986d39faec694949048ae20ebf437b04bda85401a742c790bab177f2c45cdfd6cc1419b
+  checksum: 46b3bc93e55714ddc6857811276fc225399b18b8f1428cbcb954aad1a27501775a17be33835f513caf0bda0d66a79332b31bbb62b8396dc0e759796d303bfcca
   languageName: node
   linkType: hard
 
@@ -9041,33 +9041,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"puppeteer-core@npm:24.17.0":
-  version: 24.17.0
-  resolution: "puppeteer-core@npm:24.17.0"
+"puppeteer-core@npm:24.17.1":
+  version: 24.17.1
+  resolution: "puppeteer-core@npm:24.17.1"
   dependencies:
-    "@puppeteer/browsers": 2.10.7
+    "@puppeteer/browsers": 2.10.8
     chromium-bidi: 8.0.0
     debug: ^4.4.1
     devtools-protocol: 0.0.1475386
     typed-query-selector: ^2.12.0
     ws: ^8.18.3
-  checksum: 5097aeb5619b64d2a0238277d4a9f6d8422af6908570d567a8c2048c857edb3cb06a14008b05ed15119bb32670d2da6fc39c38c384ce167a7b6ab4fc35465647
+  checksum: 800eeb57a71f04fe5409b9c14a2bca0a3c10677e8d8348612170bc2778c177009bf8887284a2fe3422436a81168ec0913aaf7a6322588ea6a1379cb847ae0f0f
   languageName: node
   linkType: hard
 
 "puppeteer@npm:^24.0.0":
-  version: 24.17.0
-  resolution: "puppeteer@npm:24.17.0"
+  version: 24.17.1
+  resolution: "puppeteer@npm:24.17.1"
   dependencies:
-    "@puppeteer/browsers": 2.10.7
+    "@puppeteer/browsers": 2.10.8
     chromium-bidi: 8.0.0
     cosmiconfig: ^9.0.0
     devtools-protocol: 0.0.1475386
-    puppeteer-core: 24.17.0
+    puppeteer-core: 24.17.1
     typed-query-selector: ^2.12.0
   bin:
     puppeteer: lib/cjs/puppeteer/node/cli.js
-  checksum: 90a21fb8da28e009046b4e06422919cc95e51e5389dc91da30ba9e60dba56c2bd85a56090bce7628d9789127b1957d742c1a12ae3d3c84590d9635fc3f383321
+  checksum: d84ce7f5a78d3385e358ba02d8fb51f9d22ee25c5c0489fd720ce2c1ecfe6248d944589d2b17469180d6ea17389e42ed426b9171750394c13e32229ec1814707
   languageName: node
   linkType: hard
 
