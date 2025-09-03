@@ -6574,12 +6574,5 @@
     "FieldType": "caseNote",
     "SecurityClassification": "Public",
     "Searchable": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "flipRespondentAndClaimantValues",
-    "Label": "text",
-    "FieldType": "YesOrNo",
-    "SecurityClassification": "Public"
   }
 ]

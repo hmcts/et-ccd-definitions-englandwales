@@ -3585,7 +3585,7 @@
     "ListElementCode": "dynamicRespondentsWithEcc",
     "FieldType": "DynamicList",
     "ElementLabel": "Respondents with ECC",
-    "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00028\" AND (part_3_Documents = \"3.1\" OR part_3_Documents = \"3.2\" OR part_3_Documents = \"3.3\" OR part_3_Documents = \"3.4\" OR part_3_Documents = \"3.5\" OR part_3_Documents = \"3.6\" OR part_3_Documents = \"3.7\" OR part_3_Documents = \"3.8\" OR part_3_Documents = \"3.9\" OR part_3_Documents = \"3.10\" OR part_3_Documents = \"3.11\" OR part_3_Documents = \"3.12\" OR part_3_Documents = \"3.13\" OR part_3_Documents = \"3.14\" OR part_3_Documents = \"3.15\" OR part_3_Documents = \"3.16\" OR part_3_Documents = \"3.17\" OR part_3_Documents = \"3.18\" OR part_3_Documents = \"3.19\" OR part_3_Documents = \"3.20\" OR part_3_Documents = \"3.21\" OR part_3_Documents = \"3.22\" OR part_3_Documents = \"3.23\")",
+    "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00028\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
