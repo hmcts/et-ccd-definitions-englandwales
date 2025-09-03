@@ -25275,5 +25275,27 @@
         "CRUD": "R"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "flipRespondentAndClaimantValues",
+    "AccessControl": [
+      {
+        "UserRoles": [
+          "caseworker-employment-englandwales",
+          "caseworker-employment-etjudge-englandwales",
+          "caseworker-employment-api"
+        ],
+        "CRUD": "CRUD"
+      },
+      {
+        "UserRoles": [
+          "caseworker-employment-etjudge",
+          "caseworker-employment-legalrep-solicitor",
+          "et-acas-api"
+        ],
+        "CRUD": "R"
+      }
+    ]
   }
 ]
