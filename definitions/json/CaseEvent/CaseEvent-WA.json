@@ -339,8 +339,8 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "createReferral",
-    "Name": "Referral",
-    "Description": "Referral",
+    "Name": "Create Referral",
+    "Description": "Create Referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
     "DisplayOrder": 48,
@@ -356,7 +356,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "replyToReferral",
-    "Name": "Referral",
+    "Name": "Reply to Referral",
     "Description": "Refer to admin, legal officer or judge",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
@@ -373,7 +373,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "closeReferral",
-    "Name": "Referral",
+    "Name": "Close Referral",
     "Description": "Close referral",
     "PreConditionState(s)": "*",
     "PostConditionState": "*",
