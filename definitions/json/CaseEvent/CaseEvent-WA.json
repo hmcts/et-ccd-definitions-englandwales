@@ -469,5 +469,19 @@
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseClaimantRepResponse/submitted",
     "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "RECONFIGURE_WA_TASKS",
+    "Name": "Reconfigure WA tasks",
+    "Description": "Reconfigure WA tasks",
+    "DisplayOrder": 63,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "Publish": "Y"
   }
 ]
