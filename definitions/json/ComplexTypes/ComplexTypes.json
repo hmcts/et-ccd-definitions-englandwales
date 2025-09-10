@@ -3594,7 +3594,7 @@
     "ID": "Letters",
     "ListElementCode": "flipRespondentAndClaimantValues",
     "FieldType": "YesOrNo",
-    "ElementLabel": "Flip Respondent and Claimant Names within the letter?",
+    "ElementLabel": "Address ECC letter to Claimant?",
     "FieldShowCondition": "topLevel_Documents=\"EM-TRB-EGW-ENG-00028\" AND dynamicRespondentsWithEcc != \"\" AND dynamicRespondentsWithEcc != \"No respondents with ECC\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
