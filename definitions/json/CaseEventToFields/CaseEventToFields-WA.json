@@ -15,13 +15,12 @@
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingAlreadyListed",
-    "DisplayContext": "MANDATORY",
+    "DisplayContext": "OPTIONAL",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 13,
-    "FieldShowCondition": "etICCanProceed=\"Yes\"",
-    "RetainHiddenValue": "Yes",
-    "Publish": "Y"
+    "FieldShowCondition": "etICCanProceed=\"dummy\"",
+    "RetainHiddenValue": "Yes"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
