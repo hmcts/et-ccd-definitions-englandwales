@@ -1,0 +1,14 @@
+[
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "UPDATE_RESPONDENT_NOTIFICATION_STATE",
+    "Name": "Update notification state",
+    "Description": "Update respondent notification state",
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "caseType=\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
+  }
+]
