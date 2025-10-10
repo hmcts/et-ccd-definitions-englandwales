@@ -5165,7 +5165,7 @@
   {
     "ID": "ListingType",
     "ListElementCode": "tribunalCorrespondenceEmail",
-    "FieldType": "Text",
+    "FieldType": "Email",
     "ElementLabel": "Correspondence Email",
     "SecurityClassification": "Public"
   },
@@ -5776,7 +5776,7 @@
   {
     "ID": "referralReply",
     "ListElementCode": "replyToEmailAddress",
-    "FieldType": "Text",
+    "FieldType": "Email",
     "ElementLabel": "Email address",
     "SecurityClassification": "Public"
   },
@@ -5840,7 +5840,7 @@
   {
     "ID": "updateReferralDetails",
     "ListElementCode": "updateReferentEmail",
-    "FieldType": "Text",
+    "FieldType": "Email",
     "ElementLabel": "Email address",
     "SecurityClassification": "Public"
   },
@@ -5925,7 +5925,7 @@
   {
     "ID": "referralDetails",
     "ListElementCode": "referentEmail",
-    "FieldType": "Text",
+    "FieldType": "Email",
     "ElementLabel": "Email address",
     "SecurityClassification": "Public"
   },
