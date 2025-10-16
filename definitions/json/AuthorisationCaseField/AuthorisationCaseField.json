@@ -2659,6 +2659,18 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "repCollectionToRemove",
+    "UserRole": "citizen",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "repCollectionToRemove",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "jurCodesCollection",
     "UserRole": "caseworker-employment-etjudge",
     "CRUD": "R"
@@ -8355,6 +8367,66 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "noticeOfChangeAnswers9",
     "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers0",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers1",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers2",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers3",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers4",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers5",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers6",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers7",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers8",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "noticeOfChangeAnswers9",
+    "UserRole": "[DEFENDANT]",
     "CRUD": "CRUD"
   },
   {

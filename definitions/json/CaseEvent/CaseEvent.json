@@ -136,6 +136,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "REMOVE_OWN_REPRESENTATIVE",
+    "Name": "REMOVE_OWN_REPRESENTATIVE",
+    "Description": "Update a submitted case",
+    "DisplayOrder": 6,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentRepresentative/removeOwnRepresentative",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "assignCase",
     "Name": "Assign Case",
     "Description": "Assign case to a tribunal office",
