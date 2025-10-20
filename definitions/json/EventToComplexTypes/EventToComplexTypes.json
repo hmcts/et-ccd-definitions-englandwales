@@ -3810,7 +3810,8 @@
     "ListElementCode": "respondentEccReply",
     "EventElementLabel": "Has a reply to the ECC been received?",
     "FieldDisplayOrder": 41,
-    "DisplayContext": "OPTIONAL"
+    "DisplayContext": "OPTIONAL",
+    "Publish": "Y"
   },
   {
     "ID": "Respondent",
