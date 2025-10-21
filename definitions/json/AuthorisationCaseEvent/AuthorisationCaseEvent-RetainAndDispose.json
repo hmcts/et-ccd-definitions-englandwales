@@ -2,7 +2,13 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "manageCaseTTL",
-    "UserRole": "TTL_profile",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "DELETE_CASE",
+    "UserRole": "caseworker-employment-api",
     "CRUD": "CRU"
   },
   {

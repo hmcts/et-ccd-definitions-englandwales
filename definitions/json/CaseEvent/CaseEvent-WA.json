@@ -318,7 +318,9 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "Y",
-    "Publish": "Y"
+    "Publish": "Y",
+    "SignificantEvent": "Yes",
+    "TTLIncrement": "365"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
