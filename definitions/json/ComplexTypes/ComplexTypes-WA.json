@@ -422,11 +422,48 @@
   },
   {
     "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etInitialConsiderationListedHearingType",
+    "FieldType": "Text",
+    "ElementLabel": "Initial Consideration Listed Hearing Type",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembersReason != \"dummy\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
     "ListElementCode": "etICIsHearingWithJudgeOrMembersReason",
     "FieldType": "MultiSelectList",
     "ElementLabel": "Reasons",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"\"",
+    "FieldShowCondition": "etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType != \"Preliminary Hearing(CM)\"",
     "FieldTypeParameter": "msl_hearingWithJudgeOrMembersReasons",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJsa",
+    "FieldType": "FixedRadioList",
+    "ElementLabel": "Hearing With Jsa",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\"",
+    "FieldTypeParameter": "frl_listedCmPreliminaryHearing_Jsa",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithMembersLabel",
+    "FieldType": "TextArea",
+    "ElementLabel": "Other - Details:",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"JSA\" AND etInitialConsiderationListedHearingType != \"\" AND etICIsHearingWithJsa = \"Other\"",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "ID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithMembers",
+    "FieldType": "TextArea",
+    "ElementLabel": "Even though this is a case management hearing in private, members’ experience is likely to add significant value to the process. \nGive reasons for this choice",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembers != \"With members\" AND etInitialConsiderationListedHearingType != \"\" AND etInitialConsiderationListedHearingType = \"Preliminary Hearing(CM)\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
