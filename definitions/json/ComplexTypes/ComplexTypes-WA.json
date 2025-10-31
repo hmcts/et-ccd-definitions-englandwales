@@ -425,7 +425,7 @@
     "ListElementCode": "etInitialConsiderationListedHearingType",
     "FieldType": "Text",
     "ElementLabel": "Initial Consideration Listed Hearing Type",
-    "FieldShowCondition": "etICIsHearingWithJudgeOrMembersReason != \"dummy\"",
+    "FieldShowCondition": "etICIsHearingWithJudgeOrMembersReason = \"dummy\"",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
