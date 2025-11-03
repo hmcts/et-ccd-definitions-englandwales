@@ -409,19 +409,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "createCaseECC",
-    "Name": "Create Employer Contract Claim",
-    "Description": "Create Employer Contract Claim Case",
-    "DisplayOrder": 32,
-    "PostConditionState": "Accepted",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/createECC",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/linkOriginalCaseECC",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "caseTransferSameCountryEccLinkedCase",
     "Name": "Case Transfer (Eng/Wales)",
     "Description": "Transfer ECC linked case to another office within England/Wales (API)",
