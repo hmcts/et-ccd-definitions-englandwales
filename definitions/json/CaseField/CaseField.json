@@ -549,6 +549,14 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentsWithEcc",
+    "Label": "Respondents with an ECC",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "counterClaim",
     "Label": "Employer Contract Claim case",
     "FieldType": "Text",
@@ -559,15 +567,6 @@
     "ID": "caseRefECC",
     "Label": "Enter the Case Number that this ECC relates to",
     "FieldType": "Text",
-    "SecurityClassification": "Public",
-    "Searchable": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "ID": "respondentECC",
-    "Label": "Which respondent is raising the Employer Contract Claim?",
-    "FieldType": "DynamicList",
-    "FieldTypeParameter": "Text",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },
