@@ -3,6 +3,12 @@
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "UPDATE_RESPONDENT_NOTIFICATION_STATE",
     "UserRole": "[DEFENDANT]",
-    "CRUD": "CRUD"
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "ADD_RESPONDENT_NOTIFICATION_RESPONSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRU"
   }
 ]
