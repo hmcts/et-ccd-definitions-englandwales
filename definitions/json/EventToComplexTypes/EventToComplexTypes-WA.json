@@ -392,8 +392,40 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
-    "ListElementCode": "etICIsHearingWithJudgeOrMembersFurtherDetails",
+    "ListElementCode": "etInitialConsiderationListedHearingType",
     "FieldDisplayOrder": 6,
+    "DisplayContext": "READONLY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJsa",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithMembersLabel",
+    "FieldDisplayOrder": 8,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithMembers",
+    "FieldDisplayOrder": 9,
+    "DisplayContext": "MANDATORY"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingListedAnswers",
+    "ListElementCode": "etICIsHearingWithJudgeOrMembersFurtherDetails",
+    "FieldDisplayOrder": 10,
     "DisplayContext": "OPTIONAL"
   },
   {
@@ -401,7 +433,7 @@
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "otherDirectionsLabel",
-    "FieldDisplayOrder": 7,
+    "FieldDisplayOrder": 11,
     "DisplayContext": "READONLY"
   },
   {
@@ -410,7 +442,7 @@
     "CaseFieldID": "etICHearingListedAnswers",
     "ListElementCode": "etICHearingAnyOtherDirections",
     "EventElementLabel": " ",
-    "FieldDisplayOrder": 8,
+    "FieldDisplayOrder": 12,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
