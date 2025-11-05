@@ -12,7 +12,6 @@
     "ShowEventNotes": "N",
     "ShowSummary": "N",
     "CallBackURLAboutToStartEvent": "",
-    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit",
-    "CallBackURLSubmittedEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/amendClaimantRepSubmitted"
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/addAmendClaimantRepresentative/aboutToSubmit"
   }
 ]
