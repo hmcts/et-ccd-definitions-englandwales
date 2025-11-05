@@ -56,5 +56,21 @@
     "ElementLabel": " ",
     "FieldShowCondition": "representative_id=\"dummy\"",
     "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "representative_id",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "representative_occupation=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "ClaimantRepresentative",
+    "ListElementCode": "organisationId",
+    "FieldType": "Text",
+    "ElementLabel": " ",
+    "FieldShowCondition": "representative_id=\"dummy\"",
+    "SecurityClassification": "Public"
   }
 ]
