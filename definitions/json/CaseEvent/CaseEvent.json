@@ -136,6 +136,20 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "REMOVE_OWN_REPRESENTATIVE",
+    "Name": "REMOVE_OWN_REPRESENTATIVE",
+    "Description": "Update a submitted case",
+    "DisplayOrder": 6,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/respondentRepresentative/removeOwnRepresentative",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType =\"dummy\""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "assignCase",
     "Name": "Assign Case",
     "Description": "Assign case to a tribunal office",
@@ -177,6 +191,20 @@
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "amendRespondentRepresentativeContact",
+    "Name": "Amend contact details",
+    "Description": "Amend contact details",
+    "DisplayOrder": 53,
+    "PreConditionState(s)": "Accepted",
+    "PostConditionState": "*",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/et3Response/aboutToSubmitAmendRepresentativeContact",
+    "EventEnablingCondition": "caseType =\"dummy\"",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "Y"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
@@ -529,6 +557,20 @@
     "CallBackURLAboutToStartEvent": "",
     "CallBackURLAboutToSubmitEvent": "",
     "CallBackURLSubmittedEvent": ""
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "refreshSharedUsers",
+    "Name": "Refresh Shared Users",
+    "Description": "Refresh Shared Users",
+    "DisplayOrder": 72,
+    "PreConditionState(s)": "Submitted;Vetted;Accepted;Rejected;Closed",
+    "PostConditionState": "*",
+    "EventEnablingCondition": "managingOffice !=\"Unassigned\"",
+    "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/refreshSharedUsers/aboutToSubmit",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N"
   },
   {
     "CaseTypeID": "ET_EnglandWales",
