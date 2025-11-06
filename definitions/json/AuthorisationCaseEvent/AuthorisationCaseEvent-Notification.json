@@ -1,14 +1,26 @@
 [
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "UPDATE_RESPONDENT_NOTIFICATION_STATE",
+    "CaseEventID": "UPDATE_RESPONDENT_PSE_STATE",
     "UserRole": "[DEFENDANT]",
     "CRUD": "CRU"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "ADD_RESPONDENT_NOTIFICATION_RESPONSE",
+    "CaseEventID": "ADD_RESPONDENT_PSE_RESPONSE",
     "UserRole": "[DEFENDANT]",
     "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "STORE_RESPONDENT_PSE_RESPONSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "SUBMIT_RESPONDENT_PSE_RESPONSE",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
   }
 ]
