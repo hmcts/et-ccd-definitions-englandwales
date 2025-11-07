@@ -6662,6 +6662,14 @@
   },
   {
     "ID": "pseRespondCollection",
+    "ListElementCode": "fromIdamId",
+    "FieldType": "Text",
+    "ElementLabel": "Response from Idam id",
+    "FieldShowCondition": "date=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "pseRespondCollection",
     "ListElementCode": "hasSupportingMaterial",
     "FieldType": "Text",
     "ElementLabel": "Has supporting material",
@@ -6748,6 +6756,13 @@
     "FieldType": "Text",
     "ElementLabel": " ",
     "FieldShowCondition": "state=\"dummy\"",
+    "SecurityClassification": "Public"
+  },
+  {
+    "ID": "respondNotificationTypeCollection",
+    "ListElementCode": "dateTime",
+    "FieldType": "Text",
+    "ElementLabel": "Updated date time",
     "SecurityClassification": "Public"
   },
   {
