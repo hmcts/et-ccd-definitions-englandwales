@@ -108,6 +108,30 @@
     "DisplayOrder": 5
   },
   {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Already decided",
+    "ListElement": "Already decided",
+    "DisplayOrder": 1
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "DisplayOrder": 2
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "No views expressed by parties",
+    "ListElement": "No views expressed by parties",
+    "DisplayOrder": 3
+  },
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Other",
+    "ListElement": "Other",
+    "DisplayOrder": 4
+  },
+  {
     "ID": "frl_listedCmPreliminaryHearing_Jsa",
     "ListElementCode": "Case management only",
     "ListElement": "Case management only",

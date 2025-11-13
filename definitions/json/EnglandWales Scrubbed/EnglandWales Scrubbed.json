@@ -1038,6 +1038,12 @@
     "DisplayOrder": 6
   },
   {
+    "ID": "fl_Hearing",
+    "ListElementCode": "Final Hearing",
+    "ListElement": "Final Hearing",
+    "DisplayOrder": 7
+  },
+  {
     "ID": "msl_HearingFormat",
     "ListElementCode": "In person",
     "ListElement": "In person",
