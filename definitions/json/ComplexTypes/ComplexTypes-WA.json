@@ -116,7 +116,6 @@
     "ListElementCode": "etICLengthOfPrelimHearingV2",
     "FieldType": "Number",
     "ElementLabel": "Length of hearing",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearingV2 != \"\"",
     "RetainHiddenValue": "No",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -140,7 +139,6 @@
     "FieldTypeParameter": "fl_HearingLength",
     "SecurityClassification": "Public",
     "RetainHiddenValue": "No",
-    "FieldShowCondition": "etICPurposeOfPreliminaryHearingV2 != \"\"",
     "Searchable": "N"
   },
   {
