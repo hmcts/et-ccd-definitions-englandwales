@@ -116,7 +116,7 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "REMOVE_OWN_REP_AS_CLAIMANT",
-    "UserRole": "citizen",
+    "UserRole": "[CREATOR]",
     "CRUD": "CRUD"
   },
   {
