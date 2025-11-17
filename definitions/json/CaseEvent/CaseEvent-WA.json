@@ -308,20 +308,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "disposeCase",
-    "Name": "Close Case",
-    "Description": "Close Case",
-    "DisplayOrder": 40,
-    "PreConditionState(s)": "Accepted;Rejected",
-    "PostConditionState": "Closed",
-    "CallBackURLAboutToStartEvent": "${ET_COS_URL}/aboutToStartDisposal",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "N",
-    "ShowSummary": "Y",
-    "Publish": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "initialConsideration",
     "Name": "Initial Consideration",
     "Description": "Initial Consideration",
@@ -484,6 +470,23 @@
     "CallBackURLAboutToStartEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToStart",
     "CallBackURLAboutToSubmitEvent": "${ET_COS_URL}/tseClaimantRepResponse/aboutToSubmit",
     "CallBackURLSubmittedEvent": "${ET_COS_URL}/tseClaimantRepResponse/submitted",
+    "Publish": "Y"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "UPDATE_NOTIFICATION_RESPONSE",
+    "Name": "UPDATE_NOTIFICATION_RESPONSE",
+    "Description": "",
+    "DisplayOrder": 9001,
+    "PreConditionState(s)": "*",
+    "PostConditionState": "*",
+    "SecurityClassification": "Public",
+    "ShowEventNotes": "N",
+    "ShowSummary": "N",
+    "EventEnablingCondition": "caseType=\"Dummy\"",
+    "CallBackURLAboutToStartEvent": "",
+    "CallBackURLAboutToSubmitEvent": "",
+    "CallBackURLSubmittedEvent": "",
     "Publish": "Y"
   },
   {
