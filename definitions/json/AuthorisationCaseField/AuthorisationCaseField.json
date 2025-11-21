@@ -21278,6 +21278,12 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "sendNotificationCollection",
+    "UserRole": "[DEFENDANT]",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "sendNotificationDetails",
     "UserRole": "et-acas-api",
     "CRUD": "R"
