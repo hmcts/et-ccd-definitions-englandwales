@@ -120,9 +120,9 @@
     "DisplayContext": "OPTIONAL",
     "FieldShowCondition": "etICJuridictionCodesInvalid=\"dummy\"",
     "ShowSummaryChangeOption": "N",
-    "PageID": 2,
-    "PageDisplayOrder": 2,
-    "PageFieldDisplayOrder": 11,
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 10,
     "PageColumnNumber": 1,
     "Publish": "Y"
   },
