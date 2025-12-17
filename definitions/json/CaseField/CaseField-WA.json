@@ -235,7 +235,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICIssuesArisingFromVettingLabel",
-    "Label": "<br><hr><h1>Issues arising from Vettings (ET1 & ET3)</h1>",
+    "Label": "<br><hr><h1>Issues identified at ET1 vetting and ET3 processing</h1>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
