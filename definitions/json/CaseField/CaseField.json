@@ -6631,5 +6631,13 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "nocWarning",
+    "Label": " ",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
