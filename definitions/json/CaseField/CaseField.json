@@ -1462,6 +1462,55 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcPartiesHearingPanelPreferenceHeader",
+    "Label": "etIcPartiesHearingPanelPreferenceHeader",
+    "FieldType": "Text",
+    "HintText": "<h2>Parties Hearing Panel Preferences</h2>",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcPartiesHearingPanelPreferenceHeaderLabel",
+    "Label": "${etIcPartiesHearingPanelPreferenceHeader}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcPartiesHearingPanelPreference",
+    "Label": "etIcPartiesHearingPanelPreference",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcPartiesHearingPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcPartiesHearingFormat",
+    "Label": "etIcPartiesHearingFormat",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "etIcPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etIcHearingPanelPreference",
     "Label": "etIcHearingPanelPreference",
     "FieldType": "Text",
