@@ -1526,6 +1526,38 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "notListedHearingPartiesPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Text",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "listedHearingPartiesPanelPreferenceLabel",
+    "Label": "${etIcPartiesHearingPanelPreference}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "notListedHearingPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "listedHearingPartiesHearingFormatLabel",
+    "Label": "${etIcPartiesHearingFormat}",
+    "FieldType": "Label",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "etInitialConsiderationJurisdictionCodes",
     "Label": "etInitialConsiderationJurisdictionCodes",
     "FieldType": "Text",
