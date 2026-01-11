@@ -1528,7 +1528,7 @@
     "CaseTypeID": "ET_EnglandWales",
     "ID": "notListedHearingPartiesPanelPreferenceLabel",
     "Label": "${etIcPartiesHearingPanelPreference}",
-    "FieldType": "Text",
+    "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
   },

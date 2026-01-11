@@ -225,9 +225,29 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICNoLFinalHearingIsEJSitAloneReasonsJsaOther",
+    "EventElementLabel": "Reasons",
+    "FieldDisplayOrder": 6,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
+    "ListElementCode": "etICNoLFinalHearingIsEJSitAloneReasonsMembersOther",
+    "EventElementLabel": "Reasons",
+    "FieldDisplayOrder": 7,
+    "DisplayContext": "MANDATORY",
+    "RetainHiddenValue": "No"
+  },
+  {
+    "ID": "InitialConsideration",
+    "CaseEventID": "initialConsideration",
+    "CaseFieldID": "etICHearingNotListedListForFinalHearingUpdated",
     "ListElementCode": "etICFinalHearingIsEJSitAloneFurtherDetails",
     "EventElementLabel": "Further details",
-    "FieldDisplayOrder": 6,
+    "FieldDisplayOrder": 8,
     "DisplayContext": "OPTIONAL",
     "RetainHiddenValue": "No"
   },
@@ -490,7 +510,7 @@
     "ID": "InitialConsideration",
     "CaseEventID": "initialConsideration",
     "CaseFieldID": "etICHearingListedAnswers",
-    "ListElementCode": "etICIsHearingWithMembersLabel",
+    "ListElementCode": "etICJsaCmPreliminaryHearingReasonOther",
     "FieldDisplayOrder": 14,
     "DisplayContext": "MANDATORY"
   },

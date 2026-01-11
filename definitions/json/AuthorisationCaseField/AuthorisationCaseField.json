@@ -13715,7 +13715,6 @@
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
   },
-
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "etIcPartiesHearingFormatLabel",
