@@ -229,6 +229,7 @@
     "CaseFieldID": "nextListedDate",
     "DisplayContext": "OPTIONAL",
     "ShowSummaryChangeOption": "N",
+    "FieldShowCondition": "tseRespondSelectApplication=\"dummy\"",
     "PageID": 2,
     "PageDisplayOrder": 2,
     "PageFieldDisplayOrder": 2,
