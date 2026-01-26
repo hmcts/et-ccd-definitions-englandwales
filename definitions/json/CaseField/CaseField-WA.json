@@ -243,7 +243,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "etICMinimumInfoFromVettingLabel",
-    "Label": "<hr><h2>IC ET1 Vetting Issues</h2>",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -251,7 +251,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icEt1VettingIssuesDividerHrLabel",
-    "Label": "<hr><h2>IC ET1 Vetting Issues</h2>",
+    "Label": "<hr><h2>ET1 Vetting Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
@@ -283,7 +283,7 @@
   {
     "CaseTypeID": "ET_EnglandWales",
     "ID": "icEt3ProcessingIssuesDetailDividerHrLabel",
-    "Label": "<hr><h2>IC ET3 Processing Issues</h2>",
+    "Label": "<hr><h2>ET3 Processing Issues</h2>",
     "FieldType": "Label",
     "SecurityClassification": "Public",
     "Searchable": "N"
