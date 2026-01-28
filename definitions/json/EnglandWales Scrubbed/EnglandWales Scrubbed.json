@@ -1085,12 +1085,6 @@
     "ListElement": "Other",
     "DisplayOrder": 4
   },
-  {
-    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
-    "ListElementCode": "Already decided",
-    "ListElement": "Already decided",
-    "DisplayOrder": 1
-  },
 
   {
     "ID": "msl_hearingWithJudgeOrMembersReasons",
