@@ -1122,7 +1122,12 @@
     "ListElement": "Other",
     "DisplayOrder": 5
   },
-
+  {
+    "ID": "msl_finalHearingWithJudgeOrMembersReasons",
+    "ListElementCode": "Already decided",
+    "ListElement": "Already decided",
+    "DisplayOrder": 1
+  },
   {
     "ID": "msl_finalHearingWithJudgeOrMembersReasons",
     "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
