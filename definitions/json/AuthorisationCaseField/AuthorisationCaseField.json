@@ -25515,5 +25515,23 @@
         "CRUD": "R"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "deleteDraftCaseWarningLabel",
+    "UserRole": "caseworker-employment",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "deleteDraftCaseWarningLabel",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "R"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseFieldID": "deleteDraftCaseWarningLabel",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "R"
   }
 ]

@@ -6631,5 +6631,12 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "deleteDraftCaseWarningLabel",
+    "Label": "<h3>Are you sure you want to delete this draft case?</h3>",
+    "FieldType": "Label",
+    "SecurityClassification": "Public"
   }
 ]

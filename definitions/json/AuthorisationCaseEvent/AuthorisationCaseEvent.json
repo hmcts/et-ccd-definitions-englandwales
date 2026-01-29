@@ -2441,5 +2441,23 @@
         "CRUD": "R"
       }
     ]
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "UserRole": "caseworker-employment",
+    "CRUD": "CRUD"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "UserRole": "caseworker-employment-englandwales",
+    "CRUD": "CRU"
+  },
+  {
+    "CaseTypeId": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "UserRole": "caseworker-employment-api",
+    "CRUD": "CRUD"
   }
 ]
