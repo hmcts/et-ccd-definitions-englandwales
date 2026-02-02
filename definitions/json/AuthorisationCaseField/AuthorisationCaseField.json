@@ -25519,19 +25519,19 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "deleteDraftCaseWarningLabel",
-    "UserRole": "caseworker-employment",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "deleteDraftCaseWarningLabel",
-    "UserRole": "caseworker-employment-englandwales",
+    "CaseFieldID": "deleteDraftCaseWarning1",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "deleteDraftCaseWarningLabel",
-    "UserRole": "caseworker-employment-api",
+    "CaseFieldID": "deleteDraftCaseWarning2",
+    "UserRole": "caseworker-employment-legalrep-solicitor",
     "CRUD": "R"
   }
 ]
