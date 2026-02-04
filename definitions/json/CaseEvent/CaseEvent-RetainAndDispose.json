@@ -109,7 +109,7 @@
     "Description": "Delete draft case as a legal representative before submission",
     "DisplayOrder": 1000,
     "PreConditionState(s)": "AWAITING_SUBMISSION_TO_HMCTS",
-    "PostConditionState": "Delete",
+    "PostConditionState": "Deleted",
     "SecurityClassification": "Public",
     "ShowEventNotes": "N",
     "ShowSummary": "N",
