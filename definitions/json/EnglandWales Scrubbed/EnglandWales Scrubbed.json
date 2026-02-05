@@ -1069,8 +1069,8 @@
   },
   {
     "ID": "msl_finalHearingWithJudgeOrMembersReasonsJsa",
-    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
-    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members' experience is not likely to add significant value to the adjudication process",
+    "ListElement": "Members' experience is not likely to add significant value to the adjudication process",
     "DisplayOrder": 2
   },
   {
@@ -1094,14 +1094,14 @@
   },
   {
     "ID": "msl_hearingWithJudgeOrMembersReasons",
-    "ListElementCode": "Members' experience is likely to add significant value to the process of adjudication",
-    "ListElement": "Members' experience is likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members' experience is likely to add significant value to the adjudication process",
+    "ListElement": "Members' experience is likely to add significant value to the adjudication process",
     "DisplayOrder": 2
   },
   {
     "ID": "msl_hearingWithJudgeOrMembersReasons",
-    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
-    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members' experience is not likely to add significant value to the adjudication process",
+    "ListElement": "Members' experience is not likely to add significant value to the adjudication process",
     "DisplayOrder": 3
   },
   {
@@ -1124,8 +1124,8 @@
   },
   {
     "ID": "msl_finalHearingWithJudgeOrMembersReasons",
-    "ListElementCode": "Members' experience is not likely to add significant value to the process of adjudication",
-    "ListElement": "Members' experience is not likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members' experience is not likely to add significant value to the adjudication process",
+    "ListElement": "Members' experience is not likely to add significant value to the adjudication process",
     "DisplayOrder": 2
   },
   {

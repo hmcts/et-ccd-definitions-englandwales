@@ -3541,6 +3541,7 @@
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 2,
     "FieldShowCondition": "initialConsiderationBeforeYouStartLabel=\"dummy\"",
+    "PageLabel": "Before you start",
     "ShowSummaryChangeOption": "N",
     "PageColumnNumber": 1
   },

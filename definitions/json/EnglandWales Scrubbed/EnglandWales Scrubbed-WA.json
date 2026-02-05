@@ -157,8 +157,8 @@
   },
   {
     "ID": "msl_finalHearingWithJudgeOrMembersReasonsMembers",
-    "ListElementCode": "Members' experience is likely to add significant value to the process of adjudication",
-    "ListElement": "Members' experience is likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members' experience is likely to add significant value to the adjudication process",
+    "ListElement": "Members' experience is likely to add significant value to the adjudication process",
     "DisplayOrder": 2
   },
   {
@@ -175,14 +175,14 @@
   },
   {
     "ID": "fl_FinalHearingIsEJSitAloneReason",
-    "ListElementCode": "Members experience is likely to add significant value to the process of adjudication",
-    "ListElement": "Members experience is likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members experience is likely to add significant value to the adjudication process",
+    "ListElement": "Members experience is likely to add significant value to the adjudication process",
     "DisplayOrder": 1
   },
   {
     "ID": "fl_FinalHearingIsEJSitAloneReason",
-    "ListElementCode": "Members experience is not likely to add significant value to the process of adjudication",
-    "ListElement": "Members experience is not likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members experience is not likely to add significant value to the adjudication process",
+    "ListElement": "Members experience is not likely to add significant value to the adjudication process",
     "DisplayOrder": 2
   },
   {
@@ -199,8 +199,8 @@
   },
   {
     "ID": "ms_FinalHearingIsEJSitAloneReasonYes",
-    "ListElementCode": "Members experience is not likely to add significant value to the process of adjudication",
-    "ListElement": "Members experience is not likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members experience is not likely to add significant value to the adjudication process",
+    "ListElement": "Members experience is not likely to add significant value to the adjudication process",
     "DisplayOrder": 1
   },
   {
@@ -217,8 +217,8 @@
   },
   {
     "ID": "ms_FinalHearingIsEJSitAloneReasonNo",
-    "ListElementCode": "Members experience is likely to add significant value to the process of adjudication",
-    "ListElement": "Members experience is likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members experience is likely to add significant value to the adjudication process",
+    "ListElement": "Members experience is likely to add significant value to the adjudication process",
     "DisplayOrder": 1
   },
   {
@@ -506,14 +506,14 @@
   },
   {
     "ID": "frl_finalHearingListedJudgeOrMembersReason",
-    "ListElementCode": "Members experience is likely to add significant value to the process of adjudication",
-    "ListElement": "Members experience is likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members experience is likely to add significant value to the adjudication process",
+    "ListElement": "Members experience is likely to add significant value to the adjudication process",
     "DisplayOrder": 1
   },
   {
     "ID": "frl_finalHearingListedJudgeOrMembersReason",
-    "ListElementCode": "Members experience is not likely to add significant value to the process of adjudication",
-    "ListElement": "Members experience is not likely to add significant value to the process of adjudication",
+    "ListElementCode": "Members experience is not likely to add significant value to the adjudication process",
+    "ListElement": "Members experience is not likely to add significant value to the adjudication process",
     "DisplayOrder": 2
   },
   {
