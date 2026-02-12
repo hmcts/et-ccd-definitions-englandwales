@@ -64,6 +64,36 @@
     "TabID": "caseFlags",
     "TabLabel": "Case Flags",
     "TabFieldDisplayOrder": 4,
-    "DisplayContextParameter": "#ARGUMENT(READ)"
+    "DisplayContextParameter": "#ARGUMENT(READ,VERSION2.1)"
+  },
+  {
+    "CaseFieldID": "claimantExternalFlags",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncherExternal=\"hidden\"",
+    "TabDisplayOrder": 69,
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabFieldDisplayOrder": 1
+  },
+  {
+    "CaseFieldID": "respondentExternalFlags",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "FieldShowCondition": "flagLauncherExternal=\"hidden\"",
+    "TabDisplayOrder": 1,
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabFieldDisplayOrder": 2
+  },
+  {
+    "CaseFieldID": "flagLauncherExternal",
+    "CaseTypeID": "ET_EnglandWales",
+    "Channel": "CaseWorker",
+    "TabDisplayOrder": 69,
+    "TabID": "support",
+    "TabLabel": "Support",
+    "TabFieldDisplayOrder": 4,
+    "DisplayContextParameter": "#ARGUMENT(READ,EXTERNAL)"
   }
 ]

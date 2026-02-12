@@ -15,6 +15,13 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "claimantExternalFlags",
+    "Label": "Claimant External Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "flagLauncher",
     "Label": "Flag Launcher",
     "FieldType": "FlagLauncher",
@@ -22,8 +29,22 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
+    "ID": "flagLauncherExternal",
+    "Label": "Launch the external Flags screen",
+    "FieldType": "FlagLauncher",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
     "ID": "respondentFlags",
     "Label": "Respondent Flags",
+    "FieldType": "Flags",
+    "SecurityClassification": "Public"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "respondentExternalFlags",
+    "Label": "Respondent External Flags",
     "FieldType": "Flags",
     "SecurityClassification": "Public"
   },
