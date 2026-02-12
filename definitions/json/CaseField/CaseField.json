@@ -6631,5 +6631,13 @@
     "FieldType": "TextArea",
     "SecurityClassification": "Public",
     "Searchable": "N"
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "ID": "nextHearingDetails",
+    "Label": "Next Hearing Details",
+    "FieldType": "nextHearingDetails",
+    "SecurityClassification": "Public",
+    "Searchable": "N"
   }
 ]
