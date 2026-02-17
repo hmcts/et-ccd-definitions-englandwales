@@ -7225,7 +7225,9 @@
     "ListElementCode": "hearingID",
     "FieldType": "Text",
     "FieldLabel": "Hearing ID",
-    "FieldOrder": 1
+    "FieldOrder": 1,
+    "ElementLabel": " ",
+    "SecurityClassification": "Public"
   },
   {
     "ID": "nextHearingDetails",
