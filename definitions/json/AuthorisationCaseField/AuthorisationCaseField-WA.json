@@ -1274,12 +1274,6 @@
   {
     "CaseTypeId": "ET_EnglandWales",
     "CaseFieldID": "nextHearingDetails",
-    "UserRole": "caseworker-employment-englandwales",
-    "CRUD": "CRUD"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "nextHearingDetails",
     "UserRole": "caseworker-employment-etjudge-englandwales",
     "CRUD": "CRUD"
   },
