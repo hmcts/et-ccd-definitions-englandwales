@@ -6634,9 +6634,9 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "nocWarning",
-    "Label": " ",
-    "FieldType": "Text",
+    "ID": "nextHearingDetails",
+    "Label": "Next Hearing Details",
+    "FieldType": "nextHearingDetails",
     "SecurityClassification": "Public",
     "Searchable": "N"
   }
