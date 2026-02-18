@@ -109,12 +109,6 @@
   },
   {
     "CaseTypeId": "ET_EnglandWales",
-    "CaseEventID": "assignCase",
-    "UserRole": "caseworker-wa-task-configuration",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
     "CaseEventID": "WA_REVIEW_RULE21_REFERRAL",
     "UserRole": "caseworker-employment-api",
     "CRUD": "CRUD"
