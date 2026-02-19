@@ -3534,53 +3534,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "initialConsiderationBeforeYouStart",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 2,
-    "FieldShowCondition": "initialConsiderationBeforeYouStartLabel=\"dummy\"",
-    "PageLabel": "Before you start",
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "initialConsiderationBeforeYouStartLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 3,
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRespondent",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 4,
-    "FieldShowCondition": "etInitialConsiderationRespondentLabel=\"dummy\"",
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "etInitialConsiderationRespondentLabel",
-    "DisplayContext": "READONLY",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 5,
-    "ShowSummaryChangeOption": "N",
-    "PageColumnNumber": 1
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "et3Vetting",
     "CaseFieldID": "et3VettingBeforeYouStart",
     "DisplayContext": "READONLY",
@@ -9179,5 +9132,32 @@
     "PageID": 1,
     "PageDisplayOrder": 1,
     "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "CaseFieldID": "deleteDraftCaseWarningLabel",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 1
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "CaseFieldID": "deleteDraftCaseWarning1",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 2
+  },
+  {
+    "CaseTypeID": "ET_EnglandWales",
+    "CaseEventID": "deleteDraftCase",
+    "CaseFieldID": "deleteDraftCaseWarning2",
+    "DisplayContext": "READONLY",
+    "PageID": 1,
+    "PageDisplayOrder": 1,
+    "PageFieldDisplayOrder": 3
   }
 ]

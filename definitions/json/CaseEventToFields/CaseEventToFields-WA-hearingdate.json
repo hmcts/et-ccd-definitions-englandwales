@@ -113,19 +113,7 @@
     "PageColumnNumber": 1,
     "Publish": "Y"
   },
-  {
-    "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "initialConsideration",
-    "CaseFieldID": "nextListedDate",
-    "DisplayContext": "OPTIONAL",
-    "FieldShowCondition": "etICJuridictionCodesInvalid=\"dummy\"",
-    "ShowSummaryChangeOption": "N",
-    "PageID": 1,
-    "PageDisplayOrder": 1,
-    "PageFieldDisplayOrder": 17,
-    "PageColumnNumber": 1,
-    "Publish": "Y"
-  },
+
   {
     "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "issueInitialConsiderationDirectionsWA",
