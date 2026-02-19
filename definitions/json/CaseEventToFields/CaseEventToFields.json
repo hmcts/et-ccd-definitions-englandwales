@@ -5673,17 +5673,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "CaseEventID": "nocRequest",
-    "CaseFieldID": "changeOrganisationRequestField",
-    "PageFieldDisplayOrder": 1,
-    "DisplayContext": "COMPLEX",
-    "PageID": "SingleFormPageWithComplex",
-    "PageLabel": "Change Organisation Request",
-    "PageDisplayOrder": 1,
-    "ShowSummaryChangeOption": "N"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "CaseEventID": "legalrepDocuments",
     "CaseFieldID": "legalRepDocumentsMarkdown",
     "FieldShowCondition": "legalRepDocumentsMarkdownLabel=\"dummy\"",

@@ -3970,13 +3970,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "changeOrganisationRequestField",
-    "Label": "Change Organisation Request",
-    "FieldType": "ChangeOrganisationRequest",
-    "SecurityClassification": "PUBLIC"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "adrDocumentCollection",
     "Label": "Documents",
     "FieldType": "Collection",

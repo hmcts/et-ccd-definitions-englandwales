@@ -634,19 +634,6 @@
   },
   {
     "CaseTypeID": "ET_EnglandWales",
-    "ID": "nocRequest",
-    "Name": "NoC Request",
-    "Description": "Notice of Change Request",
-    "PreConditionState(s)": "*",
-    "PostConditionState": "*",
-    "DisplayOrder": 52,
-    "CallBackURLSubmittedEvent": "${CCD_DEF_AAC_URL}/noc/check-noc-approval",
-    "SecurityClassification": "Public",
-    "ShowEventNotes": "Y",
-    "ShowSummary": "Y"
-  },
-  {
-    "CaseTypeID": "ET_EnglandWales",
     "ID": "applyNocDecision",
     "Name": "Apply NoC Decision",
     "Description": "Apply Notice of Change Request",

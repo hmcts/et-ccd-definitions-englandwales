@@ -8382,24 +8382,6 @@
     "CRUD": "CRUD"
   },
   {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "changeOrganisationRequestField",
-    "UserRole": "caseworker-caa",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "changeOrganisationRequestField",
-    "UserRole": "caseworker-approver",
-    "CRUD": "CRU"
-  },
-  {
-    "CaseTypeId": "ET_EnglandWales",
-    "CaseFieldID": "changeOrganisationRequestField",
-    "UserRole": "caseworker-employment-api",
-    "CRUD": "CRU"
-  },
-  {
     "CaseTypeId": "ET_EnglandWales_Listings",
     "CaseFieldID": "listingDate",
     "UserRole": "caseworker-employment-englandwales",
